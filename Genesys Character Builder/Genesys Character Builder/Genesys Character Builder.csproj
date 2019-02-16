@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharacterTemplate.cs" />
     <Compile Include="frmGenesys.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +55,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SkillSTemplate.cs" />
+    <Compile Include="TalentsTemplate.cs" />
     <EmbeddedResource Include="frmGenesys.resx">
       <DependentUpon>frmGenesys.cs</DependentUpon>
     </EmbeddedResource>

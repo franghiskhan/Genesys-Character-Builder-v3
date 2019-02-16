@@ -12,8 +12,6 @@ namespace Genesys_Character_Builder
 {
     public partial class frmGenesys : Form
     {
-        int NUM_SKILLS = 15;
-
         public frmGenesys()
         {
             InitializeComponent();
