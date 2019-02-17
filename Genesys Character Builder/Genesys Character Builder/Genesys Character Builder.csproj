@@ -55,7 +55,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SkillSTemplate.cs" />
+    <Compile Include="SkillsTemplate.cs" />
     <Compile Include="TalentsTemplate.cs" />
     <EmbeddedResource Include="frmGenesys.resx">
       <DependentUpon>frmGenesys.cs</DependentUpon>

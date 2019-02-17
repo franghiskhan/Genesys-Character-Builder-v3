@@ -8,6 +8,7 @@ namespace Genesys_Character_Builder
 {
     class CharacterTemplate
     {
+        private string setting;
         private string characterName;
         private string species;
         private string subSpecies;
@@ -52,7 +53,7 @@ namespace Genesys_Character_Builder
 
         public CharacterTemplate() { }
 
-        public CharacterTemplate(string characterName, string species, string subSpecies, string career,
+        public CharacterTemplate(string setting, string characterName, string species, string subSpecies, string career,
                 int brawn, int agility, int intellect, int cunning, int willpower, int presence, int soak,
                 int woundThreshold, int woundCurrent, int strainThreshold, int strainCurrent, int defenseRanged,
                 int defenseMelee, string[,] criticalInjuries, int totalXP, int remainXP, int usedXP,
@@ -60,6 +61,7 @@ namespace Genesys_Character_Builder
                 string motivationFlaw, string motivationDesire, string motivationFear, string gender, string age,
                 string height, string build, string hair, string eyes, string features)
         {
+            this.Setting = setting;
             this.CharacterName = characterName;
             this.Species = species;
             this.SubSpecies = subSpecies;
@@ -103,6 +105,7 @@ namespace Genesys_Character_Builder
             this.Features = features;
         }
 
+        public string Setting { get; set; }
         public string CharacterName { get; set; }
         public string Species { get; set; }
         public string SubSpecies { get; set; }

@@ -419,6 +419,14 @@
             this.btn1Rank0 = new System.Windows.Forms.Button();
             this.chkCareer0 = new System.Windows.Forms.CheckBox();
             this.Talents = new System.Windows.Forms.TabPage();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.lblTier = new System.Windows.Forms.Label();
+            this.lblPageNumber = new System.Windows.Forms.Label();
+            this.chkActive = new System.Windows.Forms.CheckBox();
+            this.txtPageNumber = new System.Windows.Forms.TextBox();
+            this.txtDescription = new System.Windows.Forms.TextBox();
+            this.nudTier = new System.Windows.Forms.NumericUpDown();
+            this.txtTalentName = new System.Windows.Forms.TextBox();
             this.lblTier5 = new System.Windows.Forms.Label();
             this.lblTier4 = new System.Windows.Forms.Label();
             this.lblTier3 = new System.Windows.Forms.Label();
@@ -549,18 +557,12 @@
             this.lblPage0 = new System.Windows.Forms.Label();
             this.chkActive0 = new System.Windows.Forms.CheckBox();
             this.linkTalent0 = new System.Windows.Forms.LinkLabel();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.chkActive = new System.Windows.Forms.CheckBox();
-            this.txtPageNumber = new System.Windows.Forms.TextBox();
-            this.txtDescription = new System.Windows.Forms.TextBox();
-            this.nudTier = new System.Windows.Forms.NumericUpDown();
-            this.txtTalentName = new System.Windows.Forms.TextBox();
-            this.lblPageNumber = new System.Windows.Forms.Label();
-            this.lblTier = new System.Windows.Forms.Label();
             this.tabBody.SuspendLayout();
             this.Skills.SuspendLayout();
             this.panelSkillDetail.SuspendLayout();
             this.Talents.SuspendLayout();
+            this.panel26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudTier)).BeginInit();
             this.panel23.SuspendLayout();
             this.panel24.SuspendLayout();
             this.panel25.SuspendLayout();
@@ -586,8 +588,6 @@
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel26.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudTier)).BeginInit();
             this.SuspendLayout();
             // 
             // lblDefenseMeleeLabel
@@ -811,10 +811,14 @@
             // 
             this.cboSetting.BackColor = System.Drawing.SystemColors.Info;
             this.cboSetting.FormattingEnabled = true;
+            this.cboSetting.Items.AddRange(new object[] {
+            "Android",
+            "Terrinoth"});
             this.cboSetting.Location = new System.Drawing.Point(10, 658);
             this.cboSetting.Name = "cboSetting";
             this.cboSetting.Size = new System.Drawing.Size(121, 21);
             this.cboSetting.TabIndex = 175;
+            this.cboSetting.SelectedIndexChanged += new System.EventHandler(this.cboSetting_SelectedIndexChanged);
             // 
             // btnP6
             // 
@@ -5599,6 +5603,92 @@
             this.Talents.TabIndex = 1;
             this.Talents.Text = "Talents";
             // 
+            // panel26
+            // 
+            this.panel26.Controls.Add(this.lblTier);
+            this.panel26.Controls.Add(this.lblPageNumber);
+            this.panel26.Controls.Add(this.chkActive);
+            this.panel26.Controls.Add(this.txtPageNumber);
+            this.panel26.Controls.Add(this.txtDescription);
+            this.panel26.Controls.Add(this.nudTier);
+            this.panel26.Controls.Add(this.txtTalentName);
+            this.panel26.Location = new System.Drawing.Point(356, 13);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(255, 126);
+            this.panel26.TabIndex = 44;
+            // 
+            // lblTier
+            // 
+            this.lblTier.AutoSize = true;
+            this.lblTier.BackColor = System.Drawing.Color.Transparent;
+            this.lblTier.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblTier.Location = new System.Drawing.Point(182, 7);
+            this.lblTier.Name = "lblTier";
+            this.lblTier.Size = new System.Drawing.Size(28, 13);
+            this.lblTier.TabIndex = 18;
+            this.lblTier.Text = "Tier:";
+            // 
+            // lblPageNumber
+            // 
+            this.lblPageNumber.AutoSize = true;
+            this.lblPageNumber.BackColor = System.Drawing.Color.Transparent;
+            this.lblPageNumber.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblPageNumber.Location = new System.Drawing.Point(174, 106);
+            this.lblPageNumber.Name = "lblPageNumber";
+            this.lblPageNumber.Size = new System.Drawing.Size(35, 13);
+            this.lblPageNumber.TabIndex = 17;
+            this.lblPageNumber.Text = "Page:";
+            // 
+            // chkActive
+            // 
+            this.chkActive.AutoSize = true;
+            this.chkActive.BackColor = System.Drawing.Color.Transparent;
+            this.chkActive.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.chkActive.Location = new System.Drawing.Point(5, 106);
+            this.chkActive.Name = "chkActive";
+            this.chkActive.Size = new System.Drawing.Size(62, 17);
+            this.chkActive.TabIndex = 16;
+            this.chkActive.Text = "Active?";
+            this.chkActive.UseVisualStyleBackColor = false;
+            // 
+            // txtPageNumber
+            // 
+            this.txtPageNumber.BackColor = System.Drawing.SystemColors.Info;
+            this.txtPageNumber.Location = new System.Drawing.Point(215, 102);
+            this.txtPageNumber.Name = "txtPageNumber";
+            this.txtPageNumber.Size = new System.Drawing.Size(37, 20);
+            this.txtPageNumber.TabIndex = 15;
+            // 
+            // txtDescription
+            // 
+            this.txtDescription.BackColor = System.Drawing.SystemColors.Info;
+            this.txtDescription.Location = new System.Drawing.Point(3, 28);
+            this.txtDescription.Multiline = true;
+            this.txtDescription.Name = "txtDescription";
+            this.txtDescription.Size = new System.Drawing.Size(250, 70);
+            this.txtDescription.TabIndex = 14;
+            // 
+            // nudTier
+            // 
+            this.nudTier.BackColor = System.Drawing.SystemColors.Info;
+            this.nudTier.Location = new System.Drawing.Point(216, 3);
+            this.nudTier.Name = "nudTier";
+            this.nudTier.Size = new System.Drawing.Size(37, 20);
+            this.nudTier.TabIndex = 13;
+            this.nudTier.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // txtTalentName
+            // 
+            this.txtTalentName.BackColor = System.Drawing.SystemColors.Info;
+            this.txtTalentName.Location = new System.Drawing.Point(3, 3);
+            this.txtTalentName.Name = "txtTalentName";
+            this.txtTalentName.Size = new System.Drawing.Size(140, 20);
+            this.txtTalentName.TabIndex = 12;
+            // 
             // lblTier5
             // 
             this.lblTier5.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -7009,92 +7099,6 @@
             this.linkTalent0.TabStop = true;
             this.linkTalent0.Text = "Talent";
             // 
-            // panel26
-            // 
-            this.panel26.Controls.Add(this.lblTier);
-            this.panel26.Controls.Add(this.lblPageNumber);
-            this.panel26.Controls.Add(this.chkActive);
-            this.panel26.Controls.Add(this.txtPageNumber);
-            this.panel26.Controls.Add(this.txtDescription);
-            this.panel26.Controls.Add(this.nudTier);
-            this.panel26.Controls.Add(this.txtTalentName);
-            this.panel26.Location = new System.Drawing.Point(356, 13);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(255, 126);
-            this.panel26.TabIndex = 44;
-            // 
-            // chkActive
-            // 
-            this.chkActive.AutoSize = true;
-            this.chkActive.BackColor = System.Drawing.Color.Transparent;
-            this.chkActive.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chkActive.Location = new System.Drawing.Point(5, 106);
-            this.chkActive.Name = "chkActive";
-            this.chkActive.Size = new System.Drawing.Size(62, 17);
-            this.chkActive.TabIndex = 16;
-            this.chkActive.Text = "Active?";
-            this.chkActive.UseVisualStyleBackColor = false;
-            // 
-            // txtPageNumber
-            // 
-            this.txtPageNumber.BackColor = System.Drawing.SystemColors.Info;
-            this.txtPageNumber.Location = new System.Drawing.Point(215, 102);
-            this.txtPageNumber.Name = "txtPageNumber";
-            this.txtPageNumber.Size = new System.Drawing.Size(37, 20);
-            this.txtPageNumber.TabIndex = 15;
-            // 
-            // txtDescription
-            // 
-            this.txtDescription.BackColor = System.Drawing.SystemColors.Info;
-            this.txtDescription.Location = new System.Drawing.Point(3, 28);
-            this.txtDescription.Multiline = true;
-            this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(250, 70);
-            this.txtDescription.TabIndex = 14;
-            // 
-            // nudTier
-            // 
-            this.nudTier.BackColor = System.Drawing.SystemColors.Info;
-            this.nudTier.Location = new System.Drawing.Point(216, 3);
-            this.nudTier.Name = "nudTier";
-            this.nudTier.Size = new System.Drawing.Size(37, 20);
-            this.nudTier.TabIndex = 13;
-            this.nudTier.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // txtTalentName
-            // 
-            this.txtTalentName.BackColor = System.Drawing.SystemColors.Info;
-            this.txtTalentName.Location = new System.Drawing.Point(3, 3);
-            this.txtTalentName.Name = "txtTalentName";
-            this.txtTalentName.Size = new System.Drawing.Size(140, 20);
-            this.txtTalentName.TabIndex = 12;
-            // 
-            // lblPageNumber
-            // 
-            this.lblPageNumber.AutoSize = true;
-            this.lblPageNumber.BackColor = System.Drawing.Color.Transparent;
-            this.lblPageNumber.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblPageNumber.Location = new System.Drawing.Point(174, 106);
-            this.lblPageNumber.Name = "lblPageNumber";
-            this.lblPageNumber.Size = new System.Drawing.Size(35, 13);
-            this.lblPageNumber.TabIndex = 17;
-            this.lblPageNumber.Text = "Page:";
-            // 
-            // lblTier
-            // 
-            this.lblTier.AutoSize = true;
-            this.lblTier.BackColor = System.Drawing.Color.Transparent;
-            this.lblTier.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblTier.Location = new System.Drawing.Point(182, 7);
-            this.lblTier.Name = "lblTier";
-            this.lblTier.Size = new System.Drawing.Size(28, 13);
-            this.lblTier.TabIndex = 18;
-            this.lblTier.Text = "Tier:";
-            // 
             // frmGenesys
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -7172,6 +7176,9 @@
             this.panelSkillDetail.ResumeLayout(false);
             this.panelSkillDetail.PerformLayout();
             this.Talents.ResumeLayout(false);
+            this.panel26.ResumeLayout(false);
+            this.panel26.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudTier)).EndInit();
             this.panel23.ResumeLayout(false);
             this.panel23.PerformLayout();
             this.panel24.ResumeLayout(false);
@@ -7222,9 +7229,6 @@
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel26.ResumeLayout(false);
-            this.panel26.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudTier)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

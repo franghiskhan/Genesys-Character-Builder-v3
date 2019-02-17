@@ -19,6 +19,7 @@ namespace Genesys_Character_Builder
 
         private CharacterTemplate myCharacter = new CharacterTemplate
         {
+            Setting = "",
             CharacterName = "",
             Species = "",
             SubSpecies = "",
@@ -201,7 +202,134 @@ namespace Genesys_Character_Builder
 
     private void frmGenesys_Load()
         {
-            
+            cboSetting.Items.Clear();
+            cboSetting.Items.Add("Android");
+            cboSetting.Items.Add("Terrinoth");
+            cboSetting.SelectedIndex = 0;
+
+            cboSetting.Text = myCharacter.Setting;
+            txtCharacterName.Text = myCharacter.CharacterName;
+            cboSpecies.Text = myCharacter.Species;
+            cboSubSpecies.Text = myCharacter.SubSpecies;
+            cboCareer.Text = myCharacter.Career;
+
+            lblBrawnVal.Text = myCharacter.Brawn.ToString();
+            lblAgilityVal.Text = myCharacter.Agility.ToString();
+            lblIntellectVal.Text = myCharacter.Intellect.ToString();
+            lblCunningVal.Text = myCharacter.Cunning.ToString();
+            lblWillpowerVal.Text = myCharacter.Willpower.ToString();
+            lblPresenceVal.Text = myCharacter.Presence.ToString();
+
+            lblSoak.Text = myCharacter.Soak.ToString();
+            lblWoundThreshold.Text = myCharacter.WoundThreshold.ToString();
+            lblWoundCurrent.Text = myCharacter.WoundCurrent.ToString();
+            lblStrainThreshold.Text = myCharacter.StrainThreshold.ToString();
+            lblStrainCurrent.Text = myCharacter.StrainCurrent.ToString();
+            lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
+            lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
+
+            Array.Copy(terrinothSkills, myCharacter.Skills, myCharacter.Skills.Length);
+            Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
+        }
+
+        private void cboSetting_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            myCharacter.Setting = cboSetting.Text;
+            switch (myCharacter.Setting)
+            {
+                case "Android":
+                    this.BackgroundImage = Properties.Resources.android_background;
+                    lblSpecies.Text = "Archetype:";
+                    lblSubSpecies.Visible = false;
+                    cboSubSpecies.Visible = false;
+                    cboSpecies.Items.Clear();
+                    cboSpecies.Items.Add("");
+                    
+                    cboSpecies.SelectedIndex = 0;
+                    cboCareer.Items.Clear();
+                    Array.Copy(terrinothSkills, myCharacter.Skills, myCharacter.Skills.Length);
+                    Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
+                    break;
+                case "Terrinoth":
+                    this.BackgroundImage = Properties.Resources.terrinoth_background;
+                    lblSpecies.Text = "Species:";
+                    lblSubSpecies.Visible = true;
+                    cboSubSpecies.Visible = true;
+                    cboSpecies.Items.Clear();
+                    cboSpecies.Items.Add("");
+                    cboSpecies.Items.Add("Human");
+                    cboSpecies.Items.Add("CatFolk");
+                    cboSpecies.Items.Add("Half CatFolk");
+                    cboSpecies.Items.Add("Dwarf");
+                    cboSpecies.Items.Add("Elf");
+                    cboSpecies.Items.Add("Gnome");
+                    cboSpecies.Items.Add("Orc");
+                    cboSpecies.SelectedIndex = 0;
+                    cboCareer.Items.Clear();
+                    cboCareer.Items.Add("");
+                    cboCareer.Items.Add("Disciple");
+                    cboCareer.Items.Add("Envoy");
+                    cboCareer.Items.Add("Mage");
+                    cboCareer.Items.Add("Primalist");
+                    cboCareer.Items.Add("Scholar");
+                    cboCareer.Items.Add("Scoundrel");
+                    cboCareer.Items.Add("Scout");
+                    cboCareer.Items.Add("Warrior");
+                    cboCareer.SelectedIndex = 0;
+                    Array.Copy(terrinothSkills, myCharacter.Skills, myCharacter.Skills.Length);
+                    Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
+                    break;
+            }
+
+            updateSkills();
+        }
+
+        private void updateSkills()
+        {
+            linkSkill0.Text = myCharacter.Skills[0].SkillName + " (" + myCharacter.Skills[0].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[1].SkillName + " (" + myCharacter.Skills[1].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[2].SkillName + " (" + myCharacter.Skills[2].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[3].SkillName + " (" + myCharacter.Skills[3].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[4].SkillName + " (" + myCharacter.Skills[4].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[5].SkillName + " (" + myCharacter.Skills[5].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[6].SkillName + " (" + myCharacter.Skills[6].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[7].SkillName + " (" + myCharacter.Skills[7].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[8].SkillName + " (" + myCharacter.Skills[8].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[9].SkillName + " (" + myCharacter.Skills[9].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[10].SkillName + " (" + myCharacter.Skills[10].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[11].SkillName + " (" + myCharacter.Skills[11].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[12].SkillName + " (" + myCharacter.Skills[12].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[13].SkillName + " (" + myCharacter.Skills[13].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[14].SkillName + " (" + myCharacter.Skills[14].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[15].SkillName + " (" + myCharacter.Skills[15].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[16].SkillName + " (" + myCharacter.Skills[16].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[17].SkillName + " (" + myCharacter.Skills[17].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[18].SkillName + " (" + myCharacter.Skills[18].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[19].SkillName + " (" + myCharacter.Skills[19].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[20].SkillName + " (" + myCharacter.Skills[20].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[21].SkillName + " (" + myCharacter.Skills[21].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[22].SkillName + " (" + myCharacter.Skills[22].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[23].SkillName + " (" + myCharacter.Skills[23].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[24].SkillName + " (" + myCharacter.Skills[24].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[25].SkillName + " (" + myCharacter.Skills[25].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[26].SkillName + " (" + myCharacter.Skills[26].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[27].SkillName + " (" + myCharacter.Skills[27].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[28].SkillName + " (" + myCharacter.Skills[28].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[29].SkillName + " (" + myCharacter.Skills[29].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[30].SkillName + " (" + myCharacter.Skills[30].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[31].SkillName + " (" + myCharacter.Skills[31].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[32].SkillName + " (" + myCharacter.Skills[32].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[33].SkillName + " (" + myCharacter.Skills[33].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[34].SkillName + " (" + myCharacter.Skills[34].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[35].SkillName + " (" + myCharacter.Skills[35].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[36].SkillName + " (" + myCharacter.Skills[36].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[37].SkillName + " (" + myCharacter.Skills[37].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[38].SkillName + " (" + myCharacter.Skills[38].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[39].SkillName + " (" + myCharacter.Skills[39].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[40].SkillName + " (" + myCharacter.Skills[40].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[41].SkillName + " (" + myCharacter.Skills[41].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[42].SkillName + " (" + myCharacter.Skills[42].Characteristic + ")";
+            linkSkill0.Text = myCharacter.Skills[43].SkillName + " (" + myCharacter.Skills[43].Characteristic + ")";
         }
 
         private void linkSkill_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
