@@ -1,10 +1,9 @@
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\bin\Debug\Genesys Character Builder.exe.config
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\bin\Debug\Genesys Character Builder.exe
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\bin\Debug\Genesys Character Builder.pdb
-D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys Character Builder.csprojAssemblyReference.cache
+D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys_Character_Builder.frmGenesys.resources
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys_Character_Builder.Properties.Resources.resources
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys Character Builder.csproj.GenerateResource.cache
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys Character Builder.csproj.CoreCompileInputs.cache
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys Character Builder.exe
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys Character Builder.pdb
-D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys_Character_Builder.frmGenesys.resources
