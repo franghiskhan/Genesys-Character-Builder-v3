@@ -199,7 +199,6 @@ namespace Genesys_Character_Builder
             new TalentsTemplate("Talent", "Description", false, false, 5, 0), //23
             new TalentsTemplate("Talent", "Description", false, false, 5, 0), //24
         };
-        private object transparentTabControl1;
 
         private void frmGenesys_Load(object sender, EventArgs e)
         {
@@ -246,7 +245,7 @@ namespace Genesys_Character_Builder
                     cboSpecies.SelectedIndex = 0;
                     cboCareer.Items.Clear();
                     lblSkillsMagic.Text = "Custom Skills";
-                    Array.Copy(terrinothSkills, myCharacter.Skills, myCharacter.Skills.Length);
+                    Array.Copy(androidSkills, myCharacter.Skills, myCharacter.Skills.Length);
                     Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
                     break;
                 case "Terrinoth":
@@ -288,87 +287,86 @@ namespace Genesys_Character_Builder
         {
             switch (myCharacter.Setting)
             {
-            case "Android":
-                lblBrawnLabel.ForeColor = Color.Blue;
-                lblAgilityLabel.ForeColor = Color.Blue;
-                lblIntellectLabel.ForeColor = Color.Blue;
-                lblCunningLabel.ForeColor = Color.Blue;
-                lblWillpowerLabel.ForeColor = Color.Blue;
-                lblPresenceLabel.ForeColor = Color.Blue;
-                lblSoakLabel.ForeColor = Color.Blue;
-                lblWoundsLabel.ForeColor = Color.Blue;
-                lblStrainLabel.ForeColor = Color.Blue;
-                lblDefenseLabel.ForeColor = Color.Blue;
-                lblWoundT.ForeColor = Color.Blue;
-                lblWoundCurrent.ForeColor = Color.Blue;
-                lblStrainT.ForeColor = Color.Blue;
-                lblStrainCurrent.ForeColor = Color.Blue;
-                lblDefenseMeleeLabel.ForeColor = Color.Blue;
-                lblDefenseRangedLabel.ForeColor = Color.Blue;
-                lblTotalXPLabel.ForeColor = Color.Blue;
-                lblRemainingXPLabel.ForeColor = Color.Blue;
-                lblBrawnLabel.Visible = false;
-                lblAgilityLabel.Visible = false;
-                lblIntellectLabel.Visible = false;
-                lblCunningLabel.Visible = false;
-                lblWillpowerLabel.Visible = false;
-                lblPresenceLabel.Visible = false;
-                lblSoakLabel.Visible = false;
-                lblWoundsLabel.Visible = false;
-                lblStrainLabel.Visible = false;
-                lblDefenseLabel.Visible = false;
-                lblWoundT.Visible = true;
-                lblWoundCurrent.Visible = true;
-                lblStrainT.Visible = true;
-                lblStrainCurrent.Visible = true;
-                lblDefenseMeleeLabel.Visible = true;
-                lblDefenseRangedLabel.Visible = true;
-                lblTotalXPLabel.Visible = false;
-                lblRemainingXPLabel.Visible = false;
-                break;
-            case "Terrinoth":
-                lblBrawnLabel.ForeColor = Color.White;
-                lblAgilityLabel.ForeColor = Color.White;
-                lblIntellectLabel.ForeColor = Color.White;
-                lblCunningLabel.ForeColor = Color.White;
-                lblWillpowerLabel.ForeColor = Color.White;
-                lblPresenceLabel.ForeColor = Color.White;
-                lblSoakLabel.ForeColor = Color.White;
-                lblWoundsLabel.ForeColor = Color.White;
-                lblStrainLabel.ForeColor = Color.White;
-                lblDefenseLabel.ForeColor = Color.White;
-                lblWoundT.ForeColor = Color.White;
-                lblWoundCurrent.ForeColor = Color.White;
-                lblStrainT.ForeColor = Color.White;
-                lblStrainCurrent.ForeColor = Color.White;
-                lblDefenseMeleeLabel.ForeColor = Color.White;
-                lblDefenseRangedLabel.ForeColor = Color.White;
-                lblTotalXPLabel.ForeColor = Color.White;
-                lblRemainingXPLabel.ForeColor = Color.White;
-                lblBrawnLabel.Visible = true;
-                lblAgilityLabel.Visible = true;
-                lblIntellectLabel.Visible = true;
-                lblCunningLabel.Visible = true;
-                lblWillpowerLabel.Visible = true;
-                lblPresenceLabel.Visible = true;
-                lblSoakLabel.Visible = true;
-                lblWoundsLabel.Visible = true;
-                lblStrainLabel.Visible = true;
-                lblDefenseLabel.Visible = true;
-                lblWoundT.Visible = true;
-                lblWoundCurrent.Visible = true;
-                lblStrainT.Visible = true;
-                lblStrainCurrent.Visible = true;
-                lblDefenseMeleeLabel.Visible = true;
-                lblDefenseRangedLabel.Visible = true;
-                lblTotalXPLabel.Visible = true;
-                lblRemainingXPLabel.Visible = true;
-                break;
+                case "Android":
+                    lblBrawnLabel.ForeColor = Color.Blue;
+                    lblAgilityLabel.ForeColor = Color.Blue;
+                    lblIntellectLabel.ForeColor = Color.Blue;
+                    lblCunningLabel.ForeColor = Color.Blue;
+                    lblWillpowerLabel.ForeColor = Color.Blue;
+                    lblPresenceLabel.ForeColor = Color.Blue;
+                    lblSoakLabel.ForeColor = Color.Blue;
+                    lblWoundsLabel.ForeColor = Color.Blue;
+                    lblStrainLabel.ForeColor = Color.Blue;
+                    lblDefenseLabel.ForeColor = Color.Blue;
+                    lblWoundT.ForeColor = Color.Blue;
+                    lblWoundCurrent.ForeColor = Color.Blue;
+                    lblStrainT.ForeColor = Color.Blue;
+                    lblStrainCurrent.ForeColor = Color.Blue;
+                    lblDefenseMeleeLabel.ForeColor = Color.Blue;
+                    lblDefenseRangedLabel.ForeColor = Color.Blue;
+                    lblTotalXPLabel.ForeColor = Color.Blue;
+                    lblRemainingXPLabel.ForeColor = Color.Blue;
+                    lblBrawnLabel.Visible = false;
+                    lblAgilityLabel.Visible = false;
+                    lblIntellectLabel.Visible = false;
+                    lblCunningLabel.Visible = false;
+                    lblWillpowerLabel.Visible = false;
+                    lblPresenceLabel.Visible = false;
+                    lblSoakLabel.Visible = false;
+                    lblWoundsLabel.Visible = false;
+                    lblStrainLabel.Visible = false;
+                    lblDefenseLabel.Visible = false;
+                    lblWoundT.Visible = true;
+                    lblWoundCurrent.Visible = true;
+                    lblStrainT.Visible = true;
+                    lblStrainCurrent.Visible = true;
+                    lblDefenseMeleeLabel.Visible = true;
+                    lblDefenseRangedLabel.Visible = true;
+                    lblTotalXPLabel.Visible = false;
+                    lblRemainingXPLabel.Visible = false;
+                    break;
+                case "Terrinoth":
+                    lblBrawnLabel.ForeColor = Color.White;
+                    lblAgilityLabel.ForeColor = Color.White;
+                    lblIntellectLabel.ForeColor = Color.White;
+                    lblCunningLabel.ForeColor = Color.White;
+                    lblWillpowerLabel.ForeColor = Color.White;
+                    lblPresenceLabel.ForeColor = Color.White;
+                    lblSoakLabel.ForeColor = Color.White;
+                    lblWoundsLabel.ForeColor = Color.White;
+                    lblStrainLabel.ForeColor = Color.White;
+                    lblDefenseLabel.ForeColor = Color.White;
+                    lblWoundT.ForeColor = Color.White;
+                    lblWoundCurrent.ForeColor = Color.White;
+                    lblStrainT.ForeColor = Color.White;
+                    lblStrainCurrent.ForeColor = Color.White;
+                    lblDefenseMeleeLabel.ForeColor = Color.White;
+                    lblDefenseRangedLabel.ForeColor = Color.White;
+                    lblTotalXPLabel.ForeColor = Color.White;
+                    lblRemainingXPLabel.ForeColor = Color.White;
+                    lblBrawnLabel.Visible = true;
+                    lblAgilityLabel.Visible = true;
+                    lblIntellectLabel.Visible = true;
+                    lblCunningLabel.Visible = true;
+                    lblWillpowerLabel.Visible = true;
+                    lblPresenceLabel.Visible = true;
+                    lblSoakLabel.Visible = true;
+                    lblWoundsLabel.Visible = true;
+                    lblStrainLabel.Visible = true;
+                    lblDefenseLabel.Visible = true;
+                    lblWoundT.Visible = true;
+                    lblWoundCurrent.Visible = true;
+                    lblStrainT.Visible = true;
+                    lblStrainCurrent.Visible = true;
+                    lblDefenseMeleeLabel.Visible = true;
+                    lblDefenseRangedLabel.Visible = true;
+                    lblTotalXPLabel.Visible = true;
+                    lblRemainingXPLabel.Visible = true;
+                    break;
             }
         }
 
-
-            private void updateSkills()
+        private void updateSkills()
         {
             linkSkill0.Text = myCharacter.Skills[0].SkillName + " (" + myCharacter.Skills[0].Characteristic + ")";
             linkSkill1.Text = myCharacter.Skills[1].SkillName + " (" + myCharacter.Skills[1].Characteristic + ")";
@@ -430,6 +428,19 @@ namespace Genesys_Character_Builder
             myCharacter.Skills[linkNumber].SkillName = txtSkill.Text;
             myCharacter.Skills[linkNumber].Characteristic = cboCharacteristic.Text;
             myCharacter.Skills[linkNumber].Description = txtSkillDescription.Text;
+        }
+
+        private void linkTalent_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            panelTalentDetail.Visible = true;
+
+            LinkLabel myLink;
+            myLink = (LinkLabel)sender;
+            int linkNumber = int.Parse(myLink.Name.Substring(10));
+            txtTalentName.Text = myCharacter.Talents[linkNumber].TalentName;
+            lblTalentTier.Text = "Tier: " + myCharacter.Talents[linkNumber].Tier.ToString();
+            txtTalentDescription.Text = myCharacter.Talents[linkNumber].Description;
+            txtTalentPageNumber.Text = myCharacter.Talents[linkNumber].Page.ToString();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)

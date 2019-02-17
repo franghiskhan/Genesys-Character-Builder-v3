@@ -415,13 +415,12 @@
             this.btn4Rank0 = new System.Windows.Forms.Button();
             this.btn1Rank0 = new System.Windows.Forms.Button();
             this.chkCareer0 = new System.Windows.Forms.CheckBox();
-            this.panel26 = new System.Windows.Forms.Panel();
-            this.lblTier = new System.Windows.Forms.Label();
-            this.lblPageNumber = new System.Windows.Forms.Label();
+            this.panelTalentDetail = new System.Windows.Forms.Panel();
+            this.lblTalentTier = new System.Windows.Forms.Label();
+            this.lblTalentPageNumber = new System.Windows.Forms.Label();
             this.chkActive = new System.Windows.Forms.CheckBox();
-            this.txtPageNumber = new System.Windows.Forms.TextBox();
-            this.txtDescription = new System.Windows.Forms.TextBox();
-            this.nudTier = new System.Windows.Forms.NumericUpDown();
+            this.txtTalentPageNumber = new System.Windows.Forms.TextBox();
+            this.txtTalentDescription = new System.Windows.Forms.TextBox();
             this.txtTalentName = new System.Windows.Forms.TextBox();
             this.lblTier5 = new System.Windows.Forms.Label();
             this.lblTier4 = new System.Windows.Forms.Label();
@@ -430,136 +429,136 @@
             this.lblTier1 = new System.Windows.Forms.Label();
             this.panel23 = new System.Windows.Forms.Panel();
             this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.linkLabel22 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage24 = new System.Windows.Forms.Label();
+            this.chkActive24 = new System.Windows.Forms.CheckBox();
+            this.linkTalent24 = new System.Windows.Forms.LinkLabel();
             this.panel24 = new System.Windows.Forms.Panel();
             this.label45 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.linkLabel23 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage23 = new System.Windows.Forms.Label();
+            this.chkActive23 = new System.Windows.Forms.CheckBox();
+            this.linkTalent23 = new System.Windows.Forms.LinkLabel();
             this.panel25 = new System.Windows.Forms.Panel();
             this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.linkLabel24 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage22 = new System.Windows.Forms.Label();
+            this.chkActive22 = new System.Windows.Forms.CheckBox();
+            this.linkTalent22 = new System.Windows.Forms.LinkLabel();
             this.panel19 = new System.Windows.Forms.Panel();
             this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.linkLabel18 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage21 = new System.Windows.Forms.Label();
+            this.chkActive21 = new System.Windows.Forms.CheckBox();
+            this.linkTalent21 = new System.Windows.Forms.LinkLabel();
             this.panel20 = new System.Windows.Forms.Panel();
             this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.linkLabel19 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage20 = new System.Windows.Forms.Label();
+            this.chkActive20 = new System.Windows.Forms.CheckBox();
+            this.linkTalent20 = new System.Windows.Forms.LinkLabel();
             this.panel21 = new System.Windows.Forms.Panel();
             this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.linkLabel20 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage19 = new System.Windows.Forms.Label();
+            this.chkActive19 = new System.Windows.Forms.CheckBox();
+            this.linkTalent19 = new System.Windows.Forms.LinkLabel();
             this.panel22 = new System.Windows.Forms.Panel();
             this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.linkLabel21 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage18 = new System.Windows.Forms.Label();
+            this.chkActive18 = new System.Windows.Forms.CheckBox();
+            this.linkTalent18 = new System.Windows.Forms.LinkLabel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.linkLabel13 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage17 = new System.Windows.Forms.Label();
+            this.chkActive17 = new System.Windows.Forms.CheckBox();
+            this.linkTalent17 = new System.Windows.Forms.LinkLabel();
             this.panel15 = new System.Windows.Forms.Panel();
             this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.linkLabel14 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage16 = new System.Windows.Forms.Label();
+            this.chkActive16 = new System.Windows.Forms.CheckBox();
+            this.linkTalent16 = new System.Windows.Forms.LinkLabel();
             this.panel16 = new System.Windows.Forms.Panel();
             this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.linkLabel15 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage15 = new System.Windows.Forms.Label();
+            this.chkActive15 = new System.Windows.Forms.CheckBox();
+            this.linkTalent15 = new System.Windows.Forms.LinkLabel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.linkLabel16 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage14 = new System.Windows.Forms.Label();
+            this.chkActive14 = new System.Windows.Forms.CheckBox();
+            this.linkTalent14 = new System.Windows.Forms.LinkLabel();
             this.panel18 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.linkLabel17 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage13 = new System.Windows.Forms.Label();
+            this.chkActive13 = new System.Windows.Forms.CheckBox();
+            this.linkTalent13 = new System.Windows.Forms.LinkLabel();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage12 = new System.Windows.Forms.Label();
+            this.chkActive12 = new System.Windows.Forms.CheckBox();
+            this.linkTalent12 = new System.Windows.Forms.LinkLabel();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.linkLabel8 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage11 = new System.Windows.Forms.Label();
+            this.chkActive11 = new System.Windows.Forms.CheckBox();
+            this.linkTalent11 = new System.Windows.Forms.LinkLabel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.linkLabel9 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage10 = new System.Windows.Forms.Label();
+            this.chkActive10 = new System.Windows.Forms.CheckBox();
+            this.linkTalent10 = new System.Windows.Forms.LinkLabel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.linkLabel10 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage9 = new System.Windows.Forms.Label();
+            this.chkActive9 = new System.Windows.Forms.CheckBox();
+            this.linkTalent9 = new System.Windows.Forms.LinkLabel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.linkLabel11 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage8 = new System.Windows.Forms.Label();
+            this.chkActive8 = new System.Windows.Forms.CheckBox();
+            this.linkTalent8 = new System.Windows.Forms.LinkLabel();
             this.panel13 = new System.Windows.Forms.Panel();
             this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.linkLabel12 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage7 = new System.Windows.Forms.Label();
+            this.chkActive7 = new System.Windows.Forms.CheckBox();
+            this.linkTalent7 = new System.Windows.Forms.LinkLabel();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage6 = new System.Windows.Forms.Label();
+            this.chkActive6 = new System.Windows.Forms.CheckBox();
+            this.linkTalent6 = new System.Windows.Forms.LinkLabel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage5 = new System.Windows.Forms.Label();
+            this.chkActive5 = new System.Windows.Forms.CheckBox();
+            this.linkTalent5 = new System.Windows.Forms.LinkLabel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage4 = new System.Windows.Forms.Label();
+            this.chkActive4 = new System.Windows.Forms.CheckBox();
+            this.linkTalent4 = new System.Windows.Forms.LinkLabel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage3 = new System.Windows.Forms.Label();
+            this.chkActive3 = new System.Windows.Forms.CheckBox();
+            this.linkTalent3 = new System.Windows.Forms.LinkLabel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage2 = new System.Windows.Forms.Label();
+            this.chkActive2 = new System.Windows.Forms.CheckBox();
+            this.linkTalent2 = new System.Windows.Forms.LinkLabel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.lblTalentPage1 = new System.Windows.Forms.Label();
+            this.chkActive1 = new System.Windows.Forms.CheckBox();
+            this.linkTalent1 = new System.Windows.Forms.LinkLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblActive0 = new System.Windows.Forms.Label();
-            this.lblPage0 = new System.Windows.Forms.Label();
+            this.lblTalentPage0 = new System.Windows.Forms.Label();
             this.chkActive0 = new System.Windows.Forms.CheckBox();
             this.linkTalent0 = new System.Windows.Forms.LinkLabel();
             this.panelSkills = new System.Windows.Forms.Panel();
             this.panelTalents = new System.Windows.Forms.Panel();
             this.btnSkills = new System.Windows.Forms.Button();
             this.btnTalents = new System.Windows.Forms.Button();
+            this.lblAbilities = new System.Windows.Forms.Button();
             this.panelSkillDetail.SuspendLayout();
-            this.panel26.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudTier)).BeginInit();
+            this.panelTalentDetail.SuspendLayout();
             this.panel23.SuspendLayout();
             this.panel24.SuspendLayout();
             this.panel25.SuspendLayout();
@@ -5195,42 +5194,41 @@
             this.chkCareer0.TabStop = false;
             this.chkCareer0.UseVisualStyleBackColor = false;
             // 
-            // panel26
+            // panelTalentDetail
             // 
-            this.panel26.Controls.Add(this.lblTier);
-            this.panel26.Controls.Add(this.lblPageNumber);
-            this.panel26.Controls.Add(this.chkActive);
-            this.panel26.Controls.Add(this.txtPageNumber);
-            this.panel26.Controls.Add(this.txtDescription);
-            this.panel26.Controls.Add(this.nudTier);
-            this.panel26.Controls.Add(this.txtTalentName);
-            this.panel26.Location = new System.Drawing.Point(387, 3);
-            this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(255, 126);
-            this.panel26.TabIndex = 44;
-            this.panel26.Visible = false;
+            this.panelTalentDetail.Controls.Add(this.lblTalentTier);
+            this.panelTalentDetail.Controls.Add(this.lblTalentPageNumber);
+            this.panelTalentDetail.Controls.Add(this.chkActive);
+            this.panelTalentDetail.Controls.Add(this.txtTalentPageNumber);
+            this.panelTalentDetail.Controls.Add(this.txtTalentDescription);
+            this.panelTalentDetail.Controls.Add(this.txtTalentName);
+            this.panelTalentDetail.Location = new System.Drawing.Point(387, 3);
+            this.panelTalentDetail.Name = "panelTalentDetail";
+            this.panelTalentDetail.Size = new System.Drawing.Size(255, 126);
+            this.panelTalentDetail.TabIndex = 44;
+            this.panelTalentDetail.Visible = false;
             // 
-            // lblTier
+            // lblTalentTier
             // 
-            this.lblTier.AutoSize = true;
-            this.lblTier.BackColor = System.Drawing.Color.Transparent;
-            this.lblTier.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblTier.Location = new System.Drawing.Point(182, 7);
-            this.lblTier.Name = "lblTier";
-            this.lblTier.Size = new System.Drawing.Size(28, 13);
-            this.lblTier.TabIndex = 18;
-            this.lblTier.Text = "Tier:";
+            this.lblTalentTier.AutoSize = true;
+            this.lblTalentTier.BackColor = System.Drawing.Color.Transparent;
+            this.lblTalentTier.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblTalentTier.Location = new System.Drawing.Point(216, 9);
+            this.lblTalentTier.Name = "lblTalentTier";
+            this.lblTalentTier.Size = new System.Drawing.Size(28, 13);
+            this.lblTalentTier.TabIndex = 18;
+            this.lblTalentTier.Text = "Tier:";
             // 
-            // lblPageNumber
+            // lblTalentPageNumber
             // 
-            this.lblPageNumber.AutoSize = true;
-            this.lblPageNumber.BackColor = System.Drawing.Color.Transparent;
-            this.lblPageNumber.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblPageNumber.Location = new System.Drawing.Point(174, 106);
-            this.lblPageNumber.Name = "lblPageNumber";
-            this.lblPageNumber.Size = new System.Drawing.Size(35, 13);
-            this.lblPageNumber.TabIndex = 17;
-            this.lblPageNumber.Text = "Page:";
+            this.lblTalentPageNumber.AutoSize = true;
+            this.lblTalentPageNumber.BackColor = System.Drawing.Color.Transparent;
+            this.lblTalentPageNumber.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.lblTalentPageNumber.Location = new System.Drawing.Point(174, 106);
+            this.lblTalentPageNumber.Name = "lblTalentPageNumber";
+            this.lblTalentPageNumber.Size = new System.Drawing.Size(35, 13);
+            this.lblTalentPageNumber.TabIndex = 17;
+            this.lblTalentPageNumber.Text = "Page:";
             // 
             // chkActive
             // 
@@ -5244,35 +5242,22 @@
             this.chkActive.Text = "Active?";
             this.chkActive.UseVisualStyleBackColor = false;
             // 
-            // txtPageNumber
+            // txtTalentPageNumber
             // 
-            this.txtPageNumber.BackColor = System.Drawing.SystemColors.Info;
-            this.txtPageNumber.Location = new System.Drawing.Point(215, 102);
-            this.txtPageNumber.Name = "txtPageNumber";
-            this.txtPageNumber.Size = new System.Drawing.Size(37, 20);
-            this.txtPageNumber.TabIndex = 15;
+            this.txtTalentPageNumber.BackColor = System.Drawing.SystemColors.Info;
+            this.txtTalentPageNumber.Location = new System.Drawing.Point(215, 102);
+            this.txtTalentPageNumber.Name = "txtTalentPageNumber";
+            this.txtTalentPageNumber.Size = new System.Drawing.Size(37, 20);
+            this.txtTalentPageNumber.TabIndex = 15;
             // 
-            // txtDescription
+            // txtTalentDescription
             // 
-            this.txtDescription.BackColor = System.Drawing.SystemColors.Info;
-            this.txtDescription.Location = new System.Drawing.Point(3, 28);
-            this.txtDescription.Multiline = true;
-            this.txtDescription.Name = "txtDescription";
-            this.txtDescription.Size = new System.Drawing.Size(250, 70);
-            this.txtDescription.TabIndex = 14;
-            // 
-            // nudTier
-            // 
-            this.nudTier.BackColor = System.Drawing.SystemColors.Info;
-            this.nudTier.Location = new System.Drawing.Point(216, 3);
-            this.nudTier.Name = "nudTier";
-            this.nudTier.Size = new System.Drawing.Size(37, 20);
-            this.nudTier.TabIndex = 13;
-            this.nudTier.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.txtTalentDescription.BackColor = System.Drawing.SystemColors.Info;
+            this.txtTalentDescription.Location = new System.Drawing.Point(3, 28);
+            this.txtTalentDescription.Multiline = true;
+            this.txtTalentDescription.Name = "txtTalentDescription";
+            this.txtTalentDescription.Size = new System.Drawing.Size(250, 70);
+            this.txtTalentDescription.TabIndex = 14;
             // 
             // txtTalentName
             // 
@@ -5346,9 +5331,9 @@
             // 
             this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel23.Controls.Add(this.label43);
-            this.panel23.Controls.Add(this.label44);
-            this.panel23.Controls.Add(this.checkBox22);
-            this.panel23.Controls.Add(this.linkLabel22);
+            this.panel23.Controls.Add(this.lblTalentPage24);
+            this.panel23.Controls.Add(this.chkActive24);
+            this.panel23.Controls.Add(this.linkTalent24);
             this.panel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel23.Location = new System.Drawing.Point(428, 315);
             this.panel23.Name = "panel23";
@@ -5366,43 +5351,44 @@
             this.label43.Text = "Active?";
             this.label43.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label44
+            // lblTalentPage24
             // 
-            this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(75, 25);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(22, 9);
-            this.label44.TabIndex = 3;
-            this.label44.Text = "Page";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage24.AutoSize = true;
+            this.lblTalentPage24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage24.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage24.Name = "lblTalentPage24";
+            this.lblTalentPage24.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage24.TabIndex = 3;
+            this.lblTalentPage24.Text = "Page";
+            this.lblTalentPage24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox22
+            // chkActive24
             // 
-            this.checkBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox22.Location = new System.Drawing.Point(3, 22);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(13, 13);
-            this.checkBox22.TabIndex = 2;
-            this.checkBox22.UseVisualStyleBackColor = true;
+            this.chkActive24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive24.Location = new System.Drawing.Point(3, 22);
+            this.chkActive24.Name = "chkActive24";
+            this.chkActive24.Size = new System.Drawing.Size(13, 13);
+            this.chkActive24.TabIndex = 2;
+            this.chkActive24.UseVisualStyleBackColor = true;
             // 
-            // linkLabel22
+            // linkTalent24
             // 
-            this.linkLabel22.AutoSize = true;
-            this.linkLabel22.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel22.Name = "linkLabel22";
-            this.linkLabel22.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel22.TabIndex = 1;
-            this.linkLabel22.TabStop = true;
-            this.linkLabel22.Text = "Talent";
+            this.linkTalent24.AutoSize = true;
+            this.linkTalent24.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent24.Name = "linkTalent24";
+            this.linkTalent24.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent24.TabIndex = 1;
+            this.linkTalent24.TabStop = true;
+            this.linkTalent24.Text = "Talent";
+            this.linkTalent24.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel24
             // 
             this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel24.Controls.Add(this.label45);
-            this.panel24.Controls.Add(this.label46);
-            this.panel24.Controls.Add(this.checkBox23);
-            this.panel24.Controls.Add(this.linkLabel23);
+            this.panel24.Controls.Add(this.lblTalentPage23);
+            this.panel24.Controls.Add(this.chkActive23);
+            this.panel24.Controls.Add(this.linkTalent23);
             this.panel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel24.Location = new System.Drawing.Point(428, 269);
             this.panel24.Name = "panel24";
@@ -5420,43 +5406,44 @@
             this.label45.Text = "Active?";
             this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label46
+            // lblTalentPage23
             // 
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(75, 25);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(22, 9);
-            this.label46.TabIndex = 3;
-            this.label46.Text = "Page";
-            this.label46.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage23.AutoSize = true;
+            this.lblTalentPage23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage23.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage23.Name = "lblTalentPage23";
+            this.lblTalentPage23.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage23.TabIndex = 3;
+            this.lblTalentPage23.Text = "Page";
+            this.lblTalentPage23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox23
+            // chkActive23
             // 
-            this.checkBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox23.Location = new System.Drawing.Point(3, 22);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(13, 13);
-            this.checkBox23.TabIndex = 2;
-            this.checkBox23.UseVisualStyleBackColor = true;
+            this.chkActive23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive23.Location = new System.Drawing.Point(3, 22);
+            this.chkActive23.Name = "chkActive23";
+            this.chkActive23.Size = new System.Drawing.Size(13, 13);
+            this.chkActive23.TabIndex = 2;
+            this.chkActive23.UseVisualStyleBackColor = true;
             // 
-            // linkLabel23
+            // linkTalent23
             // 
-            this.linkLabel23.AutoSize = true;
-            this.linkLabel23.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel23.Name = "linkLabel23";
-            this.linkLabel23.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel23.TabIndex = 1;
-            this.linkLabel23.TabStop = true;
-            this.linkLabel23.Text = "Talent";
+            this.linkTalent23.AutoSize = true;
+            this.linkTalent23.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent23.Name = "linkTalent23";
+            this.linkTalent23.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent23.TabIndex = 1;
+            this.linkTalent23.TabStop = true;
+            this.linkTalent23.Text = "Talent";
+            this.linkTalent23.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel25
             // 
             this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel25.Controls.Add(this.label47);
-            this.panel25.Controls.Add(this.label48);
-            this.panel25.Controls.Add(this.checkBox24);
-            this.panel25.Controls.Add(this.linkLabel24);
+            this.panel25.Controls.Add(this.lblTalentPage22);
+            this.panel25.Controls.Add(this.chkActive22);
+            this.panel25.Controls.Add(this.linkTalent22);
             this.panel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel25.Location = new System.Drawing.Point(428, 223);
             this.panel25.Name = "panel25";
@@ -5474,43 +5461,44 @@
             this.label47.Text = "Active?";
             this.label47.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label48
+            // lblTalentPage22
             // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(75, 25);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(22, 9);
-            this.label48.TabIndex = 3;
-            this.label48.Text = "Page";
-            this.label48.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage22.AutoSize = true;
+            this.lblTalentPage22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage22.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage22.Name = "lblTalentPage22";
+            this.lblTalentPage22.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage22.TabIndex = 3;
+            this.lblTalentPage22.Text = "Page";
+            this.lblTalentPage22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox24
+            // chkActive22
             // 
-            this.checkBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox24.Location = new System.Drawing.Point(3, 22);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(13, 13);
-            this.checkBox24.TabIndex = 2;
-            this.checkBox24.UseVisualStyleBackColor = true;
+            this.chkActive22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive22.Location = new System.Drawing.Point(3, 22);
+            this.chkActive22.Name = "chkActive22";
+            this.chkActive22.Size = new System.Drawing.Size(13, 13);
+            this.chkActive22.TabIndex = 2;
+            this.chkActive22.UseVisualStyleBackColor = true;
             // 
-            // linkLabel24
+            // linkTalent22
             // 
-            this.linkLabel24.AutoSize = true;
-            this.linkLabel24.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel24.Name = "linkLabel24";
-            this.linkLabel24.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel24.TabIndex = 1;
-            this.linkLabel24.TabStop = true;
-            this.linkLabel24.Text = "Talent";
+            this.linkTalent22.AutoSize = true;
+            this.linkTalent22.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent22.Name = "linkTalent22";
+            this.linkTalent22.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent22.TabIndex = 1;
+            this.linkTalent22.TabStop = true;
+            this.linkTalent22.Text = "Talent";
+            this.linkTalent22.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel19
             // 
             this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel19.Controls.Add(this.label35);
-            this.panel19.Controls.Add(this.label36);
-            this.panel19.Controls.Add(this.checkBox18);
-            this.panel19.Controls.Add(this.linkLabel18);
+            this.panel19.Controls.Add(this.lblTalentPage21);
+            this.panel19.Controls.Add(this.chkActive21);
+            this.panel19.Controls.Add(this.linkTalent21);
             this.panel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel19.Location = new System.Drawing.Point(322, 315);
             this.panel19.Name = "panel19";
@@ -5528,43 +5516,44 @@
             this.label35.Text = "Active?";
             this.label35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label36
+            // lblTalentPage21
             // 
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(75, 25);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(22, 9);
-            this.label36.TabIndex = 3;
-            this.label36.Text = "Page";
-            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage21.AutoSize = true;
+            this.lblTalentPage21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage21.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage21.Name = "lblTalentPage21";
+            this.lblTalentPage21.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage21.TabIndex = 3;
+            this.lblTalentPage21.Text = "Page";
+            this.lblTalentPage21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox18
+            // chkActive21
             // 
-            this.checkBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox18.Location = new System.Drawing.Point(3, 22);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(13, 13);
-            this.checkBox18.TabIndex = 2;
-            this.checkBox18.UseVisualStyleBackColor = true;
+            this.chkActive21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive21.Location = new System.Drawing.Point(3, 22);
+            this.chkActive21.Name = "chkActive21";
+            this.chkActive21.Size = new System.Drawing.Size(13, 13);
+            this.chkActive21.TabIndex = 2;
+            this.chkActive21.UseVisualStyleBackColor = true;
             // 
-            // linkLabel18
+            // linkTalent21
             // 
-            this.linkLabel18.AutoSize = true;
-            this.linkLabel18.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel18.Name = "linkLabel18";
-            this.linkLabel18.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel18.TabIndex = 1;
-            this.linkLabel18.TabStop = true;
-            this.linkLabel18.Text = "Talent";
+            this.linkTalent21.AutoSize = true;
+            this.linkTalent21.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent21.Name = "linkTalent21";
+            this.linkTalent21.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent21.TabIndex = 1;
+            this.linkTalent21.TabStop = true;
+            this.linkTalent21.Text = "Talent";
+            this.linkTalent21.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel20
             // 
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel20.Controls.Add(this.label37);
-            this.panel20.Controls.Add(this.label38);
-            this.panel20.Controls.Add(this.checkBox19);
-            this.panel20.Controls.Add(this.linkLabel19);
+            this.panel20.Controls.Add(this.lblTalentPage20);
+            this.panel20.Controls.Add(this.chkActive20);
+            this.panel20.Controls.Add(this.linkTalent20);
             this.panel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel20.Location = new System.Drawing.Point(322, 269);
             this.panel20.Name = "panel20";
@@ -5582,43 +5571,44 @@
             this.label37.Text = "Active?";
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label38
+            // lblTalentPage20
             // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label38.Location = new System.Drawing.Point(75, 25);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(22, 9);
-            this.label38.TabIndex = 3;
-            this.label38.Text = "Page";
-            this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage20.AutoSize = true;
+            this.lblTalentPage20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage20.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage20.Name = "lblTalentPage20";
+            this.lblTalentPage20.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage20.TabIndex = 3;
+            this.lblTalentPage20.Text = "Page";
+            this.lblTalentPage20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox19
+            // chkActive20
             // 
-            this.checkBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox19.Location = new System.Drawing.Point(3, 22);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(13, 13);
-            this.checkBox19.TabIndex = 2;
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.chkActive20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive20.Location = new System.Drawing.Point(3, 22);
+            this.chkActive20.Name = "chkActive20";
+            this.chkActive20.Size = new System.Drawing.Size(13, 13);
+            this.chkActive20.TabIndex = 2;
+            this.chkActive20.UseVisualStyleBackColor = true;
             // 
-            // linkLabel19
+            // linkTalent20
             // 
-            this.linkLabel19.AutoSize = true;
-            this.linkLabel19.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel19.Name = "linkLabel19";
-            this.linkLabel19.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel19.TabIndex = 1;
-            this.linkLabel19.TabStop = true;
-            this.linkLabel19.Text = "Talent";
+            this.linkTalent20.AutoSize = true;
+            this.linkTalent20.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent20.Name = "linkTalent20";
+            this.linkTalent20.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent20.TabIndex = 1;
+            this.linkTalent20.TabStop = true;
+            this.linkTalent20.Text = "Talent";
+            this.linkTalent20.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel21
             // 
             this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel21.Controls.Add(this.label39);
-            this.panel21.Controls.Add(this.label40);
-            this.panel21.Controls.Add(this.checkBox20);
-            this.panel21.Controls.Add(this.linkLabel20);
+            this.panel21.Controls.Add(this.lblTalentPage19);
+            this.panel21.Controls.Add(this.chkActive19);
+            this.panel21.Controls.Add(this.linkTalent19);
             this.panel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel21.Location = new System.Drawing.Point(322, 223);
             this.panel21.Name = "panel21";
@@ -5636,43 +5626,44 @@
             this.label39.Text = "Active?";
             this.label39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label40
+            // lblTalentPage19
             // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label40.Location = new System.Drawing.Point(75, 25);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(22, 9);
-            this.label40.TabIndex = 3;
-            this.label40.Text = "Page";
-            this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage19.AutoSize = true;
+            this.lblTalentPage19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage19.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage19.Name = "lblTalentPage19";
+            this.lblTalentPage19.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage19.TabIndex = 3;
+            this.lblTalentPage19.Text = "Page";
+            this.lblTalentPage19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox20
+            // chkActive19
             // 
-            this.checkBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox20.Location = new System.Drawing.Point(3, 22);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(13, 13);
-            this.checkBox20.TabIndex = 2;
-            this.checkBox20.UseVisualStyleBackColor = true;
+            this.chkActive19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive19.Location = new System.Drawing.Point(3, 22);
+            this.chkActive19.Name = "chkActive19";
+            this.chkActive19.Size = new System.Drawing.Size(13, 13);
+            this.chkActive19.TabIndex = 2;
+            this.chkActive19.UseVisualStyleBackColor = true;
             // 
-            // linkLabel20
+            // linkTalent19
             // 
-            this.linkLabel20.AutoSize = true;
-            this.linkLabel20.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel20.Name = "linkLabel20";
-            this.linkLabel20.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel20.TabIndex = 1;
-            this.linkLabel20.TabStop = true;
-            this.linkLabel20.Text = "Talent";
+            this.linkTalent19.AutoSize = true;
+            this.linkTalent19.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent19.Name = "linkTalent19";
+            this.linkTalent19.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent19.TabIndex = 1;
+            this.linkTalent19.TabStop = true;
+            this.linkTalent19.Text = "Talent";
+            this.linkTalent19.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel22
             // 
             this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel22.Controls.Add(this.label41);
-            this.panel22.Controls.Add(this.label42);
-            this.panel22.Controls.Add(this.checkBox21);
-            this.panel22.Controls.Add(this.linkLabel21);
+            this.panel22.Controls.Add(this.lblTalentPage18);
+            this.panel22.Controls.Add(this.chkActive18);
+            this.panel22.Controls.Add(this.linkTalent18);
             this.panel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel22.Location = new System.Drawing.Point(322, 177);
             this.panel22.Name = "panel22";
@@ -5690,43 +5681,44 @@
             this.label41.Text = "Active?";
             this.label41.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label42
+            // lblTalentPage18
             // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(75, 25);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(22, 9);
-            this.label42.TabIndex = 3;
-            this.label42.Text = "Page";
-            this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage18.AutoSize = true;
+            this.lblTalentPage18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage18.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage18.Name = "lblTalentPage18";
+            this.lblTalentPage18.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage18.TabIndex = 3;
+            this.lblTalentPage18.Text = "Page";
+            this.lblTalentPage18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox21
+            // chkActive18
             // 
-            this.checkBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox21.Location = new System.Drawing.Point(3, 22);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(13, 13);
-            this.checkBox21.TabIndex = 2;
-            this.checkBox21.UseVisualStyleBackColor = true;
+            this.chkActive18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive18.Location = new System.Drawing.Point(3, 22);
+            this.chkActive18.Name = "chkActive18";
+            this.chkActive18.Size = new System.Drawing.Size(13, 13);
+            this.chkActive18.TabIndex = 2;
+            this.chkActive18.UseVisualStyleBackColor = true;
             // 
-            // linkLabel21
+            // linkTalent18
             // 
-            this.linkLabel21.AutoSize = true;
-            this.linkLabel21.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel21.Name = "linkLabel21";
-            this.linkLabel21.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel21.TabIndex = 1;
-            this.linkLabel21.TabStop = true;
-            this.linkLabel21.Text = "Talent";
+            this.linkTalent18.AutoSize = true;
+            this.linkTalent18.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent18.Name = "linkTalent18";
+            this.linkTalent18.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent18.TabIndex = 1;
+            this.linkTalent18.TabStop = true;
+            this.linkTalent18.Text = "Talent";
+            this.linkTalent18.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel14
             // 
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel14.Controls.Add(this.label25);
-            this.panel14.Controls.Add(this.label26);
-            this.panel14.Controls.Add(this.checkBox13);
-            this.panel14.Controls.Add(this.linkLabel13);
+            this.panel14.Controls.Add(this.lblTalentPage17);
+            this.panel14.Controls.Add(this.chkActive17);
+            this.panel14.Controls.Add(this.linkTalent17);
             this.panel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel14.Location = new System.Drawing.Point(216, 315);
             this.panel14.Name = "panel14";
@@ -5744,43 +5736,44 @@
             this.label25.Text = "Active?";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label26
+            // lblTalentPage17
             // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(75, 25);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(22, 9);
-            this.label26.TabIndex = 3;
-            this.label26.Text = "Page";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage17.AutoSize = true;
+            this.lblTalentPage17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage17.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage17.Name = "lblTalentPage17";
+            this.lblTalentPage17.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage17.TabIndex = 3;
+            this.lblTalentPage17.Text = "Page";
+            this.lblTalentPage17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox13
+            // chkActive17
             // 
-            this.checkBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox13.Location = new System.Drawing.Point(3, 22);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(13, 13);
-            this.checkBox13.TabIndex = 2;
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.chkActive17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive17.Location = new System.Drawing.Point(3, 22);
+            this.chkActive17.Name = "chkActive17";
+            this.chkActive17.Size = new System.Drawing.Size(13, 13);
+            this.chkActive17.TabIndex = 2;
+            this.chkActive17.UseVisualStyleBackColor = true;
             // 
-            // linkLabel13
+            // linkTalent17
             // 
-            this.linkLabel13.AutoSize = true;
-            this.linkLabel13.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel13.Name = "linkLabel13";
-            this.linkLabel13.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel13.TabIndex = 1;
-            this.linkLabel13.TabStop = true;
-            this.linkLabel13.Text = "Talent";
+            this.linkTalent17.AutoSize = true;
+            this.linkTalent17.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent17.Name = "linkTalent17";
+            this.linkTalent17.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent17.TabIndex = 1;
+            this.linkTalent17.TabStop = true;
+            this.linkTalent17.Text = "Talent";
+            this.linkTalent17.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel15
             // 
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel15.Controls.Add(this.label27);
-            this.panel15.Controls.Add(this.label28);
-            this.panel15.Controls.Add(this.checkBox14);
-            this.panel15.Controls.Add(this.linkLabel14);
+            this.panel15.Controls.Add(this.lblTalentPage16);
+            this.panel15.Controls.Add(this.chkActive16);
+            this.panel15.Controls.Add(this.linkTalent16);
             this.panel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel15.Location = new System.Drawing.Point(216, 269);
             this.panel15.Name = "panel15";
@@ -5798,43 +5791,44 @@
             this.label27.Text = "Active?";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label28
+            // lblTalentPage16
             // 
-            this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(75, 25);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(22, 9);
-            this.label28.TabIndex = 3;
-            this.label28.Text = "Page";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage16.AutoSize = true;
+            this.lblTalentPage16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage16.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage16.Name = "lblTalentPage16";
+            this.lblTalentPage16.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage16.TabIndex = 3;
+            this.lblTalentPage16.Text = "Page";
+            this.lblTalentPage16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox14
+            // chkActive16
             // 
-            this.checkBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox14.Location = new System.Drawing.Point(3, 22);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(13, 13);
-            this.checkBox14.TabIndex = 2;
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.chkActive16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive16.Location = new System.Drawing.Point(3, 22);
+            this.chkActive16.Name = "chkActive16";
+            this.chkActive16.Size = new System.Drawing.Size(13, 13);
+            this.chkActive16.TabIndex = 2;
+            this.chkActive16.UseVisualStyleBackColor = true;
             // 
-            // linkLabel14
+            // linkTalent16
             // 
-            this.linkLabel14.AutoSize = true;
-            this.linkLabel14.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel14.Name = "linkLabel14";
-            this.linkLabel14.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel14.TabIndex = 1;
-            this.linkLabel14.TabStop = true;
-            this.linkLabel14.Text = "Talent";
+            this.linkTalent16.AutoSize = true;
+            this.linkTalent16.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent16.Name = "linkTalent16";
+            this.linkTalent16.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent16.TabIndex = 1;
+            this.linkTalent16.TabStop = true;
+            this.linkTalent16.Text = "Talent";
+            this.linkTalent16.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel16
             // 
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel16.Controls.Add(this.label29);
-            this.panel16.Controls.Add(this.label30);
-            this.panel16.Controls.Add(this.checkBox15);
-            this.panel16.Controls.Add(this.linkLabel15);
+            this.panel16.Controls.Add(this.lblTalentPage15);
+            this.panel16.Controls.Add(this.chkActive15);
+            this.panel16.Controls.Add(this.linkTalent15);
             this.panel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel16.Location = new System.Drawing.Point(216, 223);
             this.panel16.Name = "panel16";
@@ -5852,43 +5846,44 @@
             this.label29.Text = "Active?";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label30
+            // lblTalentPage15
             // 
-            this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(75, 25);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(22, 9);
-            this.label30.TabIndex = 3;
-            this.label30.Text = "Page";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage15.AutoSize = true;
+            this.lblTalentPage15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage15.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage15.Name = "lblTalentPage15";
+            this.lblTalentPage15.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage15.TabIndex = 3;
+            this.lblTalentPage15.Text = "Page";
+            this.lblTalentPage15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox15
+            // chkActive15
             // 
-            this.checkBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox15.Location = new System.Drawing.Point(3, 22);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(13, 13);
-            this.checkBox15.TabIndex = 2;
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.chkActive15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive15.Location = new System.Drawing.Point(3, 22);
+            this.chkActive15.Name = "chkActive15";
+            this.chkActive15.Size = new System.Drawing.Size(13, 13);
+            this.chkActive15.TabIndex = 2;
+            this.chkActive15.UseVisualStyleBackColor = true;
             // 
-            // linkLabel15
+            // linkTalent15
             // 
-            this.linkLabel15.AutoSize = true;
-            this.linkLabel15.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel15.Name = "linkLabel15";
-            this.linkLabel15.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel15.TabIndex = 1;
-            this.linkLabel15.TabStop = true;
-            this.linkLabel15.Text = "Talent";
+            this.linkTalent15.AutoSize = true;
+            this.linkTalent15.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent15.Name = "linkTalent15";
+            this.linkTalent15.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent15.TabIndex = 1;
+            this.linkTalent15.TabStop = true;
+            this.linkTalent15.Text = "Talent";
+            this.linkTalent15.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel17
             // 
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel17.Controls.Add(this.label31);
-            this.panel17.Controls.Add(this.label32);
-            this.panel17.Controls.Add(this.checkBox16);
-            this.panel17.Controls.Add(this.linkLabel16);
+            this.panel17.Controls.Add(this.lblTalentPage14);
+            this.panel17.Controls.Add(this.chkActive14);
+            this.panel17.Controls.Add(this.linkTalent14);
             this.panel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel17.Location = new System.Drawing.Point(216, 177);
             this.panel17.Name = "panel17";
@@ -5906,43 +5901,44 @@
             this.label31.Text = "Active?";
             this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label32
+            // lblTalentPage14
             // 
-            this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label32.Location = new System.Drawing.Point(75, 25);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(22, 9);
-            this.label32.TabIndex = 3;
-            this.label32.Text = "Page";
-            this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage14.AutoSize = true;
+            this.lblTalentPage14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage14.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage14.Name = "lblTalentPage14";
+            this.lblTalentPage14.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage14.TabIndex = 3;
+            this.lblTalentPage14.Text = "Page";
+            this.lblTalentPage14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox16
+            // chkActive14
             // 
-            this.checkBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox16.Location = new System.Drawing.Point(3, 22);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(13, 13);
-            this.checkBox16.TabIndex = 2;
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.chkActive14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive14.Location = new System.Drawing.Point(3, 22);
+            this.chkActive14.Name = "chkActive14";
+            this.chkActive14.Size = new System.Drawing.Size(13, 13);
+            this.chkActive14.TabIndex = 2;
+            this.chkActive14.UseVisualStyleBackColor = true;
             // 
-            // linkLabel16
+            // linkTalent14
             // 
-            this.linkLabel16.AutoSize = true;
-            this.linkLabel16.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel16.Name = "linkLabel16";
-            this.linkLabel16.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel16.TabIndex = 1;
-            this.linkLabel16.TabStop = true;
-            this.linkLabel16.Text = "Talent";
+            this.linkTalent14.AutoSize = true;
+            this.linkTalent14.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent14.Name = "linkTalent14";
+            this.linkTalent14.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent14.TabIndex = 1;
+            this.linkTalent14.TabStop = true;
+            this.linkTalent14.Text = "Talent";
+            this.linkTalent14.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel18
             // 
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel18.Controls.Add(this.label33);
-            this.panel18.Controls.Add(this.label34);
-            this.panel18.Controls.Add(this.checkBox17);
-            this.panel18.Controls.Add(this.linkLabel17);
+            this.panel18.Controls.Add(this.lblTalentPage13);
+            this.panel18.Controls.Add(this.chkActive13);
+            this.panel18.Controls.Add(this.linkTalent13);
             this.panel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel18.Location = new System.Drawing.Point(216, 131);
             this.panel18.Name = "panel18";
@@ -5960,43 +5956,44 @@
             this.label33.Text = "Active?";
             this.label33.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label34
+            // lblTalentPage13
             // 
-            this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(75, 25);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(22, 9);
-            this.label34.TabIndex = 3;
-            this.label34.Text = "Page";
-            this.label34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage13.AutoSize = true;
+            this.lblTalentPage13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage13.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage13.Name = "lblTalentPage13";
+            this.lblTalentPage13.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage13.TabIndex = 3;
+            this.lblTalentPage13.Text = "Page";
+            this.lblTalentPage13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox17
+            // chkActive13
             // 
-            this.checkBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox17.Location = new System.Drawing.Point(3, 22);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(13, 13);
-            this.checkBox17.TabIndex = 2;
-            this.checkBox17.UseVisualStyleBackColor = true;
+            this.chkActive13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive13.Location = new System.Drawing.Point(3, 22);
+            this.chkActive13.Name = "chkActive13";
+            this.chkActive13.Size = new System.Drawing.Size(13, 13);
+            this.chkActive13.TabIndex = 2;
+            this.chkActive13.UseVisualStyleBackColor = true;
             // 
-            // linkLabel17
+            // linkTalent13
             // 
-            this.linkLabel17.AutoSize = true;
-            this.linkLabel17.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel17.Name = "linkLabel17";
-            this.linkLabel17.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel17.TabIndex = 1;
-            this.linkLabel17.TabStop = true;
-            this.linkLabel17.Text = "Talent";
+            this.linkTalent13.AutoSize = true;
+            this.linkTalent13.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent13.Name = "linkTalent13";
+            this.linkTalent13.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent13.TabIndex = 1;
+            this.linkTalent13.TabStop = true;
+            this.linkTalent13.Text = "Talent";
+            this.linkTalent13.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.label13);
-            this.panel8.Controls.Add(this.label14);
-            this.panel8.Controls.Add(this.checkBox7);
-            this.panel8.Controls.Add(this.linkLabel7);
+            this.panel8.Controls.Add(this.lblTalentPage12);
+            this.panel8.Controls.Add(this.chkActive12);
+            this.panel8.Controls.Add(this.linkTalent12);
             this.panel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel8.Location = new System.Drawing.Point(110, 315);
             this.panel8.Name = "panel8";
@@ -6014,43 +6011,44 @@
             this.label13.Text = "Active?";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label14
+            // lblTalentPage12
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(75, 25);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(22, 9);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "Page";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage12.AutoSize = true;
+            this.lblTalentPage12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage12.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage12.Name = "lblTalentPage12";
+            this.lblTalentPage12.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage12.TabIndex = 3;
+            this.lblTalentPage12.Text = "Page";
+            this.lblTalentPage12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox7
+            // chkActive12
             // 
-            this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox7.Location = new System.Drawing.Point(3, 22);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(13, 13);
-            this.checkBox7.TabIndex = 2;
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.chkActive12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive12.Location = new System.Drawing.Point(3, 22);
+            this.chkActive12.Name = "chkActive12";
+            this.chkActive12.Size = new System.Drawing.Size(13, 13);
+            this.chkActive12.TabIndex = 2;
+            this.chkActive12.UseVisualStyleBackColor = true;
             // 
-            // linkLabel7
+            // linkTalent12
             // 
-            this.linkLabel7.AutoSize = true;
-            this.linkLabel7.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel7.Name = "linkLabel7";
-            this.linkLabel7.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel7.TabIndex = 1;
-            this.linkLabel7.TabStop = true;
-            this.linkLabel7.Text = "Talent";
+            this.linkTalent12.AutoSize = true;
+            this.linkTalent12.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent12.Name = "linkTalent12";
+            this.linkTalent12.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent12.TabIndex = 1;
+            this.linkTalent12.TabStop = true;
+            this.linkTalent12.Text = "Talent";
+            this.linkTalent12.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel9.Controls.Add(this.label15);
-            this.panel9.Controls.Add(this.label16);
-            this.panel9.Controls.Add(this.checkBox8);
-            this.panel9.Controls.Add(this.linkLabel8);
+            this.panel9.Controls.Add(this.lblTalentPage11);
+            this.panel9.Controls.Add(this.chkActive11);
+            this.panel9.Controls.Add(this.linkTalent11);
             this.panel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel9.Location = new System.Drawing.Point(110, 269);
             this.panel9.Name = "panel9";
@@ -6068,43 +6066,44 @@
             this.label15.Text = "Active?";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label16
+            // lblTalentPage11
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(75, 25);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(22, 9);
-            this.label16.TabIndex = 3;
-            this.label16.Text = "Page";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage11.AutoSize = true;
+            this.lblTalentPage11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage11.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage11.Name = "lblTalentPage11";
+            this.lblTalentPage11.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage11.TabIndex = 3;
+            this.lblTalentPage11.Text = "Page";
+            this.lblTalentPage11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox8
+            // chkActive11
             // 
-            this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox8.Location = new System.Drawing.Point(3, 22);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(13, 13);
-            this.checkBox8.TabIndex = 2;
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.chkActive11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive11.Location = new System.Drawing.Point(3, 22);
+            this.chkActive11.Name = "chkActive11";
+            this.chkActive11.Size = new System.Drawing.Size(13, 13);
+            this.chkActive11.TabIndex = 2;
+            this.chkActive11.UseVisualStyleBackColor = true;
             // 
-            // linkLabel8
+            // linkTalent11
             // 
-            this.linkLabel8.AutoSize = true;
-            this.linkLabel8.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel8.Name = "linkLabel8";
-            this.linkLabel8.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel8.TabIndex = 1;
-            this.linkLabel8.TabStop = true;
-            this.linkLabel8.Text = "Talent";
+            this.linkTalent11.AutoSize = true;
+            this.linkTalent11.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent11.Name = "linkTalent11";
+            this.linkTalent11.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent11.TabIndex = 1;
+            this.linkTalent11.TabStop = true;
+            this.linkTalent11.Text = "Talent";
+            this.linkTalent11.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel10.Controls.Add(this.label17);
-            this.panel10.Controls.Add(this.label18);
-            this.panel10.Controls.Add(this.checkBox9);
-            this.panel10.Controls.Add(this.linkLabel9);
+            this.panel10.Controls.Add(this.lblTalentPage10);
+            this.panel10.Controls.Add(this.chkActive10);
+            this.panel10.Controls.Add(this.linkTalent10);
             this.panel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel10.Location = new System.Drawing.Point(110, 223);
             this.panel10.Name = "panel10";
@@ -6122,43 +6121,44 @@
             this.label17.Text = "Active?";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label18
+            // lblTalentPage10
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(75, 25);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(22, 9);
-            this.label18.TabIndex = 3;
-            this.label18.Text = "Page";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage10.AutoSize = true;
+            this.lblTalentPage10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage10.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage10.Name = "lblTalentPage10";
+            this.lblTalentPage10.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage10.TabIndex = 3;
+            this.lblTalentPage10.Text = "Page";
+            this.lblTalentPage10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox9
+            // chkActive10
             // 
-            this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.Location = new System.Drawing.Point(3, 22);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(13, 13);
-            this.checkBox9.TabIndex = 2;
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.chkActive10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive10.Location = new System.Drawing.Point(3, 22);
+            this.chkActive10.Name = "chkActive10";
+            this.chkActive10.Size = new System.Drawing.Size(13, 13);
+            this.chkActive10.TabIndex = 2;
+            this.chkActive10.UseVisualStyleBackColor = true;
             // 
-            // linkLabel9
+            // linkTalent10
             // 
-            this.linkLabel9.AutoSize = true;
-            this.linkLabel9.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel9.Name = "linkLabel9";
-            this.linkLabel9.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel9.TabIndex = 1;
-            this.linkLabel9.TabStop = true;
-            this.linkLabel9.Text = "Talent";
+            this.linkTalent10.AutoSize = true;
+            this.linkTalent10.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent10.Name = "linkTalent10";
+            this.linkTalent10.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent10.TabIndex = 1;
+            this.linkTalent10.TabStop = true;
+            this.linkTalent10.Text = "Talent";
+            this.linkTalent10.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel11
             // 
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel11.Controls.Add(this.label19);
-            this.panel11.Controls.Add(this.label20);
-            this.panel11.Controls.Add(this.checkBox10);
-            this.panel11.Controls.Add(this.linkLabel10);
+            this.panel11.Controls.Add(this.lblTalentPage9);
+            this.panel11.Controls.Add(this.chkActive9);
+            this.panel11.Controls.Add(this.linkTalent9);
             this.panel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel11.Location = new System.Drawing.Point(110, 177);
             this.panel11.Name = "panel11";
@@ -6176,43 +6176,44 @@
             this.label19.Text = "Active?";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label20
+            // lblTalentPage9
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(75, 25);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(22, 9);
-            this.label20.TabIndex = 3;
-            this.label20.Text = "Page";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage9.AutoSize = true;
+            this.lblTalentPage9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage9.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage9.Name = "lblTalentPage9";
+            this.lblTalentPage9.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage9.TabIndex = 3;
+            this.lblTalentPage9.Text = "Page";
+            this.lblTalentPage9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox10
+            // chkActive9
             // 
-            this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.Location = new System.Drawing.Point(3, 22);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(13, 13);
-            this.checkBox10.TabIndex = 2;
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.chkActive9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive9.Location = new System.Drawing.Point(3, 22);
+            this.chkActive9.Name = "chkActive9";
+            this.chkActive9.Size = new System.Drawing.Size(13, 13);
+            this.chkActive9.TabIndex = 2;
+            this.chkActive9.UseVisualStyleBackColor = true;
             // 
-            // linkLabel10
+            // linkTalent9
             // 
-            this.linkLabel10.AutoSize = true;
-            this.linkLabel10.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel10.Name = "linkLabel10";
-            this.linkLabel10.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel10.TabIndex = 1;
-            this.linkLabel10.TabStop = true;
-            this.linkLabel10.Text = "Talent";
+            this.linkTalent9.AutoSize = true;
+            this.linkTalent9.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent9.Name = "linkTalent9";
+            this.linkTalent9.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent9.TabIndex = 1;
+            this.linkTalent9.TabStop = true;
+            this.linkTalent9.Text = "Talent";
+            this.linkTalent9.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel12.Controls.Add(this.label21);
-            this.panel12.Controls.Add(this.label22);
-            this.panel12.Controls.Add(this.checkBox11);
-            this.panel12.Controls.Add(this.linkLabel11);
+            this.panel12.Controls.Add(this.lblTalentPage8);
+            this.panel12.Controls.Add(this.chkActive8);
+            this.panel12.Controls.Add(this.linkTalent8);
             this.panel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel12.Location = new System.Drawing.Point(110, 131);
             this.panel12.Name = "panel12";
@@ -6230,43 +6231,44 @@
             this.label21.Text = "Active?";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label22
+            // lblTalentPage8
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(75, 25);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(22, 9);
-            this.label22.TabIndex = 3;
-            this.label22.Text = "Page";
-            this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage8.AutoSize = true;
+            this.lblTalentPage8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage8.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage8.Name = "lblTalentPage8";
+            this.lblTalentPage8.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage8.TabIndex = 3;
+            this.lblTalentPage8.Text = "Page";
+            this.lblTalentPage8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox11
+            // chkActive8
             // 
-            this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox11.Location = new System.Drawing.Point(3, 22);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(13, 13);
-            this.checkBox11.TabIndex = 2;
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.chkActive8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive8.Location = new System.Drawing.Point(3, 22);
+            this.chkActive8.Name = "chkActive8";
+            this.chkActive8.Size = new System.Drawing.Size(13, 13);
+            this.chkActive8.TabIndex = 2;
+            this.chkActive8.UseVisualStyleBackColor = true;
             // 
-            // linkLabel11
+            // linkTalent8
             // 
-            this.linkLabel11.AutoSize = true;
-            this.linkLabel11.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel11.Name = "linkLabel11";
-            this.linkLabel11.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel11.TabIndex = 1;
-            this.linkLabel11.TabStop = true;
-            this.linkLabel11.Text = "Talent";
+            this.linkTalent8.AutoSize = true;
+            this.linkTalent8.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent8.Name = "linkTalent8";
+            this.linkTalent8.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent8.TabIndex = 1;
+            this.linkTalent8.TabStop = true;
+            this.linkTalent8.Text = "Talent";
+            this.linkTalent8.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel13
             // 
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel13.Controls.Add(this.label23);
-            this.panel13.Controls.Add(this.label24);
-            this.panel13.Controls.Add(this.checkBox12);
-            this.panel13.Controls.Add(this.linkLabel12);
+            this.panel13.Controls.Add(this.lblTalentPage7);
+            this.panel13.Controls.Add(this.chkActive7);
+            this.panel13.Controls.Add(this.linkTalent7);
             this.panel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel13.Location = new System.Drawing.Point(110, 85);
             this.panel13.Name = "panel13";
@@ -6284,43 +6286,44 @@
             this.label23.Text = "Active?";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label24
+            // lblTalentPage7
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(75, 25);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(22, 9);
-            this.label24.TabIndex = 3;
-            this.label24.Text = "Page";
-            this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage7.AutoSize = true;
+            this.lblTalentPage7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage7.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage7.Name = "lblTalentPage7";
+            this.lblTalentPage7.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage7.TabIndex = 3;
+            this.lblTalentPage7.Text = "Page";
+            this.lblTalentPage7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox12
+            // chkActive7
             // 
-            this.checkBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox12.Location = new System.Drawing.Point(3, 22);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(13, 13);
-            this.checkBox12.TabIndex = 2;
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.chkActive7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive7.Location = new System.Drawing.Point(3, 22);
+            this.chkActive7.Name = "chkActive7";
+            this.chkActive7.Size = new System.Drawing.Size(13, 13);
+            this.chkActive7.TabIndex = 2;
+            this.chkActive7.UseVisualStyleBackColor = true;
             // 
-            // linkLabel12
+            // linkTalent7
             // 
-            this.linkLabel12.AutoSize = true;
-            this.linkLabel12.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel12.Name = "linkLabel12";
-            this.linkLabel12.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel12.TabIndex = 1;
-            this.linkLabel12.TabStop = true;
-            this.linkLabel12.Text = "Talent";
+            this.linkTalent7.AutoSize = true;
+            this.linkTalent7.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent7.Name = "linkTalent7";
+            this.linkTalent7.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent7.TabIndex = 1;
+            this.linkTalent7.TabStop = true;
+            this.linkTalent7.Text = "Talent";
+            this.linkTalent7.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.label11);
-            this.panel7.Controls.Add(this.label12);
-            this.panel7.Controls.Add(this.checkBox6);
-            this.panel7.Controls.Add(this.linkLabel6);
+            this.panel7.Controls.Add(this.lblTalentPage6);
+            this.panel7.Controls.Add(this.chkActive6);
+            this.panel7.Controls.Add(this.linkTalent6);
             this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel7.Location = new System.Drawing.Point(4, 315);
             this.panel7.Name = "panel7";
@@ -6338,43 +6341,44 @@
             this.label11.Text = "Active?";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label12
+            // lblTalentPage6
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(75, 25);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(22, 9);
-            this.label12.TabIndex = 3;
-            this.label12.Text = "Page";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage6.AutoSize = true;
+            this.lblTalentPage6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage6.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage6.Name = "lblTalentPage6";
+            this.lblTalentPage6.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage6.TabIndex = 3;
+            this.lblTalentPage6.Text = "Page";
+            this.lblTalentPage6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox6
+            // chkActive6
             // 
-            this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox6.Location = new System.Drawing.Point(3, 22);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(13, 13);
-            this.checkBox6.TabIndex = 2;
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.chkActive6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive6.Location = new System.Drawing.Point(3, 22);
+            this.chkActive6.Name = "chkActive6";
+            this.chkActive6.Size = new System.Drawing.Size(13, 13);
+            this.chkActive6.TabIndex = 2;
+            this.chkActive6.UseVisualStyleBackColor = true;
             // 
-            // linkLabel6
+            // linkTalent6
             // 
-            this.linkLabel6.AutoSize = true;
-            this.linkLabel6.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel6.TabIndex = 1;
-            this.linkLabel6.TabStop = true;
-            this.linkLabel6.Text = "Talent";
+            this.linkTalent6.AutoSize = true;
+            this.linkTalent6.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent6.Name = "linkTalent6";
+            this.linkTalent6.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent6.TabIndex = 1;
+            this.linkTalent6.TabStop = true;
+            this.linkTalent6.Text = "Talent";
+            this.linkTalent6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.label9);
-            this.panel6.Controls.Add(this.label10);
-            this.panel6.Controls.Add(this.checkBox5);
-            this.panel6.Controls.Add(this.linkLabel5);
+            this.panel6.Controls.Add(this.lblTalentPage5);
+            this.panel6.Controls.Add(this.chkActive5);
+            this.panel6.Controls.Add(this.linkTalent5);
             this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel6.Location = new System.Drawing.Point(4, 269);
             this.panel6.Name = "panel6";
@@ -6392,43 +6396,44 @@
             this.label9.Text = "Active?";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label10
+            // lblTalentPage5
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(75, 25);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(22, 9);
-            this.label10.TabIndex = 3;
-            this.label10.Text = "Page";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage5.AutoSize = true;
+            this.lblTalentPage5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage5.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage5.Name = "lblTalentPage5";
+            this.lblTalentPage5.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage5.TabIndex = 3;
+            this.lblTalentPage5.Text = "Page";
+            this.lblTalentPage5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox5
+            // chkActive5
             // 
-            this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox5.Location = new System.Drawing.Point(3, 22);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(13, 13);
-            this.checkBox5.TabIndex = 2;
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.chkActive5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive5.Location = new System.Drawing.Point(3, 22);
+            this.chkActive5.Name = "chkActive5";
+            this.chkActive5.Size = new System.Drawing.Size(13, 13);
+            this.chkActive5.TabIndex = 2;
+            this.chkActive5.UseVisualStyleBackColor = true;
             // 
-            // linkLabel5
+            // linkTalent5
             // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel5.TabIndex = 1;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Text = "Talent";
+            this.linkTalent5.AutoSize = true;
+            this.linkTalent5.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent5.Name = "linkTalent5";
+            this.linkTalent5.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent5.TabIndex = 1;
+            this.linkTalent5.TabStop = true;
+            this.linkTalent5.Text = "Talent";
+            this.linkTalent5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.label7);
-            this.panel5.Controls.Add(this.label8);
-            this.panel5.Controls.Add(this.checkBox4);
-            this.panel5.Controls.Add(this.linkLabel4);
+            this.panel5.Controls.Add(this.lblTalentPage4);
+            this.panel5.Controls.Add(this.chkActive4);
+            this.panel5.Controls.Add(this.linkTalent4);
             this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel5.Location = new System.Drawing.Point(4, 223);
             this.panel5.Name = "panel5";
@@ -6446,43 +6451,44 @@
             this.label7.Text = "Active?";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label8
+            // lblTalentPage4
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(75, 25);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(22, 9);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "Page";
-            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage4.AutoSize = true;
+            this.lblTalentPage4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage4.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage4.Name = "lblTalentPage4";
+            this.lblTalentPage4.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage4.TabIndex = 3;
+            this.lblTalentPage4.Text = "Page";
+            this.lblTalentPage4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox4
+            // chkActive4
             // 
-            this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(3, 22);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(13, 13);
-            this.checkBox4.TabIndex = 2;
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.chkActive4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive4.Location = new System.Drawing.Point(3, 22);
+            this.chkActive4.Name = "chkActive4";
+            this.chkActive4.Size = new System.Drawing.Size(13, 13);
+            this.chkActive4.TabIndex = 2;
+            this.chkActive4.UseVisualStyleBackColor = true;
             // 
-            // linkLabel4
+            // linkTalent4
             // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel4.TabIndex = 1;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Talent";
+            this.linkTalent4.AutoSize = true;
+            this.linkTalent4.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent4.Name = "linkTalent4";
+            this.linkTalent4.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent4.TabIndex = 1;
+            this.linkTalent4.TabStop = true;
+            this.linkTalent4.Text = "Talent";
+            this.linkTalent4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.label5);
-            this.panel4.Controls.Add(this.label6);
-            this.panel4.Controls.Add(this.checkBox3);
-            this.panel4.Controls.Add(this.linkLabel3);
+            this.panel4.Controls.Add(this.lblTalentPage3);
+            this.panel4.Controls.Add(this.chkActive3);
+            this.panel4.Controls.Add(this.linkTalent3);
             this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel4.Location = new System.Drawing.Point(4, 177);
             this.panel4.Name = "panel4";
@@ -6500,43 +6506,44 @@
             this.label5.Text = "Active?";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label6
+            // lblTalentPage3
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(75, 25);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(22, 9);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "Page";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage3.AutoSize = true;
+            this.lblTalentPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage3.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage3.Name = "lblTalentPage3";
+            this.lblTalentPage3.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage3.TabIndex = 3;
+            this.lblTalentPage3.Text = "Page";
+            this.lblTalentPage3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox3
+            // chkActive3
             // 
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(3, 22);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(13, 13);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.chkActive3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive3.Location = new System.Drawing.Point(3, 22);
+            this.chkActive3.Name = "chkActive3";
+            this.chkActive3.Size = new System.Drawing.Size(13, 13);
+            this.chkActive3.TabIndex = 2;
+            this.chkActive3.UseVisualStyleBackColor = true;
             // 
-            // linkLabel3
+            // linkTalent3
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel3.TabIndex = 1;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Talent";
+            this.linkTalent3.AutoSize = true;
+            this.linkTalent3.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent3.Name = "linkTalent3";
+            this.linkTalent3.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent3.TabIndex = 1;
+            this.linkTalent3.TabStop = true;
+            this.linkTalent3.Text = "Talent";
+            this.linkTalent3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label3);
-            this.panel3.Controls.Add(this.label4);
-            this.panel3.Controls.Add(this.checkBox2);
-            this.panel3.Controls.Add(this.linkLabel2);
+            this.panel3.Controls.Add(this.lblTalentPage2);
+            this.panel3.Controls.Add(this.chkActive2);
+            this.panel3.Controls.Add(this.linkTalent2);
             this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel3.Location = new System.Drawing.Point(4, 131);
             this.panel3.Name = "panel3";
@@ -6554,43 +6561,44 @@
             this.label3.Text = "Active?";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label4
+            // lblTalentPage2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(75, 25);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(22, 9);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Page";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage2.AutoSize = true;
+            this.lblTalentPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage2.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage2.Name = "lblTalentPage2";
+            this.lblTalentPage2.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage2.TabIndex = 3;
+            this.lblTalentPage2.Text = "Page";
+            this.lblTalentPage2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox2
+            // chkActive2
             // 
-            this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(3, 22);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(13, 13);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkActive2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive2.Location = new System.Drawing.Point(3, 22);
+            this.chkActive2.Name = "chkActive2";
+            this.chkActive2.Size = new System.Drawing.Size(13, 13);
+            this.chkActive2.TabIndex = 2;
+            this.chkActive2.UseVisualStyleBackColor = true;
             // 
-            // linkLabel2
+            // linkTalent2
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel2.TabIndex = 1;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Talent";
+            this.linkTalent2.AutoSize = true;
+            this.linkTalent2.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent2.Name = "linkTalent2";
+            this.linkTalent2.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent2.TabIndex = 1;
+            this.linkTalent2.TabStop = true;
+            this.linkTalent2.Text = "Talent";
+            this.linkTalent2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.checkBox1);
-            this.panel2.Controls.Add(this.linkLabel1);
+            this.panel2.Controls.Add(this.lblTalentPage1);
+            this.panel2.Controls.Add(this.chkActive1);
+            this.panel2.Controls.Add(this.linkTalent1);
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(4, 85);
             this.panel2.Name = "panel2";
@@ -6608,41 +6616,42 @@
             this.label1.Text = "Active?";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label2
+            // lblTalentPage1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(75, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(22, 9);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Page";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage1.AutoSize = true;
+            this.lblTalentPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage1.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage1.Name = "lblTalentPage1";
+            this.lblTalentPage1.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage1.TabIndex = 3;
+            this.lblTalentPage1.Text = "Page";
+            this.lblTalentPage1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // checkBox1
+            // chkActive1
             // 
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(3, 22);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(13, 13);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkActive1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkActive1.Location = new System.Drawing.Point(3, 22);
+            this.chkActive1.Name = "chkActive1";
+            this.chkActive1.Size = new System.Drawing.Size(13, 13);
+            this.chkActive1.TabIndex = 2;
+            this.chkActive1.UseVisualStyleBackColor = true;
             // 
-            // linkLabel1
+            // linkTalent1
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(3, 0);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(30, 12);
-            this.linkLabel1.TabIndex = 1;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Talent";
+            this.linkTalent1.AutoSize = true;
+            this.linkTalent1.Location = new System.Drawing.Point(3, 0);
+            this.linkTalent1.Name = "linkTalent1";
+            this.linkTalent1.Size = new System.Drawing.Size(30, 12);
+            this.linkTalent1.TabIndex = 1;
+            this.linkTalent1.TabStop = true;
+            this.linkTalent1.Text = "Talent";
+            this.linkTalent1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lblActive0);
-            this.panel1.Controls.Add(this.lblPage0);
+            this.panel1.Controls.Add(this.lblTalentPage0);
             this.panel1.Controls.Add(this.chkActive0);
             this.panel1.Controls.Add(this.linkTalent0);
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -6662,16 +6671,16 @@
             this.lblActive0.Text = "Active?";
             this.lblActive0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // lblPage0
+            // lblTalentPage0
             // 
-            this.lblPage0.AutoSize = true;
-            this.lblPage0.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPage0.Location = new System.Drawing.Point(75, 25);
-            this.lblPage0.Name = "lblPage0";
-            this.lblPage0.Size = new System.Drawing.Size(22, 9);
-            this.lblPage0.TabIndex = 3;
-            this.lblPage0.Text = "Page";
-            this.lblPage0.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblTalentPage0.AutoSize = true;
+            this.lblTalentPage0.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTalentPage0.Location = new System.Drawing.Point(75, 25);
+            this.lblTalentPage0.Name = "lblTalentPage0";
+            this.lblTalentPage0.Size = new System.Drawing.Size(22, 9);
+            this.lblTalentPage0.TabIndex = 3;
+            this.lblTalentPage0.Text = "Page";
+            this.lblTalentPage0.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // chkActive0
             // 
@@ -6691,6 +6700,7 @@
             this.linkTalent0.TabIndex = 1;
             this.linkTalent0.TabStop = true;
             this.linkTalent0.Text = "Talent";
+            this.linkTalent0.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkTalent_LinkClicked);
             // 
             // panelSkills
             // 
@@ -7031,7 +7041,7 @@
             // panelTalents
             // 
             this.panelTalents.BackColor = System.Drawing.Color.Transparent;
-            this.panelTalents.Controls.Add(this.panel26);
+            this.panelTalents.Controls.Add(this.panelTalentDetail);
             this.panelTalents.Controls.Add(this.lblTier5);
             this.panelTalents.Controls.Add(this.panel1);
             this.panelTalents.Controls.Add(this.lblTier4);
@@ -7082,13 +7092,23 @@
             // btnTalents
             // 
             this.btnTalents.BackColor = System.Drawing.SystemColors.Info;
-            this.btnTalents.Location = new System.Drawing.Point(86, 242);
+            this.btnTalents.Location = new System.Drawing.Point(85, 242);
             this.btnTalents.Name = "btnTalents";
             this.btnTalents.Size = new System.Drawing.Size(75, 23);
             this.btnTalents.TabIndex = 687;
             this.btnTalents.Text = "&Talents";
             this.btnTalents.UseVisualStyleBackColor = false;
             this.btnTalents.Click += new System.EventHandler(this.btnTalents_Click);
+            // 
+            // lblAbilities
+            // 
+            this.lblAbilities.BackColor = System.Drawing.SystemColors.Info;
+            this.lblAbilities.Location = new System.Drawing.Point(160, 242);
+            this.lblAbilities.Name = "lblAbilities";
+            this.lblAbilities.Size = new System.Drawing.Size(75, 23);
+            this.lblAbilities.TabIndex = 688;
+            this.lblAbilities.Text = "&Abilities";
+            this.lblAbilities.UseVisualStyleBackColor = false;
             // 
             // frmGenesys
             // 
@@ -7097,6 +7117,7 @@
             this.BackgroundImage = global::Genesys_Character_Builder.Properties.Resources.terrinoth_background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(667, 729);
+            this.Controls.Add(this.lblAbilities);
             this.Controls.Add(this.btnTalents);
             this.Controls.Add(this.btnSkills);
             this.Controls.Add(this.panelTalents);
@@ -7166,9 +7187,8 @@
             this.Load += new System.EventHandler(this.frmGenesys_Load);
             this.panelSkillDetail.ResumeLayout(false);
             this.panelSkillDetail.PerformLayout();
-            this.panel26.ResumeLayout(false);
-            this.panel26.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nudTier)).EndInit();
+            this.panelTalentDetail.ResumeLayout(false);
+            this.panelTalentDetail.PerformLayout();
             this.panel23.ResumeLayout(false);
             this.panel23.PerformLayout();
             this.panel24.ResumeLayout(false);
@@ -7617,7 +7637,7 @@
         private System.Windows.Forms.TextBox txtSkill;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblActive0;
-        private System.Windows.Forms.Label lblPage0;
+        private System.Windows.Forms.Label lblTalentPage0;
         private System.Windows.Forms.CheckBox chkActive0;
         private System.Windows.Forms.LinkLabel linkTalent0;
         private System.Windows.Forms.Label lblTier5;
@@ -7627,136 +7647,136 @@
         private System.Windows.Forms.Label lblTier1;
         private System.Windows.Forms.Panel panel23;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.LinkLabel linkLabel22;
+        private System.Windows.Forms.Label lblTalentPage24;
+        private System.Windows.Forms.CheckBox chkActive24;
+        private System.Windows.Forms.LinkLabel linkTalent24;
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.LinkLabel linkLabel23;
+        private System.Windows.Forms.Label lblTalentPage23;
+        private System.Windows.Forms.CheckBox chkActive23;
+        private System.Windows.Forms.LinkLabel linkTalent23;
         private System.Windows.Forms.Panel panel25;
         private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.LinkLabel linkLabel24;
+        private System.Windows.Forms.Label lblTalentPage22;
+        private System.Windows.Forms.CheckBox chkActive22;
+        private System.Windows.Forms.LinkLabel linkTalent22;
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.LinkLabel linkLabel18;
+        private System.Windows.Forms.Label lblTalentPage21;
+        private System.Windows.Forms.CheckBox chkActive21;
+        private System.Windows.Forms.LinkLabel linkTalent21;
         private System.Windows.Forms.Panel panel20;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.LinkLabel linkLabel19;
+        private System.Windows.Forms.Label lblTalentPage20;
+        private System.Windows.Forms.CheckBox chkActive20;
+        private System.Windows.Forms.LinkLabel linkTalent20;
         private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.LinkLabel linkLabel20;
+        private System.Windows.Forms.Label lblTalentPage19;
+        private System.Windows.Forms.CheckBox chkActive19;
+        private System.Windows.Forms.LinkLabel linkTalent19;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.LinkLabel linkLabel21;
+        private System.Windows.Forms.Label lblTalentPage18;
+        private System.Windows.Forms.CheckBox chkActive18;
+        private System.Windows.Forms.LinkLabel linkTalent18;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.LinkLabel linkLabel13;
+        private System.Windows.Forms.Label lblTalentPage17;
+        private System.Windows.Forms.CheckBox chkActive17;
+        private System.Windows.Forms.LinkLabel linkTalent17;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.LinkLabel linkLabel14;
+        private System.Windows.Forms.Label lblTalentPage16;
+        private System.Windows.Forms.CheckBox chkActive16;
+        private System.Windows.Forms.LinkLabel linkTalent16;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.LinkLabel linkLabel15;
+        private System.Windows.Forms.Label lblTalentPage15;
+        private System.Windows.Forms.CheckBox chkActive15;
+        private System.Windows.Forms.LinkLabel linkTalent15;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.LinkLabel linkLabel16;
+        private System.Windows.Forms.Label lblTalentPage14;
+        private System.Windows.Forms.CheckBox chkActive14;
+        private System.Windows.Forms.LinkLabel linkTalent14;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.LinkLabel linkLabel17;
+        private System.Windows.Forms.Label lblTalentPage13;
+        private System.Windows.Forms.CheckBox chkActive13;
+        private System.Windows.Forms.LinkLabel linkTalent13;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.LinkLabel linkLabel7;
+        private System.Windows.Forms.Label lblTalentPage12;
+        private System.Windows.Forms.CheckBox chkActive12;
+        private System.Windows.Forms.LinkLabel linkTalent12;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.LinkLabel linkLabel8;
+        private System.Windows.Forms.Label lblTalentPage11;
+        private System.Windows.Forms.CheckBox chkActive11;
+        private System.Windows.Forms.LinkLabel linkTalent11;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.LinkLabel linkLabel9;
+        private System.Windows.Forms.Label lblTalentPage10;
+        private System.Windows.Forms.CheckBox chkActive10;
+        private System.Windows.Forms.LinkLabel linkTalent10;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.LinkLabel linkLabel10;
+        private System.Windows.Forms.Label lblTalentPage9;
+        private System.Windows.Forms.CheckBox chkActive9;
+        private System.Windows.Forms.LinkLabel linkTalent9;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.LinkLabel linkLabel11;
+        private System.Windows.Forms.Label lblTalentPage8;
+        private System.Windows.Forms.CheckBox chkActive8;
+        private System.Windows.Forms.LinkLabel linkTalent8;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.LinkLabel linkLabel12;
+        private System.Windows.Forms.Label lblTalentPage7;
+        private System.Windows.Forms.CheckBox chkActive7;
+        private System.Windows.Forms.LinkLabel linkTalent7;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.LinkLabel linkLabel6;
+        private System.Windows.Forms.Label lblTalentPage6;
+        private System.Windows.Forms.CheckBox chkActive6;
+        private System.Windows.Forms.LinkLabel linkTalent6;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.LinkLabel linkLabel5;
+        private System.Windows.Forms.Label lblTalentPage5;
+        private System.Windows.Forms.CheckBox chkActive5;
+        private System.Windows.Forms.LinkLabel linkTalent5;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.LinkLabel linkLabel4;
+        private System.Windows.Forms.Label lblTalentPage4;
+        private System.Windows.Forms.CheckBox chkActive4;
+        private System.Windows.Forms.LinkLabel linkTalent4;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.Label lblTalentPage3;
+        private System.Windows.Forms.CheckBox chkActive3;
+        private System.Windows.Forms.LinkLabel linkTalent3;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.Label lblTalentPage2;
+        private System.Windows.Forms.CheckBox chkActive2;
+        private System.Windows.Forms.LinkLabel linkTalent2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.Panel panel26;
-        private System.Windows.Forms.Label lblTier;
-        private System.Windows.Forms.Label lblPageNumber;
+        private System.Windows.Forms.Label lblTalentPage1;
+        private System.Windows.Forms.CheckBox chkActive1;
+        private System.Windows.Forms.LinkLabel linkTalent1;
+        private System.Windows.Forms.Panel panelTalentDetail;
+        private System.Windows.Forms.Label lblTalentTier;
+        private System.Windows.Forms.Label lblTalentPageNumber;
         private System.Windows.Forms.CheckBox chkActive;
-        private System.Windows.Forms.TextBox txtPageNumber;
-        private System.Windows.Forms.TextBox txtDescription;
-        private System.Windows.Forms.NumericUpDown nudTier;
+        private System.Windows.Forms.TextBox txtTalentPageNumber;
+        private System.Windows.Forms.TextBox txtTalentDescription;
         private System.Windows.Forms.TextBox txtTalentName;
         private System.Windows.Forms.Panel panelSkills;
         private System.Windows.Forms.Panel panelTalents;
         private System.Windows.Forms.Button btnSkills;
         private System.Windows.Forms.Button btnTalents;
+        private System.Windows.Forms.Button lblAbilities;
     }
 }
 
