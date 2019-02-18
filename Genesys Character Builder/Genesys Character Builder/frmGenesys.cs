@@ -790,6 +790,111 @@ namespace Genesys_Character_Builder
             }
         }
 
+        private void btnPlus_Click(object sender, EventArgs e)
+        {
+            Button myButton;
+            myButton = (Button)sender;
+
+
+            int buttonNumber = int.Parse(myButton.Name.Substring(4));
+            switch (buttonNumber)
+            {
+                case 1:
+                    int tempBrawn = myCharacter.Brawn;
+                    incrementCharacteristicUp(ref tempBrawn);
+                    myCharacter.Brawn = tempBrawn;
+                    break;
+                case 2:
+                    int tempAgility = myCharacter.Agility;
+                    incrementCharacteristicUp(ref tempAgility);
+                    myCharacter.Agility = tempAgility;
+                    break;
+                case 3:
+                    int tempIntellect = myCharacter.Intellect;
+                    incrementCharacteristicUp(ref tempIntellect);
+                    myCharacter.Intellect = tempIntellect;
+                    break;
+                case 4:
+                    int tempCunning = myCharacter.Cunning;
+                    incrementCharacteristicUp(ref tempCunning);
+                    myCharacter.Cunning = tempCunning;
+                    break;
+                case 5:
+                    int tempWillpower = myCharacter.Willpower;
+                    incrementCharacteristicUp(ref tempWillpower);
+                    myCharacter.Willpower = tempWillpower;
+                    break;
+                case 6:
+                    int tempPresence = myCharacter.Presence;
+                    incrementCharacteristicUp(ref tempPresence);
+                    myCharacter.Presence = tempPresence;
+                    break;
+            }
+        }
+
+        private void btnMinus_Click(object sender, EventArgs e)
+        {
+            Button myButton;
+            myButton = (Button)sender;
+
+            int buttonNumber = int.Parse(myButton.Name.Substring(4));
+            switch (buttonNumber)
+            {
+                case 1:
+                    int tempBrawn = myCharacter.Brawn;
+                    incrementCharacteristicDown(ref tempBrawn);
+                    myCharacter.Brawn = tempBrawn;
+                    break;
+                case 2:
+                    int tempAgility = myCharacter.Agility;
+                    incrementCharacteristicDown(ref tempAgility);
+                    myCharacter.Agility = tempAgility;
+                    break;
+                case 3:
+                    int tempIntellect = myCharacter.Intellect;
+                    incrementCharacteristicDown(ref tempIntellect);
+                    myCharacter.Intellect = tempIntellect;
+                    break;
+                case 4:
+                    int tempCunning = myCharacter.Cunning;
+                    incrementCharacteristicDown(ref tempCunning);
+                    myCharacter.Cunning = tempCunning;
+                    break;
+                case 5:
+                    int tempWillpower = myCharacter.Willpower;
+                    incrementCharacteristicDown(ref tempWillpower);
+                    myCharacter.Willpower = tempWillpower;
+                    break;
+                case 6:
+                    int tempPresence = myCharacter.Presence;
+                    incrementCharacteristicDown(ref tempPresence);
+                    myCharacter.Presence = tempPresence;
+                    break;
+            }
+        }
+
+        //function to increment characteristic and used XP up
+        private void incrementCharacteristicUp(ref int characteristic)
+        {
+            if (characteristic < 5)
+            {
+                characteristic += 1;
+                myCharacter.UsedXP += characteristic * 10;
+                //runUpdates();
+            }
+        }
+
+        //function to increment characteristic and used XP down
+        private void incrementCharacteristicDown(ref int characteristic)
+        {
+            if (characteristic > 1)
+            {
+                myCharacter.UsedXP -= characteristic * 10;
+                characteristic -= 1;
+                //runUpdates();
+            }
+        }
+
         private void updateLabelColors()
         {
             switch (myCharacter.Setting)

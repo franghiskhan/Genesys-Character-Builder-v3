@@ -1075,6 +1075,7 @@
             this.btnM1.TabIndex = 136;
             this.btnM1.Text = "-";
             this.btnM1.UseVisualStyleBackColor = false;
+            this.btnM1.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnP1
             // 
@@ -1093,6 +1094,7 @@
             this.btnP1.TabIndex = 135;
             this.btnP1.Text = "+";
             this.btnP1.UseVisualStyleBackColor = false;
+            this.btnP1.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // lblPresenceVal
             // 
