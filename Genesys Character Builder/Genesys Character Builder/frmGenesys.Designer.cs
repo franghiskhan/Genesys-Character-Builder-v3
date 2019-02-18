@@ -86,6 +86,7 @@
             this.lblSpecies = new System.Windows.Forms.Label();
             this.lblCharacterName = new System.Windows.Forms.Label();
             this.panelSkillDetail = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.btnSkillsCancel = new System.Windows.Forms.Button();
             this.btnSkillsSave = new System.Windows.Forms.Button();
             this.txtSkillDescription = new System.Windows.Forms.TextBox();
@@ -560,7 +561,6 @@
             this.btnSkills = new System.Windows.Forms.Button();
             this.btnTalents = new System.Windows.Forms.Button();
             this.lblAbilities = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.panelSkillDetail.SuspendLayout();
             this.panelTalentDetail.SuspendLayout();
             this.panel23.SuspendLayout();
@@ -825,6 +825,7 @@
             this.btnP6.TabIndex = 145;
             this.btnP6.Text = "+";
             this.btnP6.UseVisualStyleBackColor = false;
+            this.btnP6.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnM6
             // 
@@ -843,6 +844,7 @@
             this.btnM6.TabIndex = 146;
             this.btnM6.Text = "-";
             this.btnM6.UseVisualStyleBackColor = false;
+            this.btnM6.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnP5
             // 
@@ -861,6 +863,7 @@
             this.btnP5.TabIndex = 143;
             this.btnP5.Text = "+";
             this.btnP5.UseVisualStyleBackColor = false;
+            this.btnP5.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // txtStrainCurrent
             // 
@@ -949,6 +952,7 @@
             this.btnM5.TabIndex = 144;
             this.btnM5.Text = "-";
             this.btnM5.UseVisualStyleBackColor = false;
+            this.btnM5.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnP4
             // 
@@ -967,6 +971,7 @@
             this.btnP4.TabIndex = 141;
             this.btnP4.Text = "+";
             this.btnP4.UseVisualStyleBackColor = false;
+            this.btnP4.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnM4
             // 
@@ -985,6 +990,7 @@
             this.btnM4.TabIndex = 142;
             this.btnM4.Text = "-";
             this.btnM4.UseVisualStyleBackColor = false;
+            this.btnM4.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnP3
             // 
@@ -1003,6 +1009,7 @@
             this.btnP3.TabIndex = 138;
             this.btnP3.Text = "+";
             this.btnP3.UseVisualStyleBackColor = false;
+            this.btnP3.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnM3
             // 
@@ -1021,6 +1028,7 @@
             this.btnM3.TabIndex = 140;
             this.btnM3.Text = "-";
             this.btnM3.UseVisualStyleBackColor = false;
+            this.btnM3.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnP2
             // 
@@ -1039,6 +1047,7 @@
             this.btnP2.TabIndex = 137;
             this.btnP2.Text = "+";
             this.btnP2.UseVisualStyleBackColor = false;
+            this.btnP2.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnM2
             // 
@@ -1057,6 +1066,7 @@
             this.btnM2.TabIndex = 139;
             this.btnM2.Text = "-";
             this.btnM2.UseVisualStyleBackColor = false;
+            this.btnM2.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnM1
             // 
@@ -1319,6 +1329,15 @@
             this.panelSkillDetail.Size = new System.Drawing.Size(212, 159);
             this.panelSkillDetail.TabIndex = 685;
             this.panelSkillDetail.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(117, 106);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 688;
+            this.label2.Text = "label2";
             // 
             // btnSkillsCancel
             // 
@@ -7179,15 +7198,6 @@
             this.lblAbilities.TabIndex = 688;
             this.lblAbilities.Text = "&Abilities";
             this.lblAbilities.UseVisualStyleBackColor = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(117, 106);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 688;
-            this.label2.Text = "label2";
             // 
             // frmGenesys
             // 

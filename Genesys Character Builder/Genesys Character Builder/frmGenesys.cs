@@ -880,7 +880,7 @@ namespace Genesys_Character_Builder
             {
                 characteristic += 1;
                 myCharacter.UsedXP += characteristic * 10;
-                //runUpdates();
+                updateForm();
             }
         }
 
@@ -891,7 +891,7 @@ namespace Genesys_Character_Builder
             {
                 myCharacter.UsedXP -= characteristic * 10;
                 characteristic -= 1;
-                //runUpdates();
+                updateForm();
             }
         }
 
