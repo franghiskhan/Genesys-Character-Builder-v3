@@ -86,7 +86,6 @@
             this.lblSpecies = new System.Windows.Forms.Label();
             this.lblCharacterName = new System.Windows.Forms.Label();
             this.panelSkillDetail = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.btnSkillsCancel = new System.Windows.Forms.Button();
             this.btnSkillsSave = new System.Windows.Forms.Button();
             this.txtSkillDescription = new System.Windows.Forms.TextBox();
@@ -1318,7 +1317,6 @@
             // 
             // panelSkillDetail
             // 
-            this.panelSkillDetail.Controls.Add(this.label2);
             this.panelSkillDetail.Controls.Add(this.btnSkillsCancel);
             this.panelSkillDetail.Controls.Add(this.btnSkillsSave);
             this.panelSkillDetail.Controls.Add(this.txtSkillDescription);
@@ -1329,15 +1327,6 @@
             this.panelSkillDetail.Size = new System.Drawing.Size(212, 159);
             this.panelSkillDetail.TabIndex = 685;
             this.panelSkillDetail.Visible = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(117, 106);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 688;
-            this.label2.Text = "label2";
             // 
             // btnSkillsCancel
             // 
@@ -7869,7 +7858,6 @@
         private System.Windows.Forms.Button btnSkillsSave;
         private System.Windows.Forms.Button btnTalentCancel;
         private System.Windows.Forms.Button btnTalentSave;
-        private System.Windows.Forms.Label label2;
     }
 }
 

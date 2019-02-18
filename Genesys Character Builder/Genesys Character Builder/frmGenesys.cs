@@ -800,36 +800,50 @@ namespace Genesys_Character_Builder
             switch (buttonNumber)
             {
                 case 1:
-                    int tempBrawn = myCharacter.Brawn;
-                    incrementCharacteristicUp(ref tempBrawn);
-                    myCharacter.Brawn = tempBrawn;
+                    if (myCharacter.Brawn < 5)
+                    {
+                        myCharacter.Brawn += 1;
+                        myCharacter.UsedXP += myCharacter.Brawn * 10;
+                    }
                     break;
                 case 2:
-                    int tempAgility = myCharacter.Agility;
-                    incrementCharacteristicUp(ref tempAgility);
-                    myCharacter.Agility = tempAgility;
+                    if (myCharacter.Agility < 5)
+                    {
+                        myCharacter.Agility += 1;
+                        myCharacter.UsedXP += myCharacter.Agility * 10;
+                    }
                     break;
                 case 3:
-                    int tempIntellect = myCharacter.Intellect;
-                    incrementCharacteristicUp(ref tempIntellect);
-                    myCharacter.Intellect = tempIntellect;
+                    if (myCharacter.Intellect < 5)
+                    {
+                        myCharacter.Intellect += 1;
+                        myCharacter.UsedXP += myCharacter.Intellect * 10;
+                    }
                     break;
                 case 4:
-                    int tempCunning = myCharacter.Cunning;
-                    incrementCharacteristicUp(ref tempCunning);
-                    myCharacter.Cunning = tempCunning;
+                    if (myCharacter.Cunning < 5)
+                    {
+                        myCharacter.Cunning += 1;
+                        myCharacter.UsedXP += myCharacter.Cunning * 10;
+                    }
                     break;
                 case 5:
-                    int tempWillpower = myCharacter.Willpower;
-                    incrementCharacteristicUp(ref tempWillpower);
-                    myCharacter.Willpower = tempWillpower;
+                    if (myCharacter.Willpower < 5)
+                    {
+                        myCharacter.Willpower += 1;
+                        myCharacter.UsedXP += myCharacter.Willpower * 10;
+                    }
                     break;
                 case 6:
-                    int tempPresence = myCharacter.Presence;
-                    incrementCharacteristicUp(ref tempPresence);
-                    myCharacter.Presence = tempPresence;
+                    if (myCharacter.Presence < 5)
+                    {
+                        myCharacter.Presence += 1;
+                        myCharacter.UsedXP += myCharacter.Presence * 10;
+                        
+                    }
                     break;
             }
+            updateForm();
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
@@ -841,58 +855,49 @@ namespace Genesys_Character_Builder
             switch (buttonNumber)
             {
                 case 1:
-                    int tempBrawn = myCharacter.Brawn;
-                    incrementCharacteristicDown(ref tempBrawn);
-                    myCharacter.Brawn = tempBrawn;
+                    if (myCharacter.Brawn > 1)
+                    {
+                        myCharacter.UsedXP -= myCharacter.Brawn * 10;
+                        myCharacter.Brawn -= 1;
+                    }
                     break;
                 case 2:
-                    int tempAgility = myCharacter.Agility;
-                    incrementCharacteristicDown(ref tempAgility);
-                    myCharacter.Agility = tempAgility;
+                    if (myCharacter.Agility > 1)
+                    {
+                        myCharacter.UsedXP -= myCharacter.Agility * 10;
+                        myCharacter.Agility -= 1;
+                    }
                     break;
                 case 3:
-                    int tempIntellect = myCharacter.Intellect;
-                    incrementCharacteristicDown(ref tempIntellect);
-                    myCharacter.Intellect = tempIntellect;
+                    if (myCharacter.Intellect > 1)
+                    {
+                        myCharacter.UsedXP -= myCharacter.Intellect * 10;
+                        myCharacter.Intellect -= 1;
+                    }
                     break;
                 case 4:
-                    int tempCunning = myCharacter.Cunning;
-                    incrementCharacteristicDown(ref tempCunning);
-                    myCharacter.Cunning = tempCunning;
+                    if (myCharacter.Cunning > 1)
+                    {
+                        myCharacter.UsedXP -= myCharacter.Cunning * 10;
+                        myCharacter.Cunning -= 1;
+                    }
                     break;
                 case 5:
-                    int tempWillpower = myCharacter.Willpower;
-                    incrementCharacteristicDown(ref tempWillpower);
-                    myCharacter.Willpower = tempWillpower;
+                    if (myCharacter.Willpower > 1)
+                    {
+                        myCharacter.UsedXP -= myCharacter.Willpower * 10;
+                        myCharacter.Willpower -= 1;
+                    }
                     break;
                 case 6:
-                    int tempPresence = myCharacter.Presence;
-                    incrementCharacteristicDown(ref tempPresence);
-                    myCharacter.Presence = tempPresence;
+                    if (myCharacter.Presence > 1)
+                    {
+                        myCharacter.UsedXP -= myCharacter.Presence * 10;
+                        myCharacter.Presence -= 1;
+                    }
                     break;
             }
-        }
-
-        //function to increment characteristic and used XP up
-        private void incrementCharacteristicUp(ref int characteristic)
-        {
-            if (characteristic < 5)
-            {
-                characteristic += 1;
-                myCharacter.UsedXP += characteristic * 10;
-                updateForm();
-            }
-        }
-
-        //function to increment characteristic and used XP down
-        private void incrementCharacteristicDown(ref int characteristic)
-        {
-            if (characteristic > 1)
-            {
-                myCharacter.UsedXP -= characteristic * 10;
-                characteristic -= 1;
-                updateForm();
-            }
+            updateForm();
         }
 
         private void updateLabelColors()
@@ -999,11 +1004,10 @@ namespace Genesys_Character_Builder
                     //(CheckBox)Controls.Find("chkSkill" + i.ToString(), true).Checked = true;
                 }
 
-                label2.Text = myCharacter.Skills[35].ToString();
-                /*else
+                else
                 {
                     myCharacter.Skills[i].Career = false;
-                }*/
+                }
             }
 
             if (myCharacter.Skills[0].Career == true) chkCareer0.Checked = true;
