@@ -107,13 +107,13 @@ namespace Genesys_Character_Builder
             new SkillsTemplate("Forbidden", "Int", "TalentDescription", false, 0), //35
             new SkillsTemplate("Lore", "Int", "TalentDescription", false, 0), //36
             new SkillsTemplate("Geography", "Int", "TalentDescription", false, 0), //37
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //38
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //38
             //custom skills
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //39
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //40
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //41
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //42
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //43
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //39
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //40
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //41
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //42
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //43
         };
 
         private SkillsTemplate[] androidSkills = new SkillsTemplate[]
@@ -138,18 +138,18 @@ namespace Genesys_Character_Builder
             new SkillsTemplate("Survival", "Cun", "TalentDescription", false, 0), //16
             new SkillsTemplate("Vigilance", "Will", "TalentDescription", false, 0), //17
             //custom skills
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //18
-            new SkillsTemplate("Custom Skill", "", "TalentDescription", false, 0), //19
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //20
-            new SkillsTemplate("Custom Skill", "", "TalentDescription", false, 0), //21
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //22
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //18
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //19
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //20
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //21
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //22
             //combat
             new SkillsTemplate("Brawl", "Br", "TalentDescription", false, 0), //23
             new SkillsTemplate("Melee", "Br", "TalentDescription", false, 0), //24
             new SkillsTemplate("Ranged (Heavy)", "Ag", "TalentDescription", false, 0), //25
             new SkillsTemplate("Ranged (Light)", "Ag", "TalentDescription", false, 0), //26
             new SkillsTemplate("Gunnery", "Ag", "TalentDescription", false, 0), //27
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //28
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //28
             //social
             new SkillsTemplate("Charm", "Pr", "TalentDescription", false, 0), //29
             new SkillsTemplate("Coercion", "Will", "TalentDescription", false, 0), //30
@@ -160,14 +160,14 @@ namespace Genesys_Character_Builder
             new SkillsTemplate("Science", "Int", "TalentDescription", false, 0), //34
             new SkillsTemplate("Society", "Int", "TalentDescription", false, 0), //35
             new SkillsTemplate("The Net", "Int", "TalentDescription", false, 0), //36
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //37
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //38
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //37
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //38
             //custom
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //39
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //40
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //41
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //42
-            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //43
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //39
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //40
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //41
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //42
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //43
         };
 
         private TalentsTemplate[] talentsList =
@@ -370,6 +370,78 @@ namespace Genesys_Character_Builder
                     lblRemainingXPLabel.Visible = true;
                     break;
             }
+        }
+
+        private void addRankToStartingSkills(string skillToCheck)
+        {
+            for (int i = 0; i < myCharacter.Skills.Length; i++)
+            {
+                if (myCharacter.Skills[i].SkillName == skillToCheck)
+                {
+                    myCharacter.Skills[i].Rank += 1;
+                }
+            }
+        }
+
+        private void MarkCareerSkill(string skillToCheck)
+        {
+            for (int i = 0; i < myCharacter.Skills.Length; i++)
+            {
+                if (myCharacter.Skills[i].SkillName == skillToCheck)
+                {
+                    myCharacter.Skills[i].Career = true;
+                    //(CheckBox)Controls.Find("chkSkill" + i.ToString(), true).Checked = true;
+                }
+                else
+                {
+                    myCharacter.Skills[i].Career = false;
+                }
+            }
+
+            if (myCharacter.Skills[0].Career == true) chkCareer0.Checked = true;
+            if (myCharacter.Skills[1].Career == true) chkCareer1.Checked = true;
+            if (myCharacter.Skills[2].Career == true) chkCareer2.Checked = true;
+            if (myCharacter.Skills[3].Career == true) chkCareer3.Checked = true;
+            if (myCharacter.Skills[4].Career == true) chkCareer4.Checked = true;
+            if (myCharacter.Skills[5].Career == true) chkCareer5.Checked = true;
+            if (myCharacter.Skills[6].Career == true) chkCareer6.Checked = true;
+            if (myCharacter.Skills[7].Career == true) chkCareer7.Checked = true;
+            if (myCharacter.Skills[8].Career == true) chkCareer8.Checked = true;
+            if (myCharacter.Skills[9].Career == true) chkCareer9.Checked = true;
+            if (myCharacter.Skills[10].Career == true) chkCareer10.Checked = true;
+            if (myCharacter.Skills[11].Career == true) chkCareer11.Checked = true;
+            if (myCharacter.Skills[12].Career == true) chkCareer12.Checked = true;
+            if (myCharacter.Skills[13].Career == true) chkCareer13.Checked = true;
+            if (myCharacter.Skills[14].Career == true) chkCareer14.Checked = true;
+            if (myCharacter.Skills[15].Career == true) chkCareer15.Checked = true;
+            if (myCharacter.Skills[16].Career == true) chkCareer16.Checked = true;
+            if (myCharacter.Skills[17].Career == true) chkCareer17.Checked = true;
+            if (myCharacter.Skills[18].Career == true) chkCareer18.Checked = true;
+            if (myCharacter.Skills[19].Career == true) chkCareer19.Checked = true;
+            if (myCharacter.Skills[20].Career == true) chkCareer20.Checked = true;
+            if (myCharacter.Skills[21].Career == true) chkCareer21.Checked = true;
+            if (myCharacter.Skills[22].Career == true) chkCareer22.Checked = true;
+            if (myCharacter.Skills[23].Career == true) chkCareer23.Checked = true;
+            if (myCharacter.Skills[24].Career == true) chkCareer24.Checked = true;
+            if (myCharacter.Skills[25].Career == true) chkCareer25.Checked = true;
+            if (myCharacter.Skills[26].Career == true) chkCareer26.Checked = true;
+            if (myCharacter.Skills[27].Career == true) chkCareer27.Checked = true;
+            if (myCharacter.Skills[28].Career == true) chkCareer28.Checked = true;
+            if (myCharacter.Skills[29].Career == true) chkCareer29.Checked = true;
+            if (myCharacter.Skills[30].Career == true) chkCareer30.Checked = true;
+            if (myCharacter.Skills[31].Career == true) chkCareer31.Checked = true;
+            if (myCharacter.Skills[32].Career == true) chkCareer32.Checked = true;
+            if (myCharacter.Skills[33].Career == true) chkCareer33.Checked = true;
+            if (myCharacter.Skills[34].Career == true) chkCareer34.Checked = true;
+            if (myCharacter.Skills[35].Career == true) chkCareer35.Checked = true;
+            if (myCharacter.Skills[36].Career == true) chkCareer36.Checked = true;
+            if (myCharacter.Skills[37].Career == true) chkCareer37.Checked = true;
+            if (myCharacter.Skills[38].Career == true) chkCareer38.Checked = true;
+            if (myCharacter.Skills[39].Career == true) chkCareer39.Checked = true;
+            if (myCharacter.Skills[40].Career == true) chkCareer40.Checked = true;
+            if (myCharacter.Skills[41].Career == true) chkCareer41.Checked = true;
+            if (myCharacter.Skills[42].Career == true) chkCareer42.Checked = true;
+            if (myCharacter.Skills[43].Career == true) chkCareer43.Checked = true;
         }
 
         private void updateSkills()

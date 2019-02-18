@@ -7240,8 +7240,8 @@
             this.Controls.Add(this.lblSubSpecies);
             this.Controls.Add(this.lblSpecies);
             this.Controls.Add(this.lblCharacterName);
-            this.Controls.Add(this.panelTalents);
             this.Controls.Add(this.panelSkills);
+            this.Controls.Add(this.panelTalents);
             this.DoubleBuffered = true;
             this.Name = "frmGenesys";
             this.ShowIcon = false;
