@@ -563,6 +563,233 @@ namespace Genesys_Character_Builder
             updateForm();
         }
 
+        private void cboCareer_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            myCharacter.Career = cboCareer.Text;
+            switch (myCharacter.Career)
+            {
+                case "Disciple":
+                    MarkCareerSkill("Athletics");
+                    MarkCareerSkill("Charm");
+                    MarkCareerSkill("Discipline");
+                    MarkCareerSkill("Divine");
+                    MarkCareerSkill("Lore");
+                    MarkCareerSkill("Leadership");
+                    MarkCareerSkill("Melee-Light");
+                    MarkCareerSkill("Resilience");
+                    //Gear:
+                    //a mace
+                    //a holy icon or shield and leather armor
+                    //a lantern and 2 herbs of healing or traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
+                    //1d100 silver coins
+                    break;
+                case "Druid":
+                    MarkCareerSkill("Athletics");
+                    MarkCareerSkill("Brawl");
+                    MarkCareerSkill("Coordination");
+                    MarkCareerSkill("Melee");
+                    MarkCareerSkill("Primal");
+                    MarkCareerSkill("Resilience");
+                    MarkCareerSkill("Survival");
+                    MarkCareerSkill("Vigilance");
+                    break;
+                case "Entertainer":
+                    //Charm
+                    //Coordination
+                    //Deception
+                    //Discipline
+                    //Leadership
+                    //Melee
+                    //Skullduggery
+                    //Stealth
+                    break;
+                case "Envoy":
+                    MarkCareerSkill("Charm");
+                    MarkCareerSkill("Cool");
+                    MarkCareerSkill("Deception");
+                    MarkCareerSkill("Geography");
+                    MarkCareerSkill("Leadership");
+                    MarkCareerSkill("Melee-Light");
+                    MarkCareerSkill("Resilience");
+                    MarkCareerSkill("Vigilance");
+                    //Gear:
+                    //a dagger
+                    //a sword or musical instrument
+                    //a fine cloak or traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
+                    //padded armor
+                    //200 + 1d100 silver coins
+                    break;
+                case "Explorer":
+                    //Athletics
+                    //Brawl
+                    //Coordination
+                    //Deception
+                    //Perception
+                    //Ranged (or Ranged-Heavy)
+                    //Stealth
+                    //Survival
+                    break;
+                case "Healer":
+                    //Cool
+                    //Discipline
+                    //Knowledge
+                    //Medicine
+                    //Melee (or Melee-Light)
+                    //Resilience
+                    //Survival
+                    //Vigilance
+                    break;
+                case "Leader":
+                    //Charm
+                    //Coercion
+                    //Cool
+                    //Discipline
+                    //Leadership
+                    //Melee (or Melee-Light)
+                    //Negotiation
+                    //Perception
+                    break;
+                case "Mage":
+                    MarkCareerSkill("Alchemy");
+                    MarkCareerSkill("Arcana");
+                    MarkCareerSkill("Cool");
+                    MarkCareerSkill("Discipline");
+                    MarkCareerSkill("Adventuring");
+                    MarkCareerSkill("Forbidden");
+                    MarkCareerSkill("Lore");
+                    MarkCareerSkill("Perception");
+                    //Gear:
+                    //a magic staff or magic wand
+                    //a dagger or sling
+                    //heavy robes or 1 stamina elixir
+                    //1d100 silver coins
+                    break;
+                case "Primalist":
+                    MarkCareerSkill("Alchemy");
+                    MarkCareerSkill("Brawl");
+                    MarkCareerSkill("Discipline");
+                    MarkCareerSkill("Lore");
+                    MarkCareerSkill("Medicine");
+                    MarkCareerSkill("Melee-Heavy");
+                    MarkCareerSkill("Primal");
+                    MarkCareerSkill("Survival");
+                    //Gear:
+                    //a mace
+                    //a holy icon or shield and leather armor
+                    //a lantern and 2 herbs of healing or traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
+                    //1d100 silver coins
+                    break;
+                case "Runemaster":
+                    MarkCareerSkill("Alchemy");
+                    MarkCareerSkill("Cool");
+                    MarkCareerSkill("Discipline");
+                    MarkCareerSkill("Adventuring");
+                    MarkCareerSkill("Forbidden");
+                    MarkCareerSkill("Lore");
+                    MarkCareerSkill("Perception");
+                    MarkCareerSkill("Runes");
+                    //Gear:
+                    //a staff or greataxe and leather armor
+                    //an apothecary's kit or traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
+                    //1d100 silver coins
+                    break;
+                case "Scholar":
+                    MarkCareerSkill("Alchemy");
+                    MarkCareerSkill("Forbidden");
+                    MarkCareerSkill("Geography");
+                    MarkCareerSkill("Lore");
+                    MarkCareerSkill("Mechanics");
+                    MarkCareerSkill("Medicine");
+                    MarkCareerSkill("Perception");
+                    MarkCareerSkill("Runes");
+                    //Gear:
+                    //a dagger
+                    //an alchemist's kit or sword
+                    //a fine cloak or traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
+                    //1d100 silver coins
+                    break;
+                case "Scoundrel":
+                    MarkCareerSkill("Charm");
+                    MarkCareerSkill("Cool");
+                    MarkCareerSkill("Coordination");
+                    MarkCareerSkill("Deception");
+                    MarkCareerSkill("Ranged");
+                    MarkCareerSkill("Skullduggery");
+                    MarkCareerSkill("Stealth");
+                    MarkCareerSkill("Streetwise");
+                    //Gear:
+                    //a dagger or cestus
+                    //a sword and dagger or a bow
+                    //a fine cloak or thieve's tools
+                    //traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
+                    //1d100 silver coins
+                    break;
+                case "Scout":
+                    MarkCareerSkill("Adventuring");
+                    MarkCareerSkill("Geography");
+                    MarkCareerSkill("Perception");
+                    MarkCareerSkill("Ranged");
+                    MarkCareerSkill("Riding");
+                    MarkCareerSkill("Stealth");
+                    MarkCareerSkill("Survival");
+                    MarkCareerSkill("Vigilance");
+                    //Gear:
+                    //A bow or light spear and leather armor
+                    //a dagger or 2 healing elixirs
+                    //leather armor
+                    //herbs of healing and climbing gear or winter clothing
+                    //traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
+                    //1d100 silver coins
+                    break;
+                case "Socialite":
+                    //Charm
+                    //Cool
+                    //Deception
+                    //Knowledge
+                    //Negotiation
+                    //Perception
+                    //Streetwise
+                    //Vigilance
+                    break;
+                case "Soldier":
+                    //Athletics
+                    //Brawl (or Gunnery)
+                    //Coercion
+                    //Melee (or Melee-Heavy)
+                    //Perception
+                    //Ranged (or Ranged-Heavy
+                    //Survival
+                    //Vigilance
+                    break;
+                case "Tradesperson":
+                    //Athletics
+                    //Brawl
+                    //Discipline
+                    //Mechanics
+                    //Negotiation
+                    //Perception
+                    //Resilience
+                    //Streetwise
+                    break;
+                case "Warrior":
+                    MarkCareerSkill("Brawl");
+                    MarkCareerSkill("Coercion");
+                    MarkCareerSkill("Leadership");
+                    MarkCareerSkill("Melee-Heavy");
+                    MarkCareerSkill("Melee-Light");
+                    MarkCareerSkill("Resilience");
+                    MarkCareerSkill("Riding");
+                    MarkCareerSkill("Vigilance");
+                    //Gear:
+                    //A sword and shield or an axe and shield or a halberd
+                    //Leather armor
+                    //2 healing elixirs
+                    //traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
+                    //1d100 silver coins
+                    break;
+            }
+        }
+
         private void updateLabelColors()
         {
             switch (myCharacter.Setting)

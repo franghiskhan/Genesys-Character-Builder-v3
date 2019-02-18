@@ -1168,6 +1168,7 @@
             this.cboCareer.Name = "cboCareer";
             this.cboCareer.Size = new System.Drawing.Size(101, 21);
             this.cboCareer.TabIndex = 124;
+            this.cboCareer.SelectedIndexChanged += new System.EventHandler(this.cboCareer_SelectedIndexChanged);
             // 
             // cboSubSpecies
             // 
