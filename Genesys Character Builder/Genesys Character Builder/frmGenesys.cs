@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,9 @@ namespace Genesys_Character_Builder
         {
             InitializeComponent();
         }
+
+        private static int activeSkillLink;
+        private static int activeTalentLink;
 
         private CharacterTemplate myCharacter = new CharacterTemplate
         {
@@ -61,143 +65,143 @@ namespace Genesys_Character_Builder
         private SkillsTemplate[] terrinothSkills = new SkillsTemplate[]
         {
             //general
-            new SkillsTemplate("Alchemy", "Int", "Description", false, 0), //0
-            new SkillsTemplate("Athletics", "Br", "Description", false, 0), //1
-            new SkillsTemplate("Cool", "Pr", "Description", false, 0), //2
-            new SkillsTemplate("Coordination", "Ag", "Description", false, 0), //3
-            new SkillsTemplate("Discipline", "Will", "Description", false, 0), //4
-            new SkillsTemplate("Mechanics", "Int", "Description", false, 0), //5
-            new SkillsTemplate("Medicine", "Int", "Description", false, 0), //6
-            new SkillsTemplate("Perception", "Cun", "Description", false, 0), //7
-            new SkillsTemplate("Resilience", "Br", "Description", false, 0), //8
-            new SkillsTemplate("Riding", "Ag", "Description", false, 0), //9
-            new SkillsTemplate("Skullduggery", "Cun", "Description", false, 0), //10
-            new SkillsTemplate("Stealth", "Ag", "Description", false, 0), //11
-            new SkillsTemplate("Streetwise", "Cun", "Description", false, 0), //12
-            new SkillsTemplate("Survival", "Cun", "Description", false, 0), //13
-            new SkillsTemplate("Vigilance", "Will", "Description", false, 0), //14
-            new SkillsTemplate("Custom Skill", "--", "Description", false, 0), //15
-            new SkillsTemplate("Custom Skill", "--", "Description", false, 0), //16
-            new SkillsTemplate("Custom Skill", "--", "Description", false, 0), //17
+            new SkillsTemplate("Alchemy", "Int", "TalentDescription", false, 0), //0
+            new SkillsTemplate("Athletics", "Br", "TalentDescription", false, 0), //1
+            new SkillsTemplate("Cool", "Pr", "TalentDescription", false, 0), //2
+            new SkillsTemplate("Coordination", "Ag", "TalentDescription", false, 0), //3
+            new SkillsTemplate("Discipline", "Will", "TalentDescription", false, 0), //4
+            new SkillsTemplate("Mechanics", "Int", "TalentDescription", false, 0), //5
+            new SkillsTemplate("Medicine", "Int", "TalentDescription", false, 0), //6
+            new SkillsTemplate("Perception", "Cun", "TalentDescription", false, 0), //7
+            new SkillsTemplate("Resilience", "Br", "TalentDescription", false, 0), //8
+            new SkillsTemplate("Riding", "Ag", "TalentDescription", false, 0), //9
+            new SkillsTemplate("Skullduggery", "Cun", "TalentDescription", false, 0), //10
+            new SkillsTemplate("Stealth", "Ag", "TalentDescription", false, 0), //11
+            new SkillsTemplate("Streetwise", "Cun", "TalentDescription", false, 0), //12
+            new SkillsTemplate("Survival", "Cun", "TalentDescription", false, 0), //13
+            new SkillsTemplate("Vigilance", "Will", "TalentDescription", false, 0), //14
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //15
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //16
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //17
             //magic
-            new SkillsTemplate("Arcana", "Int", "Description", false, 0), //18
-            new SkillsTemplate("Divine", "Will", "Description", false, 0), //19
-            new SkillsTemplate("Primal", "Cun", "Description", false, 0), //20
-            new SkillsTemplate("Rune", "Int", "Description", false, 0), //21
-            new SkillsTemplate("Verse", "Pr", "Description", false, 0), //22
+            new SkillsTemplate("Arcana", "Int", "TalentDescription", false, 0), //18
+            new SkillsTemplate("Divine", "Will", "TalentDescription", false, 0), //19
+            new SkillsTemplate("Primal", "Cun", "TalentDescription", false, 0), //20
+            new SkillsTemplate("Rune", "Int", "TalentDescription", false, 0), //21
+            new SkillsTemplate("Verse", "Pr", "TalentDescription", false, 0), //22
             //combat
-            new SkillsTemplate("Brawl", "Br", "Description", false, 0), //23
-            new SkillsTemplate("Melee-Heavy", "Br", "Description", false, 0), //24
-            new SkillsTemplate("Melee-Light", "Br", "Description", false, 0), //25
-            new SkillsTemplate("Ranged", "Ag", "Description", false, 0), //26
-            new SkillsTemplate("Custom Skill", "--", "Description", false, 0), //27
-            new SkillsTemplate("Custom Skill", "--", "Description", false, 0), //28
+            new SkillsTemplate("Brawl", "Br", "TalentDescription", false, 0), //23
+            new SkillsTemplate("Melee-Heavy", "Br", "TalentDescription", false, 0), //24
+            new SkillsTemplate("Melee-Light", "Br", "TalentDescription", false, 0), //25
+            new SkillsTemplate("Ranged", "Ag", "TalentDescription", false, 0), //26
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //27
+            new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //28
             //social
-            new SkillsTemplate("Charm", "Pr", "Description", false, 0), //29
-            new SkillsTemplate("Coercion", "Will", "Description", false, 0), //30
-            new SkillsTemplate("Deception", "Cun", "Description", false, 0), //31
-            new SkillsTemplate("Leadership", "Pr", "Description", false, 0), //32
-            new SkillsTemplate("Negotiation", "Pr", "Description", false, 0), //33
+            new SkillsTemplate("Charm", "Pr", "TalentDescription", false, 0), //29
+            new SkillsTemplate("Coercion", "Will", "TalentDescription", false, 0), //30
+            new SkillsTemplate("Deception", "Cun", "TalentDescription", false, 0), //31
+            new SkillsTemplate("Leadership", "Pr", "TalentDescription", false, 0), //32
+            new SkillsTemplate("Negotiation", "Pr", "TalentDescription", false, 0), //33
             //knowledge
-            new SkillsTemplate("Adventuring", "Int", "Description", false, 0), //34
-            new SkillsTemplate("Forbidden", "Int", "Description", false, 0), //35
-            new SkillsTemplate("Lore", "Int", "Description", false, 0), //36
-            new SkillsTemplate("Geography", "Int", "Description", false, 0), //37
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //38
+            new SkillsTemplate("Adventuring", "Int", "TalentDescription", false, 0), //34
+            new SkillsTemplate("Forbidden", "Int", "TalentDescription", false, 0), //35
+            new SkillsTemplate("Lore", "Int", "TalentDescription", false, 0), //36
+            new SkillsTemplate("Geography", "Int", "TalentDescription", false, 0), //37
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //38
             //custom skills
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //39
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //40
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //41
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //42
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //43
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //39
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //40
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //41
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //42
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //43
         };
 
         private SkillsTemplate[] androidSkills = new SkillsTemplate[]
         {
             //general
-            new SkillsTemplate("Athletics", "Br", "Description", false, 0), //0
-            new SkillsTemplate("Comp (Hacking)", "Int", "Description", false, 0), //1
-            new SkillsTemplate("Comp (SysOps)", "Int", "Description", false, 0), //2
-            new SkillsTemplate("Cool", "Pr", "Description", false, 0), //3
-            new SkillsTemplate("Coordination", "Ag", "Description", false, 0), //4
-            new SkillsTemplate("Discipline", "Will", "Description", false, 0), //5
-            new SkillsTemplate("Driving", "Ag", "Description", false, 0), //6
-            new SkillsTemplate("Mechanics", "Int", "Description", false, 0), //7
-            new SkillsTemplate("Medicine", "Int", "Description", false, 0), //8
-            new SkillsTemplate("Operating", "Int", "Description", false, 0), //9
-            new SkillsTemplate("Perception", "Cun", "Description", false, 0), //10
-            new SkillsTemplate("Piloting", "Int", "Description", false, 0), //11
-            new SkillsTemplate("Resilience", "Br", "Description", false, 0), //12
-            new SkillsTemplate("Skullduggery", "Cun", "Description", false, 0), //13
-            new SkillsTemplate("Stealth", "Ag", "Description", false, 0), //14
-            new SkillsTemplate("Streetwise", "Cun", "Description", false, 0), //15
-            new SkillsTemplate("Survival", "Cun", "Description", false, 0), //16
-            new SkillsTemplate("Vigilance", "Will", "Description", false, 0), //17
+            new SkillsTemplate("Athletics", "Br", "TalentDescription", false, 0), //0
+            new SkillsTemplate("Comp (Hacking)", "Int", "TalentDescription", false, 0), //1
+            new SkillsTemplate("Comp (SysOps)", "Int", "TalentDescription", false, 0), //2
+            new SkillsTemplate("Cool", "Pr", "TalentDescription", false, 0), //3
+            new SkillsTemplate("Coordination", "Ag", "TalentDescription", false, 0), //4
+            new SkillsTemplate("Discipline", "Will", "TalentDescription", false, 0), //5
+            new SkillsTemplate("Driving", "Ag", "TalentDescription", false, 0), //6
+            new SkillsTemplate("Mechanics", "Int", "TalentDescription", false, 0), //7
+            new SkillsTemplate("Medicine", "Int", "TalentDescription", false, 0), //8
+            new SkillsTemplate("Operating", "Int", "TalentDescription", false, 0), //9
+            new SkillsTemplate("Perception", "Cun", "TalentDescription", false, 0), //10
+            new SkillsTemplate("Piloting", "Int", "TalentDescription", false, 0), //11
+            new SkillsTemplate("Resilience", "Br", "TalentDescription", false, 0), //12
+            new SkillsTemplate("Skullduggery", "Cun", "TalentDescription", false, 0), //13
+            new SkillsTemplate("Stealth", "Ag", "TalentDescription", false, 0), //14
+            new SkillsTemplate("Streetwise", "Cun", "TalentDescription", false, 0), //15
+            new SkillsTemplate("Survival", "Cun", "TalentDescription", false, 0), //16
+            new SkillsTemplate("Vigilance", "Will", "TalentDescription", false, 0), //17
             //custom skills
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //18
-            new SkillsTemplate("Custom Skill", "", "Description", false, 0), //19
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //20
-            new SkillsTemplate("Custom Skill", "", "Description", false, 0), //21
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //22
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //18
+            new SkillsTemplate("Custom Skill", "", "TalentDescription", false, 0), //19
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //20
+            new SkillsTemplate("Custom Skill", "", "TalentDescription", false, 0), //21
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //22
             //combat
-            new SkillsTemplate("Brawl", "Br", "Description", false, 0), //23
-            new SkillsTemplate("Melee", "Br", "Description", false, 0), //24
-            new SkillsTemplate("Ranged (Heavy)", "Ag", "Description", false, 0), //25
-            new SkillsTemplate("Ranged (Light)", "Ag", "Description", false, 0), //26
-            new SkillsTemplate("Gunnery", "Ag", "Description", false, 0), //27
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //28
+            new SkillsTemplate("Brawl", "Br", "TalentDescription", false, 0), //23
+            new SkillsTemplate("Melee", "Br", "TalentDescription", false, 0), //24
+            new SkillsTemplate("Ranged (Heavy)", "Ag", "TalentDescription", false, 0), //25
+            new SkillsTemplate("Ranged (Light)", "Ag", "TalentDescription", false, 0), //26
+            new SkillsTemplate("Gunnery", "Ag", "TalentDescription", false, 0), //27
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //28
             //social
-            new SkillsTemplate("Charm", "Pr", "Description", false, 0), //29
-            new SkillsTemplate("Coercion", "Will", "Description", false, 0), //30
-            new SkillsTemplate("Deception", "Cun", "Description", false, 0), //31
-            new SkillsTemplate("Leadership", "Pr", "Description", false, 0), //32
-            new SkillsTemplate("Negotiation", "Pr", "Description", false, 0), //33
+            new SkillsTemplate("Charm", "Pr", "TalentDescription", false, 0), //29
+            new SkillsTemplate("Coercion", "Will", "TalentDescription", false, 0), //30
+            new SkillsTemplate("Deception", "Cun", "TalentDescription", false, 0), //31
+            new SkillsTemplate("Leadership", "Pr", "TalentDescription", false, 0), //32
+            new SkillsTemplate("Negotiation", "Pr", "TalentDescription", false, 0), //33
             //knowledge
-            new SkillsTemplate("Science", "Int", "Description", false, 0), //34
-            new SkillsTemplate("Society", "Int", "Description", false, 0), //35
-            new SkillsTemplate("The Net", "Int", "Description", false, 0), //36
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //37
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //38
+            new SkillsTemplate("Science", "Int", "TalentDescription", false, 0), //34
+            new SkillsTemplate("Society", "Int", "TalentDescription", false, 0), //35
+            new SkillsTemplate("The Net", "Int", "TalentDescription", false, 0), //36
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //37
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //38
             //custom
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //39
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //40
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //41
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //42
-            new SkillsTemplate("Custom Skill", "Int", "Description", false, 0), //43
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //39
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //40
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //41
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //42
+            new SkillsTemplate("Custom Skill", "Int", "TalentDescription", false, 0), //43
         };
 
         private TalentsTemplate[] talentsList =
         {
             //tier 1
-            new TalentsTemplate("Talent", "Description", false, false, 1, 0), //0
-            new TalentsTemplate("Talent", "Description", false, false, 1, 0), //1
-            new TalentsTemplate("Talent", "Description", false, false, 1, 0), //2
-            new TalentsTemplate("Talent", "Description", false, false, 1, 0), //3
-            new TalentsTemplate("Talent", "Description", false, false, 1, 0), //4
-            new TalentsTemplate("Talent", "Description", false, false, 1, 0), //5
-            new TalentsTemplate("Talent", "Description", false, false, 1, 0), //6
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 1, ""), //0
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 1, ""), //1
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 1, ""), //2
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 1, ""), //3
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 1, ""), //4
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 1, ""), //5
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 1, ""), //6
             //tier 2
-            new TalentsTemplate("Talent", "Description", false, false, 2, 0), //7
-            new TalentsTemplate("Talent", "Description", false, false, 2, 0), //8
-            new TalentsTemplate("Talent", "Description", false, false, 2, 0), //9
-            new TalentsTemplate("Talent", "Description", false, false, 2, 0), //10
-            new TalentsTemplate("Talent", "Description", false, false, 2, 0), //11
-            new TalentsTemplate("Talent", "Description", false, false, 2, 0), //12
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 2, ""), //7
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 2, ""), //8
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 2, ""), //9
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 2, ""), //10
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 2, ""), //11
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 2, ""), //12
             //tier 3
-            new TalentsTemplate("Talent", "Description", false, false, 3, 0), //13
-            new TalentsTemplate("Talent", "Description", false, false, 3, 0), //14
-            new TalentsTemplate("Talent", "Description", false, false, 3, 0), //15
-            new TalentsTemplate("Talent", "Description", false, false, 3, 0), //16
-            new TalentsTemplate("Talent", "Description", false, false, 3, 0), //17
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 3, ""), //13
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 3, ""), //14
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 3, ""), //15
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 3, ""), //16
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 3, ""), //17
             //tier 4
-            new TalentsTemplate("Talent", "Description", false, false, 4, 0), //18
-            new TalentsTemplate("Talent", "Description", false, false, 4, 0), //19
-            new TalentsTemplate("Talent", "Description", false, false, 4, 0), //20
-            new TalentsTemplate("Talent", "Description", false, false, 4, 0), //21
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 4, ""), //18
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 4, ""), //19
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 4, ""), //20
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 4, ""), //21
             //tier 5
-            new TalentsTemplate("Talent", "Description", false, false, 5, 0), //22
-            new TalentsTemplate("Talent", "Description", false, false, 5, 0), //23
-            new TalentsTemplate("Talent", "Description", false, false, 5, 0), //24
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 5, ""), //22
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 5, ""), //23
+            new TalentsTemplate("Talent", "TalentDescription", false, false, 5, ""), //24
         };
 
         private void frmGenesys_Load(object sender, EventArgs e)
@@ -227,6 +231,8 @@ namespace Genesys_Character_Builder
             lblStrainCurrent.Text = myCharacter.StrainCurrent.ToString();
             lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
             lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
+
+            updateTalents();
         }
 
         private void cboSetting_SelectedIndexChanged(object sender, EventArgs e)
@@ -414,20 +420,76 @@ namespace Genesys_Character_Builder
             linkSkill43.Text = myCharacter.Skills[43].SkillName + " (" + myCharacter.Skills[43].Characteristic + ")";
         }
 
+        private void updateTalents()
+        {
+            linkTalent0.Text = myCharacter.Talents[0].TalentName;
+            linkTalent1.Text = myCharacter.Talents[1].TalentName;
+            linkTalent2.Text = myCharacter.Talents[2].TalentName;
+            linkTalent3.Text = myCharacter.Talents[3].TalentName;
+            linkTalent4.Text = myCharacter.Talents[4].TalentName;
+            linkTalent5.Text = myCharacter.Talents[5].TalentName;
+            linkTalent6.Text = myCharacter.Talents[6].TalentName;
+            linkTalent7.Text = myCharacter.Talents[7].TalentName;
+            linkTalent8.Text = myCharacter.Talents[8].TalentName;
+            linkTalent9.Text = myCharacter.Talents[9].TalentName;
+            linkTalent10.Text = myCharacter.Talents[10].TalentName;
+            linkTalent11.Text = myCharacter.Talents[11].TalentName;
+            linkTalent12.Text = myCharacter.Talents[12].TalentName;
+            linkTalent13.Text = myCharacter.Talents[13].TalentName;
+            linkTalent14.Text = myCharacter.Talents[14].TalentName;
+            linkTalent15.Text = myCharacter.Talents[15].TalentName;
+            linkTalent16.Text = myCharacter.Talents[16].TalentName;
+            linkTalent17.Text = myCharacter.Talents[17].TalentName;
+            linkTalent18.Text = myCharacter.Talents[18].TalentName;
+            linkTalent19.Text = myCharacter.Talents[19].TalentName;
+            linkTalent20.Text = myCharacter.Talents[20].TalentName;
+            linkTalent21.Text = myCharacter.Talents[21].TalentName;
+            linkTalent22.Text = myCharacter.Talents[22].TalentName;
+            linkTalent23.Text = myCharacter.Talents[23].TalentName;
+            linkTalent24.Text = myCharacter.Talents[24].TalentName;
+
+            lblTalentPage0.Text = myCharacter.Talents[0].Page;
+            lblTalentPage1.Text = myCharacter.Talents[1].Page;
+            lblTalentPage2.Text = myCharacter.Talents[2].Page;
+            lblTalentPage3.Text = myCharacter.Talents[3].Page;
+            lblTalentPage4.Text = myCharacter.Talents[4].Page;
+            lblTalentPage5.Text = myCharacter.Talents[5].Page;
+            lblTalentPage6.Text = myCharacter.Talents[6].Page;
+            lblTalentPage7.Text = myCharacter.Talents[7].Page;
+            lblTalentPage8.Text = myCharacter.Talents[8].Page;
+            lblTalentPage9.Text = myCharacter.Talents[9].Page;
+            lblTalentPage10.Text = myCharacter.Talents[10].Page;
+            lblTalentPage11.Text = myCharacter.Talents[11].Page;
+            lblTalentPage12.Text = myCharacter.Talents[12].Page;
+            lblTalentPage13.Text = myCharacter.Talents[13].Page;
+            lblTalentPage14.Text = myCharacter.Talents[14].Page;
+            lblTalentPage15.Text = myCharacter.Talents[15].Page;
+            lblTalentPage16.Text = myCharacter.Talents[16].Page;
+            lblTalentPage17.Text = myCharacter.Talents[17].Page;
+            lblTalentPage18.Text = myCharacter.Talents[18].Page;
+            lblTalentPage19.Text = myCharacter.Talents[19].Page;
+            lblTalentPage20.Text = myCharacter.Talents[20].Page;
+            lblTalentPage21.Text = myCharacter.Talents[21].Page;
+            lblTalentPage22.Text = myCharacter.Talents[22].Page;
+            lblTalentPage23.Text = myCharacter.Talents[23].Page;
+            lblTalentPage24.Text = myCharacter.Talents[24].Page;
+        }
+
         private void linkSkill_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             panelSkillDetail.Visible = true;
 
             LinkLabel myLink;
             myLink = (LinkLabel)sender;
-            int linkNumber = int.Parse(myLink.Name.Substring(9));
-            txtSkill.Text = myCharacter.Skills[linkNumber].SkillName;
-            cboCharacteristic.Text = myCharacter.Skills[linkNumber].Characteristic;
-            txtSkillDescription.Text = myCharacter.Skills[linkNumber].Description;
+            int skillLinkNumber = int.Parse(myLink.Name.Substring(9));
+            txtSkill.Text = myCharacter.Skills[skillLinkNumber].SkillName;
+            cboCharacteristic.Text = myCharacter.Skills[skillLinkNumber].Characteristic;
+            txtSkillDescription.Text = myCharacter.Skills[skillLinkNumber].Description;
+            activeSkillLink = skillLinkNumber;
 
-            myCharacter.Skills[linkNumber].SkillName = txtSkill.Text;
-            myCharacter.Skills[linkNumber].Characteristic = cboCharacteristic.Text;
-            myCharacter.Skills[linkNumber].Description = txtSkillDescription.Text;
+            myCharacter.Skills[skillLinkNumber].SkillName = txtSkill.Text;
+            myCharacter.Skills[skillLinkNumber].Characteristic = cboCharacteristic.Text;
+            myCharacter.Skills[skillLinkNumber].Description = txtSkillDescription.Text;
         }
 
         private void linkTalent_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -436,11 +498,12 @@ namespace Genesys_Character_Builder
 
             LinkLabel myLink;
             myLink = (LinkLabel)sender;
-            int linkNumber = int.Parse(myLink.Name.Substring(10));
-            txtTalentName.Text = myCharacter.Talents[linkNumber].TalentName;
-            lblTalentTier.Text = "Tier: " + myCharacter.Talents[linkNumber].Tier.ToString();
-            txtTalentDescription.Text = myCharacter.Talents[linkNumber].Description;
-            txtTalentPageNumber.Text = myCharacter.Talents[linkNumber].Page.ToString();
+            int talentLinkNumber = int.Parse(myLink.Name.Substring(10));
+            txtTalentName.Text = myCharacter.Talents[talentLinkNumber].TalentName;
+            lblTalentTier.Text = "Tier: " + myCharacter.Talents[talentLinkNumber].Tier.ToString();
+            txtTalentDescription.Text = myCharacter.Talents[talentLinkNumber].TalentDescription;
+            txtTalentPageNumber.Text = myCharacter.Talents[talentLinkNumber].Page.ToString();
+            activeTalentLink = talentLinkNumber;
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -468,6 +531,34 @@ namespace Genesys_Character_Builder
         {
             panelSkills.Visible = false;
             panelTalents.Visible = true;
+        }
+
+        private void btnSkillsSave_Click(object sender, EventArgs e)
+        {
+            myCharacter.Skills[activeSkillLink].SkillName = txtSkill.Text;
+            myCharacter.Skills[activeSkillLink].Characteristic = cboCharacteristic.Text;
+            myCharacter.Skills[activeSkillLink].Description = txtSkillDescription.Text;
+
+            updateSkills();
+        }
+
+        private void btnSkillsCancel_Click(object sender, EventArgs e)
+        {
+            panelSkillDetail.Visible = false;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            myCharacter.Talents[activeTalentLink].TalentName = txtTalentName.Text;
+            myCharacter.Talents[activeTalentLink].TalentDescription = txtTalentDescription.Text;
+            myCharacter.Talents[activeTalentLink].Page = txtTalentPageNumber.Text;
+
+            updateTalents();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panelTalentDetail.Visible = false;
         }
     }
 }

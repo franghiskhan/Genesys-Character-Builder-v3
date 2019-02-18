@@ -7,3 +7,4 @@ D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Gene
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys Character Builder.csproj.CoreCompileInputs.cache
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys Character Builder.exe
 D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys Character Builder.pdb
+D:\Personal Programs\Genesys Character Builder v3\Genesys Character Builder\Genesys Character Builder\obj\Debug\Genesys Character Builder.csprojAssemblyReference.cache

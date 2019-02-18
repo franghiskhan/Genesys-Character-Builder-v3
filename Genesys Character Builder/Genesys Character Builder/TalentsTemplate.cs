@@ -9,17 +9,17 @@ namespace Genesys_Character_Builder
     class TalentsTemplate
     {
         private string talentName;
-        private string description;
+        private string talentDescription;
         private bool active;
         private bool ranked;
         private int tier;
-        private int page;
+        private string page;
 
         public TalentsTemplate() { }
-        public TalentsTemplate(string talentName, string description, bool active, bool ranked, int tier, int page)
+        public TalentsTemplate(string talentName, string talentDescription, bool active, bool ranked, int tier, string page)
         {
             this.TalentName = talentName;
-            this.Description = description;
+            this.TalentDescription = talentDescription;
             this.Active = active;
             this.Ranked = ranked;
             this.Tier = tier;
@@ -27,10 +27,10 @@ namespace Genesys_Character_Builder
         }
 
         public string TalentName { get; set; }
-        public string Description { get; set; }
+        public string TalentDescription { get; set; }
         public bool Active { get; set; }
         public bool Ranked { get; set; }
         public int Tier { get; set; }
-        public int Page { get; set; }
+        public string Page { get; set; }
     }
 }

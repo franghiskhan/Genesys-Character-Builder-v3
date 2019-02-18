@@ -86,122 +86,124 @@
             this.lblSpecies = new System.Windows.Forms.Label();
             this.lblCharacterName = new System.Windows.Forms.Label();
             this.panelSkillDetail = new System.Windows.Forms.Panel();
+            this.btnSkillsCancel = new System.Windows.Forms.Button();
+            this.btnSkillsSave = new System.Windows.Forms.Button();
             this.txtSkillDescription = new System.Windows.Forms.TextBox();
             this.cboCharacteristic = new System.Windows.Forms.ComboBox();
             this.txtSkill = new System.Windows.Forms.TextBox();
             this.linkSkill43 = new System.Windows.Forms.LinkLabel();
-            this.button81 = new System.Windows.Forms.Button();
-            this.button82 = new System.Windows.Forms.Button();
-            this.button83 = new System.Windows.Forms.Button();
-            this.button84 = new System.Windows.Forms.Button();
-            this.button85 = new System.Windows.Forms.Button();
+            this.btn5Rank43 = new System.Windows.Forms.Button();
+            this.btn3Rank43 = new System.Windows.Forms.Button();
+            this.btn2Rank43 = new System.Windows.Forms.Button();
+            this.btn4Rank43 = new System.Windows.Forms.Button();
+            this.btn1Rank43 = new System.Windows.Forms.Button();
             this.chkCareer43 = new System.Windows.Forms.CheckBox();
             this.linkSkill42 = new System.Windows.Forms.LinkLabel();
-            this.button86 = new System.Windows.Forms.Button();
-            this.button87 = new System.Windows.Forms.Button();
-            this.button88 = new System.Windows.Forms.Button();
-            this.button89 = new System.Windows.Forms.Button();
-            this.button90 = new System.Windows.Forms.Button();
+            this.btn5Rank42 = new System.Windows.Forms.Button();
+            this.btn3Rank42 = new System.Windows.Forms.Button();
+            this.btn2Rank42 = new System.Windows.Forms.Button();
+            this.btn4Rank42 = new System.Windows.Forms.Button();
+            this.btn1Rank42 = new System.Windows.Forms.Button();
             this.chkCareer42 = new System.Windows.Forms.CheckBox();
             this.linkSkill41 = new System.Windows.Forms.LinkLabel();
-            this.button196 = new System.Windows.Forms.Button();
-            this.button197 = new System.Windows.Forms.Button();
-            this.button198 = new System.Windows.Forms.Button();
-            this.button199 = new System.Windows.Forms.Button();
-            this.button200 = new System.Windows.Forms.Button();
+            this.btn5Rank41 = new System.Windows.Forms.Button();
+            this.btn3Rank41 = new System.Windows.Forms.Button();
+            this.btn2Rank41 = new System.Windows.Forms.Button();
+            this.btn4Rank41 = new System.Windows.Forms.Button();
+            this.btn1Rank41 = new System.Windows.Forms.Button();
             this.chkCareer41 = new System.Windows.Forms.CheckBox();
             this.linkSkill40 = new System.Windows.Forms.LinkLabel();
-            this.button201 = new System.Windows.Forms.Button();
-            this.button202 = new System.Windows.Forms.Button();
-            this.button203 = new System.Windows.Forms.Button();
-            this.button204 = new System.Windows.Forms.Button();
-            this.button205 = new System.Windows.Forms.Button();
+            this.btn5Rank40 = new System.Windows.Forms.Button();
+            this.btn3Rank40 = new System.Windows.Forms.Button();
+            this.btn2Rank40 = new System.Windows.Forms.Button();
+            this.btn4Rank40 = new System.Windows.Forms.Button();
+            this.btn1Rank40 = new System.Windows.Forms.Button();
             this.chkCareer40 = new System.Windows.Forms.CheckBox();
             this.lblSkillsCustom = new System.Windows.Forms.Label();
             this.lblCareerCustom = new System.Windows.Forms.Label();
             this.lblRankCustom = new System.Windows.Forms.Label();
             this.linkSkill39 = new System.Windows.Forms.LinkLabel();
-            this.button206 = new System.Windows.Forms.Button();
-            this.button207 = new System.Windows.Forms.Button();
-            this.button208 = new System.Windows.Forms.Button();
-            this.button209 = new System.Windows.Forms.Button();
-            this.button210 = new System.Windows.Forms.Button();
+            this.btn5Rank39 = new System.Windows.Forms.Button();
+            this.btn3Rank39 = new System.Windows.Forms.Button();
+            this.btn2Rank39 = new System.Windows.Forms.Button();
+            this.btn4Rank39 = new System.Windows.Forms.Button();
+            this.btn1Rank39 = new System.Windows.Forms.Button();
             this.chkCareer39 = new System.Windows.Forms.CheckBox();
             this.linkSkill38 = new System.Windows.Forms.LinkLabel();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
+            this.btn5Rank38 = new System.Windows.Forms.Button();
+            this.btn3Rank38 = new System.Windows.Forms.Button();
+            this.btn2Rank38 = new System.Windows.Forms.Button();
+            this.btn4Rank38 = new System.Windows.Forms.Button();
+            this.btn1Rank38 = new System.Windows.Forms.Button();
             this.chkCareer38 = new System.Windows.Forms.CheckBox();
             this.linkSkill37 = new System.Windows.Forms.LinkLabel();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
+            this.btn5Rank37 = new System.Windows.Forms.Button();
+            this.btn3Rank37 = new System.Windows.Forms.Button();
+            this.btn2Rank37 = new System.Windows.Forms.Button();
+            this.btn4Rank37 = new System.Windows.Forms.Button();
+            this.btn1Rank37 = new System.Windows.Forms.Button();
             this.chkCareer37 = new System.Windows.Forms.CheckBox();
             this.linkSkill36 = new System.Windows.Forms.LinkLabel();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
+            this.btn5Rank36 = new System.Windows.Forms.Button();
+            this.btn3Rank36 = new System.Windows.Forms.Button();
+            this.btn2Rank36 = new System.Windows.Forms.Button();
+            this.btn4Rank36 = new System.Windows.Forms.Button();
+            this.btn1Rank36 = new System.Windows.Forms.Button();
             this.chkCareer36 = new System.Windows.Forms.CheckBox();
             this.linkSkill35 = new System.Windows.Forms.LinkLabel();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
+            this.btn5Rank35 = new System.Windows.Forms.Button();
+            this.btn3Rank35 = new System.Windows.Forms.Button();
+            this.btn2Rank35 = new System.Windows.Forms.Button();
+            this.btn4Rank35 = new System.Windows.Forms.Button();
+            this.btn1Rank35 = new System.Windows.Forms.Button();
             this.chkCareer35 = new System.Windows.Forms.CheckBox();
             this.lblSkillsKnowledge = new System.Windows.Forms.Label();
             this.lblCareerKnowledge = new System.Windows.Forms.Label();
             this.lblRankKnowledge = new System.Windows.Forms.Label();
             this.linkSkill34 = new System.Windows.Forms.LinkLabel();
-            this.button76 = new System.Windows.Forms.Button();
-            this.button77 = new System.Windows.Forms.Button();
-            this.button78 = new System.Windows.Forms.Button();
-            this.button79 = new System.Windows.Forms.Button();
-            this.button80 = new System.Windows.Forms.Button();
+            this.btn5Rank34 = new System.Windows.Forms.Button();
+            this.btn3Rank34 = new System.Windows.Forms.Button();
+            this.btn2Rank34 = new System.Windows.Forms.Button();
+            this.btn4Rank34 = new System.Windows.Forms.Button();
+            this.btn1Rank34 = new System.Windows.Forms.Button();
             this.chkCareer34 = new System.Windows.Forms.CheckBox();
             this.linkSkill22 = new System.Windows.Forms.LinkLabel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btn5Rank22 = new System.Windows.Forms.Button();
+            this.btn3Rank22 = new System.Windows.Forms.Button();
+            this.btn2Rank22 = new System.Windows.Forms.Button();
+            this.btn4Rank22 = new System.Windows.Forms.Button();
+            this.btn1Rank22 = new System.Windows.Forms.Button();
             this.chkCareer22 = new System.Windows.Forms.CheckBox();
             this.linkSkill21 = new System.Windows.Forms.LinkLabel();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
+            this.btn5Rank21 = new System.Windows.Forms.Button();
+            this.btn3Rank21 = new System.Windows.Forms.Button();
+            this.btn2Rank21 = new System.Windows.Forms.Button();
+            this.btn4Rank21 = new System.Windows.Forms.Button();
+            this.btn1Rank21 = new System.Windows.Forms.Button();
             this.chkCareer21 = new System.Windows.Forms.CheckBox();
             this.linkSkill20 = new System.Windows.Forms.LinkLabel();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
+            this.btn5Rank20 = new System.Windows.Forms.Button();
+            this.btn3Rank20 = new System.Windows.Forms.Button();
+            this.btn2Rank20 = new System.Windows.Forms.Button();
+            this.btn4Rank20 = new System.Windows.Forms.Button();
+            this.btn1Rank20 = new System.Windows.Forms.Button();
             this.chkCareer20 = new System.Windows.Forms.CheckBox();
             this.linkSkill19 = new System.Windows.Forms.LinkLabel();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
+            this.btn5Rank19 = new System.Windows.Forms.Button();
+            this.btn3Rank19 = new System.Windows.Forms.Button();
+            this.btn2Rank19 = new System.Windows.Forms.Button();
+            this.btn4Rank19 = new System.Windows.Forms.Button();
+            this.btn1Rank19 = new System.Windows.Forms.Button();
             this.chkCareer19 = new System.Windows.Forms.CheckBox();
             this.lblSkillsMagic = new System.Windows.Forms.Label();
             this.lblCareerMagic = new System.Windows.Forms.Label();
             this.lblRankMagic = new System.Windows.Forms.Label();
             this.linkSkill18 = new System.Windows.Forms.LinkLabel();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
+            this.btn5Rank18 = new System.Windows.Forms.Button();
+            this.btn3Rank18 = new System.Windows.Forms.Button();
+            this.btn2Rank18 = new System.Windows.Forms.Button();
+            this.btn4Rank18 = new System.Windows.Forms.Button();
+            this.btn1Rank18 = new System.Windows.Forms.Button();
             this.chkCareer18 = new System.Windows.Forms.CheckBox();
             this.linkSkill17 = new System.Windows.Forms.LinkLabel();
             this.btn5Rank17 = new System.Windows.Forms.Button();
@@ -274,87 +276,87 @@
             this.btn1Rank8 = new System.Windows.Forms.Button();
             this.chkCareer8 = new System.Windows.Forms.CheckBox();
             this.linkSkill33 = new System.Windows.Forms.LinkLabel();
-            this.button91 = new System.Windows.Forms.Button();
-            this.button92 = new System.Windows.Forms.Button();
-            this.button93 = new System.Windows.Forms.Button();
-            this.button94 = new System.Windows.Forms.Button();
-            this.button95 = new System.Windows.Forms.Button();
+            this.btn5Rank33 = new System.Windows.Forms.Button();
+            this.btn3Rank33 = new System.Windows.Forms.Button();
+            this.btn2Rank33 = new System.Windows.Forms.Button();
+            this.btn4Rank33 = new System.Windows.Forms.Button();
+            this.btn1Rank33 = new System.Windows.Forms.Button();
             this.chkCareer33 = new System.Windows.Forms.CheckBox();
             this.linkSkill32 = new System.Windows.Forms.LinkLabel();
-            this.button96 = new System.Windows.Forms.Button();
-            this.button97 = new System.Windows.Forms.Button();
-            this.button98 = new System.Windows.Forms.Button();
-            this.button99 = new System.Windows.Forms.Button();
-            this.button100 = new System.Windows.Forms.Button();
+            this.btn5Rank32 = new System.Windows.Forms.Button();
+            this.btn3Rank32 = new System.Windows.Forms.Button();
+            this.btn2Rank32 = new System.Windows.Forms.Button();
+            this.btn4Rank32 = new System.Windows.Forms.Button();
+            this.btn1Rank32 = new System.Windows.Forms.Button();
             this.chkCareer32 = new System.Windows.Forms.CheckBox();
             this.linkSkill31 = new System.Windows.Forms.LinkLabel();
-            this.button101 = new System.Windows.Forms.Button();
-            this.button102 = new System.Windows.Forms.Button();
-            this.button103 = new System.Windows.Forms.Button();
-            this.button104 = new System.Windows.Forms.Button();
-            this.button105 = new System.Windows.Forms.Button();
+            this.btn5Rank31 = new System.Windows.Forms.Button();
+            this.btn3Rank31 = new System.Windows.Forms.Button();
+            this.btn2Rank31 = new System.Windows.Forms.Button();
+            this.btn4Rank31 = new System.Windows.Forms.Button();
+            this.btn1Rank31 = new System.Windows.Forms.Button();
             this.chkCareer31 = new System.Windows.Forms.CheckBox();
             this.linkSkill30 = new System.Windows.Forms.LinkLabel();
-            this.button106 = new System.Windows.Forms.Button();
-            this.button107 = new System.Windows.Forms.Button();
-            this.button108 = new System.Windows.Forms.Button();
-            this.button109 = new System.Windows.Forms.Button();
-            this.button110 = new System.Windows.Forms.Button();
+            this.btn5Rank30 = new System.Windows.Forms.Button();
+            this.btn3Rank30 = new System.Windows.Forms.Button();
+            this.btn2Rank30 = new System.Windows.Forms.Button();
+            this.btn4Rank30 = new System.Windows.Forms.Button();
+            this.btn1Rank30 = new System.Windows.Forms.Button();
             this.chkCareer30 = new System.Windows.Forms.CheckBox();
             this.lblSkillsSocial = new System.Windows.Forms.Label();
             this.lblCareerSocial = new System.Windows.Forms.Label();
             this.lblRankSocial = new System.Windows.Forms.Label();
             this.linkSkill29 = new System.Windows.Forms.LinkLabel();
-            this.button111 = new System.Windows.Forms.Button();
-            this.button112 = new System.Windows.Forms.Button();
-            this.button113 = new System.Windows.Forms.Button();
-            this.button114 = new System.Windows.Forms.Button();
-            this.button115 = new System.Windows.Forms.Button();
+            this.btn5Rank29 = new System.Windows.Forms.Button();
+            this.btn3Rank29 = new System.Windows.Forms.Button();
+            this.btn2Rank29 = new System.Windows.Forms.Button();
+            this.btn4Rank29 = new System.Windows.Forms.Button();
+            this.btn1Rank29 = new System.Windows.Forms.Button();
             this.chkCareer29 = new System.Windows.Forms.CheckBox();
             this.linkSkill28 = new System.Windows.Forms.LinkLabel();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
+            this.btn5Rank28 = new System.Windows.Forms.Button();
+            this.btn3Rank28 = new System.Windows.Forms.Button();
+            this.btn2Rank28 = new System.Windows.Forms.Button();
+            this.btn4Rank28 = new System.Windows.Forms.Button();
+            this.btn1Rank28 = new System.Windows.Forms.Button();
             this.chkCareer28 = new System.Windows.Forms.CheckBox();
             this.linkSkill27 = new System.Windows.Forms.LinkLabel();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
-            this.button55 = new System.Windows.Forms.Button();
+            this.btn5Rank27 = new System.Windows.Forms.Button();
+            this.btn3Rank27 = new System.Windows.Forms.Button();
+            this.btn2Rank27 = new System.Windows.Forms.Button();
+            this.btn4Rank27 = new System.Windows.Forms.Button();
+            this.btn1Rank27 = new System.Windows.Forms.Button();
             this.chkCareer27 = new System.Windows.Forms.CheckBox();
             this.linkSkill26 = new System.Windows.Forms.LinkLabel();
-            this.button56 = new System.Windows.Forms.Button();
-            this.button57 = new System.Windows.Forms.Button();
-            this.button58 = new System.Windows.Forms.Button();
-            this.button59 = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
+            this.btn5Rank26 = new System.Windows.Forms.Button();
+            this.btn3Rank26 = new System.Windows.Forms.Button();
+            this.btn2Rank26 = new System.Windows.Forms.Button();
+            this.btn4Rank26 = new System.Windows.Forms.Button();
+            this.btn1Rank26 = new System.Windows.Forms.Button();
             this.chkCareer26 = new System.Windows.Forms.CheckBox();
             this.linkSkill25 = new System.Windows.Forms.LinkLabel();
-            this.button61 = new System.Windows.Forms.Button();
-            this.button62 = new System.Windows.Forms.Button();
-            this.button63 = new System.Windows.Forms.Button();
-            this.button64 = new System.Windows.Forms.Button();
-            this.button65 = new System.Windows.Forms.Button();
+            this.btn5Rank25 = new System.Windows.Forms.Button();
+            this.btn3Rank25 = new System.Windows.Forms.Button();
+            this.btn2Rank25 = new System.Windows.Forms.Button();
+            this.btn4Rank25 = new System.Windows.Forms.Button();
+            this.btn1Rank25 = new System.Windows.Forms.Button();
             this.chkCareer25 = new System.Windows.Forms.CheckBox();
             this.linkSkill24 = new System.Windows.Forms.LinkLabel();
-            this.button66 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
-            this.button68 = new System.Windows.Forms.Button();
-            this.button69 = new System.Windows.Forms.Button();
-            this.button70 = new System.Windows.Forms.Button();
+            this.btn5Rank24 = new System.Windows.Forms.Button();
+            this.btn3Rank24 = new System.Windows.Forms.Button();
+            this.btn2Rank24 = new System.Windows.Forms.Button();
+            this.btn4Rank24 = new System.Windows.Forms.Button();
+            this.btn1Rank24 = new System.Windows.Forms.Button();
             this.chkCareer24 = new System.Windows.Forms.CheckBox();
             this.lblSkillsCombat = new System.Windows.Forms.Label();
             this.lblCareerCombat = new System.Windows.Forms.Label();
             this.lblRankCombat = new System.Windows.Forms.Label();
             this.linkSkill23 = new System.Windows.Forms.LinkLabel();
-            this.button71 = new System.Windows.Forms.Button();
-            this.button72 = new System.Windows.Forms.Button();
-            this.button73 = new System.Windows.Forms.Button();
-            this.button74 = new System.Windows.Forms.Button();
-            this.button75 = new System.Windows.Forms.Button();
+            this.btn5Rank23 = new System.Windows.Forms.Button();
+            this.btn3Rank23 = new System.Windows.Forms.Button();
+            this.btn2Rank23 = new System.Windows.Forms.Button();
+            this.btn4Rank23 = new System.Windows.Forms.Button();
+            this.btn1Rank23 = new System.Windows.Forms.Button();
             this.chkCareer23 = new System.Windows.Forms.CheckBox();
             this.linkSkill7 = new System.Windows.Forms.LinkLabel();
             this.btn5Rank7 = new System.Windows.Forms.Button();
@@ -416,9 +418,10 @@
             this.btn1Rank0 = new System.Windows.Forms.Button();
             this.chkCareer0 = new System.Windows.Forms.CheckBox();
             this.panelTalentDetail = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.lblTalentTier = new System.Windows.Forms.Label();
             this.lblTalentPageNumber = new System.Windows.Forms.Label();
-            this.chkActive = new System.Windows.Forms.CheckBox();
             this.txtTalentPageNumber = new System.Windows.Forms.TextBox();
             this.txtTalentDescription = new System.Windows.Forms.TextBox();
             this.txtTalentName = new System.Windows.Forms.TextBox();
@@ -1299,14 +1302,38 @@
             // 
             // panelSkillDetail
             // 
+            this.panelSkillDetail.Controls.Add(this.btnSkillsCancel);
+            this.panelSkillDetail.Controls.Add(this.btnSkillsSave);
             this.panelSkillDetail.Controls.Add(this.txtSkillDescription);
             this.panelSkillDetail.Controls.Add(this.cboCharacteristic);
             this.panelSkillDetail.Controls.Add(this.txtSkill);
-            this.panelSkillDetail.Location = new System.Drawing.Point(404, 6);
+            this.panelSkillDetail.Location = new System.Drawing.Point(429, 6);
             this.panelSkillDetail.Name = "panelSkillDetail";
-            this.panelSkillDetail.Size = new System.Drawing.Size(230, 159);
+            this.panelSkillDetail.Size = new System.Drawing.Size(212, 159);
             this.panelSkillDetail.TabIndex = 685;
             this.panelSkillDetail.Visible = false;
+            // 
+            // btnSkillsCancel
+            // 
+            this.btnSkillsCancel.BackColor = System.Drawing.SystemColors.Info;
+            this.btnSkillsCancel.Location = new System.Drawing.Point(134, 131);
+            this.btnSkillsCancel.Name = "btnSkillsCancel";
+            this.btnSkillsCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnSkillsCancel.TabIndex = 687;
+            this.btnSkillsCancel.Text = "&Cancel";
+            this.btnSkillsCancel.UseVisualStyleBackColor = false;
+            this.btnSkillsCancel.Click += new System.EventHandler(this.btnSkillsCancel_Click);
+            // 
+            // btnSkillsSave
+            // 
+            this.btnSkillsSave.BackColor = System.Drawing.SystemColors.Info;
+            this.btnSkillsSave.Location = new System.Drawing.Point(3, 131);
+            this.btnSkillsSave.Name = "btnSkillsSave";
+            this.btnSkillsSave.Size = new System.Drawing.Size(75, 23);
+            this.btnSkillsSave.TabIndex = 686;
+            this.btnSkillsSave.Text = "&Save";
+            this.btnSkillsSave.UseVisualStyleBackColor = false;
+            this.btnSkillsSave.Click += new System.EventHandler(this.btnSkillsSave_Click);
             // 
             // txtSkillDescription
             // 
@@ -1314,9 +1341,9 @@
             this.txtSkillDescription.Location = new System.Drawing.Point(3, 29);
             this.txtSkillDescription.Multiline = true;
             this.txtSkillDescription.Name = "txtSkillDescription";
-            this.txtSkillDescription.Size = new System.Drawing.Size(224, 100);
+            this.txtSkillDescription.Size = new System.Drawing.Size(206, 100);
             this.txtSkillDescription.TabIndex = 2;
-            this.txtSkillDescription.Text = "Description";
+            this.txtSkillDescription.Text = "TalentDescription";
             // 
             // cboCharacteristic
             // 
@@ -1329,7 +1356,7 @@
             "Cunning",
             "Willpower",
             "Presence"});
-            this.cboCharacteristic.Location = new System.Drawing.Point(142, 2);
+            this.cboCharacteristic.Location = new System.Drawing.Point(124, 2);
             this.cboCharacteristic.Name = "cboCharacteristic";
             this.cboCharacteristic.Size = new System.Drawing.Size(85, 21);
             this.cboCharacteristic.TabIndex = 1;
@@ -1340,7 +1367,7 @@
             this.txtSkill.BackColor = System.Drawing.SystemColors.Info;
             this.txtSkill.Location = new System.Drawing.Point(3, 3);
             this.txtSkill.Name = "txtSkill";
-            this.txtSkill.Size = new System.Drawing.Size(133, 20);
+            this.txtSkill.Size = new System.Drawing.Size(115, 20);
             this.txtSkill.TabIndex = 0;
             this.txtSkill.Text = "Skill";
             // 
@@ -1348,7 +1375,7 @@
             // 
             this.linkSkill43.AutoSize = true;
             this.linkSkill43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill43.Location = new System.Drawing.Point(205, 363);
+            this.linkSkill43.Location = new System.Drawing.Point(215, 363);
             this.linkSkill43.Name = "linkSkill43";
             this.linkSkill43.Size = new System.Drawing.Size(54, 13);
             this.linkSkill43.TabIndex = 678;
@@ -1356,70 +1383,70 @@
             this.linkSkill43.Text = "linkSkill43";
             this.linkSkill43.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button81
+            // btn5Rank43
             // 
-            this.button81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button81.Location = new System.Drawing.Point(320, 363);
-            this.button81.Name = "button81";
-            this.button81.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button81.Size = new System.Drawing.Size(13, 13);
-            this.button81.TabIndex = 683;
-            this.button81.Text = "button10";
-            this.button81.UseVisualStyleBackColor = false;
+            this.btn5Rank43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank43.Location = new System.Drawing.Point(354, 363);
+            this.btn5Rank43.Name = "btn5Rank43";
+            this.btn5Rank43.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank43.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank43.TabIndex = 683;
+            this.btn5Rank43.Text = "button10";
+            this.btn5Rank43.UseVisualStyleBackColor = false;
             // 
-            // button82
+            // btn3Rank43
             // 
-            this.button82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button82.Location = new System.Drawing.Point(348, 363);
-            this.button82.Name = "button82";
-            this.button82.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button82.Size = new System.Drawing.Size(13, 13);
-            this.button82.TabIndex = 681;
-            this.button82.Text = "button9";
-            this.button82.UseVisualStyleBackColor = false;
+            this.btn3Rank43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank43.Location = new System.Drawing.Point(382, 363);
+            this.btn3Rank43.Name = "btn3Rank43";
+            this.btn3Rank43.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank43.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank43.TabIndex = 681;
+            this.btn3Rank43.Text = "button9";
+            this.btn3Rank43.UseVisualStyleBackColor = false;
             // 
-            // button83
+            // btn2Rank43
             // 
-            this.button83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button83.Location = new System.Drawing.Point(362, 363);
-            this.button83.Name = "button83";
-            this.button83.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button83.Size = new System.Drawing.Size(13, 13);
-            this.button83.TabIndex = 679;
-            this.button83.Text = "button8";
-            this.button83.UseVisualStyleBackColor = false;
+            this.btn2Rank43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank43.Location = new System.Drawing.Point(396, 363);
+            this.btn2Rank43.Name = "btn2Rank43";
+            this.btn2Rank43.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank43.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank43.TabIndex = 679;
+            this.btn2Rank43.Text = "button8";
+            this.btn2Rank43.UseVisualStyleBackColor = false;
             // 
-            // button84
+            // btn4Rank43
             // 
-            this.button84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button84.Location = new System.Drawing.Point(334, 363);
-            this.button84.Name = "button84";
-            this.button84.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button84.Size = new System.Drawing.Size(13, 13);
-            this.button84.TabIndex = 680;
-            this.button84.Text = "button7";
-            this.button84.UseVisualStyleBackColor = false;
+            this.btn4Rank43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank43.Location = new System.Drawing.Point(368, 363);
+            this.btn4Rank43.Name = "btn4Rank43";
+            this.btn4Rank43.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank43.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank43.TabIndex = 680;
+            this.btn4Rank43.Text = "button7";
+            this.btn4Rank43.UseVisualStyleBackColor = false;
             // 
-            // button85
+            // btn1Rank43
             // 
-            this.button85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button85.Location = new System.Drawing.Point(376, 363);
-            this.button85.Name = "button85";
-            this.button85.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button85.Size = new System.Drawing.Size(13, 13);
-            this.button85.TabIndex = 682;
-            this.button85.Text = "button6";
-            this.button85.UseVisualStyleBackColor = false;
+            this.btn1Rank43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank43.Location = new System.Drawing.Point(410, 363);
+            this.btn1Rank43.Name = "btn1Rank43";
+            this.btn1Rank43.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank43.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank43.TabIndex = 682;
+            this.btn1Rank43.Text = "button6";
+            this.btn1Rank43.UseVisualStyleBackColor = false;
             // 
             // chkCareer43
             // 
             this.chkCareer43.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer43.Location = new System.Drawing.Point(304, 363);
+            this.chkCareer43.Location = new System.Drawing.Point(338, 363);
             this.chkCareer43.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer43.Name = "chkCareer43";
             this.chkCareer43.Size = new System.Drawing.Size(13, 13);
@@ -1431,7 +1458,7 @@
             // 
             this.linkSkill42.AutoSize = true;
             this.linkSkill42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill42.Location = new System.Drawing.Point(205, 348);
+            this.linkSkill42.Location = new System.Drawing.Point(215, 348);
             this.linkSkill42.Name = "linkSkill42";
             this.linkSkill42.Size = new System.Drawing.Size(54, 13);
             this.linkSkill42.TabIndex = 671;
@@ -1439,70 +1466,70 @@
             this.linkSkill42.Text = "linkSkill42";
             this.linkSkill42.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button86
+            // btn5Rank42
             // 
-            this.button86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button86.Location = new System.Drawing.Point(320, 348);
-            this.button86.Name = "button86";
-            this.button86.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button86.Size = new System.Drawing.Size(13, 13);
-            this.button86.TabIndex = 676;
-            this.button86.Text = "button10";
-            this.button86.UseVisualStyleBackColor = false;
+            this.btn5Rank42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank42.Location = new System.Drawing.Point(354, 348);
+            this.btn5Rank42.Name = "btn5Rank42";
+            this.btn5Rank42.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank42.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank42.TabIndex = 676;
+            this.btn5Rank42.Text = "button10";
+            this.btn5Rank42.UseVisualStyleBackColor = false;
             // 
-            // button87
+            // btn3Rank42
             // 
-            this.button87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button87.Location = new System.Drawing.Point(348, 348);
-            this.button87.Name = "button87";
-            this.button87.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button87.Size = new System.Drawing.Size(13, 13);
-            this.button87.TabIndex = 674;
-            this.button87.Text = "button9";
-            this.button87.UseVisualStyleBackColor = false;
+            this.btn3Rank42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank42.Location = new System.Drawing.Point(382, 348);
+            this.btn3Rank42.Name = "btn3Rank42";
+            this.btn3Rank42.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank42.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank42.TabIndex = 674;
+            this.btn3Rank42.Text = "button9";
+            this.btn3Rank42.UseVisualStyleBackColor = false;
             // 
-            // button88
+            // btn2Rank42
             // 
-            this.button88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button88.Location = new System.Drawing.Point(362, 348);
-            this.button88.Name = "button88";
-            this.button88.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button88.Size = new System.Drawing.Size(13, 13);
-            this.button88.TabIndex = 672;
-            this.button88.Text = "button88";
-            this.button88.UseVisualStyleBackColor = false;
+            this.btn2Rank42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank42.Location = new System.Drawing.Point(396, 348);
+            this.btn2Rank42.Name = "btn2Rank42";
+            this.btn2Rank42.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank42.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank42.TabIndex = 672;
+            this.btn2Rank42.Text = "button88";
+            this.btn2Rank42.UseVisualStyleBackColor = false;
             // 
-            // button89
+            // btn4Rank42
             // 
-            this.button89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button89.Location = new System.Drawing.Point(334, 348);
-            this.button89.Name = "button89";
-            this.button89.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button89.Size = new System.Drawing.Size(13, 13);
-            this.button89.TabIndex = 673;
-            this.button89.Text = "button7";
-            this.button89.UseVisualStyleBackColor = false;
+            this.btn4Rank42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank42.Location = new System.Drawing.Point(368, 348);
+            this.btn4Rank42.Name = "btn4Rank42";
+            this.btn4Rank42.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank42.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank42.TabIndex = 673;
+            this.btn4Rank42.Text = "button7";
+            this.btn4Rank42.UseVisualStyleBackColor = false;
             // 
-            // button90
+            // btn1Rank42
             // 
-            this.button90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button90.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button90.Location = new System.Drawing.Point(376, 348);
-            this.button90.Name = "button90";
-            this.button90.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button90.Size = new System.Drawing.Size(13, 13);
-            this.button90.TabIndex = 675;
-            this.button90.Text = "button6";
-            this.button90.UseVisualStyleBackColor = false;
+            this.btn1Rank42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank42.Location = new System.Drawing.Point(410, 348);
+            this.btn1Rank42.Name = "btn1Rank42";
+            this.btn1Rank42.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank42.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank42.TabIndex = 675;
+            this.btn1Rank42.Text = "button6";
+            this.btn1Rank42.UseVisualStyleBackColor = false;
             // 
             // chkCareer42
             // 
             this.chkCareer42.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer42.Location = new System.Drawing.Point(304, 348);
+            this.chkCareer42.Location = new System.Drawing.Point(338, 348);
             this.chkCareer42.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer42.Name = "chkCareer42";
             this.chkCareer42.Size = new System.Drawing.Size(13, 13);
@@ -1514,7 +1541,7 @@
             // 
             this.linkSkill41.AutoSize = true;
             this.linkSkill41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill41.Location = new System.Drawing.Point(205, 333);
+            this.linkSkill41.Location = new System.Drawing.Point(215, 333);
             this.linkSkill41.Name = "linkSkill41";
             this.linkSkill41.Size = new System.Drawing.Size(54, 13);
             this.linkSkill41.TabIndex = 664;
@@ -1522,70 +1549,70 @@
             this.linkSkill41.Text = "linkSkill41";
             this.linkSkill41.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button196
+            // btn5Rank41
             // 
-            this.button196.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button196.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button196.Location = new System.Drawing.Point(320, 333);
-            this.button196.Name = "button196";
-            this.button196.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button196.Size = new System.Drawing.Size(13, 13);
-            this.button196.TabIndex = 669;
-            this.button196.Text = "button10";
-            this.button196.UseVisualStyleBackColor = false;
+            this.btn5Rank41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank41.Location = new System.Drawing.Point(354, 333);
+            this.btn5Rank41.Name = "btn5Rank41";
+            this.btn5Rank41.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank41.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank41.TabIndex = 669;
+            this.btn5Rank41.Text = "button10";
+            this.btn5Rank41.UseVisualStyleBackColor = false;
             // 
-            // button197
+            // btn3Rank41
             // 
-            this.button197.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button197.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button197.Location = new System.Drawing.Point(348, 333);
-            this.button197.Name = "button197";
-            this.button197.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button197.Size = new System.Drawing.Size(13, 13);
-            this.button197.TabIndex = 667;
-            this.button197.Text = "button9";
-            this.button197.UseVisualStyleBackColor = false;
+            this.btn3Rank41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank41.Location = new System.Drawing.Point(382, 333);
+            this.btn3Rank41.Name = "btn3Rank41";
+            this.btn3Rank41.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank41.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank41.TabIndex = 667;
+            this.btn3Rank41.Text = "button9";
+            this.btn3Rank41.UseVisualStyleBackColor = false;
             // 
-            // button198
+            // btn2Rank41
             // 
-            this.button198.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button198.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button198.Location = new System.Drawing.Point(362, 333);
-            this.button198.Name = "button198";
-            this.button198.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button198.Size = new System.Drawing.Size(13, 13);
-            this.button198.TabIndex = 665;
-            this.button198.Text = "button8";
-            this.button198.UseVisualStyleBackColor = false;
+            this.btn2Rank41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank41.Location = new System.Drawing.Point(396, 333);
+            this.btn2Rank41.Name = "btn2Rank41";
+            this.btn2Rank41.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank41.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank41.TabIndex = 665;
+            this.btn2Rank41.Text = "button8";
+            this.btn2Rank41.UseVisualStyleBackColor = false;
             // 
-            // button199
+            // btn4Rank41
             // 
-            this.button199.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button199.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button199.Location = new System.Drawing.Point(334, 333);
-            this.button199.Name = "button199";
-            this.button199.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button199.Size = new System.Drawing.Size(13, 13);
-            this.button199.TabIndex = 666;
-            this.button199.Text = "button7";
-            this.button199.UseVisualStyleBackColor = false;
+            this.btn4Rank41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank41.Location = new System.Drawing.Point(368, 333);
+            this.btn4Rank41.Name = "btn4Rank41";
+            this.btn4Rank41.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank41.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank41.TabIndex = 666;
+            this.btn4Rank41.Text = "button7";
+            this.btn4Rank41.UseVisualStyleBackColor = false;
             // 
-            // button200
+            // btn1Rank41
             // 
-            this.button200.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button200.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button200.Location = new System.Drawing.Point(376, 333);
-            this.button200.Name = "button200";
-            this.button200.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button200.Size = new System.Drawing.Size(13, 13);
-            this.button200.TabIndex = 668;
-            this.button200.Text = "button6";
-            this.button200.UseVisualStyleBackColor = false;
+            this.btn1Rank41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank41.Location = new System.Drawing.Point(410, 333);
+            this.btn1Rank41.Name = "btn1Rank41";
+            this.btn1Rank41.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank41.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank41.TabIndex = 668;
+            this.btn1Rank41.Text = "button6";
+            this.btn1Rank41.UseVisualStyleBackColor = false;
             // 
             // chkCareer41
             // 
             this.chkCareer41.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer41.Location = new System.Drawing.Point(304, 333);
+            this.chkCareer41.Location = new System.Drawing.Point(338, 333);
             this.chkCareer41.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer41.Name = "chkCareer41";
             this.chkCareer41.Size = new System.Drawing.Size(13, 13);
@@ -1597,7 +1624,7 @@
             // 
             this.linkSkill40.AutoSize = true;
             this.linkSkill40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill40.Location = new System.Drawing.Point(205, 318);
+            this.linkSkill40.Location = new System.Drawing.Point(215, 318);
             this.linkSkill40.Name = "linkSkill40";
             this.linkSkill40.Size = new System.Drawing.Size(54, 13);
             this.linkSkill40.TabIndex = 657;
@@ -1605,70 +1632,70 @@
             this.linkSkill40.Text = "linkSkill40";
             this.linkSkill40.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button201
+            // btn5Rank40
             // 
-            this.button201.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button201.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button201.Location = new System.Drawing.Point(320, 318);
-            this.button201.Name = "button201";
-            this.button201.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button201.Size = new System.Drawing.Size(13, 13);
-            this.button201.TabIndex = 662;
-            this.button201.Text = "button10";
-            this.button201.UseVisualStyleBackColor = false;
+            this.btn5Rank40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank40.Location = new System.Drawing.Point(354, 318);
+            this.btn5Rank40.Name = "btn5Rank40";
+            this.btn5Rank40.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank40.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank40.TabIndex = 662;
+            this.btn5Rank40.Text = "button10";
+            this.btn5Rank40.UseVisualStyleBackColor = false;
             // 
-            // button202
+            // btn3Rank40
             // 
-            this.button202.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button202.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button202.Location = new System.Drawing.Point(348, 318);
-            this.button202.Name = "button202";
-            this.button202.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button202.Size = new System.Drawing.Size(13, 13);
-            this.button202.TabIndex = 660;
-            this.button202.Text = "button9";
-            this.button202.UseVisualStyleBackColor = false;
+            this.btn3Rank40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank40.Location = new System.Drawing.Point(382, 318);
+            this.btn3Rank40.Name = "btn3Rank40";
+            this.btn3Rank40.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank40.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank40.TabIndex = 660;
+            this.btn3Rank40.Text = "button9";
+            this.btn3Rank40.UseVisualStyleBackColor = false;
             // 
-            // button203
+            // btn2Rank40
             // 
-            this.button203.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button203.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button203.Location = new System.Drawing.Point(362, 318);
-            this.button203.Name = "button203";
-            this.button203.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button203.Size = new System.Drawing.Size(13, 13);
-            this.button203.TabIndex = 658;
-            this.button203.Text = "button8";
-            this.button203.UseVisualStyleBackColor = false;
+            this.btn2Rank40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank40.Location = new System.Drawing.Point(396, 318);
+            this.btn2Rank40.Name = "btn2Rank40";
+            this.btn2Rank40.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank40.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank40.TabIndex = 658;
+            this.btn2Rank40.Text = "button8";
+            this.btn2Rank40.UseVisualStyleBackColor = false;
             // 
-            // button204
+            // btn4Rank40
             // 
-            this.button204.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button204.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button204.Location = new System.Drawing.Point(334, 318);
-            this.button204.Name = "button204";
-            this.button204.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button204.Size = new System.Drawing.Size(13, 13);
-            this.button204.TabIndex = 659;
-            this.button204.Text = "button7";
-            this.button204.UseVisualStyleBackColor = false;
+            this.btn4Rank40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank40.Location = new System.Drawing.Point(368, 318);
+            this.btn4Rank40.Name = "btn4Rank40";
+            this.btn4Rank40.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank40.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank40.TabIndex = 659;
+            this.btn4Rank40.Text = "button7";
+            this.btn4Rank40.UseVisualStyleBackColor = false;
             // 
-            // button205
+            // btn1Rank40
             // 
-            this.button205.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button205.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button205.Location = new System.Drawing.Point(376, 318);
-            this.button205.Name = "button205";
-            this.button205.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button205.Size = new System.Drawing.Size(13, 13);
-            this.button205.TabIndex = 661;
-            this.button205.Text = "button6";
-            this.button205.UseVisualStyleBackColor = false;
+            this.btn1Rank40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank40.Location = new System.Drawing.Point(410, 318);
+            this.btn1Rank40.Name = "btn1Rank40";
+            this.btn1Rank40.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank40.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank40.TabIndex = 661;
+            this.btn1Rank40.Text = "button6";
+            this.btn1Rank40.UseVisualStyleBackColor = false;
             // 
             // chkCareer40
             // 
             this.chkCareer40.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer40.Location = new System.Drawing.Point(304, 318);
+            this.chkCareer40.Location = new System.Drawing.Point(338, 318);
             this.chkCareer40.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer40.Name = "chkCareer40";
             this.chkCareer40.Size = new System.Drawing.Size(13, 13);
@@ -1681,7 +1708,7 @@
             this.lblSkillsCustom.AutoSize = true;
             this.lblSkillsCustom.BackColor = System.Drawing.Color.Transparent;
             this.lblSkillsCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSkillsCustom.Location = new System.Drawing.Point(205, 288);
+            this.lblSkillsCustom.Location = new System.Drawing.Point(215, 288);
             this.lblSkillsCustom.Name = "lblSkillsCustom";
             this.lblSkillsCustom.Size = new System.Drawing.Size(69, 13);
             this.lblSkillsCustom.TabIndex = 647;
@@ -1692,7 +1719,7 @@
             this.lblCareerCustom.AutoSize = true;
             this.lblCareerCustom.BackColor = System.Drawing.Color.Transparent;
             this.lblCareerCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCareerCustom.Location = new System.Drawing.Point(294, 288);
+            this.lblCareerCustom.Location = new System.Drawing.Point(328, 288);
             this.lblCareerCustom.Name = "lblCareerCustom";
             this.lblCareerCustom.Size = new System.Drawing.Size(44, 13);
             this.lblCareerCustom.TabIndex = 648;
@@ -1703,7 +1730,7 @@
             this.lblRankCustom.AutoSize = true;
             this.lblRankCustom.BackColor = System.Drawing.Color.Transparent;
             this.lblRankCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRankCustom.Location = new System.Drawing.Point(355, 288);
+            this.lblRankCustom.Location = new System.Drawing.Point(389, 288);
             this.lblRankCustom.Name = "lblRankCustom";
             this.lblRankCustom.Size = new System.Drawing.Size(33, 13);
             this.lblRankCustom.TabIndex = 649;
@@ -1713,7 +1740,7 @@
             // 
             this.linkSkill39.AutoSize = true;
             this.linkSkill39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill39.Location = new System.Drawing.Point(205, 303);
+            this.linkSkill39.Location = new System.Drawing.Point(215, 303);
             this.linkSkill39.Name = "linkSkill39";
             this.linkSkill39.Size = new System.Drawing.Size(54, 13);
             this.linkSkill39.TabIndex = 650;
@@ -1721,70 +1748,70 @@
             this.linkSkill39.Text = "linkSkill39";
             this.linkSkill39.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button206
+            // btn5Rank39
             // 
-            this.button206.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button206.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button206.Location = new System.Drawing.Point(320, 303);
-            this.button206.Name = "button206";
-            this.button206.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button206.Size = new System.Drawing.Size(13, 13);
-            this.button206.TabIndex = 655;
-            this.button206.Text = "button10";
-            this.button206.UseVisualStyleBackColor = false;
+            this.btn5Rank39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank39.Location = new System.Drawing.Point(354, 303);
+            this.btn5Rank39.Name = "btn5Rank39";
+            this.btn5Rank39.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank39.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank39.TabIndex = 655;
+            this.btn5Rank39.Text = "button10";
+            this.btn5Rank39.UseVisualStyleBackColor = false;
             // 
-            // button207
+            // btn3Rank39
             // 
-            this.button207.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button207.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button207.Location = new System.Drawing.Point(348, 303);
-            this.button207.Name = "button207";
-            this.button207.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button207.Size = new System.Drawing.Size(13, 13);
-            this.button207.TabIndex = 653;
-            this.button207.Text = "button9";
-            this.button207.UseVisualStyleBackColor = false;
+            this.btn3Rank39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank39.Location = new System.Drawing.Point(382, 303);
+            this.btn3Rank39.Name = "btn3Rank39";
+            this.btn3Rank39.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank39.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank39.TabIndex = 653;
+            this.btn3Rank39.Text = "button9";
+            this.btn3Rank39.UseVisualStyleBackColor = false;
             // 
-            // button208
+            // btn2Rank39
             // 
-            this.button208.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button208.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button208.Location = new System.Drawing.Point(362, 303);
-            this.button208.Name = "button208";
-            this.button208.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button208.Size = new System.Drawing.Size(13, 13);
-            this.button208.TabIndex = 651;
-            this.button208.Text = "button8";
-            this.button208.UseVisualStyleBackColor = false;
+            this.btn2Rank39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank39.Location = new System.Drawing.Point(396, 303);
+            this.btn2Rank39.Name = "btn2Rank39";
+            this.btn2Rank39.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank39.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank39.TabIndex = 651;
+            this.btn2Rank39.Text = "button8";
+            this.btn2Rank39.UseVisualStyleBackColor = false;
             // 
-            // button209
+            // btn4Rank39
             // 
-            this.button209.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button209.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button209.Location = new System.Drawing.Point(334, 303);
-            this.button209.Name = "button209";
-            this.button209.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button209.Size = new System.Drawing.Size(13, 13);
-            this.button209.TabIndex = 652;
-            this.button209.Text = "button7";
-            this.button209.UseVisualStyleBackColor = false;
+            this.btn4Rank39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank39.Location = new System.Drawing.Point(368, 303);
+            this.btn4Rank39.Name = "btn4Rank39";
+            this.btn4Rank39.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank39.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank39.TabIndex = 652;
+            this.btn4Rank39.Text = "button7";
+            this.btn4Rank39.UseVisualStyleBackColor = false;
             // 
-            // button210
+            // btn1Rank39
             // 
-            this.button210.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button210.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button210.Location = new System.Drawing.Point(376, 303);
-            this.button210.Name = "button210";
-            this.button210.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button210.Size = new System.Drawing.Size(13, 13);
-            this.button210.TabIndex = 654;
-            this.button210.Text = "button6";
-            this.button210.UseVisualStyleBackColor = false;
+            this.btn1Rank39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank39.Location = new System.Drawing.Point(410, 303);
+            this.btn1Rank39.Name = "btn1Rank39";
+            this.btn1Rank39.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank39.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank39.TabIndex = 654;
+            this.btn1Rank39.Text = "button6";
+            this.btn1Rank39.UseVisualStyleBackColor = false;
             // 
             // chkCareer39
             // 
             this.chkCareer39.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer39.Location = new System.Drawing.Point(304, 303);
+            this.chkCareer39.Location = new System.Drawing.Point(338, 303);
             this.chkCareer39.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer39.Name = "chkCareer39";
             this.chkCareer39.Size = new System.Drawing.Size(13, 13);
@@ -1796,7 +1823,7 @@
             // 
             this.linkSkill38.AutoSize = true;
             this.linkSkill38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill38.Location = new System.Drawing.Point(205, 273);
+            this.linkSkill38.Location = new System.Drawing.Point(215, 273);
             this.linkSkill38.Name = "linkSkill38";
             this.linkSkill38.Size = new System.Drawing.Size(54, 13);
             this.linkSkill38.TabIndex = 640;
@@ -1804,70 +1831,70 @@
             this.linkSkill38.Text = "linkSkill38";
             this.linkSkill38.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button26
+            // btn5Rank38
             // 
-            this.button26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Location = new System.Drawing.Point(320, 273);
-            this.button26.Name = "button26";
-            this.button26.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button26.Size = new System.Drawing.Size(13, 13);
-            this.button26.TabIndex = 645;
-            this.button26.Text = "button10";
-            this.button26.UseVisualStyleBackColor = false;
+            this.btn5Rank38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank38.Location = new System.Drawing.Point(354, 273);
+            this.btn5Rank38.Name = "btn5Rank38";
+            this.btn5Rank38.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank38.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank38.TabIndex = 645;
+            this.btn5Rank38.Text = "button10";
+            this.btn5Rank38.UseVisualStyleBackColor = false;
             // 
-            // button27
+            // btn3Rank38
             // 
-            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Location = new System.Drawing.Point(348, 273);
-            this.button27.Name = "button27";
-            this.button27.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button27.Size = new System.Drawing.Size(13, 13);
-            this.button27.TabIndex = 643;
-            this.button27.Text = "button9";
-            this.button27.UseVisualStyleBackColor = false;
+            this.btn3Rank38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank38.Location = new System.Drawing.Point(382, 273);
+            this.btn3Rank38.Name = "btn3Rank38";
+            this.btn3Rank38.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank38.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank38.TabIndex = 643;
+            this.btn3Rank38.Text = "button9";
+            this.btn3Rank38.UseVisualStyleBackColor = false;
             // 
-            // button28
+            // btn2Rank38
             // 
-            this.button28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Location = new System.Drawing.Point(362, 273);
-            this.button28.Name = "button28";
-            this.button28.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button28.Size = new System.Drawing.Size(13, 13);
-            this.button28.TabIndex = 641;
-            this.button28.Text = "button8";
-            this.button28.UseVisualStyleBackColor = false;
+            this.btn2Rank38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank38.Location = new System.Drawing.Point(396, 273);
+            this.btn2Rank38.Name = "btn2Rank38";
+            this.btn2Rank38.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank38.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank38.TabIndex = 641;
+            this.btn2Rank38.Text = "button8";
+            this.btn2Rank38.UseVisualStyleBackColor = false;
             // 
-            // button29
+            // btn4Rank38
             // 
-            this.button29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.Location = new System.Drawing.Point(334, 273);
-            this.button29.Name = "button29";
-            this.button29.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button29.Size = new System.Drawing.Size(13, 13);
-            this.button29.TabIndex = 642;
-            this.button29.Text = "button7";
-            this.button29.UseVisualStyleBackColor = false;
+            this.btn4Rank38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank38.Location = new System.Drawing.Point(368, 273);
+            this.btn4Rank38.Name = "btn4Rank38";
+            this.btn4Rank38.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank38.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank38.TabIndex = 642;
+            this.btn4Rank38.Text = "button7";
+            this.btn4Rank38.UseVisualStyleBackColor = false;
             // 
-            // button30
+            // btn1Rank38
             // 
-            this.button30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Location = new System.Drawing.Point(376, 273);
-            this.button30.Name = "button30";
-            this.button30.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button30.Size = new System.Drawing.Size(13, 13);
-            this.button30.TabIndex = 644;
-            this.button30.Text = "button6";
-            this.button30.UseVisualStyleBackColor = false;
+            this.btn1Rank38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank38.Location = new System.Drawing.Point(410, 273);
+            this.btn1Rank38.Name = "btn1Rank38";
+            this.btn1Rank38.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank38.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank38.TabIndex = 644;
+            this.btn1Rank38.Text = "button6";
+            this.btn1Rank38.UseVisualStyleBackColor = false;
             // 
             // chkCareer38
             // 
             this.chkCareer38.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer38.Location = new System.Drawing.Point(304, 273);
+            this.chkCareer38.Location = new System.Drawing.Point(338, 273);
             this.chkCareer38.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer38.Name = "chkCareer38";
             this.chkCareer38.Size = new System.Drawing.Size(13, 13);
@@ -1879,7 +1906,7 @@
             // 
             this.linkSkill37.AutoSize = true;
             this.linkSkill37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill37.Location = new System.Drawing.Point(205, 257);
+            this.linkSkill37.Location = new System.Drawing.Point(215, 257);
             this.linkSkill37.Name = "linkSkill37";
             this.linkSkill37.Size = new System.Drawing.Size(54, 13);
             this.linkSkill37.TabIndex = 633;
@@ -1887,70 +1914,70 @@
             this.linkSkill37.Text = "linkSkill37";
             this.linkSkill37.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button31
+            // btn5Rank37
             // 
-            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Location = new System.Drawing.Point(320, 257);
-            this.button31.Name = "button31";
-            this.button31.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button31.Size = new System.Drawing.Size(13, 13);
-            this.button31.TabIndex = 638;
-            this.button31.Text = "button10";
-            this.button31.UseVisualStyleBackColor = false;
+            this.btn5Rank37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank37.Location = new System.Drawing.Point(354, 257);
+            this.btn5Rank37.Name = "btn5Rank37";
+            this.btn5Rank37.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank37.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank37.TabIndex = 638;
+            this.btn5Rank37.Text = "button10";
+            this.btn5Rank37.UseVisualStyleBackColor = false;
             // 
-            // button32
+            // btn3Rank37
             // 
-            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Location = new System.Drawing.Point(348, 257);
-            this.button32.Name = "button32";
-            this.button32.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button32.Size = new System.Drawing.Size(13, 13);
-            this.button32.TabIndex = 636;
-            this.button32.Text = "button9";
-            this.button32.UseVisualStyleBackColor = false;
+            this.btn3Rank37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank37.Location = new System.Drawing.Point(382, 257);
+            this.btn3Rank37.Name = "btn3Rank37";
+            this.btn3Rank37.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank37.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank37.TabIndex = 636;
+            this.btn3Rank37.Text = "button9";
+            this.btn3Rank37.UseVisualStyleBackColor = false;
             // 
-            // button33
+            // btn2Rank37
             // 
-            this.button33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.Location = new System.Drawing.Point(362, 257);
-            this.button33.Name = "button33";
-            this.button33.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button33.Size = new System.Drawing.Size(13, 13);
-            this.button33.TabIndex = 634;
-            this.button33.Text = "button33";
-            this.button33.UseVisualStyleBackColor = false;
+            this.btn2Rank37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank37.Location = new System.Drawing.Point(396, 257);
+            this.btn2Rank37.Name = "btn2Rank37";
+            this.btn2Rank37.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank37.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank37.TabIndex = 634;
+            this.btn2Rank37.Text = "button33";
+            this.btn2Rank37.UseVisualStyleBackColor = false;
             // 
-            // button34
+            // btn4Rank37
             // 
-            this.button34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.Location = new System.Drawing.Point(334, 257);
-            this.button34.Name = "button34";
-            this.button34.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button34.Size = new System.Drawing.Size(13, 13);
-            this.button34.TabIndex = 635;
-            this.button34.Text = "button7";
-            this.button34.UseVisualStyleBackColor = false;
+            this.btn4Rank37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank37.Location = new System.Drawing.Point(368, 257);
+            this.btn4Rank37.Name = "btn4Rank37";
+            this.btn4Rank37.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank37.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank37.TabIndex = 635;
+            this.btn4Rank37.Text = "button7";
+            this.btn4Rank37.UseVisualStyleBackColor = false;
             // 
-            // button35
+            // btn1Rank37
             // 
-            this.button35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.Location = new System.Drawing.Point(376, 257);
-            this.button35.Name = "button35";
-            this.button35.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button35.Size = new System.Drawing.Size(13, 13);
-            this.button35.TabIndex = 637;
-            this.button35.Text = "button6";
-            this.button35.UseVisualStyleBackColor = false;
+            this.btn1Rank37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank37.Location = new System.Drawing.Point(410, 257);
+            this.btn1Rank37.Name = "btn1Rank37";
+            this.btn1Rank37.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank37.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank37.TabIndex = 637;
+            this.btn1Rank37.Text = "button6";
+            this.btn1Rank37.UseVisualStyleBackColor = false;
             // 
             // chkCareer37
             // 
             this.chkCareer37.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer37.Location = new System.Drawing.Point(304, 257);
+            this.chkCareer37.Location = new System.Drawing.Point(338, 257);
             this.chkCareer37.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer37.Name = "chkCareer37";
             this.chkCareer37.Size = new System.Drawing.Size(13, 13);
@@ -1962,7 +1989,7 @@
             // 
             this.linkSkill36.AutoSize = true;
             this.linkSkill36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill36.Location = new System.Drawing.Point(205, 242);
+            this.linkSkill36.Location = new System.Drawing.Point(215, 242);
             this.linkSkill36.Name = "linkSkill36";
             this.linkSkill36.Size = new System.Drawing.Size(54, 13);
             this.linkSkill36.TabIndex = 626;
@@ -1970,70 +1997,70 @@
             this.linkSkill36.Text = "linkSkill36";
             this.linkSkill36.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button36
+            // btn5Rank36
             // 
-            this.button36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button36.Location = new System.Drawing.Point(320, 242);
-            this.button36.Name = "button36";
-            this.button36.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button36.Size = new System.Drawing.Size(13, 13);
-            this.button36.TabIndex = 631;
-            this.button36.Text = "button10";
-            this.button36.UseVisualStyleBackColor = false;
+            this.btn5Rank36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank36.Location = new System.Drawing.Point(354, 242);
+            this.btn5Rank36.Name = "btn5Rank36";
+            this.btn5Rank36.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank36.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank36.TabIndex = 631;
+            this.btn5Rank36.Text = "button10";
+            this.btn5Rank36.UseVisualStyleBackColor = false;
             // 
-            // button37
+            // btn3Rank36
             // 
-            this.button37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.Location = new System.Drawing.Point(348, 242);
-            this.button37.Name = "button37";
-            this.button37.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button37.Size = new System.Drawing.Size(13, 13);
-            this.button37.TabIndex = 629;
-            this.button37.Text = "button9";
-            this.button37.UseVisualStyleBackColor = false;
+            this.btn3Rank36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank36.Location = new System.Drawing.Point(382, 242);
+            this.btn3Rank36.Name = "btn3Rank36";
+            this.btn3Rank36.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank36.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank36.TabIndex = 629;
+            this.btn3Rank36.Text = "button9";
+            this.btn3Rank36.UseVisualStyleBackColor = false;
             // 
-            // button38
+            // btn2Rank36
             // 
-            this.button38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button38.Location = new System.Drawing.Point(362, 242);
-            this.button38.Name = "button38";
-            this.button38.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button38.Size = new System.Drawing.Size(13, 13);
-            this.button38.TabIndex = 627;
-            this.button38.Text = "button8";
-            this.button38.UseVisualStyleBackColor = false;
+            this.btn2Rank36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank36.Location = new System.Drawing.Point(396, 242);
+            this.btn2Rank36.Name = "btn2Rank36";
+            this.btn2Rank36.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank36.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank36.TabIndex = 627;
+            this.btn2Rank36.Text = "button8";
+            this.btn2Rank36.UseVisualStyleBackColor = false;
             // 
-            // button39
+            // btn4Rank36
             // 
-            this.button39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button39.Location = new System.Drawing.Point(334, 242);
-            this.button39.Name = "button39";
-            this.button39.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button39.Size = new System.Drawing.Size(13, 13);
-            this.button39.TabIndex = 628;
-            this.button39.Text = "button7";
-            this.button39.UseVisualStyleBackColor = false;
+            this.btn4Rank36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank36.Location = new System.Drawing.Point(368, 242);
+            this.btn4Rank36.Name = "btn4Rank36";
+            this.btn4Rank36.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank36.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank36.TabIndex = 628;
+            this.btn4Rank36.Text = "button7";
+            this.btn4Rank36.UseVisualStyleBackColor = false;
             // 
-            // button40
+            // btn1Rank36
             // 
-            this.button40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button40.Location = new System.Drawing.Point(376, 242);
-            this.button40.Name = "button40";
-            this.button40.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button40.Size = new System.Drawing.Size(13, 13);
-            this.button40.TabIndex = 630;
-            this.button40.Text = "button6";
-            this.button40.UseVisualStyleBackColor = false;
+            this.btn1Rank36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank36.Location = new System.Drawing.Point(410, 242);
+            this.btn1Rank36.Name = "btn1Rank36";
+            this.btn1Rank36.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank36.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank36.TabIndex = 630;
+            this.btn1Rank36.Text = "button6";
+            this.btn1Rank36.UseVisualStyleBackColor = false;
             // 
             // chkCareer36
             // 
             this.chkCareer36.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer36.Location = new System.Drawing.Point(304, 242);
+            this.chkCareer36.Location = new System.Drawing.Point(338, 242);
             this.chkCareer36.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer36.Name = "chkCareer36";
             this.chkCareer36.Size = new System.Drawing.Size(13, 13);
@@ -2045,7 +2072,7 @@
             // 
             this.linkSkill35.AutoSize = true;
             this.linkSkill35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill35.Location = new System.Drawing.Point(205, 227);
+            this.linkSkill35.Location = new System.Drawing.Point(215, 227);
             this.linkSkill35.Name = "linkSkill35";
             this.linkSkill35.Size = new System.Drawing.Size(54, 13);
             this.linkSkill35.TabIndex = 619;
@@ -2053,70 +2080,70 @@
             this.linkSkill35.Text = "linkSkill35";
             this.linkSkill35.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button41
+            // btn5Rank35
             // 
-            this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button41.Location = new System.Drawing.Point(320, 227);
-            this.button41.Name = "button41";
-            this.button41.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button41.Size = new System.Drawing.Size(13, 13);
-            this.button41.TabIndex = 624;
-            this.button41.Text = "button10";
-            this.button41.UseVisualStyleBackColor = false;
+            this.btn5Rank35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank35.Location = new System.Drawing.Point(354, 227);
+            this.btn5Rank35.Name = "btn5Rank35";
+            this.btn5Rank35.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank35.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank35.TabIndex = 624;
+            this.btn5Rank35.Text = "button10";
+            this.btn5Rank35.UseVisualStyleBackColor = false;
             // 
-            // button42
+            // btn3Rank35
             // 
-            this.button42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button42.Location = new System.Drawing.Point(348, 227);
-            this.button42.Name = "button42";
-            this.button42.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button42.Size = new System.Drawing.Size(13, 13);
-            this.button42.TabIndex = 622;
-            this.button42.Text = "button9";
-            this.button42.UseVisualStyleBackColor = false;
+            this.btn3Rank35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank35.Location = new System.Drawing.Point(382, 227);
+            this.btn3Rank35.Name = "btn3Rank35";
+            this.btn3Rank35.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank35.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank35.TabIndex = 622;
+            this.btn3Rank35.Text = "button9";
+            this.btn3Rank35.UseVisualStyleBackColor = false;
             // 
-            // button43
+            // btn2Rank35
             // 
-            this.button43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button43.Location = new System.Drawing.Point(362, 227);
-            this.button43.Name = "button43";
-            this.button43.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button43.Size = new System.Drawing.Size(13, 13);
-            this.button43.TabIndex = 620;
-            this.button43.Text = "button8";
-            this.button43.UseVisualStyleBackColor = false;
+            this.btn2Rank35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank35.Location = new System.Drawing.Point(396, 227);
+            this.btn2Rank35.Name = "btn2Rank35";
+            this.btn2Rank35.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank35.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank35.TabIndex = 620;
+            this.btn2Rank35.Text = "button8";
+            this.btn2Rank35.UseVisualStyleBackColor = false;
             // 
-            // button44
+            // btn4Rank35
             // 
-            this.button44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button44.Location = new System.Drawing.Point(334, 227);
-            this.button44.Name = "button44";
-            this.button44.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button44.Size = new System.Drawing.Size(13, 13);
-            this.button44.TabIndex = 621;
-            this.button44.Text = "button7";
-            this.button44.UseVisualStyleBackColor = false;
+            this.btn4Rank35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank35.Location = new System.Drawing.Point(368, 227);
+            this.btn4Rank35.Name = "btn4Rank35";
+            this.btn4Rank35.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank35.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank35.TabIndex = 621;
+            this.btn4Rank35.Text = "button7";
+            this.btn4Rank35.UseVisualStyleBackColor = false;
             // 
-            // button45
+            // btn1Rank35
             // 
-            this.button45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button45.Location = new System.Drawing.Point(376, 227);
-            this.button45.Name = "button45";
-            this.button45.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button45.Size = new System.Drawing.Size(13, 13);
-            this.button45.TabIndex = 623;
-            this.button45.Text = "button6";
-            this.button45.UseVisualStyleBackColor = false;
+            this.btn1Rank35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank35.Location = new System.Drawing.Point(410, 227);
+            this.btn1Rank35.Name = "btn1Rank35";
+            this.btn1Rank35.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank35.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank35.TabIndex = 623;
+            this.btn1Rank35.Text = "button6";
+            this.btn1Rank35.UseVisualStyleBackColor = false;
             // 
             // chkCareer35
             // 
             this.chkCareer35.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer35.Location = new System.Drawing.Point(304, 227);
+            this.chkCareer35.Location = new System.Drawing.Point(338, 227);
             this.chkCareer35.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer35.Name = "chkCareer35";
             this.chkCareer35.Size = new System.Drawing.Size(13, 13);
@@ -2129,7 +2156,7 @@
             this.lblSkillsKnowledge.AutoSize = true;
             this.lblSkillsKnowledge.BackColor = System.Drawing.Color.Transparent;
             this.lblSkillsKnowledge.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSkillsKnowledge.Location = new System.Drawing.Point(205, 197);
+            this.lblSkillsKnowledge.Location = new System.Drawing.Point(215, 197);
             this.lblSkillsKnowledge.Name = "lblSkillsKnowledge";
             this.lblSkillsKnowledge.Size = new System.Drawing.Size(87, 13);
             this.lblSkillsKnowledge.TabIndex = 609;
@@ -2140,7 +2167,7 @@
             this.lblCareerKnowledge.AutoSize = true;
             this.lblCareerKnowledge.BackColor = System.Drawing.Color.Transparent;
             this.lblCareerKnowledge.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCareerKnowledge.Location = new System.Drawing.Point(294, 197);
+            this.lblCareerKnowledge.Location = new System.Drawing.Point(328, 197);
             this.lblCareerKnowledge.Name = "lblCareerKnowledge";
             this.lblCareerKnowledge.Size = new System.Drawing.Size(44, 13);
             this.lblCareerKnowledge.TabIndex = 610;
@@ -2151,7 +2178,7 @@
             this.lblRankKnowledge.AutoSize = true;
             this.lblRankKnowledge.BackColor = System.Drawing.Color.Transparent;
             this.lblRankKnowledge.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRankKnowledge.Location = new System.Drawing.Point(355, 197);
+            this.lblRankKnowledge.Location = new System.Drawing.Point(389, 197);
             this.lblRankKnowledge.Name = "lblRankKnowledge";
             this.lblRankKnowledge.Size = new System.Drawing.Size(33, 13);
             this.lblRankKnowledge.TabIndex = 611;
@@ -2161,7 +2188,7 @@
             // 
             this.linkSkill34.AutoSize = true;
             this.linkSkill34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill34.Location = new System.Drawing.Point(205, 212);
+            this.linkSkill34.Location = new System.Drawing.Point(215, 212);
             this.linkSkill34.Name = "linkSkill34";
             this.linkSkill34.Size = new System.Drawing.Size(54, 13);
             this.linkSkill34.TabIndex = 612;
@@ -2169,70 +2196,70 @@
             this.linkSkill34.Text = "linkSkill34";
             this.linkSkill34.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button76
+            // btn5Rank34
             // 
-            this.button76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button76.Location = new System.Drawing.Point(320, 212);
-            this.button76.Name = "button76";
-            this.button76.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button76.Size = new System.Drawing.Size(13, 13);
-            this.button76.TabIndex = 617;
-            this.button76.Text = "button10";
-            this.button76.UseVisualStyleBackColor = false;
+            this.btn5Rank34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank34.Location = new System.Drawing.Point(354, 212);
+            this.btn5Rank34.Name = "btn5Rank34";
+            this.btn5Rank34.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank34.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank34.TabIndex = 617;
+            this.btn5Rank34.Text = "button10";
+            this.btn5Rank34.UseVisualStyleBackColor = false;
             // 
-            // button77
+            // btn3Rank34
             // 
-            this.button77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button77.Location = new System.Drawing.Point(348, 212);
-            this.button77.Name = "button77";
-            this.button77.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button77.Size = new System.Drawing.Size(13, 13);
-            this.button77.TabIndex = 615;
-            this.button77.Text = "button9";
-            this.button77.UseVisualStyleBackColor = false;
+            this.btn3Rank34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank34.Location = new System.Drawing.Point(382, 212);
+            this.btn3Rank34.Name = "btn3Rank34";
+            this.btn3Rank34.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank34.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank34.TabIndex = 615;
+            this.btn3Rank34.Text = "button9";
+            this.btn3Rank34.UseVisualStyleBackColor = false;
             // 
-            // button78
+            // btn2Rank34
             // 
-            this.button78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button78.Location = new System.Drawing.Point(362, 212);
-            this.button78.Name = "button78";
-            this.button78.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button78.Size = new System.Drawing.Size(13, 13);
-            this.button78.TabIndex = 613;
-            this.button78.Text = "button8";
-            this.button78.UseVisualStyleBackColor = false;
+            this.btn2Rank34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank34.Location = new System.Drawing.Point(396, 212);
+            this.btn2Rank34.Name = "btn2Rank34";
+            this.btn2Rank34.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank34.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank34.TabIndex = 613;
+            this.btn2Rank34.Text = "button8";
+            this.btn2Rank34.UseVisualStyleBackColor = false;
             // 
-            // button79
+            // btn4Rank34
             // 
-            this.button79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button79.Location = new System.Drawing.Point(334, 212);
-            this.button79.Name = "button79";
-            this.button79.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button79.Size = new System.Drawing.Size(13, 13);
-            this.button79.TabIndex = 614;
-            this.button79.Text = "button7";
-            this.button79.UseVisualStyleBackColor = false;
+            this.btn4Rank34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank34.Location = new System.Drawing.Point(368, 212);
+            this.btn4Rank34.Name = "btn4Rank34";
+            this.btn4Rank34.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank34.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank34.TabIndex = 614;
+            this.btn4Rank34.Text = "button7";
+            this.btn4Rank34.UseVisualStyleBackColor = false;
             // 
-            // button80
+            // btn1Rank34
             // 
-            this.button80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button80.Location = new System.Drawing.Point(376, 212);
-            this.button80.Name = "button80";
-            this.button80.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button80.Size = new System.Drawing.Size(13, 13);
-            this.button80.TabIndex = 616;
-            this.button80.Text = "button6";
-            this.button80.UseVisualStyleBackColor = false;
+            this.btn1Rank34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank34.Location = new System.Drawing.Point(410, 212);
+            this.btn1Rank34.Name = "btn1Rank34";
+            this.btn1Rank34.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank34.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank34.TabIndex = 616;
+            this.btn1Rank34.Text = "button6";
+            this.btn1Rank34.UseVisualStyleBackColor = false;
             // 
             // chkCareer34
             // 
             this.chkCareer34.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer34.Location = new System.Drawing.Point(304, 212);
+            this.chkCareer34.Location = new System.Drawing.Point(338, 212);
             this.chkCareer34.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer34.Name = "chkCareer34";
             this.chkCareer34.Size = new System.Drawing.Size(13, 13);
@@ -2252,70 +2279,70 @@
             this.linkSkill22.Text = "linkSkill22";
             this.linkSkill22.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button1
+            // btn5Rank22
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(118, 364);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button1.Size = new System.Drawing.Size(13, 13);
-            this.button1.TabIndex = 607;
-            this.button1.Text = "button10";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn5Rank22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank22.Location = new System.Drawing.Point(142, 364);
+            this.btn5Rank22.Name = "btn5Rank22";
+            this.btn5Rank22.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank22.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank22.TabIndex = 607;
+            this.btn5Rank22.Text = "button10";
+            this.btn5Rank22.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btn3Rank22
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(146, 364);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button2.Size = new System.Drawing.Size(13, 13);
-            this.button2.TabIndex = 605;
-            this.button2.Text = "button9";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn3Rank22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank22.Location = new System.Drawing.Point(170, 364);
+            this.btn3Rank22.Name = "btn3Rank22";
+            this.btn3Rank22.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank22.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank22.TabIndex = 605;
+            this.btn3Rank22.Text = "button9";
+            this.btn3Rank22.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btn2Rank22
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(160, 364);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button3.Size = new System.Drawing.Size(13, 13);
-            this.button3.TabIndex = 603;
-            this.button3.Text = "button8";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn2Rank22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank22.Location = new System.Drawing.Point(184, 364);
+            this.btn2Rank22.Name = "btn2Rank22";
+            this.btn2Rank22.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank22.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank22.TabIndex = 603;
+            this.btn2Rank22.Text = "button8";
+            this.btn2Rank22.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn4Rank22
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(132, 364);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button4.Size = new System.Drawing.Size(13, 13);
-            this.button4.TabIndex = 604;
-            this.button4.Text = "button7";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn4Rank22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank22.Location = new System.Drawing.Point(156, 364);
+            this.btn4Rank22.Name = "btn4Rank22";
+            this.btn4Rank22.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank22.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank22.TabIndex = 604;
+            this.btn4Rank22.Text = "button7";
+            this.btn4Rank22.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btn1Rank22
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(174, 364);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button5.Size = new System.Drawing.Size(13, 13);
-            this.button5.TabIndex = 606;
-            this.button5.Text = "button6";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn1Rank22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank22.Location = new System.Drawing.Point(198, 364);
+            this.btn1Rank22.Name = "btn1Rank22";
+            this.btn1Rank22.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank22.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank22.TabIndex = 606;
+            this.btn1Rank22.Text = "button6";
+            this.btn1Rank22.UseVisualStyleBackColor = false;
             // 
             // chkCareer22
             // 
             this.chkCareer22.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer22.Location = new System.Drawing.Point(102, 364);
+            this.chkCareer22.Location = new System.Drawing.Point(126, 364);
             this.chkCareer22.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer22.Name = "chkCareer22";
             this.chkCareer22.Size = new System.Drawing.Size(13, 13);
@@ -2335,70 +2362,70 @@
             this.linkSkill21.Text = "linkSkill21";
             this.linkSkill21.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button6
+            // btn5Rank21
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(118, 349);
-            this.button6.Name = "button6";
-            this.button6.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button6.Size = new System.Drawing.Size(13, 13);
-            this.button6.TabIndex = 600;
-            this.button6.Text = "button10";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btn5Rank21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank21.Location = new System.Drawing.Point(142, 349);
+            this.btn5Rank21.Name = "btn5Rank21";
+            this.btn5Rank21.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank21.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank21.TabIndex = 600;
+            this.btn5Rank21.Text = "button10";
+            this.btn5Rank21.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btn3Rank21
             // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(146, 349);
-            this.button7.Name = "button7";
-            this.button7.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button7.Size = new System.Drawing.Size(13, 13);
-            this.button7.TabIndex = 598;
-            this.button7.Text = "button9";
-            this.button7.UseVisualStyleBackColor = false;
+            this.btn3Rank21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank21.Location = new System.Drawing.Point(170, 349);
+            this.btn3Rank21.Name = "btn3Rank21";
+            this.btn3Rank21.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank21.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank21.TabIndex = 598;
+            this.btn3Rank21.Text = "button9";
+            this.btn3Rank21.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // btn2Rank21
             // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(160, 349);
-            this.button8.Name = "button8";
-            this.button8.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button8.Size = new System.Drawing.Size(13, 13);
-            this.button8.TabIndex = 596;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = false;
+            this.btn2Rank21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank21.Location = new System.Drawing.Point(184, 349);
+            this.btn2Rank21.Name = "btn2Rank21";
+            this.btn2Rank21.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank21.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank21.TabIndex = 596;
+            this.btn2Rank21.Text = "button8";
+            this.btn2Rank21.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btn4Rank21
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(132, 349);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button9.Size = new System.Drawing.Size(13, 13);
-            this.button9.TabIndex = 597;
-            this.button9.Text = "button7";
-            this.button9.UseVisualStyleBackColor = false;
+            this.btn4Rank21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank21.Location = new System.Drawing.Point(156, 349);
+            this.btn4Rank21.Name = "btn4Rank21";
+            this.btn4Rank21.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank21.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank21.TabIndex = 597;
+            this.btn4Rank21.Text = "button7";
+            this.btn4Rank21.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // btn1Rank21
             // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(174, 349);
-            this.button10.Name = "button10";
-            this.button10.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button10.Size = new System.Drawing.Size(13, 13);
-            this.button10.TabIndex = 599;
-            this.button10.Text = "button6";
-            this.button10.UseVisualStyleBackColor = false;
+            this.btn1Rank21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank21.Location = new System.Drawing.Point(198, 349);
+            this.btn1Rank21.Name = "btn1Rank21";
+            this.btn1Rank21.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank21.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank21.TabIndex = 599;
+            this.btn1Rank21.Text = "button6";
+            this.btn1Rank21.UseVisualStyleBackColor = false;
             // 
             // chkCareer21
             // 
             this.chkCareer21.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer21.Location = new System.Drawing.Point(102, 349);
+            this.chkCareer21.Location = new System.Drawing.Point(126, 349);
             this.chkCareer21.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer21.Name = "chkCareer21";
             this.chkCareer21.Size = new System.Drawing.Size(13, 13);
@@ -2418,70 +2445,70 @@
             this.linkSkill20.Text = "linkSkill20";
             this.linkSkill20.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button11
+            // btn5Rank20
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(118, 334);
-            this.button11.Name = "button11";
-            this.button11.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button11.Size = new System.Drawing.Size(13, 13);
-            this.button11.TabIndex = 593;
-            this.button11.Text = "button10";
-            this.button11.UseVisualStyleBackColor = false;
+            this.btn5Rank20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank20.Location = new System.Drawing.Point(142, 334);
+            this.btn5Rank20.Name = "btn5Rank20";
+            this.btn5Rank20.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank20.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank20.TabIndex = 593;
+            this.btn5Rank20.Text = "button10";
+            this.btn5Rank20.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // btn3Rank20
             // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Location = new System.Drawing.Point(146, 334);
-            this.button12.Name = "button12";
-            this.button12.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button12.Size = new System.Drawing.Size(13, 13);
-            this.button12.TabIndex = 591;
-            this.button12.Text = "button9";
-            this.button12.UseVisualStyleBackColor = false;
+            this.btn3Rank20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank20.Location = new System.Drawing.Point(170, 334);
+            this.btn3Rank20.Name = "btn3Rank20";
+            this.btn3Rank20.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank20.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank20.TabIndex = 591;
+            this.btn3Rank20.Text = "button9";
+            this.btn3Rank20.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // btn2Rank20
             // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(160, 334);
-            this.button13.Name = "button13";
-            this.button13.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button13.Size = new System.Drawing.Size(13, 13);
-            this.button13.TabIndex = 589;
-            this.button13.Text = "button8";
-            this.button13.UseVisualStyleBackColor = false;
+            this.btn2Rank20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank20.Location = new System.Drawing.Point(184, 334);
+            this.btn2Rank20.Name = "btn2Rank20";
+            this.btn2Rank20.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank20.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank20.TabIndex = 589;
+            this.btn2Rank20.Text = "button8";
+            this.btn2Rank20.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // btn4Rank20
             // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(132, 334);
-            this.button14.Name = "button14";
-            this.button14.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button14.Size = new System.Drawing.Size(13, 13);
-            this.button14.TabIndex = 590;
-            this.button14.Text = "button7";
-            this.button14.UseVisualStyleBackColor = false;
+            this.btn4Rank20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank20.Location = new System.Drawing.Point(156, 334);
+            this.btn4Rank20.Name = "btn4Rank20";
+            this.btn4Rank20.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank20.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank20.TabIndex = 590;
+            this.btn4Rank20.Text = "button7";
+            this.btn4Rank20.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // btn1Rank20
             // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(174, 334);
-            this.button15.Name = "button15";
-            this.button15.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button15.Size = new System.Drawing.Size(13, 13);
-            this.button15.TabIndex = 592;
-            this.button15.Text = "button6";
-            this.button15.UseVisualStyleBackColor = false;
+            this.btn1Rank20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank20.Location = new System.Drawing.Point(198, 334);
+            this.btn1Rank20.Name = "btn1Rank20";
+            this.btn1Rank20.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank20.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank20.TabIndex = 592;
+            this.btn1Rank20.Text = "button6";
+            this.btn1Rank20.UseVisualStyleBackColor = false;
             // 
             // chkCareer20
             // 
             this.chkCareer20.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer20.Location = new System.Drawing.Point(102, 334);
+            this.chkCareer20.Location = new System.Drawing.Point(126, 334);
             this.chkCareer20.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer20.Name = "chkCareer20";
             this.chkCareer20.Size = new System.Drawing.Size(13, 13);
@@ -2501,70 +2528,70 @@
             this.linkSkill19.Text = "linkSkill19";
             this.linkSkill19.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button16
+            // btn5Rank19
             // 
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(118, 319);
-            this.button16.Name = "button16";
-            this.button16.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button16.Size = new System.Drawing.Size(13, 13);
-            this.button16.TabIndex = 586;
-            this.button16.Text = "button10";
-            this.button16.UseVisualStyleBackColor = false;
+            this.btn5Rank19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank19.Location = new System.Drawing.Point(142, 319);
+            this.btn5Rank19.Name = "btn5Rank19";
+            this.btn5Rank19.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank19.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank19.TabIndex = 586;
+            this.btn5Rank19.Text = "button10";
+            this.btn5Rank19.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // btn3Rank19
             // 
-            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(146, 319);
-            this.button17.Name = "button17";
-            this.button17.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button17.Size = new System.Drawing.Size(13, 13);
-            this.button17.TabIndex = 584;
-            this.button17.Text = "button9";
-            this.button17.UseVisualStyleBackColor = false;
+            this.btn3Rank19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank19.Location = new System.Drawing.Point(170, 319);
+            this.btn3Rank19.Name = "btn3Rank19";
+            this.btn3Rank19.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank19.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank19.TabIndex = 584;
+            this.btn3Rank19.Text = "button9";
+            this.btn3Rank19.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // btn2Rank19
             // 
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(160, 319);
-            this.button18.Name = "button18";
-            this.button18.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button18.Size = new System.Drawing.Size(13, 13);
-            this.button18.TabIndex = 582;
-            this.button18.Text = "button8";
-            this.button18.UseVisualStyleBackColor = false;
+            this.btn2Rank19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank19.Location = new System.Drawing.Point(184, 319);
+            this.btn2Rank19.Name = "btn2Rank19";
+            this.btn2Rank19.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank19.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank19.TabIndex = 582;
+            this.btn2Rank19.Text = "button8";
+            this.btn2Rank19.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // btn4Rank19
             // 
-            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(132, 319);
-            this.button19.Name = "button19";
-            this.button19.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button19.Size = new System.Drawing.Size(13, 13);
-            this.button19.TabIndex = 583;
-            this.button19.Text = "button7";
-            this.button19.UseVisualStyleBackColor = false;
+            this.btn4Rank19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank19.Location = new System.Drawing.Point(156, 319);
+            this.btn4Rank19.Name = "btn4Rank19";
+            this.btn4Rank19.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank19.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank19.TabIndex = 583;
+            this.btn4Rank19.Text = "button7";
+            this.btn4Rank19.UseVisualStyleBackColor = false;
             // 
-            // button20
+            // btn1Rank19
             // 
-            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(174, 319);
-            this.button20.Name = "button20";
-            this.button20.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button20.Size = new System.Drawing.Size(13, 13);
-            this.button20.TabIndex = 585;
-            this.button20.Text = "button6";
-            this.button20.UseVisualStyleBackColor = false;
+            this.btn1Rank19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank19.Location = new System.Drawing.Point(198, 319);
+            this.btn1Rank19.Name = "btn1Rank19";
+            this.btn1Rank19.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank19.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank19.TabIndex = 585;
+            this.btn1Rank19.Text = "button6";
+            this.btn1Rank19.UseVisualStyleBackColor = false;
             // 
             // chkCareer19
             // 
             this.chkCareer19.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer19.Location = new System.Drawing.Point(102, 319);
+            this.chkCareer19.Location = new System.Drawing.Point(126, 319);
             this.chkCareer19.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer19.Name = "chkCareer19";
             this.chkCareer19.Size = new System.Drawing.Size(13, 13);
@@ -2588,7 +2615,7 @@
             this.lblCareerMagic.AutoSize = true;
             this.lblCareerMagic.BackColor = System.Drawing.Color.Transparent;
             this.lblCareerMagic.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCareerMagic.Location = new System.Drawing.Point(92, 289);
+            this.lblCareerMagic.Location = new System.Drawing.Point(116, 289);
             this.lblCareerMagic.Name = "lblCareerMagic";
             this.lblCareerMagic.Size = new System.Drawing.Size(44, 13);
             this.lblCareerMagic.TabIndex = 572;
@@ -2599,7 +2626,7 @@
             this.lblRankMagic.AutoSize = true;
             this.lblRankMagic.BackColor = System.Drawing.Color.Transparent;
             this.lblRankMagic.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRankMagic.Location = new System.Drawing.Point(153, 289);
+            this.lblRankMagic.Location = new System.Drawing.Point(177, 289);
             this.lblRankMagic.Name = "lblRankMagic";
             this.lblRankMagic.Size = new System.Drawing.Size(33, 13);
             this.lblRankMagic.TabIndex = 573;
@@ -2617,70 +2644,70 @@
             this.linkSkill18.Text = "linkSkill18";
             this.linkSkill18.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button21
+            // btn5Rank18
             // 
-            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Location = new System.Drawing.Point(118, 304);
-            this.button21.Name = "button21";
-            this.button21.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button21.Size = new System.Drawing.Size(13, 13);
-            this.button21.TabIndex = 579;
-            this.button21.Text = "button10";
-            this.button21.UseVisualStyleBackColor = false;
+            this.btn5Rank18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank18.Location = new System.Drawing.Point(142, 304);
+            this.btn5Rank18.Name = "btn5Rank18";
+            this.btn5Rank18.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank18.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank18.TabIndex = 579;
+            this.btn5Rank18.Text = "button10";
+            this.btn5Rank18.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // btn3Rank18
             // 
-            this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Location = new System.Drawing.Point(146, 304);
-            this.button22.Name = "button22";
-            this.button22.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button22.Size = new System.Drawing.Size(13, 13);
-            this.button22.TabIndex = 577;
-            this.button22.Text = "button9";
-            this.button22.UseVisualStyleBackColor = false;
+            this.btn3Rank18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank18.Location = new System.Drawing.Point(170, 304);
+            this.btn3Rank18.Name = "btn3Rank18";
+            this.btn3Rank18.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank18.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank18.TabIndex = 577;
+            this.btn3Rank18.Text = "button9";
+            this.btn3Rank18.UseVisualStyleBackColor = false;
             // 
-            // button23
+            // btn2Rank18
             // 
-            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Location = new System.Drawing.Point(160, 304);
-            this.button23.Name = "button23";
-            this.button23.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button23.Size = new System.Drawing.Size(13, 13);
-            this.button23.TabIndex = 575;
-            this.button23.Text = "button8";
-            this.button23.UseVisualStyleBackColor = false;
+            this.btn2Rank18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank18.Location = new System.Drawing.Point(184, 304);
+            this.btn2Rank18.Name = "btn2Rank18";
+            this.btn2Rank18.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank18.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank18.TabIndex = 575;
+            this.btn2Rank18.Text = "button8";
+            this.btn2Rank18.UseVisualStyleBackColor = false;
             // 
-            // button24
+            // btn4Rank18
             // 
-            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Location = new System.Drawing.Point(132, 304);
-            this.button24.Name = "button24";
-            this.button24.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button24.Size = new System.Drawing.Size(13, 13);
-            this.button24.TabIndex = 576;
-            this.button24.Text = "button7";
-            this.button24.UseVisualStyleBackColor = false;
+            this.btn4Rank18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank18.Location = new System.Drawing.Point(156, 304);
+            this.btn4Rank18.Name = "btn4Rank18";
+            this.btn4Rank18.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank18.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank18.TabIndex = 576;
+            this.btn4Rank18.Text = "button7";
+            this.btn4Rank18.UseVisualStyleBackColor = false;
             // 
-            // button25
+            // btn1Rank18
             // 
-            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Location = new System.Drawing.Point(174, 304);
-            this.button25.Name = "button25";
-            this.button25.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button25.Size = new System.Drawing.Size(13, 13);
-            this.button25.TabIndex = 578;
-            this.button25.Text = "button6";
-            this.button25.UseVisualStyleBackColor = false;
+            this.btn1Rank18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank18.Location = new System.Drawing.Point(198, 304);
+            this.btn1Rank18.Name = "btn1Rank18";
+            this.btn1Rank18.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank18.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank18.TabIndex = 578;
+            this.btn1Rank18.Text = "button6";
+            this.btn1Rank18.UseVisualStyleBackColor = false;
             // 
             // chkCareer18
             // 
             this.chkCareer18.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer18.Location = new System.Drawing.Point(102, 304);
+            this.chkCareer18.Location = new System.Drawing.Point(126, 304);
             this.chkCareer18.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer18.Name = "chkCareer18";
             this.chkCareer18.Size = new System.Drawing.Size(13, 13);
@@ -2704,7 +2731,7 @@
             // 
             this.btn5Rank17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank17.Location = new System.Drawing.Point(118, 272);
+            this.btn5Rank17.Location = new System.Drawing.Point(142, 272);
             this.btn5Rank17.Name = "btn5Rank17";
             this.btn5Rank17.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank17.Size = new System.Drawing.Size(13, 13);
@@ -2716,7 +2743,7 @@
             // 
             this.btn3Rank17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank17.Location = new System.Drawing.Point(146, 272);
+            this.btn3Rank17.Location = new System.Drawing.Point(170, 272);
             this.btn3Rank17.Name = "btn3Rank17";
             this.btn3Rank17.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank17.Size = new System.Drawing.Size(13, 13);
@@ -2728,7 +2755,7 @@
             // 
             this.btn2Rank17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank17.Location = new System.Drawing.Point(160, 272);
+            this.btn2Rank17.Location = new System.Drawing.Point(184, 272);
             this.btn2Rank17.Name = "btn2Rank17";
             this.btn2Rank17.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank17.Size = new System.Drawing.Size(13, 13);
@@ -2740,7 +2767,7 @@
             // 
             this.btn4Rank17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank17.Location = new System.Drawing.Point(132, 272);
+            this.btn4Rank17.Location = new System.Drawing.Point(156, 272);
             this.btn4Rank17.Name = "btn4Rank17";
             this.btn4Rank17.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank17.Size = new System.Drawing.Size(13, 13);
@@ -2752,7 +2779,7 @@
             // 
             this.btn1Rank17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank17.Location = new System.Drawing.Point(174, 272);
+            this.btn1Rank17.Location = new System.Drawing.Point(198, 272);
             this.btn1Rank17.Name = "btn1Rank17";
             this.btn1Rank17.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank17.Size = new System.Drawing.Size(13, 13);
@@ -2763,7 +2790,7 @@
             // chkCareer17
             // 
             this.chkCareer17.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer17.Location = new System.Drawing.Point(102, 272);
+            this.chkCareer17.Location = new System.Drawing.Point(126, 272);
             this.chkCareer17.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer17.Name = "chkCareer17";
             this.chkCareer17.Size = new System.Drawing.Size(13, 13);
@@ -2787,7 +2814,7 @@
             // 
             this.btn5Rank16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank16.Location = new System.Drawing.Point(118, 257);
+            this.btn5Rank16.Location = new System.Drawing.Point(142, 257);
             this.btn5Rank16.Name = "btn5Rank16";
             this.btn5Rank16.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank16.Size = new System.Drawing.Size(13, 13);
@@ -2799,7 +2826,7 @@
             // 
             this.btn3Rank16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank16.Location = new System.Drawing.Point(146, 257);
+            this.btn3Rank16.Location = new System.Drawing.Point(170, 257);
             this.btn3Rank16.Name = "btn3Rank16";
             this.btn3Rank16.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank16.Size = new System.Drawing.Size(13, 13);
@@ -2811,7 +2838,7 @@
             // 
             this.btn2Rank16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank16.Location = new System.Drawing.Point(160, 257);
+            this.btn2Rank16.Location = new System.Drawing.Point(184, 257);
             this.btn2Rank16.Name = "btn2Rank16";
             this.btn2Rank16.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank16.Size = new System.Drawing.Size(13, 13);
@@ -2823,7 +2850,7 @@
             // 
             this.btn4Rank16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank16.Location = new System.Drawing.Point(132, 257);
+            this.btn4Rank16.Location = new System.Drawing.Point(156, 257);
             this.btn4Rank16.Name = "btn4Rank16";
             this.btn4Rank16.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank16.Size = new System.Drawing.Size(13, 13);
@@ -2835,7 +2862,7 @@
             // 
             this.btn1Rank16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank16.Location = new System.Drawing.Point(174, 257);
+            this.btn1Rank16.Location = new System.Drawing.Point(198, 257);
             this.btn1Rank16.Name = "btn1Rank16";
             this.btn1Rank16.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank16.Size = new System.Drawing.Size(13, 13);
@@ -2846,7 +2873,7 @@
             // chkCareer16
             // 
             this.chkCareer16.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer16.Location = new System.Drawing.Point(102, 257);
+            this.chkCareer16.Location = new System.Drawing.Point(126, 257);
             this.chkCareer16.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer16.Name = "chkCareer16";
             this.chkCareer16.Size = new System.Drawing.Size(13, 13);
@@ -2870,7 +2897,7 @@
             // 
             this.btn5Rank15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank15.Location = new System.Drawing.Point(118, 242);
+            this.btn5Rank15.Location = new System.Drawing.Point(142, 242);
             this.btn5Rank15.Name = "btn5Rank15";
             this.btn5Rank15.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank15.Size = new System.Drawing.Size(13, 13);
@@ -2882,7 +2909,7 @@
             // 
             this.btn3Rank15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank15.Location = new System.Drawing.Point(146, 242);
+            this.btn3Rank15.Location = new System.Drawing.Point(170, 242);
             this.btn3Rank15.Name = "btn3Rank15";
             this.btn3Rank15.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank15.Size = new System.Drawing.Size(13, 13);
@@ -2894,7 +2921,7 @@
             // 
             this.btn2Rank15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank15.Location = new System.Drawing.Point(160, 242);
+            this.btn2Rank15.Location = new System.Drawing.Point(184, 242);
             this.btn2Rank15.Name = "btn2Rank15";
             this.btn2Rank15.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank15.Size = new System.Drawing.Size(13, 13);
@@ -2906,7 +2933,7 @@
             // 
             this.btn4Rank15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank15.Location = new System.Drawing.Point(132, 242);
+            this.btn4Rank15.Location = new System.Drawing.Point(156, 242);
             this.btn4Rank15.Name = "btn4Rank15";
             this.btn4Rank15.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank15.Size = new System.Drawing.Size(13, 13);
@@ -2918,7 +2945,7 @@
             // 
             this.btn1Rank15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank15.Location = new System.Drawing.Point(174, 242);
+            this.btn1Rank15.Location = new System.Drawing.Point(198, 242);
             this.btn1Rank15.Name = "btn1Rank15";
             this.btn1Rank15.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank15.Size = new System.Drawing.Size(13, 13);
@@ -2929,7 +2956,7 @@
             // chkCareer15
             // 
             this.chkCareer15.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer15.Location = new System.Drawing.Point(102, 242);
+            this.chkCareer15.Location = new System.Drawing.Point(126, 242);
             this.chkCareer15.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer15.Name = "chkCareer15";
             this.chkCareer15.Size = new System.Drawing.Size(13, 13);
@@ -2953,7 +2980,7 @@
             // 
             this.btn5Rank14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank14.Location = new System.Drawing.Point(118, 227);
+            this.btn5Rank14.Location = new System.Drawing.Point(142, 227);
             this.btn5Rank14.Name = "btn5Rank14";
             this.btn5Rank14.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank14.Size = new System.Drawing.Size(13, 13);
@@ -2965,7 +2992,7 @@
             // 
             this.btn3Rank14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank14.Location = new System.Drawing.Point(146, 227);
+            this.btn3Rank14.Location = new System.Drawing.Point(170, 227);
             this.btn3Rank14.Name = "btn3Rank14";
             this.btn3Rank14.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank14.Size = new System.Drawing.Size(13, 13);
@@ -2977,7 +3004,7 @@
             // 
             this.btn2Rank14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank14.Location = new System.Drawing.Point(160, 227);
+            this.btn2Rank14.Location = new System.Drawing.Point(184, 227);
             this.btn2Rank14.Name = "btn2Rank14";
             this.btn2Rank14.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank14.Size = new System.Drawing.Size(13, 13);
@@ -2989,7 +3016,7 @@
             // 
             this.btn4Rank14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank14.Location = new System.Drawing.Point(132, 227);
+            this.btn4Rank14.Location = new System.Drawing.Point(156, 227);
             this.btn4Rank14.Name = "btn4Rank14";
             this.btn4Rank14.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank14.Size = new System.Drawing.Size(13, 13);
@@ -3001,7 +3028,7 @@
             // 
             this.btn1Rank14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank14.Location = new System.Drawing.Point(174, 227);
+            this.btn1Rank14.Location = new System.Drawing.Point(198, 227);
             this.btn1Rank14.Name = "btn1Rank14";
             this.btn1Rank14.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank14.Size = new System.Drawing.Size(13, 13);
@@ -3012,7 +3039,7 @@
             // chkCareer14
             // 
             this.chkCareer14.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer14.Location = new System.Drawing.Point(102, 227);
+            this.chkCareer14.Location = new System.Drawing.Point(126, 227);
             this.chkCareer14.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer14.Name = "chkCareer14";
             this.chkCareer14.Size = new System.Drawing.Size(13, 13);
@@ -3036,7 +3063,7 @@
             // 
             this.btn5Rank13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank13.Location = new System.Drawing.Point(118, 212);
+            this.btn5Rank13.Location = new System.Drawing.Point(142, 212);
             this.btn5Rank13.Name = "btn5Rank13";
             this.btn5Rank13.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank13.Size = new System.Drawing.Size(13, 13);
@@ -3048,7 +3075,7 @@
             // 
             this.btn3Rank13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank13.Location = new System.Drawing.Point(146, 212);
+            this.btn3Rank13.Location = new System.Drawing.Point(170, 212);
             this.btn3Rank13.Name = "btn3Rank13";
             this.btn3Rank13.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank13.Size = new System.Drawing.Size(13, 13);
@@ -3060,7 +3087,7 @@
             // 
             this.btn2Rank13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank13.Location = new System.Drawing.Point(160, 212);
+            this.btn2Rank13.Location = new System.Drawing.Point(184, 212);
             this.btn2Rank13.Name = "btn2Rank13";
             this.btn2Rank13.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank13.Size = new System.Drawing.Size(13, 13);
@@ -3072,7 +3099,7 @@
             // 
             this.btn4Rank13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank13.Location = new System.Drawing.Point(132, 212);
+            this.btn4Rank13.Location = new System.Drawing.Point(156, 212);
             this.btn4Rank13.Name = "btn4Rank13";
             this.btn4Rank13.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank13.Size = new System.Drawing.Size(13, 13);
@@ -3084,7 +3111,7 @@
             // 
             this.btn1Rank13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank13.Location = new System.Drawing.Point(174, 212);
+            this.btn1Rank13.Location = new System.Drawing.Point(198, 212);
             this.btn1Rank13.Name = "btn1Rank13";
             this.btn1Rank13.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank13.Size = new System.Drawing.Size(13, 13);
@@ -3095,7 +3122,7 @@
             // chkCareer13
             // 
             this.chkCareer13.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer13.Location = new System.Drawing.Point(102, 212);
+            this.chkCareer13.Location = new System.Drawing.Point(126, 212);
             this.chkCareer13.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer13.Name = "chkCareer13";
             this.chkCareer13.Size = new System.Drawing.Size(13, 13);
@@ -3119,7 +3146,7 @@
             // 
             this.btn5Rank12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank12.Location = new System.Drawing.Point(118, 197);
+            this.btn5Rank12.Location = new System.Drawing.Point(142, 197);
             this.btn5Rank12.Name = "btn5Rank12";
             this.btn5Rank12.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank12.Size = new System.Drawing.Size(13, 13);
@@ -3131,7 +3158,7 @@
             // 
             this.btn3Rank12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank12.Location = new System.Drawing.Point(146, 197);
+            this.btn3Rank12.Location = new System.Drawing.Point(170, 197);
             this.btn3Rank12.Name = "btn3Rank12";
             this.btn3Rank12.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank12.Size = new System.Drawing.Size(13, 13);
@@ -3143,7 +3170,7 @@
             // 
             this.btn2Rank12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank12.Location = new System.Drawing.Point(160, 197);
+            this.btn2Rank12.Location = new System.Drawing.Point(184, 197);
             this.btn2Rank12.Name = "btn2Rank12";
             this.btn2Rank12.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank12.Size = new System.Drawing.Size(13, 13);
@@ -3155,7 +3182,7 @@
             // 
             this.btn4Rank12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank12.Location = new System.Drawing.Point(132, 197);
+            this.btn4Rank12.Location = new System.Drawing.Point(156, 197);
             this.btn4Rank12.Name = "btn4Rank12";
             this.btn4Rank12.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank12.Size = new System.Drawing.Size(13, 13);
@@ -3167,7 +3194,7 @@
             // 
             this.btn1Rank12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank12.Location = new System.Drawing.Point(174, 197);
+            this.btn1Rank12.Location = new System.Drawing.Point(198, 197);
             this.btn1Rank12.Name = "btn1Rank12";
             this.btn1Rank12.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank12.Size = new System.Drawing.Size(13, 13);
@@ -3178,7 +3205,7 @@
             // chkCareer12
             // 
             this.chkCareer12.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer12.Location = new System.Drawing.Point(102, 197);
+            this.chkCareer12.Location = new System.Drawing.Point(126, 197);
             this.chkCareer12.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer12.Name = "chkCareer12";
             this.chkCareer12.Size = new System.Drawing.Size(13, 13);
@@ -3202,7 +3229,7 @@
             // 
             this.btn5Rank11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank11.Location = new System.Drawing.Point(118, 182);
+            this.btn5Rank11.Location = new System.Drawing.Point(142, 182);
             this.btn5Rank11.Name = "btn5Rank11";
             this.btn5Rank11.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank11.Size = new System.Drawing.Size(13, 13);
@@ -3214,7 +3241,7 @@
             // 
             this.btn3Rank11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank11.Location = new System.Drawing.Point(146, 182);
+            this.btn3Rank11.Location = new System.Drawing.Point(170, 182);
             this.btn3Rank11.Name = "btn3Rank11";
             this.btn3Rank11.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank11.Size = new System.Drawing.Size(13, 13);
@@ -3226,7 +3253,7 @@
             // 
             this.btn2Rank11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank11.Location = new System.Drawing.Point(160, 182);
+            this.btn2Rank11.Location = new System.Drawing.Point(184, 182);
             this.btn2Rank11.Name = "btn2Rank11";
             this.btn2Rank11.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank11.Size = new System.Drawing.Size(13, 13);
@@ -3238,7 +3265,7 @@
             // 
             this.btn4Rank11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank11.Location = new System.Drawing.Point(132, 182);
+            this.btn4Rank11.Location = new System.Drawing.Point(156, 182);
             this.btn4Rank11.Name = "btn4Rank11";
             this.btn4Rank11.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank11.Size = new System.Drawing.Size(13, 13);
@@ -3250,7 +3277,7 @@
             // 
             this.btn1Rank11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank11.Location = new System.Drawing.Point(174, 182);
+            this.btn1Rank11.Location = new System.Drawing.Point(198, 182);
             this.btn1Rank11.Name = "btn1Rank11";
             this.btn1Rank11.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank11.Size = new System.Drawing.Size(13, 13);
@@ -3261,7 +3288,7 @@
             // chkCareer11
             // 
             this.chkCareer11.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer11.Location = new System.Drawing.Point(102, 182);
+            this.chkCareer11.Location = new System.Drawing.Point(126, 182);
             this.chkCareer11.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer11.Name = "chkCareer11";
             this.chkCareer11.Size = new System.Drawing.Size(13, 13);
@@ -3285,7 +3312,7 @@
             // 
             this.btn5Rank10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank10.Location = new System.Drawing.Point(118, 167);
+            this.btn5Rank10.Location = new System.Drawing.Point(142, 167);
             this.btn5Rank10.Name = "btn5Rank10";
             this.btn5Rank10.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank10.Size = new System.Drawing.Size(13, 13);
@@ -3297,7 +3324,7 @@
             // 
             this.btn3Rank10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank10.Location = new System.Drawing.Point(146, 167);
+            this.btn3Rank10.Location = new System.Drawing.Point(170, 167);
             this.btn3Rank10.Name = "btn3Rank10";
             this.btn3Rank10.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank10.Size = new System.Drawing.Size(13, 13);
@@ -3309,7 +3336,7 @@
             // 
             this.btn2Rank10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank10.Location = new System.Drawing.Point(160, 167);
+            this.btn2Rank10.Location = new System.Drawing.Point(184, 167);
             this.btn2Rank10.Name = "btn2Rank10";
             this.btn2Rank10.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank10.Size = new System.Drawing.Size(13, 13);
@@ -3321,7 +3348,7 @@
             // 
             this.btn4Rank10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank10.Location = new System.Drawing.Point(132, 167);
+            this.btn4Rank10.Location = new System.Drawing.Point(156, 167);
             this.btn4Rank10.Name = "btn4Rank10";
             this.btn4Rank10.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank10.Size = new System.Drawing.Size(13, 13);
@@ -3333,7 +3360,7 @@
             // 
             this.btn1Rank10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank10.Location = new System.Drawing.Point(174, 167);
+            this.btn1Rank10.Location = new System.Drawing.Point(198, 167);
             this.btn1Rank10.Name = "btn1Rank10";
             this.btn1Rank10.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank10.Size = new System.Drawing.Size(13, 13);
@@ -3344,7 +3371,7 @@
             // chkCareer10
             // 
             this.chkCareer10.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer10.Location = new System.Drawing.Point(102, 167);
+            this.chkCareer10.Location = new System.Drawing.Point(126, 167);
             this.chkCareer10.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer10.Name = "chkCareer10";
             this.chkCareer10.Size = new System.Drawing.Size(13, 13);
@@ -3368,7 +3395,7 @@
             // 
             this.btn5Rank9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank9.Location = new System.Drawing.Point(118, 152);
+            this.btn5Rank9.Location = new System.Drawing.Point(142, 152);
             this.btn5Rank9.Name = "btn5Rank9";
             this.btn5Rank9.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank9.Size = new System.Drawing.Size(13, 13);
@@ -3380,7 +3407,7 @@
             // 
             this.btn3Rank9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank9.Location = new System.Drawing.Point(146, 152);
+            this.btn3Rank9.Location = new System.Drawing.Point(170, 152);
             this.btn3Rank9.Name = "btn3Rank9";
             this.btn3Rank9.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank9.Size = new System.Drawing.Size(13, 13);
@@ -3392,7 +3419,7 @@
             // 
             this.btn2Rank9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank9.Location = new System.Drawing.Point(160, 152);
+            this.btn2Rank9.Location = new System.Drawing.Point(184, 152);
             this.btn2Rank9.Name = "btn2Rank9";
             this.btn2Rank9.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank9.Size = new System.Drawing.Size(13, 13);
@@ -3404,7 +3431,7 @@
             // 
             this.btn4Rank9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank9.Location = new System.Drawing.Point(132, 152);
+            this.btn4Rank9.Location = new System.Drawing.Point(156, 152);
             this.btn4Rank9.Name = "btn4Rank9";
             this.btn4Rank9.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank9.Size = new System.Drawing.Size(13, 13);
@@ -3416,7 +3443,7 @@
             // 
             this.btn1Rank9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank9.Location = new System.Drawing.Point(174, 152);
+            this.btn1Rank9.Location = new System.Drawing.Point(198, 152);
             this.btn1Rank9.Name = "btn1Rank9";
             this.btn1Rank9.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank9.Size = new System.Drawing.Size(13, 13);
@@ -3427,7 +3454,7 @@
             // chkCareer9
             // 
             this.chkCareer9.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer9.Location = new System.Drawing.Point(102, 152);
+            this.chkCareer9.Location = new System.Drawing.Point(126, 152);
             this.chkCareer9.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer9.Name = "chkCareer9";
             this.chkCareer9.Size = new System.Drawing.Size(13, 13);
@@ -3451,7 +3478,7 @@
             // 
             this.btn5Rank8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank8.Location = new System.Drawing.Point(118, 137);
+            this.btn5Rank8.Location = new System.Drawing.Point(142, 137);
             this.btn5Rank8.Name = "btn5Rank8";
             this.btn5Rank8.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank8.Size = new System.Drawing.Size(13, 13);
@@ -3463,7 +3490,7 @@
             // 
             this.btn3Rank8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank8.Location = new System.Drawing.Point(146, 137);
+            this.btn3Rank8.Location = new System.Drawing.Point(170, 137);
             this.btn3Rank8.Name = "btn3Rank8";
             this.btn3Rank8.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank8.Size = new System.Drawing.Size(13, 13);
@@ -3475,7 +3502,7 @@
             // 
             this.btn2Rank8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank8.Location = new System.Drawing.Point(160, 137);
+            this.btn2Rank8.Location = new System.Drawing.Point(184, 137);
             this.btn2Rank8.Name = "btn2Rank8";
             this.btn2Rank8.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank8.Size = new System.Drawing.Size(13, 13);
@@ -3487,7 +3514,7 @@
             // 
             this.btn4Rank8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank8.Location = new System.Drawing.Point(132, 137);
+            this.btn4Rank8.Location = new System.Drawing.Point(156, 137);
             this.btn4Rank8.Name = "btn4Rank8";
             this.btn4Rank8.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank8.Size = new System.Drawing.Size(13, 13);
@@ -3499,7 +3526,7 @@
             // 
             this.btn1Rank8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank8.Location = new System.Drawing.Point(174, 137);
+            this.btn1Rank8.Location = new System.Drawing.Point(198, 137);
             this.btn1Rank8.Name = "btn1Rank8";
             this.btn1Rank8.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank8.Size = new System.Drawing.Size(13, 13);
@@ -3510,7 +3537,7 @@
             // chkCareer8
             // 
             this.chkCareer8.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer8.Location = new System.Drawing.Point(102, 137);
+            this.chkCareer8.Location = new System.Drawing.Point(126, 137);
             this.chkCareer8.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer8.Name = "chkCareer8";
             this.chkCareer8.Size = new System.Drawing.Size(13, 13);
@@ -3522,7 +3549,7 @@
             // 
             this.linkSkill33.AutoSize = true;
             this.linkSkill33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill33.Location = new System.Drawing.Point(206, 182);
+            this.linkSkill33.Location = new System.Drawing.Point(216, 182);
             this.linkSkill33.Name = "linkSkill33";
             this.linkSkill33.Size = new System.Drawing.Size(54, 13);
             this.linkSkill33.TabIndex = 355;
@@ -3530,70 +3557,70 @@
             this.linkSkill33.Text = "linkSkill33";
             this.linkSkill33.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button91
+            // btn5Rank33
             // 
-            this.button91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button91.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button91.Location = new System.Drawing.Point(321, 182);
-            this.button91.Name = "button91";
-            this.button91.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button91.Size = new System.Drawing.Size(13, 13);
-            this.button91.TabIndex = 360;
-            this.button91.Text = "button10";
-            this.button91.UseVisualStyleBackColor = false;
+            this.btn5Rank33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank33.Location = new System.Drawing.Point(355, 182);
+            this.btn5Rank33.Name = "btn5Rank33";
+            this.btn5Rank33.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank33.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank33.TabIndex = 360;
+            this.btn5Rank33.Text = "button10";
+            this.btn5Rank33.UseVisualStyleBackColor = false;
             // 
-            // button92
+            // btn3Rank33
             // 
-            this.button92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button92.Location = new System.Drawing.Point(349, 182);
-            this.button92.Name = "button92";
-            this.button92.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button92.Size = new System.Drawing.Size(13, 13);
-            this.button92.TabIndex = 358;
-            this.button92.Text = "button9";
-            this.button92.UseVisualStyleBackColor = false;
+            this.btn3Rank33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank33.Location = new System.Drawing.Point(383, 182);
+            this.btn3Rank33.Name = "btn3Rank33";
+            this.btn3Rank33.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank33.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank33.TabIndex = 358;
+            this.btn3Rank33.Text = "button9";
+            this.btn3Rank33.UseVisualStyleBackColor = false;
             // 
-            // button93
+            // btn2Rank33
             // 
-            this.button93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button93.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button93.Location = new System.Drawing.Point(363, 182);
-            this.button93.Name = "button93";
-            this.button93.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button93.Size = new System.Drawing.Size(13, 13);
-            this.button93.TabIndex = 356;
-            this.button93.Text = "button8";
-            this.button93.UseVisualStyleBackColor = false;
+            this.btn2Rank33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank33.Location = new System.Drawing.Point(397, 182);
+            this.btn2Rank33.Name = "btn2Rank33";
+            this.btn2Rank33.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank33.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank33.TabIndex = 356;
+            this.btn2Rank33.Text = "button8";
+            this.btn2Rank33.UseVisualStyleBackColor = false;
             // 
-            // button94
+            // btn4Rank33
             // 
-            this.button94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button94.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button94.Location = new System.Drawing.Point(335, 182);
-            this.button94.Name = "button94";
-            this.button94.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button94.Size = new System.Drawing.Size(13, 13);
-            this.button94.TabIndex = 357;
-            this.button94.Text = "button7";
-            this.button94.UseVisualStyleBackColor = false;
+            this.btn4Rank33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank33.Location = new System.Drawing.Point(369, 182);
+            this.btn4Rank33.Name = "btn4Rank33";
+            this.btn4Rank33.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank33.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank33.TabIndex = 357;
+            this.btn4Rank33.Text = "button7";
+            this.btn4Rank33.UseVisualStyleBackColor = false;
             // 
-            // button95
+            // btn1Rank33
             // 
-            this.button95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button95.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button95.Location = new System.Drawing.Point(377, 182);
-            this.button95.Name = "button95";
-            this.button95.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button95.Size = new System.Drawing.Size(13, 13);
-            this.button95.TabIndex = 359;
-            this.button95.Text = "button6";
-            this.button95.UseVisualStyleBackColor = false;
+            this.btn1Rank33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank33.Location = new System.Drawing.Point(411, 182);
+            this.btn1Rank33.Name = "btn1Rank33";
+            this.btn1Rank33.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank33.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank33.TabIndex = 359;
+            this.btn1Rank33.Text = "button6";
+            this.btn1Rank33.UseVisualStyleBackColor = false;
             // 
             // chkCareer33
             // 
             this.chkCareer33.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer33.Location = new System.Drawing.Point(305, 182);
+            this.chkCareer33.Location = new System.Drawing.Point(339, 182);
             this.chkCareer33.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer33.Name = "chkCareer33";
             this.chkCareer33.Size = new System.Drawing.Size(13, 13);
@@ -3605,7 +3632,7 @@
             // 
             this.linkSkill32.AutoSize = true;
             this.linkSkill32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill32.Location = new System.Drawing.Point(206, 167);
+            this.linkSkill32.Location = new System.Drawing.Point(216, 167);
             this.linkSkill32.Name = "linkSkill32";
             this.linkSkill32.Size = new System.Drawing.Size(54, 13);
             this.linkSkill32.TabIndex = 348;
@@ -3613,70 +3640,70 @@
             this.linkSkill32.Text = "linkSkill32";
             this.linkSkill32.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button96
+            // btn5Rank32
             // 
-            this.button96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button96.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button96.Location = new System.Drawing.Point(321, 167);
-            this.button96.Name = "button96";
-            this.button96.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button96.Size = new System.Drawing.Size(13, 13);
-            this.button96.TabIndex = 353;
-            this.button96.Text = "button10";
-            this.button96.UseVisualStyleBackColor = false;
+            this.btn5Rank32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank32.Location = new System.Drawing.Point(355, 167);
+            this.btn5Rank32.Name = "btn5Rank32";
+            this.btn5Rank32.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank32.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank32.TabIndex = 353;
+            this.btn5Rank32.Text = "button10";
+            this.btn5Rank32.UseVisualStyleBackColor = false;
             // 
-            // button97
+            // btn3Rank32
             // 
-            this.button97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button97.Location = new System.Drawing.Point(349, 167);
-            this.button97.Name = "button97";
-            this.button97.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button97.Size = new System.Drawing.Size(13, 13);
-            this.button97.TabIndex = 351;
-            this.button97.Text = "button9";
-            this.button97.UseVisualStyleBackColor = false;
+            this.btn3Rank32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank32.Location = new System.Drawing.Point(383, 167);
+            this.btn3Rank32.Name = "btn3Rank32";
+            this.btn3Rank32.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank32.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank32.TabIndex = 351;
+            this.btn3Rank32.Text = "button9";
+            this.btn3Rank32.UseVisualStyleBackColor = false;
             // 
-            // button98
+            // btn2Rank32
             // 
-            this.button98.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button98.Location = new System.Drawing.Point(363, 167);
-            this.button98.Name = "button98";
-            this.button98.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button98.Size = new System.Drawing.Size(13, 13);
-            this.button98.TabIndex = 349;
-            this.button98.Text = "button98";
-            this.button98.UseVisualStyleBackColor = false;
+            this.btn2Rank32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank32.Location = new System.Drawing.Point(397, 167);
+            this.btn2Rank32.Name = "btn2Rank32";
+            this.btn2Rank32.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank32.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank32.TabIndex = 349;
+            this.btn2Rank32.Text = "button98";
+            this.btn2Rank32.UseVisualStyleBackColor = false;
             // 
-            // button99
+            // btn4Rank32
             // 
-            this.button99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button99.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button99.Location = new System.Drawing.Point(335, 167);
-            this.button99.Name = "button99";
-            this.button99.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button99.Size = new System.Drawing.Size(13, 13);
-            this.button99.TabIndex = 350;
-            this.button99.Text = "button7";
-            this.button99.UseVisualStyleBackColor = false;
+            this.btn4Rank32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank32.Location = new System.Drawing.Point(369, 167);
+            this.btn4Rank32.Name = "btn4Rank32";
+            this.btn4Rank32.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank32.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank32.TabIndex = 350;
+            this.btn4Rank32.Text = "button7";
+            this.btn4Rank32.UseVisualStyleBackColor = false;
             // 
-            // button100
+            // btn1Rank32
             // 
-            this.button100.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button100.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button100.Location = new System.Drawing.Point(377, 167);
-            this.button100.Name = "button100";
-            this.button100.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button100.Size = new System.Drawing.Size(13, 13);
-            this.button100.TabIndex = 352;
-            this.button100.Text = "button6";
-            this.button100.UseVisualStyleBackColor = false;
+            this.btn1Rank32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank32.Location = new System.Drawing.Point(411, 167);
+            this.btn1Rank32.Name = "btn1Rank32";
+            this.btn1Rank32.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank32.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank32.TabIndex = 352;
+            this.btn1Rank32.Text = "button6";
+            this.btn1Rank32.UseVisualStyleBackColor = false;
             // 
             // chkCareer32
             // 
             this.chkCareer32.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer32.Location = new System.Drawing.Point(305, 167);
+            this.chkCareer32.Location = new System.Drawing.Point(339, 167);
             this.chkCareer32.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer32.Name = "chkCareer32";
             this.chkCareer32.Size = new System.Drawing.Size(13, 13);
@@ -3688,7 +3715,7 @@
             // 
             this.linkSkill31.AutoSize = true;
             this.linkSkill31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill31.Location = new System.Drawing.Point(206, 152);
+            this.linkSkill31.Location = new System.Drawing.Point(216, 152);
             this.linkSkill31.Name = "linkSkill31";
             this.linkSkill31.Size = new System.Drawing.Size(54, 13);
             this.linkSkill31.TabIndex = 341;
@@ -3696,70 +3723,70 @@
             this.linkSkill31.Text = "linkSkill31";
             this.linkSkill31.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button101
+            // btn5Rank31
             // 
-            this.button101.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button101.Location = new System.Drawing.Point(321, 152);
-            this.button101.Name = "button101";
-            this.button101.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button101.Size = new System.Drawing.Size(13, 13);
-            this.button101.TabIndex = 346;
-            this.button101.Text = "button10";
-            this.button101.UseVisualStyleBackColor = false;
+            this.btn5Rank31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank31.Location = new System.Drawing.Point(355, 152);
+            this.btn5Rank31.Name = "btn5Rank31";
+            this.btn5Rank31.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank31.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank31.TabIndex = 346;
+            this.btn5Rank31.Text = "button10";
+            this.btn5Rank31.UseVisualStyleBackColor = false;
             // 
-            // button102
+            // btn3Rank31
             // 
-            this.button102.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button102.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button102.Location = new System.Drawing.Point(349, 152);
-            this.button102.Name = "button102";
-            this.button102.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button102.Size = new System.Drawing.Size(13, 13);
-            this.button102.TabIndex = 344;
-            this.button102.Text = "button9";
-            this.button102.UseVisualStyleBackColor = false;
+            this.btn3Rank31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank31.Location = new System.Drawing.Point(383, 152);
+            this.btn3Rank31.Name = "btn3Rank31";
+            this.btn3Rank31.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank31.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank31.TabIndex = 344;
+            this.btn3Rank31.Text = "button9";
+            this.btn3Rank31.UseVisualStyleBackColor = false;
             // 
-            // button103
+            // btn2Rank31
             // 
-            this.button103.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button103.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button103.Location = new System.Drawing.Point(363, 152);
-            this.button103.Name = "button103";
-            this.button103.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button103.Size = new System.Drawing.Size(13, 13);
-            this.button103.TabIndex = 342;
-            this.button103.Text = "button8";
-            this.button103.UseVisualStyleBackColor = false;
+            this.btn2Rank31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank31.Location = new System.Drawing.Point(397, 152);
+            this.btn2Rank31.Name = "btn2Rank31";
+            this.btn2Rank31.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank31.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank31.TabIndex = 342;
+            this.btn2Rank31.Text = "button8";
+            this.btn2Rank31.UseVisualStyleBackColor = false;
             // 
-            // button104
+            // btn4Rank31
             // 
-            this.button104.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button104.Location = new System.Drawing.Point(335, 152);
-            this.button104.Name = "button104";
-            this.button104.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button104.Size = new System.Drawing.Size(13, 13);
-            this.button104.TabIndex = 343;
-            this.button104.Text = "button7";
-            this.button104.UseVisualStyleBackColor = false;
+            this.btn4Rank31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank31.Location = new System.Drawing.Point(369, 152);
+            this.btn4Rank31.Name = "btn4Rank31";
+            this.btn4Rank31.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank31.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank31.TabIndex = 343;
+            this.btn4Rank31.Text = "button7";
+            this.btn4Rank31.UseVisualStyleBackColor = false;
             // 
-            // button105
+            // btn1Rank31
             // 
-            this.button105.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button105.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button105.Location = new System.Drawing.Point(377, 152);
-            this.button105.Name = "button105";
-            this.button105.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button105.Size = new System.Drawing.Size(13, 13);
-            this.button105.TabIndex = 345;
-            this.button105.Text = "button6";
-            this.button105.UseVisualStyleBackColor = false;
+            this.btn1Rank31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank31.Location = new System.Drawing.Point(411, 152);
+            this.btn1Rank31.Name = "btn1Rank31";
+            this.btn1Rank31.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank31.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank31.TabIndex = 345;
+            this.btn1Rank31.Text = "button6";
+            this.btn1Rank31.UseVisualStyleBackColor = false;
             // 
             // chkCareer31
             // 
             this.chkCareer31.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer31.Location = new System.Drawing.Point(305, 152);
+            this.chkCareer31.Location = new System.Drawing.Point(339, 152);
             this.chkCareer31.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer31.Name = "chkCareer31";
             this.chkCareer31.Size = new System.Drawing.Size(13, 13);
@@ -3771,7 +3798,7 @@
             // 
             this.linkSkill30.AutoSize = true;
             this.linkSkill30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill30.Location = new System.Drawing.Point(206, 137);
+            this.linkSkill30.Location = new System.Drawing.Point(216, 137);
             this.linkSkill30.Name = "linkSkill30";
             this.linkSkill30.Size = new System.Drawing.Size(54, 13);
             this.linkSkill30.TabIndex = 334;
@@ -3779,70 +3806,70 @@
             this.linkSkill30.Text = "linkSkill30";
             this.linkSkill30.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button106
+            // btn5Rank30
             // 
-            this.button106.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button106.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button106.Location = new System.Drawing.Point(321, 137);
-            this.button106.Name = "button106";
-            this.button106.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button106.Size = new System.Drawing.Size(13, 13);
-            this.button106.TabIndex = 339;
-            this.button106.Text = "button10";
-            this.button106.UseVisualStyleBackColor = false;
+            this.btn5Rank30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank30.Location = new System.Drawing.Point(355, 137);
+            this.btn5Rank30.Name = "btn5Rank30";
+            this.btn5Rank30.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank30.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank30.TabIndex = 339;
+            this.btn5Rank30.Text = "button10";
+            this.btn5Rank30.UseVisualStyleBackColor = false;
             // 
-            // button107
+            // btn3Rank30
             // 
-            this.button107.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button107.Location = new System.Drawing.Point(349, 137);
-            this.button107.Name = "button107";
-            this.button107.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button107.Size = new System.Drawing.Size(13, 13);
-            this.button107.TabIndex = 337;
-            this.button107.Text = "button9";
-            this.button107.UseVisualStyleBackColor = false;
+            this.btn3Rank30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank30.Location = new System.Drawing.Point(383, 137);
+            this.btn3Rank30.Name = "btn3Rank30";
+            this.btn3Rank30.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank30.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank30.TabIndex = 337;
+            this.btn3Rank30.Text = "button9";
+            this.btn3Rank30.UseVisualStyleBackColor = false;
             // 
-            // button108
+            // btn2Rank30
             // 
-            this.button108.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button108.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button108.Location = new System.Drawing.Point(363, 137);
-            this.button108.Name = "button108";
-            this.button108.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button108.Size = new System.Drawing.Size(13, 13);
-            this.button108.TabIndex = 335;
-            this.button108.Text = "button8";
-            this.button108.UseVisualStyleBackColor = false;
+            this.btn2Rank30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank30.Location = new System.Drawing.Point(397, 137);
+            this.btn2Rank30.Name = "btn2Rank30";
+            this.btn2Rank30.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank30.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank30.TabIndex = 335;
+            this.btn2Rank30.Text = "button8";
+            this.btn2Rank30.UseVisualStyleBackColor = false;
             // 
-            // button109
+            // btn4Rank30
             // 
-            this.button109.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button109.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button109.Location = new System.Drawing.Point(335, 137);
-            this.button109.Name = "button109";
-            this.button109.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button109.Size = new System.Drawing.Size(13, 13);
-            this.button109.TabIndex = 336;
-            this.button109.Text = "button7";
-            this.button109.UseVisualStyleBackColor = false;
+            this.btn4Rank30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank30.Location = new System.Drawing.Point(369, 137);
+            this.btn4Rank30.Name = "btn4Rank30";
+            this.btn4Rank30.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank30.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank30.TabIndex = 336;
+            this.btn4Rank30.Text = "button7";
+            this.btn4Rank30.UseVisualStyleBackColor = false;
             // 
-            // button110
+            // btn1Rank30
             // 
-            this.button110.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button110.Location = new System.Drawing.Point(377, 137);
-            this.button110.Name = "button110";
-            this.button110.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button110.Size = new System.Drawing.Size(13, 13);
-            this.button110.TabIndex = 338;
-            this.button110.Text = "button6";
-            this.button110.UseVisualStyleBackColor = false;
+            this.btn1Rank30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank30.Location = new System.Drawing.Point(411, 137);
+            this.btn1Rank30.Name = "btn1Rank30";
+            this.btn1Rank30.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank30.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank30.TabIndex = 338;
+            this.btn1Rank30.Text = "button6";
+            this.btn1Rank30.UseVisualStyleBackColor = false;
             // 
             // chkCareer30
             // 
             this.chkCareer30.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer30.Location = new System.Drawing.Point(305, 137);
+            this.chkCareer30.Location = new System.Drawing.Point(339, 137);
             this.chkCareer30.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer30.Name = "chkCareer30";
             this.chkCareer30.Size = new System.Drawing.Size(13, 13);
@@ -3855,7 +3882,7 @@
             this.lblSkillsSocial.AutoSize = true;
             this.lblSkillsSocial.BackColor = System.Drawing.Color.Transparent;
             this.lblSkillsSocial.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSkillsSocial.Location = new System.Drawing.Point(206, 107);
+            this.lblSkillsSocial.Location = new System.Drawing.Point(216, 107);
             this.lblSkillsSocial.Name = "lblSkillsSocial";
             this.lblSkillsSocial.Size = new System.Drawing.Size(63, 13);
             this.lblSkillsSocial.TabIndex = 324;
@@ -3866,7 +3893,7 @@
             this.lblCareerSocial.AutoSize = true;
             this.lblCareerSocial.BackColor = System.Drawing.Color.Transparent;
             this.lblCareerSocial.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCareerSocial.Location = new System.Drawing.Point(295, 107);
+            this.lblCareerSocial.Location = new System.Drawing.Point(329, 107);
             this.lblCareerSocial.Name = "lblCareerSocial";
             this.lblCareerSocial.Size = new System.Drawing.Size(44, 13);
             this.lblCareerSocial.TabIndex = 325;
@@ -3877,7 +3904,7 @@
             this.lblRankSocial.AutoSize = true;
             this.lblRankSocial.BackColor = System.Drawing.Color.Transparent;
             this.lblRankSocial.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRankSocial.Location = new System.Drawing.Point(356, 107);
+            this.lblRankSocial.Location = new System.Drawing.Point(390, 107);
             this.lblRankSocial.Name = "lblRankSocial";
             this.lblRankSocial.Size = new System.Drawing.Size(33, 13);
             this.lblRankSocial.TabIndex = 326;
@@ -3887,7 +3914,7 @@
             // 
             this.linkSkill29.AutoSize = true;
             this.linkSkill29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill29.Location = new System.Drawing.Point(206, 122);
+            this.linkSkill29.Location = new System.Drawing.Point(216, 122);
             this.linkSkill29.Name = "linkSkill29";
             this.linkSkill29.Size = new System.Drawing.Size(54, 13);
             this.linkSkill29.TabIndex = 327;
@@ -3895,70 +3922,70 @@
             this.linkSkill29.Text = "linkSkill29";
             this.linkSkill29.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button111
+            // btn5Rank29
             // 
-            this.button111.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button111.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button111.Location = new System.Drawing.Point(321, 122);
-            this.button111.Name = "button111";
-            this.button111.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button111.Size = new System.Drawing.Size(13, 13);
-            this.button111.TabIndex = 332;
-            this.button111.Text = "button10";
-            this.button111.UseVisualStyleBackColor = false;
+            this.btn5Rank29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank29.Location = new System.Drawing.Point(355, 122);
+            this.btn5Rank29.Name = "btn5Rank29";
+            this.btn5Rank29.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank29.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank29.TabIndex = 332;
+            this.btn5Rank29.Text = "button10";
+            this.btn5Rank29.UseVisualStyleBackColor = false;
             // 
-            // button112
+            // btn3Rank29
             // 
-            this.button112.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button112.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button112.Location = new System.Drawing.Point(349, 122);
-            this.button112.Name = "button112";
-            this.button112.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button112.Size = new System.Drawing.Size(13, 13);
-            this.button112.TabIndex = 330;
-            this.button112.Text = "button9";
-            this.button112.UseVisualStyleBackColor = false;
+            this.btn3Rank29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank29.Location = new System.Drawing.Point(383, 122);
+            this.btn3Rank29.Name = "btn3Rank29";
+            this.btn3Rank29.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank29.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank29.TabIndex = 330;
+            this.btn3Rank29.Text = "button9";
+            this.btn3Rank29.UseVisualStyleBackColor = false;
             // 
-            // button113
+            // btn2Rank29
             // 
-            this.button113.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button113.Location = new System.Drawing.Point(363, 122);
-            this.button113.Name = "button113";
-            this.button113.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button113.Size = new System.Drawing.Size(13, 13);
-            this.button113.TabIndex = 328;
-            this.button113.Text = "button8";
-            this.button113.UseVisualStyleBackColor = false;
+            this.btn2Rank29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank29.Location = new System.Drawing.Point(397, 122);
+            this.btn2Rank29.Name = "btn2Rank29";
+            this.btn2Rank29.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank29.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank29.TabIndex = 328;
+            this.btn2Rank29.Text = "button8";
+            this.btn2Rank29.UseVisualStyleBackColor = false;
             // 
-            // button114
+            // btn4Rank29
             // 
-            this.button114.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button114.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button114.Location = new System.Drawing.Point(335, 122);
-            this.button114.Name = "button114";
-            this.button114.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button114.Size = new System.Drawing.Size(13, 13);
-            this.button114.TabIndex = 329;
-            this.button114.Text = "button7";
-            this.button114.UseVisualStyleBackColor = false;
+            this.btn4Rank29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank29.Location = new System.Drawing.Point(369, 122);
+            this.btn4Rank29.Name = "btn4Rank29";
+            this.btn4Rank29.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank29.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank29.TabIndex = 329;
+            this.btn4Rank29.Text = "button7";
+            this.btn4Rank29.UseVisualStyleBackColor = false;
             // 
-            // button115
+            // btn1Rank29
             // 
-            this.button115.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button115.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button115.Location = new System.Drawing.Point(377, 122);
-            this.button115.Name = "button115";
-            this.button115.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button115.Size = new System.Drawing.Size(13, 13);
-            this.button115.TabIndex = 331;
-            this.button115.Text = "button6";
-            this.button115.UseVisualStyleBackColor = false;
+            this.btn1Rank29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank29.Location = new System.Drawing.Point(411, 122);
+            this.btn1Rank29.Name = "btn1Rank29";
+            this.btn1Rank29.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank29.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank29.TabIndex = 331;
+            this.btn1Rank29.Text = "button6";
+            this.btn1Rank29.UseVisualStyleBackColor = false;
             // 
             // chkCareer29
             // 
             this.chkCareer29.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer29.Location = new System.Drawing.Point(305, 122);
+            this.chkCareer29.Location = new System.Drawing.Point(339, 122);
             this.chkCareer29.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer29.Name = "chkCareer29";
             this.chkCareer29.Size = new System.Drawing.Size(13, 13);
@@ -3970,7 +3997,7 @@
             // 
             this.linkSkill28.AutoSize = true;
             this.linkSkill28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill28.Location = new System.Drawing.Point(205, 92);
+            this.linkSkill28.Location = new System.Drawing.Point(215, 92);
             this.linkSkill28.Name = "linkSkill28";
             this.linkSkill28.Size = new System.Drawing.Size(54, 13);
             this.linkSkill28.TabIndex = 303;
@@ -3978,70 +4005,70 @@
             this.linkSkill28.Text = "linkSkill28";
             this.linkSkill28.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button46
+            // btn5Rank28
             // 
-            this.button46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button46.Location = new System.Drawing.Point(320, 92);
-            this.button46.Name = "button46";
-            this.button46.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button46.Size = new System.Drawing.Size(13, 13);
-            this.button46.TabIndex = 308;
-            this.button46.Text = "button10";
-            this.button46.UseVisualStyleBackColor = false;
+            this.btn5Rank28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank28.Location = new System.Drawing.Point(354, 92);
+            this.btn5Rank28.Name = "btn5Rank28";
+            this.btn5Rank28.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank28.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank28.TabIndex = 308;
+            this.btn5Rank28.Text = "button10";
+            this.btn5Rank28.UseVisualStyleBackColor = false;
             // 
-            // button47
+            // btn3Rank28
             // 
-            this.button47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button47.Location = new System.Drawing.Point(348, 92);
-            this.button47.Name = "button47";
-            this.button47.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button47.Size = new System.Drawing.Size(13, 13);
-            this.button47.TabIndex = 306;
-            this.button47.Text = "button9";
-            this.button47.UseVisualStyleBackColor = false;
+            this.btn3Rank28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank28.Location = new System.Drawing.Point(382, 92);
+            this.btn3Rank28.Name = "btn3Rank28";
+            this.btn3Rank28.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank28.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank28.TabIndex = 306;
+            this.btn3Rank28.Text = "button9";
+            this.btn3Rank28.UseVisualStyleBackColor = false;
             // 
-            // button48
+            // btn2Rank28
             // 
-            this.button48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button48.Location = new System.Drawing.Point(362, 92);
-            this.button48.Name = "button48";
-            this.button48.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button48.Size = new System.Drawing.Size(13, 13);
-            this.button48.TabIndex = 304;
-            this.button48.Text = "button8";
-            this.button48.UseVisualStyleBackColor = false;
+            this.btn2Rank28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank28.Location = new System.Drawing.Point(396, 92);
+            this.btn2Rank28.Name = "btn2Rank28";
+            this.btn2Rank28.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank28.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank28.TabIndex = 304;
+            this.btn2Rank28.Text = "button8";
+            this.btn2Rank28.UseVisualStyleBackColor = false;
             // 
-            // button49
+            // btn4Rank28
             // 
-            this.button49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button49.Location = new System.Drawing.Point(334, 92);
-            this.button49.Name = "button49";
-            this.button49.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button49.Size = new System.Drawing.Size(13, 13);
-            this.button49.TabIndex = 305;
-            this.button49.Text = "button7";
-            this.button49.UseVisualStyleBackColor = false;
+            this.btn4Rank28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank28.Location = new System.Drawing.Point(368, 92);
+            this.btn4Rank28.Name = "btn4Rank28";
+            this.btn4Rank28.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank28.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank28.TabIndex = 305;
+            this.btn4Rank28.Text = "button7";
+            this.btn4Rank28.UseVisualStyleBackColor = false;
             // 
-            // button50
+            // btn1Rank28
             // 
-            this.button50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button50.Location = new System.Drawing.Point(376, 92);
-            this.button50.Name = "button50";
-            this.button50.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button50.Size = new System.Drawing.Size(13, 13);
-            this.button50.TabIndex = 307;
-            this.button50.Text = "button6";
-            this.button50.UseVisualStyleBackColor = false;
+            this.btn1Rank28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank28.Location = new System.Drawing.Point(410, 92);
+            this.btn1Rank28.Name = "btn1Rank28";
+            this.btn1Rank28.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank28.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank28.TabIndex = 307;
+            this.btn1Rank28.Text = "button6";
+            this.btn1Rank28.UseVisualStyleBackColor = false;
             // 
             // chkCareer28
             // 
             this.chkCareer28.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer28.Location = new System.Drawing.Point(304, 92);
+            this.chkCareer28.Location = new System.Drawing.Point(338, 92);
             this.chkCareer28.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer28.Name = "chkCareer28";
             this.chkCareer28.Size = new System.Drawing.Size(13, 13);
@@ -4053,7 +4080,7 @@
             // 
             this.linkSkill27.AutoSize = true;
             this.linkSkill27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill27.Location = new System.Drawing.Point(205, 77);
+            this.linkSkill27.Location = new System.Drawing.Point(215, 77);
             this.linkSkill27.Name = "linkSkill27";
             this.linkSkill27.Size = new System.Drawing.Size(54, 13);
             this.linkSkill27.TabIndex = 296;
@@ -4061,70 +4088,70 @@
             this.linkSkill27.Text = "linkSkill27";
             this.linkSkill27.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button51
+            // btn5Rank27
             // 
-            this.button51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button51.Location = new System.Drawing.Point(320, 77);
-            this.button51.Name = "button51";
-            this.button51.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button51.Size = new System.Drawing.Size(13, 13);
-            this.button51.TabIndex = 301;
-            this.button51.Text = "button10";
-            this.button51.UseVisualStyleBackColor = false;
+            this.btn5Rank27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank27.Location = new System.Drawing.Point(354, 77);
+            this.btn5Rank27.Name = "btn5Rank27";
+            this.btn5Rank27.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank27.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank27.TabIndex = 301;
+            this.btn5Rank27.Text = "button10";
+            this.btn5Rank27.UseVisualStyleBackColor = false;
             // 
-            // button52
+            // btn3Rank27
             // 
-            this.button52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button52.Location = new System.Drawing.Point(348, 77);
-            this.button52.Name = "button52";
-            this.button52.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button52.Size = new System.Drawing.Size(13, 13);
-            this.button52.TabIndex = 299;
-            this.button52.Text = "button9";
-            this.button52.UseVisualStyleBackColor = false;
+            this.btn3Rank27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank27.Location = new System.Drawing.Point(382, 77);
+            this.btn3Rank27.Name = "btn3Rank27";
+            this.btn3Rank27.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank27.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank27.TabIndex = 299;
+            this.btn3Rank27.Text = "button9";
+            this.btn3Rank27.UseVisualStyleBackColor = false;
             // 
-            // button53
+            // btn2Rank27
             // 
-            this.button53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button53.Location = new System.Drawing.Point(362, 77);
-            this.button53.Name = "button53";
-            this.button53.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button53.Size = new System.Drawing.Size(13, 13);
-            this.button53.TabIndex = 297;
-            this.button53.Text = "button8";
-            this.button53.UseVisualStyleBackColor = false;
+            this.btn2Rank27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank27.Location = new System.Drawing.Point(396, 77);
+            this.btn2Rank27.Name = "btn2Rank27";
+            this.btn2Rank27.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank27.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank27.TabIndex = 297;
+            this.btn2Rank27.Text = "button8";
+            this.btn2Rank27.UseVisualStyleBackColor = false;
             // 
-            // button54
+            // btn4Rank27
             // 
-            this.button54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button54.Location = new System.Drawing.Point(334, 77);
-            this.button54.Name = "button54";
-            this.button54.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button54.Size = new System.Drawing.Size(13, 13);
-            this.button54.TabIndex = 298;
-            this.button54.Text = "button7";
-            this.button54.UseVisualStyleBackColor = false;
+            this.btn4Rank27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank27.Location = new System.Drawing.Point(368, 77);
+            this.btn4Rank27.Name = "btn4Rank27";
+            this.btn4Rank27.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank27.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank27.TabIndex = 298;
+            this.btn4Rank27.Text = "button7";
+            this.btn4Rank27.UseVisualStyleBackColor = false;
             // 
-            // button55
+            // btn1Rank27
             // 
-            this.button55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button55.Location = new System.Drawing.Point(376, 77);
-            this.button55.Name = "button55";
-            this.button55.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button55.Size = new System.Drawing.Size(13, 13);
-            this.button55.TabIndex = 300;
-            this.button55.Text = "button6";
-            this.button55.UseVisualStyleBackColor = false;
+            this.btn1Rank27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank27.Location = new System.Drawing.Point(410, 77);
+            this.btn1Rank27.Name = "btn1Rank27";
+            this.btn1Rank27.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank27.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank27.TabIndex = 300;
+            this.btn1Rank27.Text = "button6";
+            this.btn1Rank27.UseVisualStyleBackColor = false;
             // 
             // chkCareer27
             // 
             this.chkCareer27.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer27.Location = new System.Drawing.Point(304, 77);
+            this.chkCareer27.Location = new System.Drawing.Point(338, 77);
             this.chkCareer27.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer27.Name = "chkCareer27";
             this.chkCareer27.Size = new System.Drawing.Size(13, 13);
@@ -4136,7 +4163,7 @@
             // 
             this.linkSkill26.AutoSize = true;
             this.linkSkill26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill26.Location = new System.Drawing.Point(205, 62);
+            this.linkSkill26.Location = new System.Drawing.Point(215, 62);
             this.linkSkill26.Name = "linkSkill26";
             this.linkSkill26.Size = new System.Drawing.Size(54, 13);
             this.linkSkill26.TabIndex = 289;
@@ -4144,70 +4171,70 @@
             this.linkSkill26.Text = "linkSkill26";
             this.linkSkill26.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button56
+            // btn5Rank26
             // 
-            this.button56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button56.Location = new System.Drawing.Point(320, 62);
-            this.button56.Name = "button56";
-            this.button56.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button56.Size = new System.Drawing.Size(13, 13);
-            this.button56.TabIndex = 294;
-            this.button56.Text = "button10";
-            this.button56.UseVisualStyleBackColor = false;
+            this.btn5Rank26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank26.Location = new System.Drawing.Point(354, 62);
+            this.btn5Rank26.Name = "btn5Rank26";
+            this.btn5Rank26.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank26.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank26.TabIndex = 294;
+            this.btn5Rank26.Text = "button10";
+            this.btn5Rank26.UseVisualStyleBackColor = false;
             // 
-            // button57
+            // btn3Rank26
             // 
-            this.button57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button57.Location = new System.Drawing.Point(348, 62);
-            this.button57.Name = "button57";
-            this.button57.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button57.Size = new System.Drawing.Size(13, 13);
-            this.button57.TabIndex = 292;
-            this.button57.Text = "button9";
-            this.button57.UseVisualStyleBackColor = false;
+            this.btn3Rank26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank26.Location = new System.Drawing.Point(382, 62);
+            this.btn3Rank26.Name = "btn3Rank26";
+            this.btn3Rank26.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank26.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank26.TabIndex = 292;
+            this.btn3Rank26.Text = "button9";
+            this.btn3Rank26.UseVisualStyleBackColor = false;
             // 
-            // button58
+            // btn2Rank26
             // 
-            this.button58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button58.Location = new System.Drawing.Point(362, 62);
-            this.button58.Name = "button58";
-            this.button58.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button58.Size = new System.Drawing.Size(13, 13);
-            this.button58.TabIndex = 290;
-            this.button58.Text = "button58";
-            this.button58.UseVisualStyleBackColor = false;
+            this.btn2Rank26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank26.Location = new System.Drawing.Point(396, 62);
+            this.btn2Rank26.Name = "btn2Rank26";
+            this.btn2Rank26.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank26.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank26.TabIndex = 290;
+            this.btn2Rank26.Text = "button58";
+            this.btn2Rank26.UseVisualStyleBackColor = false;
             // 
-            // button59
+            // btn4Rank26
             // 
-            this.button59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button59.Location = new System.Drawing.Point(334, 62);
-            this.button59.Name = "button59";
-            this.button59.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button59.Size = new System.Drawing.Size(13, 13);
-            this.button59.TabIndex = 291;
-            this.button59.Text = "button7";
-            this.button59.UseVisualStyleBackColor = false;
+            this.btn4Rank26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank26.Location = new System.Drawing.Point(368, 62);
+            this.btn4Rank26.Name = "btn4Rank26";
+            this.btn4Rank26.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank26.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank26.TabIndex = 291;
+            this.btn4Rank26.Text = "button7";
+            this.btn4Rank26.UseVisualStyleBackColor = false;
             // 
-            // button60
+            // btn1Rank26
             // 
-            this.button60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button60.Location = new System.Drawing.Point(376, 62);
-            this.button60.Name = "button60";
-            this.button60.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button60.Size = new System.Drawing.Size(13, 13);
-            this.button60.TabIndex = 293;
-            this.button60.Text = "button6";
-            this.button60.UseVisualStyleBackColor = false;
+            this.btn1Rank26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank26.Location = new System.Drawing.Point(410, 62);
+            this.btn1Rank26.Name = "btn1Rank26";
+            this.btn1Rank26.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank26.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank26.TabIndex = 293;
+            this.btn1Rank26.Text = "button6";
+            this.btn1Rank26.UseVisualStyleBackColor = false;
             // 
             // chkCareer26
             // 
             this.chkCareer26.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer26.Location = new System.Drawing.Point(304, 62);
+            this.chkCareer26.Location = new System.Drawing.Point(338, 62);
             this.chkCareer26.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer26.Name = "chkCareer26";
             this.chkCareer26.Size = new System.Drawing.Size(13, 13);
@@ -4219,7 +4246,7 @@
             // 
             this.linkSkill25.AutoSize = true;
             this.linkSkill25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill25.Location = new System.Drawing.Point(205, 47);
+            this.linkSkill25.Location = new System.Drawing.Point(215, 47);
             this.linkSkill25.Name = "linkSkill25";
             this.linkSkill25.Size = new System.Drawing.Size(54, 13);
             this.linkSkill25.TabIndex = 282;
@@ -4227,70 +4254,70 @@
             this.linkSkill25.Text = "linkSkill25";
             this.linkSkill25.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button61
+            // btn5Rank25
             // 
-            this.button61.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button61.Location = new System.Drawing.Point(320, 47);
-            this.button61.Name = "button61";
-            this.button61.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button61.Size = new System.Drawing.Size(13, 13);
-            this.button61.TabIndex = 287;
-            this.button61.Text = "button10";
-            this.button61.UseVisualStyleBackColor = false;
+            this.btn5Rank25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank25.Location = new System.Drawing.Point(354, 47);
+            this.btn5Rank25.Name = "btn5Rank25";
+            this.btn5Rank25.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank25.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank25.TabIndex = 287;
+            this.btn5Rank25.Text = "button10";
+            this.btn5Rank25.UseVisualStyleBackColor = false;
             // 
-            // button62
+            // btn3Rank25
             // 
-            this.button62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button62.Location = new System.Drawing.Point(348, 47);
-            this.button62.Name = "button62";
-            this.button62.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button62.Size = new System.Drawing.Size(13, 13);
-            this.button62.TabIndex = 285;
-            this.button62.Text = "button9";
-            this.button62.UseVisualStyleBackColor = false;
+            this.btn3Rank25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank25.Location = new System.Drawing.Point(382, 47);
+            this.btn3Rank25.Name = "btn3Rank25";
+            this.btn3Rank25.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank25.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank25.TabIndex = 285;
+            this.btn3Rank25.Text = "button9";
+            this.btn3Rank25.UseVisualStyleBackColor = false;
             // 
-            // button63
+            // btn2Rank25
             // 
-            this.button63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button63.Location = new System.Drawing.Point(362, 47);
-            this.button63.Name = "button63";
-            this.button63.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button63.Size = new System.Drawing.Size(13, 13);
-            this.button63.TabIndex = 283;
-            this.button63.Text = "button8";
-            this.button63.UseVisualStyleBackColor = false;
+            this.btn2Rank25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank25.Location = new System.Drawing.Point(396, 47);
+            this.btn2Rank25.Name = "btn2Rank25";
+            this.btn2Rank25.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank25.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank25.TabIndex = 283;
+            this.btn2Rank25.Text = "button8";
+            this.btn2Rank25.UseVisualStyleBackColor = false;
             // 
-            // button64
+            // btn4Rank25
             // 
-            this.button64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button64.Location = new System.Drawing.Point(334, 47);
-            this.button64.Name = "button64";
-            this.button64.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button64.Size = new System.Drawing.Size(13, 13);
-            this.button64.TabIndex = 284;
-            this.button64.Text = "button7";
-            this.button64.UseVisualStyleBackColor = false;
+            this.btn4Rank25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank25.Location = new System.Drawing.Point(368, 47);
+            this.btn4Rank25.Name = "btn4Rank25";
+            this.btn4Rank25.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank25.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank25.TabIndex = 284;
+            this.btn4Rank25.Text = "button7";
+            this.btn4Rank25.UseVisualStyleBackColor = false;
             // 
-            // button65
+            // btn1Rank25
             // 
-            this.button65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button65.Location = new System.Drawing.Point(376, 47);
-            this.button65.Name = "button65";
-            this.button65.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button65.Size = new System.Drawing.Size(13, 13);
-            this.button65.TabIndex = 286;
-            this.button65.Text = "button6";
-            this.button65.UseVisualStyleBackColor = false;
+            this.btn1Rank25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank25.Location = new System.Drawing.Point(410, 47);
+            this.btn1Rank25.Name = "btn1Rank25";
+            this.btn1Rank25.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank25.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank25.TabIndex = 286;
+            this.btn1Rank25.Text = "button6";
+            this.btn1Rank25.UseVisualStyleBackColor = false;
             // 
             // chkCareer25
             // 
             this.chkCareer25.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer25.Location = new System.Drawing.Point(304, 47);
+            this.chkCareer25.Location = new System.Drawing.Point(338, 47);
             this.chkCareer25.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer25.Name = "chkCareer25";
             this.chkCareer25.Size = new System.Drawing.Size(13, 13);
@@ -4302,7 +4329,7 @@
             // 
             this.linkSkill24.AutoSize = true;
             this.linkSkill24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill24.Location = new System.Drawing.Point(205, 32);
+            this.linkSkill24.Location = new System.Drawing.Point(215, 32);
             this.linkSkill24.Name = "linkSkill24";
             this.linkSkill24.Size = new System.Drawing.Size(54, 13);
             this.linkSkill24.TabIndex = 275;
@@ -4310,70 +4337,70 @@
             this.linkSkill24.Text = "linkSkill24";
             this.linkSkill24.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button66
+            // btn5Rank24
             // 
-            this.button66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button66.Location = new System.Drawing.Point(320, 32);
-            this.button66.Name = "button66";
-            this.button66.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button66.Size = new System.Drawing.Size(13, 13);
-            this.button66.TabIndex = 280;
-            this.button66.Text = "button10";
-            this.button66.UseVisualStyleBackColor = false;
+            this.btn5Rank24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank24.Location = new System.Drawing.Point(354, 32);
+            this.btn5Rank24.Name = "btn5Rank24";
+            this.btn5Rank24.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank24.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank24.TabIndex = 280;
+            this.btn5Rank24.Text = "button10";
+            this.btn5Rank24.UseVisualStyleBackColor = false;
             // 
-            // button67
+            // btn3Rank24
             // 
-            this.button67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button67.Location = new System.Drawing.Point(348, 32);
-            this.button67.Name = "button67";
-            this.button67.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button67.Size = new System.Drawing.Size(13, 13);
-            this.button67.TabIndex = 278;
-            this.button67.Text = "button9";
-            this.button67.UseVisualStyleBackColor = false;
+            this.btn3Rank24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank24.Location = new System.Drawing.Point(382, 32);
+            this.btn3Rank24.Name = "btn3Rank24";
+            this.btn3Rank24.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank24.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank24.TabIndex = 278;
+            this.btn3Rank24.Text = "button9";
+            this.btn3Rank24.UseVisualStyleBackColor = false;
             // 
-            // button68
+            // btn2Rank24
             // 
-            this.button68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button68.Location = new System.Drawing.Point(362, 32);
-            this.button68.Name = "button68";
-            this.button68.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button68.Size = new System.Drawing.Size(13, 13);
-            this.button68.TabIndex = 276;
-            this.button68.Text = "button8";
-            this.button68.UseVisualStyleBackColor = false;
+            this.btn2Rank24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank24.Location = new System.Drawing.Point(396, 32);
+            this.btn2Rank24.Name = "btn2Rank24";
+            this.btn2Rank24.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank24.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank24.TabIndex = 276;
+            this.btn2Rank24.Text = "button8";
+            this.btn2Rank24.UseVisualStyleBackColor = false;
             // 
-            // button69
+            // btn4Rank24
             // 
-            this.button69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button69.Location = new System.Drawing.Point(334, 32);
-            this.button69.Name = "button69";
-            this.button69.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button69.Size = new System.Drawing.Size(13, 13);
-            this.button69.TabIndex = 277;
-            this.button69.Text = "button7";
-            this.button69.UseVisualStyleBackColor = false;
+            this.btn4Rank24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank24.Location = new System.Drawing.Point(368, 32);
+            this.btn4Rank24.Name = "btn4Rank24";
+            this.btn4Rank24.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank24.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank24.TabIndex = 277;
+            this.btn4Rank24.Text = "button7";
+            this.btn4Rank24.UseVisualStyleBackColor = false;
             // 
-            // button70
+            // btn1Rank24
             // 
-            this.button70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button70.Location = new System.Drawing.Point(376, 32);
-            this.button70.Name = "button70";
-            this.button70.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button70.Size = new System.Drawing.Size(13, 13);
-            this.button70.TabIndex = 279;
-            this.button70.Text = "button6";
-            this.button70.UseVisualStyleBackColor = false;
+            this.btn1Rank24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank24.Location = new System.Drawing.Point(410, 32);
+            this.btn1Rank24.Name = "btn1Rank24";
+            this.btn1Rank24.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank24.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank24.TabIndex = 279;
+            this.btn1Rank24.Text = "button6";
+            this.btn1Rank24.UseVisualStyleBackColor = false;
             // 
             // chkCareer24
             // 
             this.chkCareer24.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer24.Location = new System.Drawing.Point(304, 32);
+            this.chkCareer24.Location = new System.Drawing.Point(338, 32);
             this.chkCareer24.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer24.Name = "chkCareer24";
             this.chkCareer24.Size = new System.Drawing.Size(13, 13);
@@ -4386,7 +4413,7 @@
             this.lblSkillsCombat.AutoSize = true;
             this.lblSkillsCombat.BackColor = System.Drawing.Color.Transparent;
             this.lblSkillsCombat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSkillsCombat.Location = new System.Drawing.Point(205, 3);
+            this.lblSkillsCombat.Location = new System.Drawing.Point(215, 3);
             this.lblSkillsCombat.Name = "lblSkillsCombat";
             this.lblSkillsCombat.Size = new System.Drawing.Size(70, 13);
             this.lblSkillsCombat.TabIndex = 265;
@@ -4397,7 +4424,7 @@
             this.lblCareerCombat.AutoSize = true;
             this.lblCareerCombat.BackColor = System.Drawing.Color.Transparent;
             this.lblCareerCombat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCareerCombat.Location = new System.Drawing.Point(294, 3);
+            this.lblCareerCombat.Location = new System.Drawing.Point(328, 3);
             this.lblCareerCombat.Name = "lblCareerCombat";
             this.lblCareerCombat.Size = new System.Drawing.Size(44, 13);
             this.lblCareerCombat.TabIndex = 266;
@@ -4408,7 +4435,7 @@
             this.lblRankCombat.AutoSize = true;
             this.lblRankCombat.BackColor = System.Drawing.Color.Transparent;
             this.lblRankCombat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRankCombat.Location = new System.Drawing.Point(355, 3);
+            this.lblRankCombat.Location = new System.Drawing.Point(389, 3);
             this.lblRankCombat.Name = "lblRankCombat";
             this.lblRankCombat.Size = new System.Drawing.Size(33, 13);
             this.lblRankCombat.TabIndex = 267;
@@ -4418,7 +4445,7 @@
             // 
             this.linkSkill23.AutoSize = true;
             this.linkSkill23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill23.Location = new System.Drawing.Point(205, 17);
+            this.linkSkill23.Location = new System.Drawing.Point(215, 17);
             this.linkSkill23.Name = "linkSkill23";
             this.linkSkill23.Size = new System.Drawing.Size(54, 13);
             this.linkSkill23.TabIndex = 268;
@@ -4426,70 +4453,70 @@
             this.linkSkill23.Text = "linkSkill23";
             this.linkSkill23.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
-            // button71
+            // btn5Rank23
             // 
-            this.button71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button71.Location = new System.Drawing.Point(320, 17);
-            this.button71.Name = "button71";
-            this.button71.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button71.Size = new System.Drawing.Size(13, 13);
-            this.button71.TabIndex = 273;
-            this.button71.Text = "button10";
-            this.button71.UseVisualStyleBackColor = false;
+            this.btn5Rank23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn5Rank23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5Rank23.Location = new System.Drawing.Point(354, 17);
+            this.btn5Rank23.Name = "btn5Rank23";
+            this.btn5Rank23.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn5Rank23.Size = new System.Drawing.Size(13, 13);
+            this.btn5Rank23.TabIndex = 273;
+            this.btn5Rank23.Text = "button10";
+            this.btn5Rank23.UseVisualStyleBackColor = false;
             // 
-            // button72
+            // btn3Rank23
             // 
-            this.button72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button72.Location = new System.Drawing.Point(348, 17);
-            this.button72.Name = "button72";
-            this.button72.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button72.Size = new System.Drawing.Size(13, 13);
-            this.button72.TabIndex = 271;
-            this.button72.Text = "button9";
-            this.button72.UseVisualStyleBackColor = false;
+            this.btn3Rank23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn3Rank23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3Rank23.Location = new System.Drawing.Point(382, 17);
+            this.btn3Rank23.Name = "btn3Rank23";
+            this.btn3Rank23.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn3Rank23.Size = new System.Drawing.Size(13, 13);
+            this.btn3Rank23.TabIndex = 271;
+            this.btn3Rank23.Text = "button9";
+            this.btn3Rank23.UseVisualStyleBackColor = false;
             // 
-            // button73
+            // btn2Rank23
             // 
-            this.button73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button73.Location = new System.Drawing.Point(362, 17);
-            this.button73.Name = "button73";
-            this.button73.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button73.Size = new System.Drawing.Size(13, 13);
-            this.button73.TabIndex = 269;
-            this.button73.Text = "button8";
-            this.button73.UseVisualStyleBackColor = false;
+            this.btn2Rank23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn2Rank23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2Rank23.Location = new System.Drawing.Point(396, 17);
+            this.btn2Rank23.Name = "btn2Rank23";
+            this.btn2Rank23.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn2Rank23.Size = new System.Drawing.Size(13, 13);
+            this.btn2Rank23.TabIndex = 269;
+            this.btn2Rank23.Text = "button8";
+            this.btn2Rank23.UseVisualStyleBackColor = false;
             // 
-            // button74
+            // btn4Rank23
             // 
-            this.button74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button74.Location = new System.Drawing.Point(334, 17);
-            this.button74.Name = "button74";
-            this.button74.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button74.Size = new System.Drawing.Size(13, 13);
-            this.button74.TabIndex = 270;
-            this.button74.Text = "button7";
-            this.button74.UseVisualStyleBackColor = false;
+            this.btn4Rank23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn4Rank23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4Rank23.Location = new System.Drawing.Point(368, 17);
+            this.btn4Rank23.Name = "btn4Rank23";
+            this.btn4Rank23.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn4Rank23.Size = new System.Drawing.Size(13, 13);
+            this.btn4Rank23.TabIndex = 270;
+            this.btn4Rank23.Text = "button7";
+            this.btn4Rank23.UseVisualStyleBackColor = false;
             // 
-            // button75
+            // btn1Rank23
             // 
-            this.button75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button75.Location = new System.Drawing.Point(376, 17);
-            this.button75.Name = "button75";
-            this.button75.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
-            this.button75.Size = new System.Drawing.Size(13, 13);
-            this.button75.TabIndex = 272;
-            this.button75.Text = "button6";
-            this.button75.UseVisualStyleBackColor = false;
+            this.btn1Rank23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btn1Rank23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1Rank23.Location = new System.Drawing.Point(410, 17);
+            this.btn1Rank23.Name = "btn1Rank23";
+            this.btn1Rank23.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
+            this.btn1Rank23.Size = new System.Drawing.Size(13, 13);
+            this.btn1Rank23.TabIndex = 272;
+            this.btn1Rank23.Text = "button6";
+            this.btn1Rank23.UseVisualStyleBackColor = false;
             // 
             // chkCareer23
             // 
             this.chkCareer23.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer23.Location = new System.Drawing.Point(304, 17);
+            this.chkCareer23.Location = new System.Drawing.Point(338, 17);
             this.chkCareer23.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer23.Name = "chkCareer23";
             this.chkCareer23.Size = new System.Drawing.Size(13, 13);
@@ -4513,7 +4540,7 @@
             // 
             this.btn5Rank7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank7.Location = new System.Drawing.Point(118, 122);
+            this.btn5Rank7.Location = new System.Drawing.Point(142, 122);
             this.btn5Rank7.Name = "btn5Rank7";
             this.btn5Rank7.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank7.Size = new System.Drawing.Size(13, 13);
@@ -4525,7 +4552,7 @@
             // 
             this.btn3Rank7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank7.Location = new System.Drawing.Point(146, 122);
+            this.btn3Rank7.Location = new System.Drawing.Point(170, 122);
             this.btn3Rank7.Name = "btn3Rank7";
             this.btn3Rank7.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank7.Size = new System.Drawing.Size(13, 13);
@@ -4537,7 +4564,7 @@
             // 
             this.btn2Rank7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank7.Location = new System.Drawing.Point(160, 122);
+            this.btn2Rank7.Location = new System.Drawing.Point(184, 122);
             this.btn2Rank7.Name = "btn2Rank7";
             this.btn2Rank7.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank7.Size = new System.Drawing.Size(13, 13);
@@ -4549,7 +4576,7 @@
             // 
             this.btn4Rank7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank7.Location = new System.Drawing.Point(132, 122);
+            this.btn4Rank7.Location = new System.Drawing.Point(156, 122);
             this.btn4Rank7.Name = "btn4Rank7";
             this.btn4Rank7.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank7.Size = new System.Drawing.Size(13, 13);
@@ -4561,7 +4588,7 @@
             // 
             this.btn1Rank7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank7.Location = new System.Drawing.Point(174, 122);
+            this.btn1Rank7.Location = new System.Drawing.Point(198, 122);
             this.btn1Rank7.Name = "btn1Rank7";
             this.btn1Rank7.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank7.Size = new System.Drawing.Size(13, 13);
@@ -4572,7 +4599,7 @@
             // chkCareer7
             // 
             this.chkCareer7.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer7.Location = new System.Drawing.Point(102, 122);
+            this.chkCareer7.Location = new System.Drawing.Point(126, 122);
             this.chkCareer7.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer7.Name = "chkCareer7";
             this.chkCareer7.Size = new System.Drawing.Size(13, 13);
@@ -4596,7 +4623,7 @@
             // 
             this.btn5Rank6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank6.Location = new System.Drawing.Point(118, 107);
+            this.btn5Rank6.Location = new System.Drawing.Point(142, 107);
             this.btn5Rank6.Name = "btn5Rank6";
             this.btn5Rank6.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank6.Size = new System.Drawing.Size(13, 13);
@@ -4608,7 +4635,7 @@
             // 
             this.btn3Rank6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank6.Location = new System.Drawing.Point(146, 107);
+            this.btn3Rank6.Location = new System.Drawing.Point(170, 107);
             this.btn3Rank6.Name = "btn3Rank6";
             this.btn3Rank6.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank6.Size = new System.Drawing.Size(13, 13);
@@ -4620,7 +4647,7 @@
             // 
             this.btn2Rank6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank6.Location = new System.Drawing.Point(160, 107);
+            this.btn2Rank6.Location = new System.Drawing.Point(184, 107);
             this.btn2Rank6.Name = "btn2Rank6";
             this.btn2Rank6.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank6.Size = new System.Drawing.Size(13, 13);
@@ -4632,7 +4659,7 @@
             // 
             this.btn4Rank6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank6.Location = new System.Drawing.Point(132, 107);
+            this.btn4Rank6.Location = new System.Drawing.Point(156, 107);
             this.btn4Rank6.Name = "btn4Rank6";
             this.btn4Rank6.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank6.Size = new System.Drawing.Size(13, 13);
@@ -4644,7 +4671,7 @@
             // 
             this.btn1Rank6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank6.Location = new System.Drawing.Point(174, 107);
+            this.btn1Rank6.Location = new System.Drawing.Point(198, 107);
             this.btn1Rank6.Name = "btn1Rank6";
             this.btn1Rank6.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank6.Size = new System.Drawing.Size(13, 13);
@@ -4655,7 +4682,7 @@
             // chkCareer6
             // 
             this.chkCareer6.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer6.Location = new System.Drawing.Point(102, 107);
+            this.chkCareer6.Location = new System.Drawing.Point(126, 107);
             this.chkCareer6.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer6.Name = "chkCareer6";
             this.chkCareer6.Size = new System.Drawing.Size(13, 13);
@@ -4679,7 +4706,7 @@
             // 
             this.btn5Rank5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank5.Location = new System.Drawing.Point(118, 92);
+            this.btn5Rank5.Location = new System.Drawing.Point(142, 92);
             this.btn5Rank5.Name = "btn5Rank5";
             this.btn5Rank5.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank5.Size = new System.Drawing.Size(13, 13);
@@ -4691,7 +4718,7 @@
             // 
             this.btn3Rank5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank5.Location = new System.Drawing.Point(146, 92);
+            this.btn3Rank5.Location = new System.Drawing.Point(170, 92);
             this.btn3Rank5.Name = "btn3Rank5";
             this.btn3Rank5.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank5.Size = new System.Drawing.Size(13, 13);
@@ -4703,7 +4730,7 @@
             // 
             this.btn2Rank5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank5.Location = new System.Drawing.Point(160, 92);
+            this.btn2Rank5.Location = new System.Drawing.Point(184, 92);
             this.btn2Rank5.Name = "btn2Rank5";
             this.btn2Rank5.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank5.Size = new System.Drawing.Size(13, 13);
@@ -4715,7 +4742,7 @@
             // 
             this.btn4Rank5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank5.Location = new System.Drawing.Point(132, 92);
+            this.btn4Rank5.Location = new System.Drawing.Point(156, 92);
             this.btn4Rank5.Name = "btn4Rank5";
             this.btn4Rank5.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank5.Size = new System.Drawing.Size(13, 13);
@@ -4727,7 +4754,7 @@
             // 
             this.btn1Rank5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank5.Location = new System.Drawing.Point(174, 92);
+            this.btn1Rank5.Location = new System.Drawing.Point(198, 92);
             this.btn1Rank5.Name = "btn1Rank5";
             this.btn1Rank5.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank5.Size = new System.Drawing.Size(13, 13);
@@ -4738,7 +4765,7 @@
             // chkCareer5
             // 
             this.chkCareer5.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer5.Location = new System.Drawing.Point(102, 92);
+            this.chkCareer5.Location = new System.Drawing.Point(126, 92);
             this.chkCareer5.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer5.Name = "chkCareer5";
             this.chkCareer5.Size = new System.Drawing.Size(13, 13);
@@ -4762,7 +4789,7 @@
             // 
             this.btn5Rank4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank4.Location = new System.Drawing.Point(118, 77);
+            this.btn5Rank4.Location = new System.Drawing.Point(142, 77);
             this.btn5Rank4.Name = "btn5Rank4";
             this.btn5Rank4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank4.Size = new System.Drawing.Size(13, 13);
@@ -4774,7 +4801,7 @@
             // 
             this.btn3Rank4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank4.Location = new System.Drawing.Point(146, 77);
+            this.btn3Rank4.Location = new System.Drawing.Point(170, 77);
             this.btn3Rank4.Name = "btn3Rank4";
             this.btn3Rank4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank4.Size = new System.Drawing.Size(13, 13);
@@ -4786,7 +4813,7 @@
             // 
             this.btn2Rank4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank4.Location = new System.Drawing.Point(160, 77);
+            this.btn2Rank4.Location = new System.Drawing.Point(184, 77);
             this.btn2Rank4.Name = "btn2Rank4";
             this.btn2Rank4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank4.Size = new System.Drawing.Size(13, 13);
@@ -4798,7 +4825,7 @@
             // 
             this.btn4Rank4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank4.Location = new System.Drawing.Point(132, 77);
+            this.btn4Rank4.Location = new System.Drawing.Point(156, 77);
             this.btn4Rank4.Name = "btn4Rank4";
             this.btn4Rank4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank4.Size = new System.Drawing.Size(13, 13);
@@ -4810,7 +4837,7 @@
             // 
             this.btn1Rank4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank4.Location = new System.Drawing.Point(174, 77);
+            this.btn1Rank4.Location = new System.Drawing.Point(198, 77);
             this.btn1Rank4.Name = "btn1Rank4";
             this.btn1Rank4.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank4.Size = new System.Drawing.Size(13, 13);
@@ -4821,7 +4848,7 @@
             // chkCareer4
             // 
             this.chkCareer4.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer4.Location = new System.Drawing.Point(102, 77);
+            this.chkCareer4.Location = new System.Drawing.Point(126, 77);
             this.chkCareer4.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer4.Name = "chkCareer4";
             this.chkCareer4.Size = new System.Drawing.Size(13, 13);
@@ -4845,7 +4872,7 @@
             // 
             this.btn5Rank3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank3.Location = new System.Drawing.Point(118, 62);
+            this.btn5Rank3.Location = new System.Drawing.Point(142, 62);
             this.btn5Rank3.Name = "btn5Rank3";
             this.btn5Rank3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank3.Size = new System.Drawing.Size(13, 13);
@@ -4857,7 +4884,7 @@
             // 
             this.btn3Rank3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank3.Location = new System.Drawing.Point(146, 62);
+            this.btn3Rank3.Location = new System.Drawing.Point(170, 62);
             this.btn3Rank3.Name = "btn3Rank3";
             this.btn3Rank3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank3.Size = new System.Drawing.Size(13, 13);
@@ -4869,7 +4896,7 @@
             // 
             this.btn2Rank3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank3.Location = new System.Drawing.Point(160, 62);
+            this.btn2Rank3.Location = new System.Drawing.Point(184, 62);
             this.btn2Rank3.Name = "btn2Rank3";
             this.btn2Rank3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank3.Size = new System.Drawing.Size(13, 13);
@@ -4881,7 +4908,7 @@
             // 
             this.btn4Rank3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank3.Location = new System.Drawing.Point(132, 62);
+            this.btn4Rank3.Location = new System.Drawing.Point(156, 62);
             this.btn4Rank3.Name = "btn4Rank3";
             this.btn4Rank3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank3.Size = new System.Drawing.Size(13, 13);
@@ -4893,7 +4920,7 @@
             // 
             this.btn1Rank3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank3.Location = new System.Drawing.Point(174, 62);
+            this.btn1Rank3.Location = new System.Drawing.Point(198, 62);
             this.btn1Rank3.Name = "btn1Rank3";
             this.btn1Rank3.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank3.Size = new System.Drawing.Size(13, 13);
@@ -4904,7 +4931,7 @@
             // chkCareer3
             // 
             this.chkCareer3.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer3.Location = new System.Drawing.Point(102, 62);
+            this.chkCareer3.Location = new System.Drawing.Point(126, 62);
             this.chkCareer3.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer3.Name = "chkCareer3";
             this.chkCareer3.Size = new System.Drawing.Size(13, 13);
@@ -4928,7 +4955,7 @@
             // 
             this.btn5Rank2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank2.Location = new System.Drawing.Point(118, 47);
+            this.btn5Rank2.Location = new System.Drawing.Point(142, 47);
             this.btn5Rank2.Name = "btn5Rank2";
             this.btn5Rank2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank2.Size = new System.Drawing.Size(13, 13);
@@ -4940,7 +4967,7 @@
             // 
             this.btn3Rank2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank2.Location = new System.Drawing.Point(146, 47);
+            this.btn3Rank2.Location = new System.Drawing.Point(170, 47);
             this.btn3Rank2.Name = "btn3Rank2";
             this.btn3Rank2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank2.Size = new System.Drawing.Size(13, 13);
@@ -4952,7 +4979,7 @@
             // 
             this.btn2Rank2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank2.Location = new System.Drawing.Point(160, 47);
+            this.btn2Rank2.Location = new System.Drawing.Point(184, 47);
             this.btn2Rank2.Name = "btn2Rank2";
             this.btn2Rank2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank2.Size = new System.Drawing.Size(13, 13);
@@ -4964,7 +4991,7 @@
             // 
             this.btn4Rank2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank2.Location = new System.Drawing.Point(132, 47);
+            this.btn4Rank2.Location = new System.Drawing.Point(156, 47);
             this.btn4Rank2.Name = "btn4Rank2";
             this.btn4Rank2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank2.Size = new System.Drawing.Size(13, 13);
@@ -4976,7 +5003,7 @@
             // 
             this.btn1Rank2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank2.Location = new System.Drawing.Point(174, 47);
+            this.btn1Rank2.Location = new System.Drawing.Point(198, 47);
             this.btn1Rank2.Name = "btn1Rank2";
             this.btn1Rank2.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank2.Size = new System.Drawing.Size(13, 13);
@@ -4987,7 +5014,7 @@
             // chkCareer2
             // 
             this.chkCareer2.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer2.Location = new System.Drawing.Point(102, 47);
+            this.chkCareer2.Location = new System.Drawing.Point(126, 47);
             this.chkCareer2.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer2.Name = "chkCareer2";
             this.chkCareer2.Size = new System.Drawing.Size(13, 13);
@@ -5011,7 +5038,7 @@
             // 
             this.btn5Rank1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank1.Location = new System.Drawing.Point(118, 32);
+            this.btn5Rank1.Location = new System.Drawing.Point(142, 32);
             this.btn5Rank1.Name = "btn5Rank1";
             this.btn5Rank1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank1.Size = new System.Drawing.Size(13, 13);
@@ -5023,7 +5050,7 @@
             // 
             this.btn3Rank1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank1.Location = new System.Drawing.Point(146, 32);
+            this.btn3Rank1.Location = new System.Drawing.Point(170, 32);
             this.btn3Rank1.Name = "btn3Rank1";
             this.btn3Rank1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank1.Size = new System.Drawing.Size(13, 13);
@@ -5035,7 +5062,7 @@
             // 
             this.btn2Rank1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank1.Location = new System.Drawing.Point(160, 32);
+            this.btn2Rank1.Location = new System.Drawing.Point(184, 32);
             this.btn2Rank1.Name = "btn2Rank1";
             this.btn2Rank1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank1.Size = new System.Drawing.Size(13, 13);
@@ -5047,7 +5074,7 @@
             // 
             this.btn4Rank1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank1.Location = new System.Drawing.Point(132, 32);
+            this.btn4Rank1.Location = new System.Drawing.Point(156, 32);
             this.btn4Rank1.Name = "btn4Rank1";
             this.btn4Rank1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank1.Size = new System.Drawing.Size(13, 13);
@@ -5059,7 +5086,7 @@
             // 
             this.btn1Rank1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank1.Location = new System.Drawing.Point(174, 32);
+            this.btn1Rank1.Location = new System.Drawing.Point(198, 32);
             this.btn1Rank1.Name = "btn1Rank1";
             this.btn1Rank1.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank1.Size = new System.Drawing.Size(13, 13);
@@ -5070,7 +5097,7 @@
             // chkCareer1
             // 
             this.chkCareer1.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer1.Location = new System.Drawing.Point(102, 32);
+            this.chkCareer1.Location = new System.Drawing.Point(126, 32);
             this.chkCareer1.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer1.Name = "chkCareer1";
             this.chkCareer1.Size = new System.Drawing.Size(13, 13);
@@ -5094,7 +5121,7 @@
             this.lblGeneralSkillsCareer.AutoSize = true;
             this.lblGeneralSkillsCareer.BackColor = System.Drawing.Color.Transparent;
             this.lblGeneralSkillsCareer.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGeneralSkillsCareer.Location = new System.Drawing.Point(92, 3);
+            this.lblGeneralSkillsCareer.Location = new System.Drawing.Point(116, 3);
             this.lblGeneralSkillsCareer.Name = "lblGeneralSkillsCareer";
             this.lblGeneralSkillsCareer.Size = new System.Drawing.Size(44, 13);
             this.lblGeneralSkillsCareer.TabIndex = 65;
@@ -5105,7 +5132,7 @@
             this.lblGeneralSkillsRank.AutoSize = true;
             this.lblGeneralSkillsRank.BackColor = System.Drawing.Color.Transparent;
             this.lblGeneralSkillsRank.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGeneralSkillsRank.Location = new System.Drawing.Point(153, 3);
+            this.lblGeneralSkillsRank.Location = new System.Drawing.Point(177, 3);
             this.lblGeneralSkillsRank.Name = "lblGeneralSkillsRank";
             this.lblGeneralSkillsRank.Size = new System.Drawing.Size(33, 13);
             this.lblGeneralSkillsRank.TabIndex = 66;
@@ -5127,7 +5154,7 @@
             // 
             this.btn5Rank0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn5Rank0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn5Rank0.Location = new System.Drawing.Point(118, 17);
+            this.btn5Rank0.Location = new System.Drawing.Point(142, 17);
             this.btn5Rank0.Name = "btn5Rank0";
             this.btn5Rank0.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn5Rank0.Size = new System.Drawing.Size(13, 13);
@@ -5139,7 +5166,7 @@
             // 
             this.btn3Rank0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn3Rank0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn3Rank0.Location = new System.Drawing.Point(146, 17);
+            this.btn3Rank0.Location = new System.Drawing.Point(170, 17);
             this.btn3Rank0.Name = "btn3Rank0";
             this.btn3Rank0.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn3Rank0.Size = new System.Drawing.Size(13, 13);
@@ -5151,7 +5178,7 @@
             // 
             this.btn2Rank0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn2Rank0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn2Rank0.Location = new System.Drawing.Point(160, 17);
+            this.btn2Rank0.Location = new System.Drawing.Point(184, 17);
             this.btn2Rank0.Name = "btn2Rank0";
             this.btn2Rank0.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn2Rank0.Size = new System.Drawing.Size(13, 13);
@@ -5163,7 +5190,7 @@
             // 
             this.btn4Rank0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn4Rank0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn4Rank0.Location = new System.Drawing.Point(132, 17);
+            this.btn4Rank0.Location = new System.Drawing.Point(156, 17);
             this.btn4Rank0.Name = "btn4Rank0";
             this.btn4Rank0.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn4Rank0.Size = new System.Drawing.Size(13, 13);
@@ -5175,7 +5202,7 @@
             // 
             this.btn1Rank0.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btn1Rank0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn1Rank0.Location = new System.Drawing.Point(174, 17);
+            this.btn1Rank0.Location = new System.Drawing.Point(198, 17);
             this.btn1Rank0.Name = "btn1Rank0";
             this.btn1Rank0.Padding = new System.Windows.Forms.Padding(3, 0, 3, 0);
             this.btn1Rank0.Size = new System.Drawing.Size(13, 13);
@@ -5186,7 +5213,7 @@
             // chkCareer0
             // 
             this.chkCareer0.BackColor = System.Drawing.Color.Transparent;
-            this.chkCareer0.Location = new System.Drawing.Point(102, 17);
+            this.chkCareer0.Location = new System.Drawing.Point(126, 17);
             this.chkCareer0.Margin = new System.Windows.Forms.Padding(0);
             this.chkCareer0.Name = "chkCareer0";
             this.chkCareer0.Size = new System.Drawing.Size(13, 13);
@@ -5196,67 +5223,79 @@
             // 
             // panelTalentDetail
             // 
+            this.panelTalentDetail.Controls.Add(this.button1);
+            this.panelTalentDetail.Controls.Add(this.button2);
             this.panelTalentDetail.Controls.Add(this.lblTalentTier);
             this.panelTalentDetail.Controls.Add(this.lblTalentPageNumber);
-            this.panelTalentDetail.Controls.Add(this.chkActive);
             this.panelTalentDetail.Controls.Add(this.txtTalentPageNumber);
             this.panelTalentDetail.Controls.Add(this.txtTalentDescription);
             this.panelTalentDetail.Controls.Add(this.txtTalentName);
-            this.panelTalentDetail.Location = new System.Drawing.Point(387, 3);
+            this.panelTalentDetail.Location = new System.Drawing.Point(436, 3);
             this.panelTalentDetail.Name = "panelTalentDetail";
-            this.panelTalentDetail.Size = new System.Drawing.Size(255, 126);
+            this.panelTalentDetail.Size = new System.Drawing.Size(205, 150);
             this.panelTalentDetail.TabIndex = 44;
             this.panelTalentDetail.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.Info;
+            this.button1.Location = new System.Drawing.Point(127, 123);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 689;
+            this.button1.Text = "&Cancel";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.Info;
+            this.button2.Location = new System.Drawing.Point(3, 123);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 688;
+            this.button2.Text = "&Save";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // lblTalentTier
             // 
             this.lblTalentTier.AutoSize = true;
             this.lblTalentTier.BackColor = System.Drawing.Color.Transparent;
             this.lblTalentTier.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblTalentTier.Location = new System.Drawing.Point(216, 9);
+            this.lblTalentTier.Location = new System.Drawing.Point(166, 6);
             this.lblTalentTier.Name = "lblTalentTier";
             this.lblTalentTier.Size = new System.Drawing.Size(28, 13);
             this.lblTalentTier.TabIndex = 18;
             this.lblTalentTier.Text = "Tier:";
+            this.lblTalentTier.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // lblTalentPageNumber
             // 
             this.lblTalentPageNumber.AutoSize = true;
             this.lblTalentPageNumber.BackColor = System.Drawing.Color.Transparent;
             this.lblTalentPageNumber.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.lblTalentPageNumber.Location = new System.Drawing.Point(174, 106);
+            this.lblTalentPageNumber.Location = new System.Drawing.Point(86, 103);
             this.lblTalentPageNumber.Name = "lblTalentPageNumber";
             this.lblTalentPageNumber.Size = new System.Drawing.Size(35, 13);
             this.lblTalentPageNumber.TabIndex = 17;
             this.lblTalentPageNumber.Text = "Page:";
             // 
-            // chkActive
-            // 
-            this.chkActive.AutoSize = true;
-            this.chkActive.BackColor = System.Drawing.Color.Transparent;
-            this.chkActive.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.chkActive.Location = new System.Drawing.Point(5, 106);
-            this.chkActive.Name = "chkActive";
-            this.chkActive.Size = new System.Drawing.Size(62, 17);
-            this.chkActive.TabIndex = 16;
-            this.chkActive.Text = "Active?";
-            this.chkActive.UseVisualStyleBackColor = false;
-            // 
             // txtTalentPageNumber
             // 
             this.txtTalentPageNumber.BackColor = System.Drawing.SystemColors.Info;
-            this.txtTalentPageNumber.Location = new System.Drawing.Point(215, 102);
+            this.txtTalentPageNumber.Location = new System.Drawing.Point(127, 99);
             this.txtTalentPageNumber.Name = "txtTalentPageNumber";
-            this.txtTalentPageNumber.Size = new System.Drawing.Size(37, 20);
+            this.txtTalentPageNumber.Size = new System.Drawing.Size(75, 20);
             this.txtTalentPageNumber.TabIndex = 15;
             // 
             // txtTalentDescription
             // 
             this.txtTalentDescription.BackColor = System.Drawing.SystemColors.Info;
-            this.txtTalentDescription.Location = new System.Drawing.Point(3, 28);
+            this.txtTalentDescription.Location = new System.Drawing.Point(3, 24);
             this.txtTalentDescription.Multiline = true;
             this.txtTalentDescription.Name = "txtTalentDescription";
-            this.txtTalentDescription.Size = new System.Drawing.Size(250, 70);
+            this.txtTalentDescription.Size = new System.Drawing.Size(199, 70);
             this.txtTalentDescription.TabIndex = 14;
             // 
             // txtTalentName
@@ -5353,6 +5392,7 @@
             // 
             // lblTalentPage24
             // 
+            this.lblTalentPage24.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage24.AutoSize = true;
             this.lblTalentPage24.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage24.Location = new System.Drawing.Point(75, 25);
@@ -5408,6 +5448,7 @@
             // 
             // lblTalentPage23
             // 
+            this.lblTalentPage23.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage23.AutoSize = true;
             this.lblTalentPage23.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage23.Location = new System.Drawing.Point(75, 25);
@@ -5463,6 +5504,7 @@
             // 
             // lblTalentPage22
             // 
+            this.lblTalentPage22.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage22.AutoSize = true;
             this.lblTalentPage22.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage22.Location = new System.Drawing.Point(75, 25);
@@ -5518,6 +5560,7 @@
             // 
             // lblTalentPage21
             // 
+            this.lblTalentPage21.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage21.AutoSize = true;
             this.lblTalentPage21.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage21.Location = new System.Drawing.Point(75, 25);
@@ -5573,6 +5616,7 @@
             // 
             // lblTalentPage20
             // 
+            this.lblTalentPage20.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage20.AutoSize = true;
             this.lblTalentPage20.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage20.Location = new System.Drawing.Point(75, 25);
@@ -5628,6 +5672,7 @@
             // 
             // lblTalentPage19
             // 
+            this.lblTalentPage19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage19.AutoSize = true;
             this.lblTalentPage19.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage19.Location = new System.Drawing.Point(75, 25);
@@ -5683,6 +5728,7 @@
             // 
             // lblTalentPage18
             // 
+            this.lblTalentPage18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage18.AutoSize = true;
             this.lblTalentPage18.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage18.Location = new System.Drawing.Point(75, 25);
@@ -5738,6 +5784,7 @@
             // 
             // lblTalentPage17
             // 
+            this.lblTalentPage17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage17.AutoSize = true;
             this.lblTalentPage17.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage17.Location = new System.Drawing.Point(75, 25);
@@ -5793,6 +5840,7 @@
             // 
             // lblTalentPage16
             // 
+            this.lblTalentPage16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage16.AutoSize = true;
             this.lblTalentPage16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage16.Location = new System.Drawing.Point(75, 25);
@@ -5848,6 +5896,7 @@
             // 
             // lblTalentPage15
             // 
+            this.lblTalentPage15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage15.AutoSize = true;
             this.lblTalentPage15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage15.Location = new System.Drawing.Point(75, 25);
@@ -5903,6 +5952,7 @@
             // 
             // lblTalentPage14
             // 
+            this.lblTalentPage14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage14.AutoSize = true;
             this.lblTalentPage14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage14.Location = new System.Drawing.Point(75, 25);
@@ -5958,6 +6008,7 @@
             // 
             // lblTalentPage13
             // 
+            this.lblTalentPage13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage13.AutoSize = true;
             this.lblTalentPage13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage13.Location = new System.Drawing.Point(75, 25);
@@ -6013,6 +6064,7 @@
             // 
             // lblTalentPage12
             // 
+            this.lblTalentPage12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage12.AutoSize = true;
             this.lblTalentPage12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage12.Location = new System.Drawing.Point(75, 25);
@@ -6068,6 +6120,7 @@
             // 
             // lblTalentPage11
             // 
+            this.lblTalentPage11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage11.AutoSize = true;
             this.lblTalentPage11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage11.Location = new System.Drawing.Point(75, 25);
@@ -6123,6 +6176,7 @@
             // 
             // lblTalentPage10
             // 
+            this.lblTalentPage10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage10.AutoSize = true;
             this.lblTalentPage10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage10.Location = new System.Drawing.Point(75, 25);
@@ -6178,6 +6232,7 @@
             // 
             // lblTalentPage9
             // 
+            this.lblTalentPage9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage9.AutoSize = true;
             this.lblTalentPage9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage9.Location = new System.Drawing.Point(75, 25);
@@ -6233,6 +6288,7 @@
             // 
             // lblTalentPage8
             // 
+            this.lblTalentPage8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage8.AutoSize = true;
             this.lblTalentPage8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage8.Location = new System.Drawing.Point(75, 25);
@@ -6288,6 +6344,7 @@
             // 
             // lblTalentPage7
             // 
+            this.lblTalentPage7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage7.AutoSize = true;
             this.lblTalentPage7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage7.Location = new System.Drawing.Point(75, 25);
@@ -6343,6 +6400,7 @@
             // 
             // lblTalentPage6
             // 
+            this.lblTalentPage6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage6.AutoSize = true;
             this.lblTalentPage6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage6.Location = new System.Drawing.Point(75, 25);
@@ -6398,6 +6456,7 @@
             // 
             // lblTalentPage5
             // 
+            this.lblTalentPage5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage5.AutoSize = true;
             this.lblTalentPage5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage5.Location = new System.Drawing.Point(75, 25);
@@ -6453,6 +6512,7 @@
             // 
             // lblTalentPage4
             // 
+            this.lblTalentPage4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage4.AutoSize = true;
             this.lblTalentPage4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage4.Location = new System.Drawing.Point(75, 25);
@@ -6508,6 +6568,7 @@
             // 
             // lblTalentPage3
             // 
+            this.lblTalentPage3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage3.AutoSize = true;
             this.lblTalentPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage3.Location = new System.Drawing.Point(75, 25);
@@ -6563,6 +6624,7 @@
             // 
             // lblTalentPage2
             // 
+            this.lblTalentPage2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage2.AutoSize = true;
             this.lblTalentPage2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage2.Location = new System.Drawing.Point(75, 25);
@@ -6618,6 +6680,7 @@
             // 
             // lblTalentPage1
             // 
+            this.lblTalentPage1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTalentPage1.AutoSize = true;
             this.lblTalentPage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage1.Location = new System.Drawing.Point(75, 25);
@@ -6673,10 +6736,10 @@
             // 
             // lblTalentPage0
             // 
-            this.lblTalentPage0.AutoSize = true;
             this.lblTalentPage0.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTalentPage0.Location = new System.Drawing.Point(75, 25);
             this.lblTalentPage0.Name = "lblTalentPage0";
+            this.lblTalentPage0.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.lblTalentPage0.Size = new System.Drawing.Size(22, 9);
             this.lblTalentPage0.TabIndex = 3;
             this.lblTalentPage0.Text = "Page";
@@ -6709,57 +6772,57 @@
             this.panelSkills.Controls.Add(this.lblGeneralSkills);
             this.panelSkills.Controls.Add(this.linkSkill43);
             this.panelSkills.Controls.Add(this.chkCareer0);
-            this.panelSkills.Controls.Add(this.button81);
+            this.panelSkills.Controls.Add(this.btn5Rank43);
             this.panelSkills.Controls.Add(this.btn1Rank0);
-            this.panelSkills.Controls.Add(this.button82);
+            this.panelSkills.Controls.Add(this.btn3Rank43);
             this.panelSkills.Controls.Add(this.btn4Rank0);
-            this.panelSkills.Controls.Add(this.button83);
+            this.panelSkills.Controls.Add(this.btn2Rank43);
             this.panelSkills.Controls.Add(this.btn2Rank0);
-            this.panelSkills.Controls.Add(this.button84);
+            this.panelSkills.Controls.Add(this.btn4Rank43);
             this.panelSkills.Controls.Add(this.btn3Rank0);
-            this.panelSkills.Controls.Add(this.button85);
+            this.panelSkills.Controls.Add(this.btn1Rank43);
             this.panelSkills.Controls.Add(this.btn5Rank0);
             this.panelSkills.Controls.Add(this.chkCareer43);
             this.panelSkills.Controls.Add(this.linkSkill0);
             this.panelSkills.Controls.Add(this.linkSkill42);
             this.panelSkills.Controls.Add(this.lblGeneralSkillsRank);
-            this.panelSkills.Controls.Add(this.button86);
+            this.panelSkills.Controls.Add(this.btn5Rank42);
             this.panelSkills.Controls.Add(this.lblGeneralSkillsCareer);
-            this.panelSkills.Controls.Add(this.button87);
+            this.panelSkills.Controls.Add(this.btn3Rank42);
             this.panelSkills.Controls.Add(this.chkCareer1);
-            this.panelSkills.Controls.Add(this.button88);
+            this.panelSkills.Controls.Add(this.btn2Rank42);
             this.panelSkills.Controls.Add(this.btn1Rank1);
-            this.panelSkills.Controls.Add(this.button89);
+            this.panelSkills.Controls.Add(this.btn4Rank42);
             this.panelSkills.Controls.Add(this.btn4Rank1);
-            this.panelSkills.Controls.Add(this.button90);
+            this.panelSkills.Controls.Add(this.btn1Rank42);
             this.panelSkills.Controls.Add(this.btn2Rank1);
             this.panelSkills.Controls.Add(this.chkCareer42);
             this.panelSkills.Controls.Add(this.btn3Rank1);
             this.panelSkills.Controls.Add(this.linkSkill41);
             this.panelSkills.Controls.Add(this.btn5Rank1);
-            this.panelSkills.Controls.Add(this.button196);
+            this.panelSkills.Controls.Add(this.btn5Rank41);
             this.panelSkills.Controls.Add(this.linkSkill1);
-            this.panelSkills.Controls.Add(this.button197);
+            this.panelSkills.Controls.Add(this.btn3Rank41);
             this.panelSkills.Controls.Add(this.chkCareer2);
-            this.panelSkills.Controls.Add(this.button198);
+            this.panelSkills.Controls.Add(this.btn2Rank41);
             this.panelSkills.Controls.Add(this.btn1Rank2);
-            this.panelSkills.Controls.Add(this.button199);
+            this.panelSkills.Controls.Add(this.btn4Rank41);
             this.panelSkills.Controls.Add(this.btn4Rank2);
-            this.panelSkills.Controls.Add(this.button200);
+            this.panelSkills.Controls.Add(this.btn1Rank41);
             this.panelSkills.Controls.Add(this.btn2Rank2);
             this.panelSkills.Controls.Add(this.chkCareer41);
             this.panelSkills.Controls.Add(this.btn3Rank2);
             this.panelSkills.Controls.Add(this.linkSkill40);
             this.panelSkills.Controls.Add(this.btn5Rank2);
-            this.panelSkills.Controls.Add(this.button201);
+            this.panelSkills.Controls.Add(this.btn5Rank40);
             this.panelSkills.Controls.Add(this.linkSkill2);
-            this.panelSkills.Controls.Add(this.button202);
+            this.panelSkills.Controls.Add(this.btn3Rank40);
             this.panelSkills.Controls.Add(this.chkCareer3);
-            this.panelSkills.Controls.Add(this.button203);
+            this.panelSkills.Controls.Add(this.btn2Rank40);
             this.panelSkills.Controls.Add(this.btn1Rank3);
-            this.panelSkills.Controls.Add(this.button204);
+            this.panelSkills.Controls.Add(this.btn4Rank40);
             this.panelSkills.Controls.Add(this.btn4Rank3);
-            this.panelSkills.Controls.Add(this.button205);
+            this.panelSkills.Controls.Add(this.btn1Rank40);
             this.panelSkills.Controls.Add(this.btn2Rank3);
             this.panelSkills.Controls.Add(this.chkCareer40);
             this.panelSkills.Controls.Add(this.btn3Rank3);
@@ -6771,71 +6834,71 @@
             this.panelSkills.Controls.Add(this.chkCareer4);
             this.panelSkills.Controls.Add(this.linkSkill39);
             this.panelSkills.Controls.Add(this.btn1Rank4);
-            this.panelSkills.Controls.Add(this.button206);
+            this.panelSkills.Controls.Add(this.btn5Rank39);
             this.panelSkills.Controls.Add(this.btn4Rank4);
-            this.panelSkills.Controls.Add(this.button207);
+            this.panelSkills.Controls.Add(this.btn3Rank39);
             this.panelSkills.Controls.Add(this.btn2Rank4);
-            this.panelSkills.Controls.Add(this.button208);
+            this.panelSkills.Controls.Add(this.btn2Rank39);
             this.panelSkills.Controls.Add(this.btn3Rank4);
-            this.panelSkills.Controls.Add(this.button209);
+            this.panelSkills.Controls.Add(this.btn4Rank39);
             this.panelSkills.Controls.Add(this.btn5Rank4);
-            this.panelSkills.Controls.Add(this.button210);
+            this.panelSkills.Controls.Add(this.btn1Rank39);
             this.panelSkills.Controls.Add(this.linkSkill4);
             this.panelSkills.Controls.Add(this.chkCareer39);
             this.panelSkills.Controls.Add(this.chkCareer5);
             this.panelSkills.Controls.Add(this.linkSkill38);
             this.panelSkills.Controls.Add(this.btn1Rank5);
-            this.panelSkills.Controls.Add(this.button26);
+            this.panelSkills.Controls.Add(this.btn5Rank38);
             this.panelSkills.Controls.Add(this.btn4Rank5);
-            this.panelSkills.Controls.Add(this.button27);
+            this.panelSkills.Controls.Add(this.btn3Rank38);
             this.panelSkills.Controls.Add(this.btn2Rank5);
-            this.panelSkills.Controls.Add(this.button28);
+            this.panelSkills.Controls.Add(this.btn2Rank38);
             this.panelSkills.Controls.Add(this.btn3Rank5);
-            this.panelSkills.Controls.Add(this.button29);
+            this.panelSkills.Controls.Add(this.btn4Rank38);
             this.panelSkills.Controls.Add(this.btn5Rank5);
-            this.panelSkills.Controls.Add(this.button30);
+            this.panelSkills.Controls.Add(this.btn1Rank38);
             this.panelSkills.Controls.Add(this.linkSkill5);
             this.panelSkills.Controls.Add(this.chkCareer38);
             this.panelSkills.Controls.Add(this.chkCareer6);
             this.panelSkills.Controls.Add(this.linkSkill37);
             this.panelSkills.Controls.Add(this.btn1Rank6);
-            this.panelSkills.Controls.Add(this.button31);
+            this.panelSkills.Controls.Add(this.btn5Rank37);
             this.panelSkills.Controls.Add(this.btn4Rank6);
-            this.panelSkills.Controls.Add(this.button32);
+            this.panelSkills.Controls.Add(this.btn3Rank37);
             this.panelSkills.Controls.Add(this.btn2Rank6);
-            this.panelSkills.Controls.Add(this.button33);
+            this.panelSkills.Controls.Add(this.btn2Rank37);
             this.panelSkills.Controls.Add(this.btn3Rank6);
-            this.panelSkills.Controls.Add(this.button34);
+            this.panelSkills.Controls.Add(this.btn4Rank37);
             this.panelSkills.Controls.Add(this.btn5Rank6);
-            this.panelSkills.Controls.Add(this.button35);
+            this.panelSkills.Controls.Add(this.btn1Rank37);
             this.panelSkills.Controls.Add(this.linkSkill6);
             this.panelSkills.Controls.Add(this.chkCareer37);
             this.panelSkills.Controls.Add(this.chkCareer7);
             this.panelSkills.Controls.Add(this.linkSkill36);
             this.panelSkills.Controls.Add(this.btn1Rank7);
-            this.panelSkills.Controls.Add(this.button36);
+            this.panelSkills.Controls.Add(this.btn5Rank36);
             this.panelSkills.Controls.Add(this.btn4Rank7);
-            this.panelSkills.Controls.Add(this.button37);
+            this.panelSkills.Controls.Add(this.btn3Rank36);
             this.panelSkills.Controls.Add(this.btn2Rank7);
-            this.panelSkills.Controls.Add(this.button38);
+            this.panelSkills.Controls.Add(this.btn2Rank36);
             this.panelSkills.Controls.Add(this.btn3Rank7);
-            this.panelSkills.Controls.Add(this.button39);
+            this.panelSkills.Controls.Add(this.btn4Rank36);
             this.panelSkills.Controls.Add(this.btn5Rank7);
-            this.panelSkills.Controls.Add(this.button40);
+            this.panelSkills.Controls.Add(this.btn1Rank36);
             this.panelSkills.Controls.Add(this.linkSkill7);
             this.panelSkills.Controls.Add(this.chkCareer36);
             this.panelSkills.Controls.Add(this.chkCareer23);
             this.panelSkills.Controls.Add(this.linkSkill35);
-            this.panelSkills.Controls.Add(this.button75);
-            this.panelSkills.Controls.Add(this.button41);
-            this.panelSkills.Controls.Add(this.button74);
-            this.panelSkills.Controls.Add(this.button42);
-            this.panelSkills.Controls.Add(this.button73);
-            this.panelSkills.Controls.Add(this.button43);
-            this.panelSkills.Controls.Add(this.button72);
-            this.panelSkills.Controls.Add(this.button44);
-            this.panelSkills.Controls.Add(this.button71);
-            this.panelSkills.Controls.Add(this.button45);
+            this.panelSkills.Controls.Add(this.btn1Rank23);
+            this.panelSkills.Controls.Add(this.btn5Rank35);
+            this.panelSkills.Controls.Add(this.btn4Rank23);
+            this.panelSkills.Controls.Add(this.btn3Rank35);
+            this.panelSkills.Controls.Add(this.btn2Rank23);
+            this.panelSkills.Controls.Add(this.btn2Rank35);
+            this.panelSkills.Controls.Add(this.btn3Rank23);
+            this.panelSkills.Controls.Add(this.btn4Rank35);
+            this.panelSkills.Controls.Add(this.btn5Rank23);
+            this.panelSkills.Controls.Add(this.btn1Rank35);
             this.panelSkills.Controls.Add(this.linkSkill23);
             this.panelSkills.Controls.Add(this.chkCareer35);
             this.panelSkills.Controls.Add(this.lblRankCombat);
@@ -6846,147 +6909,147 @@
             this.panelSkills.Controls.Add(this.lblRankKnowledge);
             this.panelSkills.Controls.Add(this.chkCareer24);
             this.panelSkills.Controls.Add(this.linkSkill34);
-            this.panelSkills.Controls.Add(this.button70);
-            this.panelSkills.Controls.Add(this.button76);
-            this.panelSkills.Controls.Add(this.button69);
-            this.panelSkills.Controls.Add(this.button77);
-            this.panelSkills.Controls.Add(this.button68);
-            this.panelSkills.Controls.Add(this.button78);
-            this.panelSkills.Controls.Add(this.button67);
-            this.panelSkills.Controls.Add(this.button79);
-            this.panelSkills.Controls.Add(this.button66);
-            this.panelSkills.Controls.Add(this.button80);
+            this.panelSkills.Controls.Add(this.btn1Rank24);
+            this.panelSkills.Controls.Add(this.btn5Rank34);
+            this.panelSkills.Controls.Add(this.btn4Rank24);
+            this.panelSkills.Controls.Add(this.btn3Rank34);
+            this.panelSkills.Controls.Add(this.btn2Rank24);
+            this.panelSkills.Controls.Add(this.btn2Rank34);
+            this.panelSkills.Controls.Add(this.btn3Rank24);
+            this.panelSkills.Controls.Add(this.btn4Rank34);
+            this.panelSkills.Controls.Add(this.btn5Rank24);
+            this.panelSkills.Controls.Add(this.btn1Rank34);
             this.panelSkills.Controls.Add(this.linkSkill24);
             this.panelSkills.Controls.Add(this.chkCareer34);
             this.panelSkills.Controls.Add(this.chkCareer25);
             this.panelSkills.Controls.Add(this.linkSkill22);
-            this.panelSkills.Controls.Add(this.button65);
-            this.panelSkills.Controls.Add(this.button1);
-            this.panelSkills.Controls.Add(this.button64);
-            this.panelSkills.Controls.Add(this.button2);
-            this.panelSkills.Controls.Add(this.button63);
-            this.panelSkills.Controls.Add(this.button3);
-            this.panelSkills.Controls.Add(this.button62);
-            this.panelSkills.Controls.Add(this.button4);
-            this.panelSkills.Controls.Add(this.button61);
-            this.panelSkills.Controls.Add(this.button5);
+            this.panelSkills.Controls.Add(this.btn1Rank25);
+            this.panelSkills.Controls.Add(this.btn5Rank22);
+            this.panelSkills.Controls.Add(this.btn4Rank25);
+            this.panelSkills.Controls.Add(this.btn3Rank22);
+            this.panelSkills.Controls.Add(this.btn2Rank25);
+            this.panelSkills.Controls.Add(this.btn2Rank22);
+            this.panelSkills.Controls.Add(this.btn3Rank25);
+            this.panelSkills.Controls.Add(this.btn4Rank22);
+            this.panelSkills.Controls.Add(this.btn5Rank25);
+            this.panelSkills.Controls.Add(this.btn1Rank22);
             this.panelSkills.Controls.Add(this.linkSkill25);
             this.panelSkills.Controls.Add(this.chkCareer22);
             this.panelSkills.Controls.Add(this.chkCareer26);
             this.panelSkills.Controls.Add(this.linkSkill21);
-            this.panelSkills.Controls.Add(this.button60);
-            this.panelSkills.Controls.Add(this.button6);
-            this.panelSkills.Controls.Add(this.button59);
-            this.panelSkills.Controls.Add(this.button7);
-            this.panelSkills.Controls.Add(this.button58);
-            this.panelSkills.Controls.Add(this.button8);
-            this.panelSkills.Controls.Add(this.button57);
-            this.panelSkills.Controls.Add(this.button9);
-            this.panelSkills.Controls.Add(this.button56);
-            this.panelSkills.Controls.Add(this.button10);
+            this.panelSkills.Controls.Add(this.btn1Rank26);
+            this.panelSkills.Controls.Add(this.btn5Rank21);
+            this.panelSkills.Controls.Add(this.btn4Rank26);
+            this.panelSkills.Controls.Add(this.btn3Rank21);
+            this.panelSkills.Controls.Add(this.btn2Rank26);
+            this.panelSkills.Controls.Add(this.btn2Rank21);
+            this.panelSkills.Controls.Add(this.btn3Rank26);
+            this.panelSkills.Controls.Add(this.btn4Rank21);
+            this.panelSkills.Controls.Add(this.btn5Rank26);
+            this.panelSkills.Controls.Add(this.btn1Rank21);
             this.panelSkills.Controls.Add(this.linkSkill26);
             this.panelSkills.Controls.Add(this.chkCareer21);
             this.panelSkills.Controls.Add(this.chkCareer27);
             this.panelSkills.Controls.Add(this.linkSkill20);
-            this.panelSkills.Controls.Add(this.button55);
-            this.panelSkills.Controls.Add(this.button11);
-            this.panelSkills.Controls.Add(this.button54);
-            this.panelSkills.Controls.Add(this.button12);
-            this.panelSkills.Controls.Add(this.button53);
-            this.panelSkills.Controls.Add(this.button13);
-            this.panelSkills.Controls.Add(this.button52);
-            this.panelSkills.Controls.Add(this.button14);
-            this.panelSkills.Controls.Add(this.button51);
-            this.panelSkills.Controls.Add(this.button15);
+            this.panelSkills.Controls.Add(this.btn1Rank27);
+            this.panelSkills.Controls.Add(this.btn5Rank20);
+            this.panelSkills.Controls.Add(this.btn4Rank27);
+            this.panelSkills.Controls.Add(this.btn3Rank20);
+            this.panelSkills.Controls.Add(this.btn2Rank27);
+            this.panelSkills.Controls.Add(this.btn2Rank20);
+            this.panelSkills.Controls.Add(this.btn3Rank27);
+            this.panelSkills.Controls.Add(this.btn4Rank20);
+            this.panelSkills.Controls.Add(this.btn5Rank27);
+            this.panelSkills.Controls.Add(this.btn1Rank20);
             this.panelSkills.Controls.Add(this.linkSkill27);
             this.panelSkills.Controls.Add(this.chkCareer20);
             this.panelSkills.Controls.Add(this.chkCareer28);
             this.panelSkills.Controls.Add(this.linkSkill19);
-            this.panelSkills.Controls.Add(this.button50);
-            this.panelSkills.Controls.Add(this.button16);
-            this.panelSkills.Controls.Add(this.button49);
-            this.panelSkills.Controls.Add(this.button17);
-            this.panelSkills.Controls.Add(this.button48);
-            this.panelSkills.Controls.Add(this.button18);
-            this.panelSkills.Controls.Add(this.button47);
-            this.panelSkills.Controls.Add(this.button19);
-            this.panelSkills.Controls.Add(this.button46);
-            this.panelSkills.Controls.Add(this.button20);
+            this.panelSkills.Controls.Add(this.btn1Rank28);
+            this.panelSkills.Controls.Add(this.btn5Rank19);
+            this.panelSkills.Controls.Add(this.btn4Rank28);
+            this.panelSkills.Controls.Add(this.btn3Rank19);
+            this.panelSkills.Controls.Add(this.btn2Rank28);
+            this.panelSkills.Controls.Add(this.btn2Rank19);
+            this.panelSkills.Controls.Add(this.btn3Rank28);
+            this.panelSkills.Controls.Add(this.btn4Rank19);
+            this.panelSkills.Controls.Add(this.btn5Rank28);
+            this.panelSkills.Controls.Add(this.btn1Rank19);
             this.panelSkills.Controls.Add(this.linkSkill28);
             this.panelSkills.Controls.Add(this.chkCareer19);
             this.panelSkills.Controls.Add(this.chkCareer29);
             this.panelSkills.Controls.Add(this.lblSkillsMagic);
-            this.panelSkills.Controls.Add(this.button115);
+            this.panelSkills.Controls.Add(this.btn1Rank29);
             this.panelSkills.Controls.Add(this.lblCareerMagic);
-            this.panelSkills.Controls.Add(this.button114);
+            this.panelSkills.Controls.Add(this.btn4Rank29);
             this.panelSkills.Controls.Add(this.lblRankMagic);
-            this.panelSkills.Controls.Add(this.button113);
+            this.panelSkills.Controls.Add(this.btn2Rank29);
             this.panelSkills.Controls.Add(this.linkSkill18);
-            this.panelSkills.Controls.Add(this.button112);
-            this.panelSkills.Controls.Add(this.button21);
-            this.panelSkills.Controls.Add(this.button111);
-            this.panelSkills.Controls.Add(this.button22);
+            this.panelSkills.Controls.Add(this.btn3Rank29);
+            this.panelSkills.Controls.Add(this.btn5Rank18);
+            this.panelSkills.Controls.Add(this.btn5Rank29);
+            this.panelSkills.Controls.Add(this.btn3Rank18);
             this.panelSkills.Controls.Add(this.linkSkill29);
-            this.panelSkills.Controls.Add(this.button23);
+            this.panelSkills.Controls.Add(this.btn2Rank18);
             this.panelSkills.Controls.Add(this.lblRankSocial);
-            this.panelSkills.Controls.Add(this.button24);
+            this.panelSkills.Controls.Add(this.btn4Rank18);
             this.panelSkills.Controls.Add(this.lblCareerSocial);
-            this.panelSkills.Controls.Add(this.button25);
+            this.panelSkills.Controls.Add(this.btn1Rank18);
             this.panelSkills.Controls.Add(this.lblSkillsSocial);
             this.panelSkills.Controls.Add(this.chkCareer18);
             this.panelSkills.Controls.Add(this.chkCareer30);
             this.panelSkills.Controls.Add(this.linkSkill17);
-            this.panelSkills.Controls.Add(this.button110);
+            this.panelSkills.Controls.Add(this.btn1Rank30);
             this.panelSkills.Controls.Add(this.btn5Rank17);
-            this.panelSkills.Controls.Add(this.button109);
+            this.panelSkills.Controls.Add(this.btn4Rank30);
             this.panelSkills.Controls.Add(this.btn3Rank17);
-            this.panelSkills.Controls.Add(this.button108);
+            this.panelSkills.Controls.Add(this.btn2Rank30);
             this.panelSkills.Controls.Add(this.btn2Rank17);
-            this.panelSkills.Controls.Add(this.button107);
+            this.panelSkills.Controls.Add(this.btn3Rank30);
             this.panelSkills.Controls.Add(this.btn4Rank17);
-            this.panelSkills.Controls.Add(this.button106);
+            this.panelSkills.Controls.Add(this.btn5Rank30);
             this.panelSkills.Controls.Add(this.btn1Rank17);
             this.panelSkills.Controls.Add(this.linkSkill30);
             this.panelSkills.Controls.Add(this.chkCareer17);
             this.panelSkills.Controls.Add(this.chkCareer31);
             this.panelSkills.Controls.Add(this.linkSkill16);
-            this.panelSkills.Controls.Add(this.button105);
+            this.panelSkills.Controls.Add(this.btn1Rank31);
             this.panelSkills.Controls.Add(this.btn5Rank16);
-            this.panelSkills.Controls.Add(this.button104);
+            this.panelSkills.Controls.Add(this.btn4Rank31);
             this.panelSkills.Controls.Add(this.btn3Rank16);
-            this.panelSkills.Controls.Add(this.button103);
+            this.panelSkills.Controls.Add(this.btn2Rank31);
             this.panelSkills.Controls.Add(this.btn2Rank16);
-            this.panelSkills.Controls.Add(this.button102);
+            this.panelSkills.Controls.Add(this.btn3Rank31);
             this.panelSkills.Controls.Add(this.btn4Rank16);
-            this.panelSkills.Controls.Add(this.button101);
+            this.panelSkills.Controls.Add(this.btn5Rank31);
             this.panelSkills.Controls.Add(this.btn1Rank16);
             this.panelSkills.Controls.Add(this.linkSkill31);
             this.panelSkills.Controls.Add(this.chkCareer16);
             this.panelSkills.Controls.Add(this.chkCareer32);
             this.panelSkills.Controls.Add(this.linkSkill15);
-            this.panelSkills.Controls.Add(this.button100);
+            this.panelSkills.Controls.Add(this.btn1Rank32);
             this.panelSkills.Controls.Add(this.btn5Rank15);
-            this.panelSkills.Controls.Add(this.button99);
+            this.panelSkills.Controls.Add(this.btn4Rank32);
             this.panelSkills.Controls.Add(this.btn3Rank15);
-            this.panelSkills.Controls.Add(this.button98);
+            this.panelSkills.Controls.Add(this.btn2Rank32);
             this.panelSkills.Controls.Add(this.btn2Rank15);
-            this.panelSkills.Controls.Add(this.button97);
+            this.panelSkills.Controls.Add(this.btn3Rank32);
             this.panelSkills.Controls.Add(this.btn4Rank15);
-            this.panelSkills.Controls.Add(this.button96);
+            this.panelSkills.Controls.Add(this.btn5Rank32);
             this.panelSkills.Controls.Add(this.btn1Rank15);
             this.panelSkills.Controls.Add(this.linkSkill32);
             this.panelSkills.Controls.Add(this.chkCareer15);
             this.panelSkills.Controls.Add(this.chkCareer33);
             this.panelSkills.Controls.Add(this.linkSkill14);
-            this.panelSkills.Controls.Add(this.button95);
+            this.panelSkills.Controls.Add(this.btn1Rank33);
             this.panelSkills.Controls.Add(this.btn5Rank14);
-            this.panelSkills.Controls.Add(this.button94);
+            this.panelSkills.Controls.Add(this.btn4Rank33);
             this.panelSkills.Controls.Add(this.btn3Rank14);
-            this.panelSkills.Controls.Add(this.button93);
+            this.panelSkills.Controls.Add(this.btn2Rank33);
             this.panelSkills.Controls.Add(this.btn2Rank14);
-            this.panelSkills.Controls.Add(this.button92);
+            this.panelSkills.Controls.Add(this.btn3Rank33);
             this.panelSkills.Controls.Add(this.btn4Rank14);
-            this.panelSkills.Controls.Add(this.button91);
+            this.panelSkills.Controls.Add(this.btn5Rank33);
             this.panelSkills.Controls.Add(this.btn1Rank14);
             this.panelSkills.Controls.Add(this.linkSkill33);
             this.panelSkills.Controls.Add(this.chkCareer14);
@@ -7120,8 +7183,6 @@
             this.Controls.Add(this.lblAbilities);
             this.Controls.Add(this.btnTalents);
             this.Controls.Add(this.btnSkills);
-            this.Controls.Add(this.panelTalents);
-            this.Controls.Add(this.panelSkills);
             this.Controls.Add(this.lblDefenseMeleeLabel);
             this.Controls.Add(this.lblDefenseRangedLabel);
             this.Controls.Add(this.lblPresenceLabel);
@@ -7179,6 +7240,8 @@
             this.Controls.Add(this.lblSubSpecies);
             this.Controls.Add(this.lblSpecies);
             this.Controls.Add(this.lblCharacterName);
+            this.Controls.Add(this.panelTalents);
+            this.Controls.Add(this.panelSkills);
             this.DoubleBuffered = true;
             this.Name = "frmGenesys";
             this.ShowIcon = false;
@@ -7306,118 +7369,118 @@
         private System.Windows.Forms.Label lblSpecies;
         private System.Windows.Forms.Label lblCharacterName;
         private System.Windows.Forms.LinkLabel linkSkill43;
-        private System.Windows.Forms.Button button81;
-        private System.Windows.Forms.Button button82;
-        private System.Windows.Forms.Button button83;
-        private System.Windows.Forms.Button button84;
-        private System.Windows.Forms.Button button85;
+        private System.Windows.Forms.Button btn5Rank43;
+        private System.Windows.Forms.Button btn3Rank43;
+        private System.Windows.Forms.Button btn2Rank43;
+        private System.Windows.Forms.Button btn4Rank43;
+        private System.Windows.Forms.Button btn1Rank43;
         private System.Windows.Forms.CheckBox chkCareer43;
         private System.Windows.Forms.LinkLabel linkSkill42;
-        private System.Windows.Forms.Button button86;
-        private System.Windows.Forms.Button button87;
-        private System.Windows.Forms.Button button88;
-        private System.Windows.Forms.Button button89;
-        private System.Windows.Forms.Button button90;
+        private System.Windows.Forms.Button btn5Rank42;
+        private System.Windows.Forms.Button btn3Rank42;
+        private System.Windows.Forms.Button btn2Rank42;
+        private System.Windows.Forms.Button btn4Rank42;
+        private System.Windows.Forms.Button btn1Rank42;
         private System.Windows.Forms.CheckBox chkCareer42;
         private System.Windows.Forms.LinkLabel linkSkill41;
-        private System.Windows.Forms.Button button196;
-        private System.Windows.Forms.Button button197;
-        private System.Windows.Forms.Button button198;
-        private System.Windows.Forms.Button button199;
-        private System.Windows.Forms.Button button200;
+        private System.Windows.Forms.Button btn5Rank41;
+        private System.Windows.Forms.Button btn3Rank41;
+        private System.Windows.Forms.Button btn2Rank41;
+        private System.Windows.Forms.Button btn4Rank41;
+        private System.Windows.Forms.Button btn1Rank41;
         private System.Windows.Forms.CheckBox chkCareer41;
         private System.Windows.Forms.LinkLabel linkSkill40;
-        private System.Windows.Forms.Button button201;
-        private System.Windows.Forms.Button button202;
-        private System.Windows.Forms.Button button203;
-        private System.Windows.Forms.Button button204;
-        private System.Windows.Forms.Button button205;
+        private System.Windows.Forms.Button btn5Rank40;
+        private System.Windows.Forms.Button btn3Rank40;
+        private System.Windows.Forms.Button btn2Rank40;
+        private System.Windows.Forms.Button btn4Rank40;
+        private System.Windows.Forms.Button btn1Rank40;
         private System.Windows.Forms.CheckBox chkCareer40;
         private System.Windows.Forms.Label lblSkillsCustom;
         private System.Windows.Forms.Label lblCareerCustom;
         private System.Windows.Forms.Label lblRankCustom;
         private System.Windows.Forms.LinkLabel linkSkill39;
-        private System.Windows.Forms.Button button206;
-        private System.Windows.Forms.Button button207;
-        private System.Windows.Forms.Button button208;
-        private System.Windows.Forms.Button button209;
-        private System.Windows.Forms.Button button210;
+        private System.Windows.Forms.Button btn5Rank39;
+        private System.Windows.Forms.Button btn3Rank39;
+        private System.Windows.Forms.Button btn2Rank39;
+        private System.Windows.Forms.Button btn4Rank39;
+        private System.Windows.Forms.Button btn1Rank39;
         private System.Windows.Forms.CheckBox chkCareer39;
         private System.Windows.Forms.LinkLabel linkSkill38;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Button btn5Rank38;
+        private System.Windows.Forms.Button btn3Rank38;
+        private System.Windows.Forms.Button btn2Rank38;
+        private System.Windows.Forms.Button btn4Rank38;
+        private System.Windows.Forms.Button btn1Rank38;
         private System.Windows.Forms.CheckBox chkCareer38;
         private System.Windows.Forms.LinkLabel linkSkill37;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button35;
+        private System.Windows.Forms.Button btn5Rank37;
+        private System.Windows.Forms.Button btn3Rank37;
+        private System.Windows.Forms.Button btn2Rank37;
+        private System.Windows.Forms.Button btn4Rank37;
+        private System.Windows.Forms.Button btn1Rank37;
         private System.Windows.Forms.CheckBox chkCareer37;
         private System.Windows.Forms.LinkLabel linkSkill36;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button40;
+        private System.Windows.Forms.Button btn5Rank36;
+        private System.Windows.Forms.Button btn3Rank36;
+        private System.Windows.Forms.Button btn2Rank36;
+        private System.Windows.Forms.Button btn4Rank36;
+        private System.Windows.Forms.Button btn1Rank36;
         private System.Windows.Forms.CheckBox chkCareer36;
         private System.Windows.Forms.LinkLabel linkSkill35;
-        private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.Button button42;
-        private System.Windows.Forms.Button button43;
-        private System.Windows.Forms.Button button44;
-        private System.Windows.Forms.Button button45;
+        private System.Windows.Forms.Button btn5Rank35;
+        private System.Windows.Forms.Button btn3Rank35;
+        private System.Windows.Forms.Button btn2Rank35;
+        private System.Windows.Forms.Button btn4Rank35;
+        private System.Windows.Forms.Button btn1Rank35;
         private System.Windows.Forms.CheckBox chkCareer35;
         private System.Windows.Forms.Label lblSkillsKnowledge;
         private System.Windows.Forms.Label lblCareerKnowledge;
         private System.Windows.Forms.Label lblRankKnowledge;
         private System.Windows.Forms.LinkLabel linkSkill34;
-        private System.Windows.Forms.Button button76;
-        private System.Windows.Forms.Button button77;
-        private System.Windows.Forms.Button button78;
-        private System.Windows.Forms.Button button79;
-        private System.Windows.Forms.Button button80;
+        private System.Windows.Forms.Button btn5Rank34;
+        private System.Windows.Forms.Button btn3Rank34;
+        private System.Windows.Forms.Button btn2Rank34;
+        private System.Windows.Forms.Button btn4Rank34;
+        private System.Windows.Forms.Button btn1Rank34;
         private System.Windows.Forms.CheckBox chkCareer34;
         private System.Windows.Forms.LinkLabel linkSkill22;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btn5Rank22;
+        private System.Windows.Forms.Button btn3Rank22;
+        private System.Windows.Forms.Button btn2Rank22;
+        private System.Windows.Forms.Button btn4Rank22;
+        private System.Windows.Forms.Button btn1Rank22;
         private System.Windows.Forms.CheckBox chkCareer22;
         private System.Windows.Forms.LinkLabel linkSkill21;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btn5Rank21;
+        private System.Windows.Forms.Button btn3Rank21;
+        private System.Windows.Forms.Button btn2Rank21;
+        private System.Windows.Forms.Button btn4Rank21;
+        private System.Windows.Forms.Button btn1Rank21;
         private System.Windows.Forms.CheckBox chkCareer21;
         private System.Windows.Forms.LinkLabel linkSkill20;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button btn5Rank20;
+        private System.Windows.Forms.Button btn3Rank20;
+        private System.Windows.Forms.Button btn2Rank20;
+        private System.Windows.Forms.Button btn4Rank20;
+        private System.Windows.Forms.Button btn1Rank20;
         private System.Windows.Forms.CheckBox chkCareer20;
         private System.Windows.Forms.LinkLabel linkSkill19;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button btn5Rank19;
+        private System.Windows.Forms.Button btn3Rank19;
+        private System.Windows.Forms.Button btn2Rank19;
+        private System.Windows.Forms.Button btn4Rank19;
+        private System.Windows.Forms.Button btn1Rank19;
         private System.Windows.Forms.CheckBox chkCareer19;
         private System.Windows.Forms.Label lblSkillsMagic;
         private System.Windows.Forms.Label lblCareerMagic;
         private System.Windows.Forms.Label lblRankMagic;
         private System.Windows.Forms.LinkLabel linkSkill18;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button btn5Rank18;
+        private System.Windows.Forms.Button btn3Rank18;
+        private System.Windows.Forms.Button btn2Rank18;
+        private System.Windows.Forms.Button btn4Rank18;
+        private System.Windows.Forms.Button btn1Rank18;
         private System.Windows.Forms.CheckBox chkCareer18;
         private System.Windows.Forms.LinkLabel linkSkill17;
         private System.Windows.Forms.Button btn5Rank17;
@@ -7490,87 +7553,87 @@
         private System.Windows.Forms.Button btn1Rank8;
         private System.Windows.Forms.CheckBox chkCareer8;
         private System.Windows.Forms.LinkLabel linkSkill33;
-        private System.Windows.Forms.Button button91;
-        private System.Windows.Forms.Button button92;
-        private System.Windows.Forms.Button button93;
-        private System.Windows.Forms.Button button94;
-        private System.Windows.Forms.Button button95;
+        private System.Windows.Forms.Button btn5Rank33;
+        private System.Windows.Forms.Button btn3Rank33;
+        private System.Windows.Forms.Button btn2Rank33;
+        private System.Windows.Forms.Button btn4Rank33;
+        private System.Windows.Forms.Button btn1Rank33;
         private System.Windows.Forms.CheckBox chkCareer33;
         private System.Windows.Forms.LinkLabel linkSkill32;
-        private System.Windows.Forms.Button button96;
-        private System.Windows.Forms.Button button97;
-        private System.Windows.Forms.Button button98;
-        private System.Windows.Forms.Button button99;
-        private System.Windows.Forms.Button button100;
+        private System.Windows.Forms.Button btn5Rank32;
+        private System.Windows.Forms.Button btn3Rank32;
+        private System.Windows.Forms.Button btn2Rank32;
+        private System.Windows.Forms.Button btn4Rank32;
+        private System.Windows.Forms.Button btn1Rank32;
         private System.Windows.Forms.CheckBox chkCareer32;
         private System.Windows.Forms.LinkLabel linkSkill31;
-        private System.Windows.Forms.Button button101;
-        private System.Windows.Forms.Button button102;
-        private System.Windows.Forms.Button button103;
-        private System.Windows.Forms.Button button104;
-        private System.Windows.Forms.Button button105;
+        private System.Windows.Forms.Button btn5Rank31;
+        private System.Windows.Forms.Button btn3Rank31;
+        private System.Windows.Forms.Button btn2Rank31;
+        private System.Windows.Forms.Button btn4Rank31;
+        private System.Windows.Forms.Button btn1Rank31;
         private System.Windows.Forms.CheckBox chkCareer31;
         private System.Windows.Forms.LinkLabel linkSkill30;
-        private System.Windows.Forms.Button button106;
-        private System.Windows.Forms.Button button107;
-        private System.Windows.Forms.Button button108;
-        private System.Windows.Forms.Button button109;
-        private System.Windows.Forms.Button button110;
+        private System.Windows.Forms.Button btn5Rank30;
+        private System.Windows.Forms.Button btn3Rank30;
+        private System.Windows.Forms.Button btn2Rank30;
+        private System.Windows.Forms.Button btn4Rank30;
+        private System.Windows.Forms.Button btn1Rank30;
         private System.Windows.Forms.CheckBox chkCareer30;
         private System.Windows.Forms.Label lblSkillsSocial;
         private System.Windows.Forms.Label lblCareerSocial;
         private System.Windows.Forms.Label lblRankSocial;
         private System.Windows.Forms.LinkLabel linkSkill29;
-        private System.Windows.Forms.Button button111;
-        private System.Windows.Forms.Button button112;
-        private System.Windows.Forms.Button button113;
-        private System.Windows.Forms.Button button114;
-        private System.Windows.Forms.Button button115;
+        private System.Windows.Forms.Button btn5Rank29;
+        private System.Windows.Forms.Button btn3Rank29;
+        private System.Windows.Forms.Button btn2Rank29;
+        private System.Windows.Forms.Button btn4Rank29;
+        private System.Windows.Forms.Button btn1Rank29;
         private System.Windows.Forms.CheckBox chkCareer29;
         private System.Windows.Forms.LinkLabel linkSkill28;
-        private System.Windows.Forms.Button button46;
-        private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.Button button48;
-        private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Button button50;
+        private System.Windows.Forms.Button btn5Rank28;
+        private System.Windows.Forms.Button btn3Rank28;
+        private System.Windows.Forms.Button btn2Rank28;
+        private System.Windows.Forms.Button btn4Rank28;
+        private System.Windows.Forms.Button btn1Rank28;
         private System.Windows.Forms.CheckBox chkCareer28;
         private System.Windows.Forms.LinkLabel linkSkill27;
-        private System.Windows.Forms.Button button51;
-        private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button53;
-        private System.Windows.Forms.Button button54;
-        private System.Windows.Forms.Button button55;
+        private System.Windows.Forms.Button btn5Rank27;
+        private System.Windows.Forms.Button btn3Rank27;
+        private System.Windows.Forms.Button btn2Rank27;
+        private System.Windows.Forms.Button btn4Rank27;
+        private System.Windows.Forms.Button btn1Rank27;
         private System.Windows.Forms.CheckBox chkCareer27;
         private System.Windows.Forms.LinkLabel linkSkill26;
-        private System.Windows.Forms.Button button56;
-        private System.Windows.Forms.Button button57;
-        private System.Windows.Forms.Button button58;
-        private System.Windows.Forms.Button button59;
-        private System.Windows.Forms.Button button60;
+        private System.Windows.Forms.Button btn5Rank26;
+        private System.Windows.Forms.Button btn3Rank26;
+        private System.Windows.Forms.Button btn2Rank26;
+        private System.Windows.Forms.Button btn4Rank26;
+        private System.Windows.Forms.Button btn1Rank26;
         private System.Windows.Forms.CheckBox chkCareer26;
         private System.Windows.Forms.LinkLabel linkSkill25;
-        private System.Windows.Forms.Button button61;
-        private System.Windows.Forms.Button button62;
-        private System.Windows.Forms.Button button63;
-        private System.Windows.Forms.Button button64;
-        private System.Windows.Forms.Button button65;
+        private System.Windows.Forms.Button btn5Rank25;
+        private System.Windows.Forms.Button btn3Rank25;
+        private System.Windows.Forms.Button btn2Rank25;
+        private System.Windows.Forms.Button btn4Rank25;
+        private System.Windows.Forms.Button btn1Rank25;
         private System.Windows.Forms.CheckBox chkCareer25;
         private System.Windows.Forms.LinkLabel linkSkill24;
-        private System.Windows.Forms.Button button66;
-        private System.Windows.Forms.Button button67;
-        private System.Windows.Forms.Button button68;
-        private System.Windows.Forms.Button button69;
-        private System.Windows.Forms.Button button70;
+        private System.Windows.Forms.Button btn5Rank24;
+        private System.Windows.Forms.Button btn3Rank24;
+        private System.Windows.Forms.Button btn2Rank24;
+        private System.Windows.Forms.Button btn4Rank24;
+        private System.Windows.Forms.Button btn1Rank24;
         private System.Windows.Forms.CheckBox chkCareer24;
         private System.Windows.Forms.Label lblSkillsCombat;
         private System.Windows.Forms.Label lblCareerCombat;
         private System.Windows.Forms.Label lblRankCombat;
         private System.Windows.Forms.LinkLabel linkSkill23;
-        private System.Windows.Forms.Button button71;
-        private System.Windows.Forms.Button button72;
-        private System.Windows.Forms.Button button73;
-        private System.Windows.Forms.Button button74;
-        private System.Windows.Forms.Button button75;
+        private System.Windows.Forms.Button btn5Rank23;
+        private System.Windows.Forms.Button btn3Rank23;
+        private System.Windows.Forms.Button btn2Rank23;
+        private System.Windows.Forms.Button btn4Rank23;
+        private System.Windows.Forms.Button btn1Rank23;
         private System.Windows.Forms.CheckBox chkCareer23;
         private System.Windows.Forms.LinkLabel linkSkill7;
         private System.Windows.Forms.Button btn5Rank7;
@@ -7768,7 +7831,6 @@
         private System.Windows.Forms.Panel panelTalentDetail;
         private System.Windows.Forms.Label lblTalentTier;
         private System.Windows.Forms.Label lblTalentPageNumber;
-        private System.Windows.Forms.CheckBox chkActive;
         private System.Windows.Forms.TextBox txtTalentPageNumber;
         private System.Windows.Forms.TextBox txtTalentDescription;
         private System.Windows.Forms.TextBox txtTalentName;
@@ -7777,6 +7839,10 @@
         private System.Windows.Forms.Button btnSkills;
         private System.Windows.Forms.Button btnTalents;
         private System.Windows.Forms.Button lblAbilities;
+        private System.Windows.Forms.Button btnSkillsCancel;
+        private System.Windows.Forms.Button btnSkillsSave;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
