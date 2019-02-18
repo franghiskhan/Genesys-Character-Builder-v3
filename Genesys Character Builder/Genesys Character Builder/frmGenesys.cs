@@ -474,9 +474,94 @@ namespace Genesys_Character_Builder
                     myCharacter.UsedXP = 0;
                     break;
             }
+
+            updateForm();
         }
 
+        private void cboSubSpecies_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            myCharacter.SubSpecies = cboSpecies.Text;
+            switch(myCharacter.SubSpecies)
+            {
+                case "Dunwarr Dwarf":
+                    addRankToStartingSkills("Resilience"); //Resilience +1
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 15;
+                    //dark vision
+                    //tough as nails
+                    break;
+                case "Forge Dwarf":
+                    addRankToStartingSkills("Negotiation"); //Negotiation +1
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 15;
+                    //stubborn
+                    //tough as nails
+                    break;
+                case "Deep Elf":
+                    addRankToStartingSkills("Discipline"); //Discipline +1
+                    addRankToStartingSkills("Forbidden"); //knowledge (forbidden) +2
+                    addRankToStartingSkills("Forbidden"); //knowledge (forbidden) +2
+                    MarkCareerSkill("Forbidden"); //knowledge (forbidden) career true
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 30;
+                    break;
+                case "Free Cities Elf":
+                    addRankToStartingSkills("Streetwise"); //Streetwise +1
+                    myCharacter.DefenseRanged = 1;
+                    myCharacter.DefenseMelee = 1;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 15;
+                    break;
+                case "Highborn Elf":
+                    addRankToStartingSkills("Negotiation");//Negotiation +1
+                    addRankToStartingSkills("Divine");//Divine +1
+                    MarkCareerSkill("Divine"); //Divine career true
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 25;
+                    break;
+                case "Lowborn Elf":
+                    addRankToStartingSkills("Survival"); //Survival +1
+                    myCharacter.DefenseRanged = 1;
+                    myCharacter.DefenseMelee = 1;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 15;
+                    break;
+                case "Burrow Gnome":
+                    addRankToStartingSkills("Divine"); //Divine +1
+                    addRankToStartingSkills("Resilience"); //Resilience +1
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 30;
+                    //militia training
+                    break;
+                case "Wanderer Gnome":
+                    addRankToStartingSkills("Charm"); //Charm +1
+                    addRankToStartingSkills("Stealth");//Stealth +1
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 30;
+                    //tricksy
+                    break;
+                case "Broken Plains Orc":
+                    addRankToStartingSkills("Coercion"); //Coercion +1
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 15;
+                    //Battle Rage
+                    break;
+                case "Stone-Dweller Orc":
+                    addRankToStartingSkills("Cool"); //Cool +1
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 15;
+                    //hot tempered
+                    break;
+                case "Sunderlands Orc":
+                    addRankToStartingSkills("Alchemy"); //Alchemy +1
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 15;
+                    //tenacious
+                    break;
+            }
 
+            updateForm();
+        }
 
         private void updateLabelColors()
         {
@@ -581,10 +666,12 @@ namespace Genesys_Character_Builder
                     myCharacter.Skills[i].Career = true;
                     //(CheckBox)Controls.Find("chkSkill" + i.ToString(), true).Checked = true;
                 }
-                else
+
+                label2.Text = myCharacter.Skills[35].ToString();
+                /*else
                 {
                     myCharacter.Skills[i].Career = false;
-                }
+                }*/
             }
 
             if (myCharacter.Skills[0].Career == true) chkCareer0.Checked = true;
@@ -765,6 +852,21 @@ namespace Genesys_Character_Builder
             txtTalentDescription.Text = myCharacter.Talents[talentLinkNumber].TalentDescription;
             txtTalentPageNumber.Text = myCharacter.Talents[talentLinkNumber].Page.ToString();
             activeTalentLink = talentLinkNumber;
+        }
+
+        private void updateForm()
+        {
+            lblBrawnVal.Text = myCharacter.Brawn.ToString();
+            lblAgilityVal.Text = myCharacter.Agility.ToString();
+            lblIntellectVal.Text = myCharacter.Intellect.ToString();
+            lblCunningVal.Text = myCharacter.Cunning.ToString();
+            lblWillpowerVal.Text = myCharacter.Willpower.ToString();
+            lblPresenceVal.Text = myCharacter.Presence.ToString();
+            lblSoak.Text = myCharacter.Soak.ToString();
+            lblWoundThreshold.Text = myCharacter.WoundThreshold.ToString();
+            lblStrainThreshold.Text = myCharacter.StrainThreshold.ToString();
+            lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
+            lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)

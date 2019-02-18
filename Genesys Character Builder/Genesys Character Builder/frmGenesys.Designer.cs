@@ -560,6 +560,7 @@
             this.btnSkills = new System.Windows.Forms.Button();
             this.btnTalents = new System.Windows.Forms.Button();
             this.lblAbilities = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.panelSkillDetail.SuspendLayout();
             this.panelTalentDetail.SuspendLayout();
             this.panel23.SuspendLayout();
@@ -1177,6 +1178,7 @@
             this.cboSubSpecies.Name = "cboSubSpecies";
             this.cboSubSpecies.Size = new System.Drawing.Size(114, 21);
             this.cboSubSpecies.TabIndex = 122;
+            this.cboSubSpecies.SelectedIndexChanged += new System.EventHandler(this.cboSubSpecies_SelectedIndexChanged);
             // 
             // btnReset
             // 
@@ -1303,6 +1305,7 @@
             // 
             // panelSkillDetail
             // 
+            this.panelSkillDetail.Controls.Add(this.label2);
             this.panelSkillDetail.Controls.Add(this.btnSkillsCancel);
             this.panelSkillDetail.Controls.Add(this.btnSkillsSave);
             this.panelSkillDetail.Controls.Add(this.txtSkillDescription);
@@ -1351,12 +1354,12 @@
             this.cboCharacteristic.BackColor = System.Drawing.SystemColors.Info;
             this.cboCharacteristic.FormattingEnabled = true;
             this.cboCharacteristic.Items.AddRange(new object[] {
-            "Brawn",
-            "Agility",
-            "Intellect",
-            "Cunning",
-            "Willpower",
-            "Presence"});
+            "Br",
+            "Ag",
+            "Int",
+            "Cun",
+            "Will",
+            "Pr"});
             this.cboCharacteristic.Location = new System.Drawing.Point(124, 2);
             this.cboCharacteristic.Name = "cboCharacteristic";
             this.cboCharacteristic.Size = new System.Drawing.Size(85, 21);
@@ -7174,6 +7177,15 @@
             this.lblAbilities.Text = "&Abilities";
             this.lblAbilities.UseVisualStyleBackColor = false;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(117, 106);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 688;
+            this.label2.Text = "label2";
+            // 
             // frmGenesys
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -7241,8 +7253,8 @@
             this.Controls.Add(this.lblSubSpecies);
             this.Controls.Add(this.lblSpecies);
             this.Controls.Add(this.lblCharacterName);
-            this.Controls.Add(this.panelTalents);
             this.Controls.Add(this.panelSkills);
+            this.Controls.Add(this.panelTalents);
             this.DoubleBuffered = true;
             this.Name = "frmGenesys";
             this.ShowIcon = false;
@@ -7844,6 +7856,7 @@
         private System.Windows.Forms.Button btnSkillsSave;
         private System.Windows.Forms.Button btnTalentCancel;
         private System.Windows.Forms.Button btnTalentSave;
+        private System.Windows.Forms.Label label2;
     }
 }
 
