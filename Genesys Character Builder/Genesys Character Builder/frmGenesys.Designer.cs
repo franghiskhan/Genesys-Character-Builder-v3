@@ -418,8 +418,8 @@
             this.btn1Rank0 = new System.Windows.Forms.Button();
             this.chkCareer0 = new System.Windows.Forms.CheckBox();
             this.panelTalentDetail = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnTalentCancel = new System.Windows.Forms.Button();
+            this.btnTalentSave = new System.Windows.Forms.Button();
             this.lblTalentTier = new System.Windows.Forms.Label();
             this.lblTalentPageNumber = new System.Windows.Forms.Label();
             this.txtTalentPageNumber = new System.Windows.Forms.TextBox();
@@ -1208,6 +1208,7 @@
             this.cboSpecies.Name = "cboSpecies";
             this.cboSpecies.Size = new System.Drawing.Size(100, 21);
             this.cboSpecies.TabIndex = 120;
+            this.cboSpecies.SelectedIndexChanged += new System.EventHandler(this.cboSpecies_SelectedIndexChanged);
             // 
             // btnExit
             // 
@@ -5223,8 +5224,8 @@
             // 
             // panelTalentDetail
             // 
-            this.panelTalentDetail.Controls.Add(this.button1);
-            this.panelTalentDetail.Controls.Add(this.button2);
+            this.panelTalentDetail.Controls.Add(this.btnTalentCancel);
+            this.panelTalentDetail.Controls.Add(this.btnTalentSave);
             this.panelTalentDetail.Controls.Add(this.lblTalentTier);
             this.panelTalentDetail.Controls.Add(this.lblTalentPageNumber);
             this.panelTalentDetail.Controls.Add(this.txtTalentPageNumber);
@@ -5236,27 +5237,27 @@
             this.panelTalentDetail.TabIndex = 44;
             this.panelTalentDetail.Visible = false;
             // 
-            // button1
+            // btnTalentCancel
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Info;
-            this.button1.Location = new System.Drawing.Point(127, 123);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 689;
-            this.button1.Text = "&Cancel";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnTalentCancel.BackColor = System.Drawing.SystemColors.Info;
+            this.btnTalentCancel.Location = new System.Drawing.Point(127, 123);
+            this.btnTalentCancel.Name = "btnTalentCancel";
+            this.btnTalentCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnTalentCancel.TabIndex = 689;
+            this.btnTalentCancel.Text = "&Cancel";
+            this.btnTalentCancel.UseVisualStyleBackColor = false;
+            this.btnTalentCancel.Click += new System.EventHandler(this.btnTalentCancel_Click);
             // 
-            // button2
+            // btnTalentSave
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.Info;
-            this.button2.Location = new System.Drawing.Point(3, 123);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 688;
-            this.button2.Text = "&Save";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnTalentSave.BackColor = System.Drawing.SystemColors.Info;
+            this.btnTalentSave.Location = new System.Drawing.Point(3, 123);
+            this.btnTalentSave.Name = "btnTalentSave";
+            this.btnTalentSave.Size = new System.Drawing.Size(75, 23);
+            this.btnTalentSave.TabIndex = 688;
+            this.btnTalentSave.Text = "&Save";
+            this.btnTalentSave.UseVisualStyleBackColor = false;
+            this.btnTalentSave.Click += new System.EventHandler(this.btnTalentSave_Click);
             // 
             // lblTalentTier
             // 
@@ -7240,8 +7241,8 @@
             this.Controls.Add(this.lblSubSpecies);
             this.Controls.Add(this.lblSpecies);
             this.Controls.Add(this.lblCharacterName);
-            this.Controls.Add(this.panelSkills);
             this.Controls.Add(this.panelTalents);
+            this.Controls.Add(this.panelSkills);
             this.DoubleBuffered = true;
             this.Name = "frmGenesys";
             this.ShowIcon = false;
@@ -7841,8 +7842,8 @@
         private System.Windows.Forms.Button lblAbilities;
         private System.Windows.Forms.Button btnSkillsCancel;
         private System.Windows.Forms.Button btnSkillsSave;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnTalentCancel;
+        private System.Windows.Forms.Button btnTalentSave;
     }
 }
 

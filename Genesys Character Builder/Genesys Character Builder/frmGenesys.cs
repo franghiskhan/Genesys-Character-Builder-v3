@@ -289,6 +289,11 @@ namespace Genesys_Character_Builder
             updateSkills();
         }
 
+        private void cboSpecies_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void updateLabelColors()
         {
             switch (myCharacter.Setting)
@@ -619,7 +624,7 @@ namespace Genesys_Character_Builder
             panelSkillDetail.Visible = false;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnTalentSave_Click(object sender, EventArgs e)
         {
             myCharacter.Talents[activeTalentLink].TalentName = txtTalentName.Text;
             myCharacter.Talents[activeTalentLink].TalentDescription = txtTalentDescription.Text;
@@ -628,7 +633,7 @@ namespace Genesys_Character_Builder
             updateTalents();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnTalentCancel_Click(object sender, EventArgs e)
         {
             panelTalentDetail.Visible = false;
         }
