@@ -291,8 +291,192 @@ namespace Genesys_Character_Builder
 
         private void cboSpecies_SelectedIndexChanged(object sender, EventArgs e)
         {
+            myCharacter.Species = cboSpecies.Text;
 
+            switch(myCharacter.Species)
+            {
+                case "Human":
+                case "Average Human":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 10;
+                    myCharacter.StrainThreshold = 10;
+                    myCharacter.TotalXP = 110;
+                    myCharacter.UsedXP = 0;
+                    //2 free skill ranks
+                    //ready for anything
+                    break;
+                case "The Laborer":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 3;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 1;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 12;
+                    myCharacter.StrainThreshold = 8;
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 0;
+                    addRankToStartingSkills("Athletics"); //+1 Athletics
+                    //Tough as Nails
+                    break;
+                case "The Intellectual":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 1;
+                    myCharacter.Intellect = 3;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 8;
+                    myCharacter.StrainThreshold = 12;
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 0;
+                    addRankToStartingSkills("Knowledge"); //+1 Knowledge
+                    //Brilliant!
+                    break;
+                case "The Aristocrat":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 1;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 3;
+                    myCharacter.WoundThreshold = 10;
+                    myCharacter.StrainThreshold = 10;
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 0;
+                    addRankToStartingSkills("Cool"); //+1 Cool
+                    //Forceful Personality
+                    break;
+                case "CatFolk":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    addRankToStartingSkills("Perception"); //Perception +1
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 1;
+                    myCharacter.Cunning = 3;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 9;
+                    myCharacter.StrainThreshold = 8;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 15;
+                    //Claws
+                    //Fleet of Paw
+                    break;
+                case "Half CatFolk":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    addRankToStartingSkills("Cool"); //Cool +1
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 10;
+                    myCharacter.StrainThreshold = 9;
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 15;
+                    //Claws or Fleet of Paw
+                    break;
+                case "Dwarf":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.Items.Add("Dunwarr Dwarf");
+                    cboSubSpecies.Items.Add("Forge Dwarf");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 1;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 3;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 11;
+                    myCharacter.StrainThreshold = 10;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    break;
+                case "Elf":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.Items.Add("Deep Elf");
+                    cboSubSpecies.Items.Add("Free Cities Elf");
+                    cboSubSpecies.Items.Add("Highborn Elf");
+                    cboSubSpecies.Items.Add("Lowborn Elf");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 3;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 1;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 9;
+                    myCharacter.StrainThreshold = 10;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    break;
+                case "Gnome":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.Items.Add("Burrow Gnome");
+                    cboSubSpecies.Items.Add("Wanderer Gnome");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 1;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 3;
+                    myCharacter.Willpower = 1;
+                    myCharacter.Presence = 3;
+                    myCharacter.WoundThreshold = 6;
+                    myCharacter.StrainThreshold = 11;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    //small
+                    break;
+                case "Orc":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.Items.Add("Broken Plains Orc");
+                    cboSubSpecies.Items.Add("Stone-Dweller Orc");
+                    cboSubSpecies.Items.Add("Sunderlands Orc");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 3;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 1;
+                    myCharacter.WoundThreshold = 12;
+                    myCharacter.StrainThreshold = 8;
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 0;
+                    break;
+            }
         }
+
+
 
         private void updateLabelColors()
         {
