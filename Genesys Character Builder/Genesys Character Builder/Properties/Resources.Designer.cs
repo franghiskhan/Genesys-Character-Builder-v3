@@ -83,9 +83,29 @@ namespace Genesys_Character_Builder.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap green_transparent {
+            get {
+                object obj = ResourceManager.GetObject("green_transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap terrinoth_background {
             get {
                 object obj = ResourceManager.GetObject("terrinoth background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap yellow_transparent {
+            get {
+                object obj = ResourceManager.GetObject("yellow_transparent", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

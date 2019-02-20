@@ -20,6 +20,7 @@ namespace Genesys_Character_Builder
 
         private static int activeSkillLink;
         private static int activeTalentLink;
+        private static int careerSkillsNum = 0;
 
         private CharacterTemplate myCharacter = new CharacterTemplate
         {
@@ -259,9 +260,10 @@ namespace Genesys_Character_Builder
             {
                 case "Android":
                     this.BackgroundImage = Properties.Resources.android_background;
+                    txtCharacterName.Width = 220;
                     lblSpecies.Text = "Archetype:";
                     lblSubSpecies.Visible = false;
-                    //cboSubSpecies.Visible = false;
+                    cboSubSpecies.Visible = false;
                     cboSpecies.Items.Clear();
                     cboSpecies.Items.Add("");
 
@@ -274,6 +276,7 @@ namespace Genesys_Character_Builder
                     break;
                 case "Terrinoth":
                     this.BackgroundImage = Properties.Resources.terrinoth_background;
+                    txtCharacterName.Width = 257;
                     lblSpecies.Text = "Species:";
                     lblSubSpecies.Visible = true;
                     cboSubSpecies.Visible = true;
@@ -857,7 +860,6 @@ namespace Genesys_Character_Builder
                     {
                         myCharacter.Presence += 1;
                         myCharacter.UsedXP += myCharacter.Presence * 10;
-
                     }
                     break;
             }
@@ -1019,7 +1021,6 @@ namespace Genesys_Character_Builder
                 if (myCharacter.Skills[i].SkillName == skillToCheck)
                 {
                     myCharacter.Skills[i].Career = true;
-                    //(CheckBox)Controls.Find("chkSkill" + i.ToString(), true).Checked = true;
                 }
 
                 else
@@ -1027,51 +1028,6 @@ namespace Genesys_Character_Builder
                     myCharacter.Skills[i].Career = false;
                 }
             }
-
-            if (myCharacter.Skills[0].Career == true) chkCareer0.Checked = true;
-            if (myCharacter.Skills[1].Career == true) chkCareer1.Checked = true;
-            if (myCharacter.Skills[2].Career == true) chkCareer2.Checked = true;
-            if (myCharacter.Skills[3].Career == true) chkCareer3.Checked = true;
-            if (myCharacter.Skills[4].Career == true) chkCareer4.Checked = true;
-            if (myCharacter.Skills[5].Career == true) chkCareer5.Checked = true;
-            if (myCharacter.Skills[6].Career == true) chkCareer6.Checked = true;
-            if (myCharacter.Skills[7].Career == true) chkCareer7.Checked = true;
-            if (myCharacter.Skills[8].Career == true) chkCareer8.Checked = true;
-            if (myCharacter.Skills[9].Career == true) chkCareer9.Checked = true;
-            if (myCharacter.Skills[10].Career == true) chkCareer10.Checked = true;
-            if (myCharacter.Skills[11].Career == true) chkCareer11.Checked = true;
-            if (myCharacter.Skills[12].Career == true) chkCareer12.Checked = true;
-            if (myCharacter.Skills[13].Career == true) chkCareer13.Checked = true;
-            if (myCharacter.Skills[14].Career == true) chkCareer14.Checked = true;
-            if (myCharacter.Skills[15].Career == true) chkCareer15.Checked = true;
-            if (myCharacter.Skills[16].Career == true) chkCareer16.Checked = true;
-            if (myCharacter.Skills[17].Career == true) chkCareer17.Checked = true;
-            if (myCharacter.Skills[18].Career == true) chkCareer18.Checked = true;
-            if (myCharacter.Skills[19].Career == true) chkCareer19.Checked = true;
-            if (myCharacter.Skills[20].Career == true) chkCareer20.Checked = true;
-            if (myCharacter.Skills[21].Career == true) chkCareer21.Checked = true;
-            if (myCharacter.Skills[22].Career == true) chkCareer22.Checked = true;
-            if (myCharacter.Skills[23].Career == true) chkCareer23.Checked = true;
-            if (myCharacter.Skills[24].Career == true) chkCareer24.Checked = true;
-            if (myCharacter.Skills[25].Career == true) chkCareer25.Checked = true;
-            if (myCharacter.Skills[26].Career == true) chkCareer26.Checked = true;
-            if (myCharacter.Skills[27].Career == true) chkCareer27.Checked = true;
-            if (myCharacter.Skills[28].Career == true) chkCareer28.Checked = true;
-            if (myCharacter.Skills[29].Career == true) chkCareer29.Checked = true;
-            if (myCharacter.Skills[30].Career == true) chkCareer30.Checked = true;
-            if (myCharacter.Skills[31].Career == true) chkCareer31.Checked = true;
-            if (myCharacter.Skills[32].Career == true) chkCareer32.Checked = true;
-            if (myCharacter.Skills[33].Career == true) chkCareer33.Checked = true;
-            if (myCharacter.Skills[34].Career == true) chkCareer34.Checked = true;
-            if (myCharacter.Skills[35].Career == true) chkCareer35.Checked = true;
-            if (myCharacter.Skills[36].Career == true) chkCareer36.Checked = true;
-            if (myCharacter.Skills[37].Career == true) chkCareer37.Checked = true;
-            if (myCharacter.Skills[38].Career == true) chkCareer38.Checked = true;
-            if (myCharacter.Skills[39].Career == true) chkCareer39.Checked = true;
-            if (myCharacter.Skills[40].Career == true) chkCareer40.Checked = true;
-            if (myCharacter.Skills[41].Career == true) chkCareer41.Checked = true;
-            if (myCharacter.Skills[42].Career == true) chkCareer42.Checked = true;
-            if (myCharacter.Skills[43].Career == true) chkCareer43.Checked = true;
         }
 
         private void updateSkills()
@@ -1180,6 +1136,8 @@ namespace Genesys_Character_Builder
         private void linkSkill_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             panelSkillDetail.Visible = true;
+            lblSkillRank.Text = "";
+            lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
 
             LinkLabel myLink;
             myLink = (LinkLabel)sender;
@@ -1187,12 +1145,54 @@ namespace Genesys_Character_Builder
             txtSkill.Text = myCharacter.Skills[skillLinkNumber].SkillName;
             cboCharacteristic.Text = myCharacter.Skills[skillLinkNumber].Characteristic;
             txtSkillDescription.Text = myCharacter.Skills[skillLinkNumber].Description;
+            if (myCharacter.Skills[activeSkillLink].Career)
+            {
+                chkCareer.Checked = true;
+            }
+            
             activeSkillLink = skillLinkNumber;
+            lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
 
             myCharacter.Skills[skillLinkNumber].SkillName = txtSkill.Text;
             myCharacter.Skills[skillLinkNumber].Characteristic = cboCharacteristic.Text;
             myCharacter.Skills[skillLinkNumber].Description = txtSkillDescription.Text;
+
+            updateForm();
         }
+
+        //Testing logic for skill rank buttons, work in progress
+        private void btnSkillPlus_Click(object sender, EventArgs e)
+        {
+            lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
+            if (myCharacter.Skills[activeSkillLink].Rank < 5)
+            {
+                myCharacter.Skills[activeSkillLink].Rank++;
+                myCharacter.UsedXP += myCharacter.Skills[activeSkillLink].Rank * 5;
+                if (myCharacter.Skills[activeSkillLink].Career == false)
+                {
+                    myCharacter.UsedXP += 5;
+                }
+            }
+            lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
+            updateForm();
+        }
+
+        private void btnSkillMinus_Click(object sender, EventArgs e)
+        {
+            lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
+            if (myCharacter.Skills[activeSkillLink].Rank > 0)
+            {
+                myCharacter.UsedXP -= myCharacter.Skills[activeSkillLink].Rank * 5;
+                myCharacter.Skills[activeSkillLink].Rank--;
+                if (myCharacter.Skills[activeSkillLink].Career == false)
+                {
+                    myCharacter.UsedXP -= 5;
+                }
+            }
+            lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
+            updateForm();
+        }
+        //end skill rank buttons
 
         private void linkTalent_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -1206,6 +1206,13 @@ namespace Genesys_Character_Builder
             txtTalentDescription.Text = myCharacter.Talents[talentLinkNumber].TalentDescription;
             txtTalentPageNumber.Text = myCharacter.Talents[talentLinkNumber].Page.ToString();
             activeTalentLink = talentLinkNumber;
+        }
+
+        private void updateXP()
+        {
+            myCharacter.RemainXP = myCharacter.TotalXP - myCharacter.UsedXP;
+            lblXPTotal.Text = myCharacter.TotalXP.ToString();
+            lblXPRemaining.Text = myCharacter.RemainXP.ToString();
         }
 
         private void updateForm()
@@ -1223,6 +1230,8 @@ namespace Genesys_Character_Builder
             lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
             lblXPTotal.Text = myCharacter.TotalXP.ToString();
             lblXPRemaining.Text = myCharacter.RemainXP.ToString();
+
+            updateXP();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
