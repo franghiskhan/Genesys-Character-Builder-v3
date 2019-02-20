@@ -29,7 +29,12 @@ namespace Genesys_Character_Builder
             SubSpecies = "",
             Career = "",
 
-            Brawn = 2, Agility = 2, Intellect = 2, Cunning = 2, Willpower = 2, Presence = 2,
+            Brawn = 2,
+            Agility = 2,
+            Intellect = 2,
+            Cunning = 2,
+            Willpower = 2,
+            Presence = 2,
 
             Soak = 0,
             WoundThreshold = 10,
@@ -47,6 +52,10 @@ namespace Genesys_Character_Builder
             Skills = new SkillsTemplate[44],
             Talents = new TalentsTemplate[25],
             Abilities = null,
+            Weapons = new WeaponsTemplate[4],
+            WeaponsAndArmor = null,
+            PersonalGear = null,
+            Currency = null,
 
             MotivationStrength = "",
             MotivationFlaw = "",
@@ -204,6 +213,14 @@ namespace Genesys_Character_Builder
             new TalentsTemplate("Talent", "TalentDescription", false, false, 5, ""), //24
         };
 
+        private WeaponsTemplate[] weaponsList =
+        {
+            new WeaponsTemplate("", "", "", "", "", ""),
+            new WeaponsTemplate("", "", "", "", "", ""),
+            new WeaponsTemplate("", "", "", "", "", ""),
+            new WeaponsTemplate("", "", "", "", "", "")
+        };
+
         private void frmGenesys_Load(object sender, EventArgs e)
         {
             cboSetting.Items.Clear();
@@ -244,15 +261,16 @@ namespace Genesys_Character_Builder
                     this.BackgroundImage = Properties.Resources.android_background;
                     lblSpecies.Text = "Archetype:";
                     lblSubSpecies.Visible = false;
-                    cboSubSpecies.Visible = false;
+                    //cboSubSpecies.Visible = false;
                     cboSpecies.Items.Clear();
                     cboSpecies.Items.Add("");
-                    
+
                     cboSpecies.SelectedIndex = 0;
                     cboCareer.Items.Clear();
                     lblSkillsMagic.Text = "Custom Skills";
                     Array.Copy(androidSkills, myCharacter.Skills, myCharacter.Skills.Length);
                     Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
+                    Array.Copy(weaponsList, myCharacter.Weapons, myCharacter.Weapons.Length);
                     break;
                 case "Terrinoth":
                     this.BackgroundImage = Properties.Resources.terrinoth_background;
@@ -293,7 +311,7 @@ namespace Genesys_Character_Builder
         {
             myCharacter.Species = cboSpecies.Text;
 
-            switch(myCharacter.Species)
+            switch (myCharacter.Species)
             {
                 case "Human":
                 case "Average Human":
@@ -481,7 +499,7 @@ namespace Genesys_Character_Builder
         private void cboSubSpecies_SelectedIndexChanged(object sender, EventArgs e)
         {
             myCharacter.SubSpecies = cboSpecies.Text;
-            switch(myCharacter.SubSpecies)
+            switch (myCharacter.SubSpecies)
             {
                 case "Dunwarr Dwarf":
                     addRankToStartingSkills("Resilience"); //Resilience +1
@@ -839,7 +857,7 @@ namespace Genesys_Character_Builder
                     {
                         myCharacter.Presence += 1;
                         myCharacter.UsedXP += myCharacter.Presence * 10;
-                        
+
                     }
                     break;
             }
@@ -1203,6 +1221,8 @@ namespace Genesys_Character_Builder
             lblStrainThreshold.Text = myCharacter.StrainThreshold.ToString();
             lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
             lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
+            lblXPTotal.Text = myCharacter.TotalXP.ToString();
+            lblXPRemaining.Text = myCharacter.RemainXP.ToString();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -1224,12 +1244,7 @@ namespace Genesys_Character_Builder
         {
             panelSkills.Visible = true;
             panelTalents.Visible = false;
-        }
-
-        private void btnTalents_Click(object sender, EventArgs e)
-        {
-            panelSkills.Visible = false;
-            panelTalents.Visible = true;
+            panelGear.Visible = false;
         }
 
         private void btnSkillsSave_Click(object sender, EventArgs e)
@@ -1246,6 +1261,13 @@ namespace Genesys_Character_Builder
             panelSkillDetail.Visible = false;
         }
 
+        private void btnTalents_Click(object sender, EventArgs e)
+        {
+            panelSkills.Visible = false;
+            panelTalents.Visible = true;
+            panelGear.Visible = false;
+        }
+
         private void btnTalentSave_Click(object sender, EventArgs e)
         {
             myCharacter.Talents[activeTalentLink].TalentName = txtTalentName.Text;
@@ -1259,5 +1281,94 @@ namespace Genesys_Character_Builder
         {
             panelTalentDetail.Visible = false;
         }
+
+        private void lblGear_Click(object sender, EventArgs e)
+        {
+            panelSkills.Visible = false;
+            panelTalents.Visible = false;
+            panelGear.Visible = true;
+
+            loadGearTab();
+        }
+
+        private void btnGearSave_Click(object sender, EventArgs e)
+        {
+            myCharacter.Weapons[0].WeaponName = txtWeapon0.Text;
+            myCharacter.Weapons[1].WeaponName = txtWeapon1.Text;
+            myCharacter.Weapons[2].WeaponName = txtWeapon2.Text;
+            myCharacter.Weapons[3].WeaponName = txtWeapon3.Text;
+
+            myCharacter.Weapons[0].WeaponSkill = txtWeaponSkill0.Text;
+            myCharacter.Weapons[1].WeaponSkill = txtWeaponSkill1.Text;
+            myCharacter.Weapons[2].WeaponSkill = txtWeaponSkill2.Text;
+            myCharacter.Weapons[3].WeaponSkill = txtWeaponSkill3.Text;
+
+            myCharacter.Weapons[0].WeaponDamage = txtWeaponDamage0.Text;
+            myCharacter.Weapons[1].WeaponDamage = txtWeaponDamage1.Text;
+            myCharacter.Weapons[2].WeaponDamage = txtWeaponDamage2.Text;
+            myCharacter.Weapons[3].WeaponDamage = txtWeaponDamage3.Text;
+
+            myCharacter.Weapons[0].WeaponCrit = txtWeaponCrit0.Text;
+            myCharacter.Weapons[1].WeaponCrit = txtWeaponCrit1.Text;
+            myCharacter.Weapons[2].WeaponCrit = txtWeaponCrit2.Text;
+            myCharacter.Weapons[3].WeaponCrit = txtWeaponCrit3.Text;
+
+            myCharacter.Weapons[0].WeaponRange = txtWeaponRange0.Text;
+            myCharacter.Weapons[1].WeaponRange = txtWeaponRange1.Text;
+            myCharacter.Weapons[2].WeaponRange = txtWeaponRange2.Text;
+            myCharacter.Weapons[3].WeaponRange = txtWeaponRange3.Text;
+
+            myCharacter.Weapons[0].WeaponSpecial = txtWeaponSpecial0.Text;
+            myCharacter.Weapons[1].WeaponSpecial = txtWeaponSpecial1.Text;
+            myCharacter.Weapons[2].WeaponSpecial = txtWeaponSpecial2.Text;
+            myCharacter.Weapons[3].WeaponSpecial = txtWeaponSpecial3.Text;
+
+            myCharacter.WeaponsAndArmor = txtWeaponsAndArmor.Text;
+            myCharacter.PersonalGear = txtPersonalGear.Text;
+            myCharacter.Currency = txtCurrency.Text;
+        }
+
+        private void btnGearCancel_Click(object sender, EventArgs e)
+        {
+            loadGearTab();
+        }
+
+        private void loadGearTab()
+        {
+            txtWeapon0.Text = myCharacter.Weapons[0].WeaponName;
+            txtWeapon1.Text = myCharacter.Weapons[1].WeaponName;
+            txtWeapon2.Text = myCharacter.Weapons[2].WeaponName;
+            txtWeapon3.Text = myCharacter.Weapons[3].WeaponName;
+
+            txtWeaponSkill0.Text = myCharacter.Weapons[0].WeaponSkill;
+            txtWeaponSkill1.Text = myCharacter.Weapons[1].WeaponSkill;
+            txtWeaponSkill2.Text = myCharacter.Weapons[2].WeaponSkill;
+            txtWeaponSkill3.Text = myCharacter.Weapons[3].WeaponSkill;
+
+            txtWeaponDamage0.Text = myCharacter.Weapons[0].WeaponDamage;
+            txtWeaponDamage1.Text = myCharacter.Weapons[1].WeaponDamage;
+            txtWeaponDamage2.Text = myCharacter.Weapons[2].WeaponDamage;
+            txtWeaponDamage3.Text = myCharacter.Weapons[3].WeaponDamage;
+
+            txtWeaponCrit0.Text = myCharacter.Weapons[0].WeaponCrit;
+            txtWeaponCrit1.Text = myCharacter.Weapons[1].WeaponCrit;
+            txtWeaponCrit2.Text = myCharacter.Weapons[2].WeaponCrit;
+            txtWeaponCrit3.Text = myCharacter.Weapons[3].WeaponCrit;
+
+            txtWeaponRange0.Text = myCharacter.Weapons[0].WeaponRange;
+            txtWeaponRange1.Text = myCharacter.Weapons[1].WeaponRange;
+            txtWeaponRange2.Text = myCharacter.Weapons[2].WeaponRange;
+            txtWeaponRange3.Text = myCharacter.Weapons[3].WeaponRange;
+
+            txtWeaponSpecial0.Text = myCharacter.Weapons[0].WeaponSpecial;
+            txtWeaponSpecial1.Text = myCharacter.Weapons[1].WeaponSpecial;
+            txtWeaponSpecial2.Text = myCharacter.Weapons[2].WeaponSpecial;
+            txtWeaponSpecial3.Text = myCharacter.Weapons[3].WeaponSpecial;
+
+            txtWeaponsAndArmor.Text = myCharacter.WeaponsAndArmor;
+            txtPersonalGear.Text = myCharacter.PersonalGear;
+            txtCurrency.Text = myCharacter.Currency;
+        }
     }
+
 }

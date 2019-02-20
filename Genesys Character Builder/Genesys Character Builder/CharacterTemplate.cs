@@ -37,6 +37,10 @@ namespace Genesys_Character_Builder
         private SkillsTemplate[] skills;
         private TalentsTemplate[] talents;
         private string[,] abilities;
+        private WeaponsTemplate[] weapons;
+        private string weaponsAndArmor;
+        private string personalGear;
+        private string currency;
 
         private string motivationStrength;
         private string motivationFlaw;
@@ -57,7 +61,8 @@ namespace Genesys_Character_Builder
                 int brawn, int agility, int intellect, int cunning, int willpower, int presence, int soak,
                 int woundThreshold, int woundCurrent, int strainThreshold, int strainCurrent, int defenseRanged,
                 int defenseMelee, string[,] criticalInjuries, int totalXP, int remainXP, int usedXP,
-                SkillsTemplate[] skills, TalentsTemplate[] talents, string[,] abilities, string motivationStrength,
+                SkillsTemplate[] skills, TalentsTemplate[] talents, string[,] abilities, WeaponsTemplate[] weapons,
+                string weaponsAndArmor, string personalGear, string currency, string motivationStrength,
                 string motivationFlaw, string motivationDesire, string motivationFear, string gender, string age,
                 string height, string build, string hair, string eyes, string features)
         {
@@ -90,6 +95,10 @@ namespace Genesys_Character_Builder
             this.Skills = skills;
             this.Talents = talents;
             this.Abilities = abilities;
+            this.Weapons = weapons;
+            this.WeaponsAndArmor = weaponsAndArmor;
+            this.PersonalGear = personalGear;
+            this.Currency = currency;
 
             this.MotivationStrength = motivationStrength;
             this.MotivationFlaw = motivationFlaw;
@@ -134,6 +143,10 @@ namespace Genesys_Character_Builder
         public SkillsTemplate[] Skills { get; set; }
         public TalentsTemplate[] Talents { get; set; }
         public string[,] Abilities { get; set; }
+        public WeaponsTemplate[] Weapons { get; set; }
+        public string WeaponsAndArmor { get; set; }
+        public string PersonalGear { get; set; }
+        public string Currency { get; set; }
 
         public string MotivationStrength { get; set; }
         public string MotivationFlaw { get; set; }

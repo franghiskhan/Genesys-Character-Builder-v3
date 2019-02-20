@@ -559,7 +559,47 @@
             this.panelTalents = new System.Windows.Forms.Panel();
             this.btnSkills = new System.Windows.Forms.Button();
             this.btnTalents = new System.Windows.Forms.Button();
-            this.lblAbilities = new System.Windows.Forms.Button();
+            this.lblGear = new System.Windows.Forms.Button();
+            this.panelGear = new System.Windows.Forms.Panel();
+            this.lblWeaponsWeapon = new System.Windows.Forms.Label();
+            this.panel26 = new System.Windows.Forms.Panel();
+            this.lblWeaponsSkill = new System.Windows.Forms.Label();
+            this.lblWeaponsDamage = new System.Windows.Forms.Label();
+            this.lblWeaponsCrit = new System.Windows.Forms.Label();
+            this.lblWeaponsRange = new System.Windows.Forms.Label();
+            this.lblWeaponsSpecial = new System.Windows.Forms.Label();
+            this.txtWeapon0 = new System.Windows.Forms.TextBox();
+            this.txtWeaponSkill0 = new System.Windows.Forms.TextBox();
+            this.txtWeaponDamage0 = new System.Windows.Forms.TextBox();
+            this.txtWeaponCrit0 = new System.Windows.Forms.TextBox();
+            this.txtWeaponRange0 = new System.Windows.Forms.TextBox();
+            this.txtWeaponSpecial0 = new System.Windows.Forms.TextBox();
+            this.txtWeaponSpecial1 = new System.Windows.Forms.TextBox();
+            this.txtWeaponRange1 = new System.Windows.Forms.TextBox();
+            this.txtWeaponCrit1 = new System.Windows.Forms.TextBox();
+            this.txtWeaponDamage1 = new System.Windows.Forms.TextBox();
+            this.txtWeaponSkill1 = new System.Windows.Forms.TextBox();
+            this.txtWeapon1 = new System.Windows.Forms.TextBox();
+            this.txtWeaponSpecial2 = new System.Windows.Forms.TextBox();
+            this.txtWeaponRange2 = new System.Windows.Forms.TextBox();
+            this.txtWeaponCrit2 = new System.Windows.Forms.TextBox();
+            this.txtWeaponDamage2 = new System.Windows.Forms.TextBox();
+            this.txtWeaponSkill2 = new System.Windows.Forms.TextBox();
+            this.txtWeapon2 = new System.Windows.Forms.TextBox();
+            this.txtWeaponSpecial3 = new System.Windows.Forms.TextBox();
+            this.txtWeaponRange3 = new System.Windows.Forms.TextBox();
+            this.txtWeaponCrit3 = new System.Windows.Forms.TextBox();
+            this.txtWeaponDamage3 = new System.Windows.Forms.TextBox();
+            this.txtWeaponSkill3 = new System.Windows.Forms.TextBox();
+            this.txtWeapon3 = new System.Windows.Forms.TextBox();
+            this.txtWeaponsAndArmor = new System.Windows.Forms.TextBox();
+            this.lblWeaponsAndArmor = new System.Windows.Forms.Label();
+            this.lblPersonalGear = new System.Windows.Forms.Label();
+            this.txtPersonalGear = new System.Windows.Forms.TextBox();
+            this.txtCurrency = new System.Windows.Forms.TextBox();
+            this.lblCurrency = new System.Windows.Forms.Label();
+            this.btnGearSave = new System.Windows.Forms.Button();
+            this.btnGearCancel = new System.Windows.Forms.Button();
             this.panelSkillDetail.SuspendLayout();
             this.panelTalentDetail.SuspendLayout();
             this.panel23.SuspendLayout();
@@ -589,6 +629,8 @@
             this.panel1.SuspendLayout();
             this.panelSkills.SuspendLayout();
             this.panelTalents.SuspendLayout();
+            this.panelGear.SuspendLayout();
+            this.panel26.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblDefenseMeleeLabel
@@ -1177,7 +1219,7 @@
             this.cboCareer.FormattingEnabled = true;
             this.cboCareer.Location = new System.Drawing.Point(64, 64);
             this.cboCareer.Name = "cboCareer";
-            this.cboCareer.Size = new System.Drawing.Size(101, 21);
+            this.cboCareer.Size = new System.Drawing.Size(100, 21);
             this.cboCareer.TabIndex = 124;
             this.cboCareer.SelectedIndexChanged += new System.EventHandler(this.cboCareer_SelectedIndexChanged);
             // 
@@ -1194,6 +1236,7 @@
             // 
             // btnReset
             // 
+            this.btnReset.BackColor = System.Drawing.SystemColors.Info;
             this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.Location = new System.Drawing.Point(10, 697);
@@ -1201,7 +1244,7 @@
             this.btnReset.Size = new System.Drawing.Size(75, 23);
             this.btnReset.TabIndex = 127;
             this.btnReset.Text = "&Reset";
-            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // txtCharacterName
@@ -1226,6 +1269,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.BackColor = System.Drawing.SystemColors.Info;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1234,11 +1278,12 @@
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 128;
             this.btnExit.Text = "E&xit";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnUpdate
             // 
+            this.btnUpdate.BackColor = System.Drawing.SystemColors.Info;
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.Location = new System.Drawing.Point(91, 697);
@@ -1246,7 +1291,7 @@
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 125;
             this.btnUpdate.Text = "&Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.UseVisualStyleBackColor = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // lblXPRemaining
@@ -1358,7 +1403,7 @@
             this.txtSkillDescription.Name = "txtSkillDescription";
             this.txtSkillDescription.Size = new System.Drawing.Size(206, 100);
             this.txtSkillDescription.TabIndex = 2;
-            this.txtSkillDescription.Text = "TalentDescription";
+            this.txtSkillDescription.Text = "Skill Description";
             // 
             // cboCharacteristic
             // 
@@ -7178,15 +7223,391 @@
             this.btnTalents.UseVisualStyleBackColor = false;
             this.btnTalents.Click += new System.EventHandler(this.btnTalents_Click);
             // 
-            // lblAbilities
+            // lblGear
             // 
-            this.lblAbilities.BackColor = System.Drawing.SystemColors.Info;
-            this.lblAbilities.Location = new System.Drawing.Point(160, 242);
-            this.lblAbilities.Name = "lblAbilities";
-            this.lblAbilities.Size = new System.Drawing.Size(75, 23);
-            this.lblAbilities.TabIndex = 688;
-            this.lblAbilities.Text = "&Abilities";
-            this.lblAbilities.UseVisualStyleBackColor = false;
+            this.lblGear.BackColor = System.Drawing.SystemColors.Info;
+            this.lblGear.Location = new System.Drawing.Point(160, 242);
+            this.lblGear.Name = "lblGear";
+            this.lblGear.Size = new System.Drawing.Size(75, 23);
+            this.lblGear.TabIndex = 688;
+            this.lblGear.Text = "&Gear";
+            this.lblGear.UseVisualStyleBackColor = false;
+            this.lblGear.Click += new System.EventHandler(this.lblGear_Click);
+            // 
+            // panelGear
+            // 
+            this.panelGear.BackColor = System.Drawing.Color.Transparent;
+            this.panelGear.Controls.Add(this.btnGearCancel);
+            this.panelGear.Controls.Add(this.btnGearSave);
+            this.panelGear.Controls.Add(this.lblCurrency);
+            this.panelGear.Controls.Add(this.txtCurrency);
+            this.panelGear.Controls.Add(this.txtPersonalGear);
+            this.panelGear.Controls.Add(this.lblPersonalGear);
+            this.panelGear.Controls.Add(this.lblWeaponsAndArmor);
+            this.panelGear.Controls.Add(this.txtWeaponsAndArmor);
+            this.panelGear.Controls.Add(this.panel26);
+            this.panelGear.Location = new System.Drawing.Point(10, 265);
+            this.panelGear.Name = "panelGear";
+            this.panelGear.Size = new System.Drawing.Size(645, 385);
+            this.panelGear.TabIndex = 689;
+            this.panelGear.Visible = false;
+            // 
+            // lblWeaponsWeapon
+            // 
+            this.lblWeaponsWeapon.Location = new System.Drawing.Point(3, 3);
+            this.lblWeaponsWeapon.Name = "lblWeaponsWeapon";
+            this.lblWeaponsWeapon.Size = new System.Drawing.Size(125, 23);
+            this.lblWeaponsWeapon.TabIndex = 0;
+            this.lblWeaponsWeapon.Text = "Weapon";
+            // 
+            // panel26
+            // 
+            this.panel26.Controls.Add(this.txtWeaponSpecial3);
+            this.panel26.Controls.Add(this.txtWeaponRange3);
+            this.panel26.Controls.Add(this.txtWeaponCrit3);
+            this.panel26.Controls.Add(this.txtWeaponDamage3);
+            this.panel26.Controls.Add(this.txtWeaponSkill3);
+            this.panel26.Controls.Add(this.txtWeapon3);
+            this.panel26.Controls.Add(this.txtWeaponSpecial2);
+            this.panel26.Controls.Add(this.txtWeaponRange2);
+            this.panel26.Controls.Add(this.txtWeaponCrit2);
+            this.panel26.Controls.Add(this.txtWeaponDamage2);
+            this.panel26.Controls.Add(this.txtWeaponSkill2);
+            this.panel26.Controls.Add(this.txtWeapon2);
+            this.panel26.Controls.Add(this.txtWeaponSpecial1);
+            this.panel26.Controls.Add(this.txtWeaponRange1);
+            this.panel26.Controls.Add(this.txtWeaponCrit1);
+            this.panel26.Controls.Add(this.txtWeaponDamage1);
+            this.panel26.Controls.Add(this.txtWeaponSkill1);
+            this.panel26.Controls.Add(this.txtWeapon1);
+            this.panel26.Controls.Add(this.txtWeaponSpecial0);
+            this.panel26.Controls.Add(this.txtWeaponRange0);
+            this.panel26.Controls.Add(this.txtWeaponCrit0);
+            this.panel26.Controls.Add(this.txtWeaponDamage0);
+            this.panel26.Controls.Add(this.txtWeaponSkill0);
+            this.panel26.Controls.Add(this.txtWeapon0);
+            this.panel26.Controls.Add(this.lblWeaponsSpecial);
+            this.panel26.Controls.Add(this.lblWeaponsRange);
+            this.panel26.Controls.Add(this.lblWeaponsCrit);
+            this.panel26.Controls.Add(this.lblWeaponsDamage);
+            this.panel26.Controls.Add(this.lblWeaponsSkill);
+            this.panel26.Controls.Add(this.lblWeaponsWeapon);
+            this.panel26.Location = new System.Drawing.Point(3, 3);
+            this.panel26.Name = "panel26";
+            this.panel26.Size = new System.Drawing.Size(639, 105);
+            this.panel26.TabIndex = 1;
+            // 
+            // lblWeaponsSkill
+            // 
+            this.lblWeaponsSkill.Location = new System.Drawing.Point(130, 3);
+            this.lblWeaponsSkill.Name = "lblWeaponsSkill";
+            this.lblWeaponsSkill.Size = new System.Drawing.Size(75, 23);
+            this.lblWeaponsSkill.TabIndex = 1;
+            this.lblWeaponsSkill.Text = "Skill";
+            this.lblWeaponsSkill.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // lblWeaponsDamage
+            // 
+            this.lblWeaponsDamage.Location = new System.Drawing.Point(208, 3);
+            this.lblWeaponsDamage.Name = "lblWeaponsDamage";
+            this.lblWeaponsDamage.Size = new System.Drawing.Size(75, 23);
+            this.lblWeaponsDamage.TabIndex = 2;
+            this.lblWeaponsDamage.Text = "Damage";
+            this.lblWeaponsDamage.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // lblWeaponsCrit
+            // 
+            this.lblWeaponsCrit.Location = new System.Drawing.Point(284, 3);
+            this.lblWeaponsCrit.Name = "lblWeaponsCrit";
+            this.lblWeaponsCrit.Size = new System.Drawing.Size(50, 23);
+            this.lblWeaponsCrit.TabIndex = 3;
+            this.lblWeaponsCrit.Text = "Crit";
+            this.lblWeaponsCrit.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // lblWeaponsRange
+            // 
+            this.lblWeaponsRange.Location = new System.Drawing.Point(336, 3);
+            this.lblWeaponsRange.Name = "lblWeaponsRange";
+            this.lblWeaponsRange.Size = new System.Drawing.Size(75, 13);
+            this.lblWeaponsRange.TabIndex = 4;
+            this.lblWeaponsRange.Text = "Range";
+            this.lblWeaponsRange.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // lblWeaponsSpecial
+            // 
+            this.lblWeaponsSpecial.AutoSize = true;
+            this.lblWeaponsSpecial.Location = new System.Drawing.Point(593, 3);
+            this.lblWeaponsSpecial.Name = "lblWeaponsSpecial";
+            this.lblWeaponsSpecial.Size = new System.Drawing.Size(42, 13);
+            this.lblWeaponsSpecial.TabIndex = 5;
+            this.lblWeaponsSpecial.Text = "Special";
+            // 
+            // txtWeapon0
+            // 
+            this.txtWeapon0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeapon0.Location = new System.Drawing.Point(3, 19);
+            this.txtWeapon0.Name = "txtWeapon0";
+            this.txtWeapon0.Size = new System.Drawing.Size(125, 20);
+            this.txtWeapon0.TabIndex = 6;
+            // 
+            // txtWeaponSkill0
+            // 
+            this.txtWeaponSkill0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSkill0.Location = new System.Drawing.Point(130, 19);
+            this.txtWeaponSkill0.Name = "txtWeaponSkill0";
+            this.txtWeaponSkill0.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponSkill0.TabIndex = 7;
+            // 
+            // txtWeaponDamage0
+            // 
+            this.txtWeaponDamage0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponDamage0.Location = new System.Drawing.Point(207, 19);
+            this.txtWeaponDamage0.Name = "txtWeaponDamage0";
+            this.txtWeaponDamage0.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponDamage0.TabIndex = 8;
+            // 
+            // txtWeaponCrit0
+            // 
+            this.txtWeaponCrit0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponCrit0.Location = new System.Drawing.Point(284, 19);
+            this.txtWeaponCrit0.Name = "txtWeaponCrit0";
+            this.txtWeaponCrit0.Size = new System.Drawing.Size(50, 20);
+            this.txtWeaponCrit0.TabIndex = 9;
+            // 
+            // txtWeaponRange0
+            // 
+            this.txtWeaponRange0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponRange0.Location = new System.Drawing.Point(336, 19);
+            this.txtWeaponRange0.Name = "txtWeaponRange0";
+            this.txtWeaponRange0.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponRange0.TabIndex = 10;
+            // 
+            // txtWeaponSpecial0
+            // 
+            this.txtWeaponSpecial0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSpecial0.Location = new System.Drawing.Point(413, 19);
+            this.txtWeaponSpecial0.Name = "txtWeaponSpecial0";
+            this.txtWeaponSpecial0.Size = new System.Drawing.Size(222, 20);
+            this.txtWeaponSpecial0.TabIndex = 11;
+            // 
+            // txtWeaponSpecial1
+            // 
+            this.txtWeaponSpecial1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSpecial1.Location = new System.Drawing.Point(413, 40);
+            this.txtWeaponSpecial1.Name = "txtWeaponSpecial1";
+            this.txtWeaponSpecial1.Size = new System.Drawing.Size(222, 20);
+            this.txtWeaponSpecial1.TabIndex = 17;
+            // 
+            // txtWeaponRange1
+            // 
+            this.txtWeaponRange1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponRange1.Location = new System.Drawing.Point(336, 40);
+            this.txtWeaponRange1.Name = "txtWeaponRange1";
+            this.txtWeaponRange1.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponRange1.TabIndex = 16;
+            // 
+            // txtWeaponCrit1
+            // 
+            this.txtWeaponCrit1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponCrit1.Location = new System.Drawing.Point(284, 40);
+            this.txtWeaponCrit1.Name = "txtWeaponCrit1";
+            this.txtWeaponCrit1.Size = new System.Drawing.Size(50, 20);
+            this.txtWeaponCrit1.TabIndex = 15;
+            // 
+            // txtWeaponDamage1
+            // 
+            this.txtWeaponDamage1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponDamage1.Location = new System.Drawing.Point(207, 40);
+            this.txtWeaponDamage1.Name = "txtWeaponDamage1";
+            this.txtWeaponDamage1.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponDamage1.TabIndex = 14;
+            // 
+            // txtWeaponSkill1
+            // 
+            this.txtWeaponSkill1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSkill1.Location = new System.Drawing.Point(130, 40);
+            this.txtWeaponSkill1.Name = "txtWeaponSkill1";
+            this.txtWeaponSkill1.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponSkill1.TabIndex = 13;
+            // 
+            // txtWeapon1
+            // 
+            this.txtWeapon1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeapon1.Location = new System.Drawing.Point(3, 40);
+            this.txtWeapon1.Name = "txtWeapon1";
+            this.txtWeapon1.Size = new System.Drawing.Size(125, 20);
+            this.txtWeapon1.TabIndex = 12;
+            // 
+            // txtWeaponSpecial2
+            // 
+            this.txtWeaponSpecial2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSpecial2.Location = new System.Drawing.Point(413, 61);
+            this.txtWeaponSpecial2.Name = "txtWeaponSpecial2";
+            this.txtWeaponSpecial2.Size = new System.Drawing.Size(222, 20);
+            this.txtWeaponSpecial2.TabIndex = 23;
+            // 
+            // txtWeaponRange2
+            // 
+            this.txtWeaponRange2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponRange2.Location = new System.Drawing.Point(336, 61);
+            this.txtWeaponRange2.Name = "txtWeaponRange2";
+            this.txtWeaponRange2.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponRange2.TabIndex = 22;
+            // 
+            // txtWeaponCrit2
+            // 
+            this.txtWeaponCrit2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponCrit2.Location = new System.Drawing.Point(284, 61);
+            this.txtWeaponCrit2.Name = "txtWeaponCrit2";
+            this.txtWeaponCrit2.Size = new System.Drawing.Size(50, 20);
+            this.txtWeaponCrit2.TabIndex = 21;
+            // 
+            // txtWeaponDamage2
+            // 
+            this.txtWeaponDamage2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponDamage2.Location = new System.Drawing.Point(207, 61);
+            this.txtWeaponDamage2.Name = "txtWeaponDamage2";
+            this.txtWeaponDamage2.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponDamage2.TabIndex = 20;
+            // 
+            // txtWeaponSkill2
+            // 
+            this.txtWeaponSkill2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSkill2.Location = new System.Drawing.Point(130, 61);
+            this.txtWeaponSkill2.Name = "txtWeaponSkill2";
+            this.txtWeaponSkill2.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponSkill2.TabIndex = 19;
+            // 
+            // txtWeapon2
+            // 
+            this.txtWeapon2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeapon2.Location = new System.Drawing.Point(3, 61);
+            this.txtWeapon2.Name = "txtWeapon2";
+            this.txtWeapon2.Size = new System.Drawing.Size(125, 20);
+            this.txtWeapon2.TabIndex = 18;
+            // 
+            // txtWeaponSpecial3
+            // 
+            this.txtWeaponSpecial3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSpecial3.Location = new System.Drawing.Point(413, 82);
+            this.txtWeaponSpecial3.Name = "txtWeaponSpecial3";
+            this.txtWeaponSpecial3.Size = new System.Drawing.Size(222, 20);
+            this.txtWeaponSpecial3.TabIndex = 29;
+            // 
+            // txtWeaponRange3
+            // 
+            this.txtWeaponRange3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponRange3.Location = new System.Drawing.Point(336, 82);
+            this.txtWeaponRange3.Name = "txtWeaponRange3";
+            this.txtWeaponRange3.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponRange3.TabIndex = 28;
+            // 
+            // txtWeaponCrit3
+            // 
+            this.txtWeaponCrit3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponCrit3.Location = new System.Drawing.Point(284, 82);
+            this.txtWeaponCrit3.Name = "txtWeaponCrit3";
+            this.txtWeaponCrit3.Size = new System.Drawing.Size(50, 20);
+            this.txtWeaponCrit3.TabIndex = 27;
+            // 
+            // txtWeaponDamage3
+            // 
+            this.txtWeaponDamage3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponDamage3.Location = new System.Drawing.Point(207, 82);
+            this.txtWeaponDamage3.Name = "txtWeaponDamage3";
+            this.txtWeaponDamage3.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponDamage3.TabIndex = 26;
+            // 
+            // txtWeaponSkill3
+            // 
+            this.txtWeaponSkill3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSkill3.Location = new System.Drawing.Point(130, 82);
+            this.txtWeaponSkill3.Name = "txtWeaponSkill3";
+            this.txtWeaponSkill3.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponSkill3.TabIndex = 25;
+            // 
+            // txtWeapon3
+            // 
+            this.txtWeapon3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeapon3.Location = new System.Drawing.Point(3, 82);
+            this.txtWeapon3.Name = "txtWeapon3";
+            this.txtWeapon3.Size = new System.Drawing.Size(125, 20);
+            this.txtWeapon3.TabIndex = 24;
+            // 
+            // txtWeaponsAndArmor
+            // 
+            this.txtWeaponsAndArmor.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponsAndArmor.Location = new System.Drawing.Point(3, 135);
+            this.txtWeaponsAndArmor.Multiline = true;
+            this.txtWeaponsAndArmor.Name = "txtWeaponsAndArmor";
+            this.txtWeaponsAndArmor.Size = new System.Drawing.Size(317, 220);
+            this.txtWeaponsAndArmor.TabIndex = 2;
+            // 
+            // lblWeaponsAndArmor
+            // 
+            this.lblWeaponsAndArmor.Location = new System.Drawing.Point(3, 108);
+            this.lblWeaponsAndArmor.Name = "lblWeaponsAndArmor";
+            this.lblWeaponsAndArmor.Size = new System.Drawing.Size(317, 23);
+            this.lblWeaponsAndArmor.TabIndex = 3;
+            this.lblWeaponsAndArmor.Text = "Weapons && Armor";
+            this.lblWeaponsAndArmor.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblPersonalGear
+            // 
+            this.lblPersonalGear.Location = new System.Drawing.Point(323, 108);
+            this.lblPersonalGear.Name = "lblPersonalGear";
+            this.lblPersonalGear.Size = new System.Drawing.Size(317, 23);
+            this.lblPersonalGear.TabIndex = 4;
+            this.lblPersonalGear.Text = "Personal Gear";
+            this.lblPersonalGear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // txtPersonalGear
+            // 
+            this.txtPersonalGear.BackColor = System.Drawing.SystemColors.Info;
+            this.txtPersonalGear.Location = new System.Drawing.Point(323, 135);
+            this.txtPersonalGear.Multiline = true;
+            this.txtPersonalGear.Name = "txtPersonalGear";
+            this.txtPersonalGear.Size = new System.Drawing.Size(317, 220);
+            this.txtPersonalGear.TabIndex = 5;
+            // 
+            // txtCurrency
+            // 
+            this.txtCurrency.BackColor = System.Drawing.SystemColors.Info;
+            this.txtCurrency.Location = new System.Drawing.Point(57, 360);
+            this.txtCurrency.Name = "txtCurrency";
+            this.txtCurrency.Size = new System.Drawing.Size(262, 20);
+            this.txtCurrency.TabIndex = 6;
+            // 
+            // lblCurrency
+            // 
+            this.lblCurrency.AutoSize = true;
+            this.lblCurrency.Location = new System.Drawing.Point(4, 363);
+            this.lblCurrency.Name = "lblCurrency";
+            this.lblCurrency.Size = new System.Drawing.Size(52, 13);
+            this.lblCurrency.TabIndex = 7;
+            this.lblCurrency.Text = "Currency:";
+            // 
+            // btnGearSave
+            // 
+            this.btnGearSave.BackColor = System.Drawing.SystemColors.Info;
+            this.btnGearSave.Location = new System.Drawing.Point(484, 357);
+            this.btnGearSave.Name = "btnGearSave";
+            this.btnGearSave.Size = new System.Drawing.Size(75, 23);
+            this.btnGearSave.TabIndex = 8;
+            this.btnGearSave.Text = "Save";
+            this.btnGearSave.UseVisualStyleBackColor = false;
+            this.btnGearSave.Click += new System.EventHandler(this.btnGearSave_Click);
+            // 
+            // btnGearCancel
+            // 
+            this.btnGearCancel.BackColor = System.Drawing.SystemColors.Info;
+            this.btnGearCancel.Location = new System.Drawing.Point(565, 357);
+            this.btnGearCancel.Name = "btnGearCancel";
+            this.btnGearCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnGearCancel.TabIndex = 9;
+            this.btnGearCancel.Text = "Cancel";
+            this.btnGearCancel.UseVisualStyleBackColor = false;
+            this.btnGearCancel.Click += new System.EventHandler(this.btnGearCancel_Click);
             // 
             // frmGenesys
             // 
@@ -7194,8 +7615,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Genesys_Character_Builder.Properties.Resources.terrinoth_background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(667, 729);
-            this.Controls.Add(this.lblAbilities);
+            this.Controls.Add(this.lblGear);
             this.Controls.Add(this.btnTalents);
             this.Controls.Add(this.btnSkills);
             this.Controls.Add(this.lblDefenseMeleeLabel);
@@ -7255,8 +7677,9 @@
             this.Controls.Add(this.lblSubSpecies);
             this.Controls.Add(this.lblSpecies);
             this.Controls.Add(this.lblCharacterName);
-            this.Controls.Add(this.panelSkills);
             this.Controls.Add(this.panelTalents);
+            this.Controls.Add(this.panelGear);
+            this.Controls.Add(this.panelSkills);
             this.DoubleBuffered = true;
             this.Name = "frmGenesys";
             this.ShowIcon = false;
@@ -7320,6 +7743,10 @@
             this.panelSkills.ResumeLayout(false);
             this.panelSkills.PerformLayout();
             this.panelTalents.ResumeLayout(false);
+            this.panelGear.ResumeLayout(false);
+            this.panelGear.PerformLayout();
+            this.panel26.ResumeLayout(false);
+            this.panel26.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -7853,11 +8280,51 @@
         private System.Windows.Forms.Panel panelTalents;
         private System.Windows.Forms.Button btnSkills;
         private System.Windows.Forms.Button btnTalents;
-        private System.Windows.Forms.Button lblAbilities;
+        private System.Windows.Forms.Button lblGear;
         private System.Windows.Forms.Button btnSkillsCancel;
         private System.Windows.Forms.Button btnSkillsSave;
         private System.Windows.Forms.Button btnTalentCancel;
         private System.Windows.Forms.Button btnTalentSave;
+        private System.Windows.Forms.Panel panelGear;
+        private System.Windows.Forms.Panel panel26;
+        private System.Windows.Forms.TextBox txtWeaponSpecial3;
+        private System.Windows.Forms.TextBox txtWeaponRange3;
+        private System.Windows.Forms.TextBox txtWeaponCrit3;
+        private System.Windows.Forms.TextBox txtWeaponDamage3;
+        private System.Windows.Forms.TextBox txtWeaponSkill3;
+        private System.Windows.Forms.TextBox txtWeapon3;
+        private System.Windows.Forms.TextBox txtWeaponSpecial2;
+        private System.Windows.Forms.TextBox txtWeaponRange2;
+        private System.Windows.Forms.TextBox txtWeaponCrit2;
+        private System.Windows.Forms.TextBox txtWeaponDamage2;
+        private System.Windows.Forms.TextBox txtWeaponSkill2;
+        private System.Windows.Forms.TextBox txtWeapon2;
+        private System.Windows.Forms.TextBox txtWeaponSpecial1;
+        private System.Windows.Forms.TextBox txtWeaponRange1;
+        private System.Windows.Forms.TextBox txtWeaponCrit1;
+        private System.Windows.Forms.TextBox txtWeaponDamage1;
+        private System.Windows.Forms.TextBox txtWeaponSkill1;
+        private System.Windows.Forms.TextBox txtWeapon1;
+        private System.Windows.Forms.TextBox txtWeaponSpecial0;
+        private System.Windows.Forms.TextBox txtWeaponRange0;
+        private System.Windows.Forms.TextBox txtWeaponCrit0;
+        private System.Windows.Forms.TextBox txtWeaponDamage0;
+        private System.Windows.Forms.TextBox txtWeaponSkill0;
+        private System.Windows.Forms.TextBox txtWeapon0;
+        private System.Windows.Forms.Label lblWeaponsSpecial;
+        private System.Windows.Forms.Label lblWeaponsRange;
+        private System.Windows.Forms.Label lblWeaponsCrit;
+        private System.Windows.Forms.Label lblWeaponsDamage;
+        private System.Windows.Forms.Label lblWeaponsSkill;
+        private System.Windows.Forms.Label lblWeaponsWeapon;
+        private System.Windows.Forms.Label lblCurrency;
+        private System.Windows.Forms.TextBox txtCurrency;
+        private System.Windows.Forms.TextBox txtPersonalGear;
+        private System.Windows.Forms.Label lblPersonalGear;
+        private System.Windows.Forms.Label lblWeaponsAndArmor;
+        private System.Windows.Forms.TextBox txtWeaponsAndArmor;
+        private System.Windows.Forms.Button btnGearCancel;
+        private System.Windows.Forms.Button btnGearSave;
     }
 }
 
