@@ -301,7 +301,6 @@
             this.lblCurrency = new System.Windows.Forms.Label();
             this.txtCurrency = new System.Windows.Forms.TextBox();
             this.txtPersonalGear = new System.Windows.Forms.TextBox();
-            this.lblPersonalGear = new System.Windows.Forms.Label();
             this.lblWeaponsAndArmor = new System.Windows.Forms.Label();
             this.txtWeaponsAndArmor = new System.Windows.Forms.TextBox();
             this.panel26 = new System.Windows.Forms.Panel();
@@ -335,6 +334,7 @@
             this.lblWeaponsDamage = new System.Windows.Forms.Label();
             this.lblWeaponsSkill = new System.Windows.Forms.Label();
             this.lblWeaponsWeapon = new System.Windows.Forms.Label();
+            this.lblPersonalGear = new System.Windows.Forms.Label();
             this.panelSkillDetail.SuspendLayout();
             this.panelTalentDetail.SuspendLayout();
             this.panelTalent24.SuspendLayout();
@@ -3741,15 +3741,6 @@
             this.txtPersonalGear.Size = new System.Drawing.Size(317, 220);
             this.txtPersonalGear.TabIndex = 5;
             // 
-            // lblPersonalGear
-            // 
-            this.lblPersonalGear.Location = new System.Drawing.Point(323, 108);
-            this.lblPersonalGear.Name = "lblPersonalGear";
-            this.lblPersonalGear.Size = new System.Drawing.Size(317, 23);
-            this.lblPersonalGear.TabIndex = 4;
-            this.lblPersonalGear.Text = "Personal Gear";
-            this.lblPersonalGear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // lblWeaponsAndArmor
             // 
             this.lblWeaponsAndArmor.Location = new System.Drawing.Point(3, 108);
@@ -4049,6 +4040,15 @@
             this.lblWeaponsWeapon.Size = new System.Drawing.Size(125, 23);
             this.lblWeaponsWeapon.TabIndex = 0;
             this.lblWeaponsWeapon.Text = "Weapon";
+            // 
+            // lblPersonalGear
+            // 
+            this.lblPersonalGear.Location = new System.Drawing.Point(323, 108);
+            this.lblPersonalGear.Name = "lblPersonalGear";
+            this.lblPersonalGear.Size = new System.Drawing.Size(317, 23);
+            this.lblPersonalGear.TabIndex = 4;
+            this.lblPersonalGear.Text = "Personal Gear";
+            this.lblPersonalGear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmGenesys
             // 

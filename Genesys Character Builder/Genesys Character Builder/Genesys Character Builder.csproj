@@ -85,19 +85,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\terrinoth background.png" />
+    <None Include="Resources\green_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yellow_transparent.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\android background.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\background.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\green_transparent.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\yellow_transparent.png" />
+    <None Include="Resources\terrinoth background.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
