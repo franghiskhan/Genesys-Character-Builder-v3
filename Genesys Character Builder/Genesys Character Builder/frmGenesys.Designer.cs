@@ -643,7 +643,7 @@
             // 
             // txtStrainCurrent
             // 
-            this.txtStrainCurrent.BackColor = System.Drawing.SystemColors.Info;
+            this.txtStrainCurrent.BackColor = System.Drawing.SystemColors.Window;
             this.txtStrainCurrent.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStrainCurrent.Location = new System.Drawing.Point(408, 208);
             this.txtStrainCurrent.Name = "txtStrainCurrent";
@@ -702,7 +702,7 @@
             // 
             // txtWoundsCurrent
             // 
-            this.txtWoundsCurrent.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWoundsCurrent.BackColor = System.Drawing.SystemColors.Window;
             this.txtWoundsCurrent.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtWoundsCurrent.Location = new System.Drawing.Point(259, 208);
             this.txtWoundsCurrent.Name = "txtWoundsCurrent";
@@ -3683,10 +3683,10 @@
             this.panelGear.Controls.Add(this.lblCurrency);
             this.panelGear.Controls.Add(this.txtCurrency);
             this.panelGear.Controls.Add(this.txtPersonalGear);
-            this.panelGear.Controls.Add(this.lblPersonalGear);
             this.panelGear.Controls.Add(this.lblWeaponsAndArmor);
             this.panelGear.Controls.Add(this.txtWeaponsAndArmor);
             this.panelGear.Controls.Add(this.panel26);
+            this.panelGear.Controls.Add(this.lblPersonalGear);
             this.panelGear.Location = new System.Drawing.Point(10, 265);
             this.panelGear.Name = "panelGear";
             this.panelGear.Size = new System.Drawing.Size(645, 385);
@@ -4118,9 +4118,9 @@
             this.Controls.Add(this.lblSubSpecies);
             this.Controls.Add(this.lblSpecies);
             this.Controls.Add(this.lblCharacterName);
+            this.Controls.Add(this.panelSkills);
             this.Controls.Add(this.panelTalents);
             this.Controls.Add(this.panelGear);
-            this.Controls.Add(this.panelSkills);
             this.DoubleBuffered = true;
             this.Name = "frmGenesys";
             this.ShowIcon = false;

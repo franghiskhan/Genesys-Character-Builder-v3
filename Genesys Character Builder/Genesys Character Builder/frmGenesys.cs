@@ -247,9 +247,9 @@ namespace Genesys_Character_Builder
 
             lblSoak.Text = myCharacter.Soak.ToString();
             lblWoundThreshold.Text = myCharacter.WoundThreshold.ToString();
-            lblWoundCurrent.Text = myCharacter.WoundCurrent.ToString();
+            txtWoundsCurrent.Text = myCharacter.WoundCurrent.ToString();
             lblStrainThreshold.Text = myCharacter.StrainThreshold.ToString();
-            lblStrainCurrent.Text = myCharacter.StrainCurrent.ToString();
+            txtStrainCurrent.Text = myCharacter.StrainCurrent.ToString();
             lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
             lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
 
@@ -1422,7 +1422,7 @@ namespace Genesys_Character_Builder
                 updateForm();
             }
         }
-        //need to update to account for free rank in first four career skills
+
         private void btnSkillMinus_Click(object sender, EventArgs e)
         {
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
@@ -1636,5 +1636,4 @@ namespace Genesys_Character_Builder
             txtCurrency.Text = myCharacter.Currency;
         }
     }
-
 }
