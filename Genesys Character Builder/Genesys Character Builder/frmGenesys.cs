@@ -21,6 +21,9 @@ namespace Genesys_Character_Builder
         private static int activeSkillLink;
         private static int activeTalentLink;
         private static int careerSkillsNum = 0;
+        private const int NUM_SKILLS = 44;
+        private const int NUM_TALENTS = 25;
+        private const int NUM_TALENT_TIERS = 5;
 
         private CharacterTemplate myCharacter = new CharacterTemplate
         {
@@ -50,8 +53,8 @@ namespace Genesys_Character_Builder
             RemainXP = 0,
             UsedXP = 0,
 
-            Skills = new SkillsTemplate[44],
-            Talents = new TalentsTemplate[25],
+            Skills = new SkillsTemplate[NUM_SKILLS],
+            Talents = new TalentsTemplate[NUM_TALENTS],
             Abilities = null,
             Weapons = new WeaponsTemplate[4],
             WeaponsAndArmor = null,
@@ -1075,31 +1078,127 @@ namespace Genesys_Character_Builder
 
         private void updateTalents()
         {
-            linkTalent0.Text = myCharacter.Talents[0].TalentName;
+            linkTalent0.Text = myCharacter.Talents[0].TalentName; // tier 1
             linkTalent1.Text = myCharacter.Talents[1].TalentName;
+            if (myCharacter.Talents[0].TalentName != "Talent")
+            {
+                panelTalent1.Visible = true;
+            }
             linkTalent2.Text = myCharacter.Talents[2].TalentName;
+            if (myCharacter.Talents[1].TalentName != "Talent")
+            {
+                panelTalent2.Visible = true;
+            }
             linkTalent3.Text = myCharacter.Talents[3].TalentName;
+            if (myCharacter.Talents[2].TalentName != "Talent")
+            {
+                panelTalent3.Visible = true;
+            }
             linkTalent4.Text = myCharacter.Talents[4].TalentName;
+            if (myCharacter.Talents[3].TalentName != "Talent")
+            {
+                panelTalent4.Visible = true;
+            }
             linkTalent5.Text = myCharacter.Talents[5].TalentName;
+            if (myCharacter.Talents[4].TalentName != "Talent")
+            {
+                panelTalent5.Visible = true;
+            }
             linkTalent6.Text = myCharacter.Talents[6].TalentName;
-            linkTalent7.Text = myCharacter.Talents[7].TalentName;
+            if (myCharacter.Talents[5].TalentName != "Talent")
+            {
+                panelTalent6.Visible = true;
+            }
+            linkTalent7.Text = myCharacter.Talents[7].TalentName; //tier 2
+            if (myCharacter.Talents[1].TalentName != "Talent")
+            {
+                panelTalent7.Visible = true;
+            }
             linkTalent8.Text = myCharacter.Talents[8].TalentName;
+            if (myCharacter.Talents[2].TalentName != "Talent" && myCharacter.Talents[7].TalentName != "Talent")
+            {
+                panelTalent8.Visible = true;
+            }
             linkTalent9.Text = myCharacter.Talents[9].TalentName;
+            if (myCharacter.Talents[3].TalentName != "Talent" && myCharacter.Talents[8].TalentName != "Talent")
+            {
+                panelTalent9.Visible = true;
+            }
             linkTalent10.Text = myCharacter.Talents[10].TalentName;
+            if (myCharacter.Talents[4].TalentName != "Talent" && myCharacter.Talents[9].TalentName != "Talent")
+            {
+                panelTalent10.Visible = true;
+            }
             linkTalent11.Text = myCharacter.Talents[11].TalentName;
+            if (myCharacter.Talents[5].TalentName != "Talent" && myCharacter.Talents[10].TalentName != "Talent")
+            {
+                panelTalent11.Visible = true;
+            }
             linkTalent12.Text = myCharacter.Talents[12].TalentName;
-            linkTalent13.Text = myCharacter.Talents[13].TalentName;
+            if (myCharacter.Talents[6].TalentName != "Talent" && myCharacter.Talents[11].TalentName != "Talent")
+            {
+                panelTalent12.Visible = true;
+            }
+            linkTalent13.Text = myCharacter.Talents[13].TalentName; //tier 3
+            if (myCharacter.Talents[8].TalentName != "Talent")
+            {
+                panelTalent13.Visible = true;
+            }
             linkTalent14.Text = myCharacter.Talents[14].TalentName;
+            if (myCharacter.Talents[9].TalentName != "Talent" && myCharacter.Talents[13].TalentName != "Talent")
+            {
+                panelTalent14.Visible = true;
+            }
             linkTalent15.Text = myCharacter.Talents[15].TalentName;
+            if (myCharacter.Talents[10].TalentName != "Talent" && myCharacter.Talents[14].TalentName != "Talent")
+            {
+                panelTalent15.Visible = true;
+            }
             linkTalent16.Text = myCharacter.Talents[16].TalentName;
+            if (myCharacter.Talents[11].TalentName != "Talent" && myCharacter.Talents[15].TalentName != "Talent")
+            {
+                panelTalent16.Visible = true;
+            }
             linkTalent17.Text = myCharacter.Talents[17].TalentName;
-            linkTalent18.Text = myCharacter.Talents[18].TalentName;
+            if (myCharacter.Talents[12].TalentName != "Talent" && myCharacter.Talents[16].TalentName != "Talent")
+            {
+                panelTalent17.Visible = true;
+            }
+            linkTalent18.Text = myCharacter.Talents[18].TalentName; //tier 4
+            if (myCharacter.Talents[14].TalentName != "Talent")
+            {
+                panelTalent18.Visible = true;
+            }
             linkTalent19.Text = myCharacter.Talents[19].TalentName;
+            if (myCharacter.Talents[15].TalentName != "Talent" && myCharacter.Talents[18].TalentName != "Talent")
+            {
+                panelTalent19.Visible = true;
+            }
             linkTalent20.Text = myCharacter.Talents[20].TalentName;
+            if (myCharacter.Talents[16].TalentName != "Talent" && myCharacter.Talents[19].TalentName != "Talent")
+            {
+                panelTalent20.Visible = true;
+            }
             linkTalent21.Text = myCharacter.Talents[21].TalentName;
-            linkTalent22.Text = myCharacter.Talents[22].TalentName;
+            if (myCharacter.Talents[17].TalentName != "Talent" && myCharacter.Talents[20].TalentName != "Talent")
+            {
+                panelTalent21.Visible = true;
+            }
+            linkTalent22.Text = myCharacter.Talents[22].TalentName; //tier 5
+            if (myCharacter.Talents[19].TalentName != "Talent")
+            {
+                panelTalent22.Visible = true;
+            }
             linkTalent23.Text = myCharacter.Talents[23].TalentName;
+            if (myCharacter.Talents[20].TalentName != "Talent" && myCharacter.Talents[22].TalentName != "Talent")
+            {
+                panelTalent23.Visible = true;
+            }
             linkTalent24.Text = myCharacter.Talents[24].TalentName;
+            if (myCharacter.Talents[21].TalentName != "Talent" && myCharacter.Talents[23].TalentName != "Talent")
+            {
+                panelTalent24.Visible = true;
+            }
 
             lblTalentPage0.Text = myCharacter.Talents[0].Page;
             lblTalentPage1.Text = myCharacter.Talents[1].Page;
