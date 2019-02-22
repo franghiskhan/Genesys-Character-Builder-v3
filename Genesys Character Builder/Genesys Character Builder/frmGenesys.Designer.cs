@@ -86,6 +86,11 @@
             this.lblSpecies = new System.Windows.Forms.Label();
             this.lblCharacterName = new System.Windows.Forms.Label();
             this.panelSkillDetail = new System.Windows.Forms.Panel();
+            this.lblSkillRankLabel = new System.Windows.Forms.Label();
+            this.lblSkillRank = new System.Windows.Forms.Label();
+            this.btnSkillMinus = new System.Windows.Forms.Button();
+            this.chkCareer = new System.Windows.Forms.CheckBox();
+            this.btnSkillPlus = new System.Windows.Forms.Button();
             this.btnSkillsCancel = new System.Windows.Forms.Button();
             this.btnSkillsSave = new System.Windows.Forms.Button();
             this.txtSkillDescription = new System.Windows.Forms.TextBox();
@@ -330,11 +335,6 @@
             this.lblWeaponsDamage = new System.Windows.Forms.Label();
             this.lblWeaponsSkill = new System.Windows.Forms.Label();
             this.lblWeaponsWeapon = new System.Windows.Forms.Label();
-            this.chkCareer = new System.Windows.Forms.CheckBox();
-            this.btnSkillMinus = new System.Windows.Forms.Button();
-            this.btnSkillPlus = new System.Windows.Forms.Button();
-            this.lblSkillRank = new System.Windows.Forms.Label();
-            this.lblSkillRankLabel = new System.Windows.Forms.Label();
             this.panelSkillDetail.SuspendLayout();
             this.panelTalentDetail.SuspendLayout();
             this.panel23.SuspendLayout();
@@ -1112,6 +1112,74 @@
             this.panelSkillDetail.Size = new System.Drawing.Size(212, 189);
             this.panelSkillDetail.TabIndex = 685;
             this.panelSkillDetail.Visible = false;
+            // 
+            // lblSkillRankLabel
+            // 
+            this.lblSkillRankLabel.AutoSize = true;
+            this.lblSkillRankLabel.Location = new System.Drawing.Point(92, 136);
+            this.lblSkillRankLabel.Name = "lblSkillRankLabel";
+            this.lblSkillRankLabel.Size = new System.Drawing.Size(36, 13);
+            this.lblSkillRankLabel.TabIndex = 689;
+            this.lblSkillRankLabel.Text = "Rank:";
+            // 
+            // lblSkillRank
+            // 
+            this.lblSkillRank.AutoSize = true;
+            this.lblSkillRank.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblSkillRank.Location = new System.Drawing.Point(164, 136);
+            this.lblSkillRank.Name = "lblSkillRank";
+            this.lblSkillRank.Size = new System.Drawing.Size(15, 15);
+            this.lblSkillRank.TabIndex = 686;
+            this.lblSkillRank.Text = "1";
+            this.lblSkillRank.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnSkillMinus
+            // 
+            this.btnSkillMinus.BackColor = System.Drawing.Color.Transparent;
+            this.btnSkillMinus.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnSkillMinus.FlatAppearance.BorderSize = 0;
+            this.btnSkillMinus.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btnSkillMinus.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnSkillMinus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnSkillMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkillMinus.Font = new System.Drawing.Font("Middle Ages", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkillMinus.ForeColor = System.Drawing.Color.Red;
+            this.btnSkillMinus.Location = new System.Drawing.Point(135, 129);
+            this.btnSkillMinus.Name = "btnSkillMinus";
+            this.btnSkillMinus.Size = new System.Drawing.Size(23, 23);
+            this.btnSkillMinus.TabIndex = 687;
+            this.btnSkillMinus.Text = "-";
+            this.btnSkillMinus.UseVisualStyleBackColor = false;
+            this.btnSkillMinus.Click += new System.EventHandler(this.btnSkillMinus_Click);
+            // 
+            // chkCareer
+            // 
+            this.chkCareer.AutoSize = true;
+            this.chkCareer.Location = new System.Drawing.Point(7, 136);
+            this.chkCareer.Name = "chkCareer";
+            this.chkCareer.Size = new System.Drawing.Size(63, 17);
+            this.chkCareer.TabIndex = 688;
+            this.chkCareer.Text = "Career?";
+            this.chkCareer.UseVisualStyleBackColor = true;
+            // 
+            // btnSkillPlus
+            // 
+            this.btnSkillPlus.BackColor = System.Drawing.Color.Transparent;
+            this.btnSkillPlus.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnSkillPlus.FlatAppearance.BorderSize = 0;
+            this.btnSkillPlus.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
+            this.btnSkillPlus.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.btnSkillPlus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.btnSkillPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSkillPlus.Font = new System.Drawing.Font("Middle Ages", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkillPlus.ForeColor = System.Drawing.Color.Green;
+            this.btnSkillPlus.Location = new System.Drawing.Point(183, 129);
+            this.btnSkillPlus.Name = "btnSkillPlus";
+            this.btnSkillPlus.Size = new System.Drawing.Size(23, 23);
+            this.btnSkillPlus.TabIndex = 686;
+            this.btnSkillPlus.Text = "+";
+            this.btnSkillPlus.UseVisualStyleBackColor = false;
+            this.btnSkillPlus.Click += new System.EventHandler(this.btnSkillPlus_Click);
             // 
             // btnSkillsCancel
             // 
@@ -3888,74 +3956,6 @@
             this.lblWeaponsWeapon.Size = new System.Drawing.Size(125, 23);
             this.lblWeaponsWeapon.TabIndex = 0;
             this.lblWeaponsWeapon.Text = "Weapon";
-            // 
-            // chkCareer
-            // 
-            this.chkCareer.AutoSize = true;
-            this.chkCareer.Location = new System.Drawing.Point(7, 136);
-            this.chkCareer.Name = "chkCareer";
-            this.chkCareer.Size = new System.Drawing.Size(63, 17);
-            this.chkCareer.TabIndex = 688;
-            this.chkCareer.Text = "Career?";
-            this.chkCareer.UseVisualStyleBackColor = true;
-            // 
-            // btnSkillMinus
-            // 
-            this.btnSkillMinus.BackColor = System.Drawing.Color.Transparent;
-            this.btnSkillMinus.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnSkillMinus.FlatAppearance.BorderSize = 0;
-            this.btnSkillMinus.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.btnSkillMinus.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnSkillMinus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnSkillMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSkillMinus.Font = new System.Drawing.Font("Middle Ages", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSkillMinus.ForeColor = System.Drawing.Color.Red;
-            this.btnSkillMinus.Location = new System.Drawing.Point(130, 129);
-            this.btnSkillMinus.Name = "btnSkillMinus";
-            this.btnSkillMinus.Size = new System.Drawing.Size(23, 23);
-            this.btnSkillMinus.TabIndex = 687;
-            this.btnSkillMinus.Text = "-";
-            this.btnSkillMinus.UseVisualStyleBackColor = false;
-            this.btnSkillMinus.Click += new System.EventHandler(this.btnSkillMinus_Click);
-            // 
-            // btnSkillPlus
-            // 
-            this.btnSkillPlus.BackColor = System.Drawing.Color.Transparent;
-            this.btnSkillPlus.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnSkillPlus.FlatAppearance.BorderSize = 0;
-            this.btnSkillPlus.FlatAppearance.CheckedBackColor = System.Drawing.Color.White;
-            this.btnSkillPlus.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.btnSkillPlus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.btnSkillPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSkillPlus.Font = new System.Drawing.Font("Middle Ages", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSkillPlus.ForeColor = System.Drawing.Color.Green;
-            this.btnSkillPlus.Location = new System.Drawing.Point(178, 129);
-            this.btnSkillPlus.Name = "btnSkillPlus";
-            this.btnSkillPlus.Size = new System.Drawing.Size(23, 23);
-            this.btnSkillPlus.TabIndex = 686;
-            this.btnSkillPlus.Text = "+";
-            this.btnSkillPlus.UseVisualStyleBackColor = false;
-            this.btnSkillPlus.Click += new System.EventHandler(this.btnSkillPlus_Click);
-            // 
-            // lblSkillRank
-            // 
-            this.lblSkillRank.AutoSize = true;
-            this.lblSkillRank.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblSkillRank.Location = new System.Drawing.Point(159, 136);
-            this.lblSkillRank.Name = "lblSkillRank";
-            this.lblSkillRank.Size = new System.Drawing.Size(15, 15);
-            this.lblSkillRank.TabIndex = 686;
-            this.lblSkillRank.Text = "1";
-            this.lblSkillRank.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lblSkillRankLabel
-            // 
-            this.lblSkillRankLabel.AutoSize = true;
-            this.lblSkillRankLabel.Location = new System.Drawing.Point(92, 136);
-            this.lblSkillRankLabel.Name = "lblSkillRankLabel";
-            this.lblSkillRankLabel.Size = new System.Drawing.Size(36, 13);
-            this.lblSkillRankLabel.TabIndex = 689;
-            this.lblSkillRankLabel.Text = "Rank:";
             // 
             // frmGenesys
             // 

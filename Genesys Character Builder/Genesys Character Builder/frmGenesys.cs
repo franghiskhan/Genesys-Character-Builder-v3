@@ -501,20 +501,20 @@ namespace Genesys_Character_Builder
 
         private void cboSubSpecies_SelectedIndexChanged(object sender, EventArgs e)
         {
-            myCharacter.SubSpecies = cboSpecies.Text;
+            myCharacter.SubSpecies = cboSubSpecies.Text;
             switch (myCharacter.SubSpecies)
             {
                 case "Dunwarr Dwarf":
                     addRankToStartingSkills("Resilience"); //Resilience +1
                     myCharacter.TotalXP = 90;
-                    myCharacter.UsedXP = 15;
+                    myCharacter.UsedXP = 0;
                     //dark vision
                     //tough as nails
                     break;
                 case "Forge Dwarf":
                     addRankToStartingSkills("Negotiation"); //Negotiation +1
                     myCharacter.TotalXP = 90;
-                    myCharacter.UsedXP = 15;
+                    myCharacter.UsedXP = 0;
                     //stubborn
                     //tough as nails
                     break;
@@ -524,59 +524,59 @@ namespace Genesys_Character_Builder
                     addRankToStartingSkills("Forbidden"); //knowledge (forbidden) +2
                     MarkCareerSkill("Forbidden"); //knowledge (forbidden) career true
                     myCharacter.TotalXP = 90;
-                    myCharacter.UsedXP = 30;
+                    myCharacter.UsedXP = 0;
                     break;
                 case "Free Cities Elf":
                     addRankToStartingSkills("Streetwise"); //Streetwise +1
                     myCharacter.DefenseRanged = 1;
                     myCharacter.DefenseMelee = 1;
                     myCharacter.TotalXP = 90;
-                    myCharacter.UsedXP = 15;
+                    myCharacter.UsedXP = 0;
                     break;
                 case "Highborn Elf":
                     addRankToStartingSkills("Negotiation");//Negotiation +1
                     addRankToStartingSkills("Divine");//Divine +1
                     MarkCareerSkill("Divine"); //Divine career true
                     myCharacter.TotalXP = 90;
-                    myCharacter.UsedXP = 25;
+                    myCharacter.UsedXP = 0;
                     break;
                 case "Lowborn Elf":
                     addRankToStartingSkills("Survival"); //Survival +1
                     myCharacter.DefenseRanged = 1;
                     myCharacter.DefenseMelee = 1;
                     myCharacter.TotalXP = 90;
-                    myCharacter.UsedXP = 15;
+                    myCharacter.UsedXP = 0;
                     break;
                 case "Burrow Gnome":
                     addRankToStartingSkills("Divine"); //Divine +1
                     addRankToStartingSkills("Resilience"); //Resilience +1
                     myCharacter.TotalXP = 90;
-                    myCharacter.UsedXP = 30;
+                    myCharacter.UsedXP = 0;
                     //militia training
                     break;
                 case "Wanderer Gnome":
                     addRankToStartingSkills("Charm"); //Charm +1
                     addRankToStartingSkills("Stealth");//Stealth +1
                     myCharacter.TotalXP = 90;
-                    myCharacter.UsedXP = 30;
+                    myCharacter.UsedXP = 0;
                     //tricksy
                     break;
                 case "Broken Plains Orc":
                     addRankToStartingSkills("Coercion"); //Coercion +1
                     myCharacter.TotalXP = 100;
-                    myCharacter.UsedXP = 15;
+                    myCharacter.UsedXP = 0;
                     //Battle Rage
                     break;
                 case "Stone-Dweller Orc":
                     addRankToStartingSkills("Cool"); //Cool +1
                     myCharacter.TotalXP = 100;
-                    myCharacter.UsedXP = 15;
+                    myCharacter.UsedXP = 0;
                     //hot tempered
                     break;
                 case "Sunderlands Orc":
                     addRankToStartingSkills("Alchemy"); //Alchemy +1
                     myCharacter.TotalXP = 100;
-                    myCharacter.UsedXP = 15;
+                    myCharacter.UsedXP = 0;
                     //tenacious
                     break;
             }
@@ -1022,11 +1022,6 @@ namespace Genesys_Character_Builder
                 {
                     myCharacter.Skills[i].Career = true;
                 }
-
-                else
-                {
-                    myCharacter.Skills[i].Career = false;
-                }
             }
         }
 
@@ -1136,8 +1131,11 @@ namespace Genesys_Character_Builder
         private void linkSkill_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             panelSkillDetail.Visible = true;
-            lblSkillRank.Text = "";
-            lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
+            //txtSkill.Text = "";
+            //cboCharacteristic.Text = "";
+            //txtSkillDescription.Text = "";
+            //lblSkillRank.Text = "";
+            chkCareer.Checked = false;
 
             LinkLabel myLink;
             myLink = (LinkLabel)sender;
@@ -1145,12 +1143,13 @@ namespace Genesys_Character_Builder
             txtSkill.Text = myCharacter.Skills[skillLinkNumber].SkillName;
             cboCharacteristic.Text = myCharacter.Skills[skillLinkNumber].Characteristic;
             txtSkillDescription.Text = myCharacter.Skills[skillLinkNumber].Description;
-            if (myCharacter.Skills[activeSkillLink].Career)
+
+            
+            activeSkillLink = skillLinkNumber;
+            if (myCharacter.Skills[activeSkillLink].Career == true)
             {
                 chkCareer.Checked = true;
             }
-            
-            activeSkillLink = skillLinkNumber;
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
 
             myCharacter.Skills[skillLinkNumber].SkillName = txtSkill.Text;
@@ -1160,7 +1159,6 @@ namespace Genesys_Character_Builder
             updateForm();
         }
 
-        //Testing logic for skill rank buttons, work in progress
         private void btnSkillPlus_Click(object sender, EventArgs e)
         {
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
@@ -1192,7 +1190,6 @@ namespace Genesys_Character_Builder
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
             updateForm();
         }
-        //end skill rank buttons
 
         private void linkTalent_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
