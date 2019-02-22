@@ -1243,6 +1243,7 @@
             // 
             this.linkSkill43.AutoSize = true;
             this.linkSkill43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill43.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill43.Location = new System.Drawing.Point(215, 363);
             this.linkSkill43.Name = "linkSkill43";
             this.linkSkill43.Size = new System.Drawing.Size(54, 13);
@@ -1255,6 +1256,7 @@
             // 
             this.linkSkill42.AutoSize = true;
             this.linkSkill42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill42.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill42.Location = new System.Drawing.Point(215, 348);
             this.linkSkill42.Name = "linkSkill42";
             this.linkSkill42.Size = new System.Drawing.Size(54, 13);
@@ -1267,6 +1269,7 @@
             // 
             this.linkSkill41.AutoSize = true;
             this.linkSkill41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill41.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill41.Location = new System.Drawing.Point(215, 333);
             this.linkSkill41.Name = "linkSkill41";
             this.linkSkill41.Size = new System.Drawing.Size(54, 13);
@@ -1279,6 +1282,7 @@
             // 
             this.linkSkill40.AutoSize = true;
             this.linkSkill40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill40.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill40.Location = new System.Drawing.Point(215, 318);
             this.linkSkill40.Name = "linkSkill40";
             this.linkSkill40.Size = new System.Drawing.Size(54, 13);
@@ -1313,6 +1317,7 @@
             // 
             this.linkSkill39.AutoSize = true;
             this.linkSkill39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill39.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill39.Location = new System.Drawing.Point(215, 303);
             this.linkSkill39.Name = "linkSkill39";
             this.linkSkill39.Size = new System.Drawing.Size(54, 13);
@@ -1325,6 +1330,7 @@
             // 
             this.linkSkill38.AutoSize = true;
             this.linkSkill38.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill38.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill38.Location = new System.Drawing.Point(215, 273);
             this.linkSkill38.Name = "linkSkill38";
             this.linkSkill38.Size = new System.Drawing.Size(54, 13);
@@ -1337,6 +1343,7 @@
             // 
             this.linkSkill37.AutoSize = true;
             this.linkSkill37.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill37.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill37.Location = new System.Drawing.Point(215, 257);
             this.linkSkill37.Name = "linkSkill37";
             this.linkSkill37.Size = new System.Drawing.Size(54, 13);
@@ -1349,6 +1356,7 @@
             // 
             this.linkSkill36.AutoSize = true;
             this.linkSkill36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill36.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill36.Location = new System.Drawing.Point(215, 242);
             this.linkSkill36.Name = "linkSkill36";
             this.linkSkill36.Size = new System.Drawing.Size(54, 13);
@@ -1361,6 +1369,7 @@
             // 
             this.linkSkill35.AutoSize = true;
             this.linkSkill35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill35.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill35.Location = new System.Drawing.Point(215, 227);
             this.linkSkill35.Name = "linkSkill35";
             this.linkSkill35.Size = new System.Drawing.Size(54, 13);
@@ -1395,6 +1404,7 @@
             // 
             this.linkSkill34.AutoSize = true;
             this.linkSkill34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill34.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill34.Location = new System.Drawing.Point(215, 212);
             this.linkSkill34.Name = "linkSkill34";
             this.linkSkill34.Size = new System.Drawing.Size(54, 13);
@@ -1407,6 +1417,7 @@
             // 
             this.linkSkill22.AutoSize = true;
             this.linkSkill22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill22.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill22.Location = new System.Drawing.Point(3, 364);
             this.linkSkill22.Name = "linkSkill22";
             this.linkSkill22.Size = new System.Drawing.Size(54, 13);
@@ -1419,6 +1430,7 @@
             // 
             this.linkSkill21.AutoSize = true;
             this.linkSkill21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill21.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill21.Location = new System.Drawing.Point(3, 349);
             this.linkSkill21.Name = "linkSkill21";
             this.linkSkill21.Size = new System.Drawing.Size(54, 13);
@@ -1431,6 +1443,7 @@
             // 
             this.linkSkill20.AutoSize = true;
             this.linkSkill20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill20.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill20.Location = new System.Drawing.Point(3, 334);
             this.linkSkill20.Name = "linkSkill20";
             this.linkSkill20.Size = new System.Drawing.Size(54, 13);
@@ -1443,6 +1456,7 @@
             // 
             this.linkSkill19.AutoSize = true;
             this.linkSkill19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill19.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill19.Location = new System.Drawing.Point(3, 319);
             this.linkSkill19.Name = "linkSkill19";
             this.linkSkill19.Size = new System.Drawing.Size(54, 13);
@@ -1477,6 +1491,7 @@
             // 
             this.linkSkill18.AutoSize = true;
             this.linkSkill18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill18.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill18.Location = new System.Drawing.Point(3, 304);
             this.linkSkill18.Name = "linkSkill18";
             this.linkSkill18.Size = new System.Drawing.Size(54, 13);
@@ -1489,6 +1504,7 @@
             // 
             this.linkSkill17.AutoSize = true;
             this.linkSkill17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill17.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill17.Location = new System.Drawing.Point(3, 272);
             this.linkSkill17.Name = "linkSkill17";
             this.linkSkill17.Size = new System.Drawing.Size(54, 13);
@@ -1501,6 +1517,7 @@
             // 
             this.linkSkill16.AutoSize = true;
             this.linkSkill16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill16.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill16.Location = new System.Drawing.Point(3, 257);
             this.linkSkill16.Name = "linkSkill16";
             this.linkSkill16.Size = new System.Drawing.Size(54, 13);
@@ -1513,6 +1530,7 @@
             // 
             this.linkSkill15.AutoSize = true;
             this.linkSkill15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill15.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill15.Location = new System.Drawing.Point(3, 242);
             this.linkSkill15.Name = "linkSkill15";
             this.linkSkill15.Size = new System.Drawing.Size(54, 13);
@@ -1525,6 +1543,7 @@
             // 
             this.linkSkill14.AutoSize = true;
             this.linkSkill14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill14.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill14.Location = new System.Drawing.Point(3, 227);
             this.linkSkill14.Name = "linkSkill14";
             this.linkSkill14.Size = new System.Drawing.Size(54, 13);
@@ -1537,6 +1556,7 @@
             // 
             this.linkSkill13.AutoSize = true;
             this.linkSkill13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill13.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill13.Location = new System.Drawing.Point(3, 212);
             this.linkSkill13.Name = "linkSkill13";
             this.linkSkill13.Size = new System.Drawing.Size(54, 13);
@@ -1549,6 +1569,7 @@
             // 
             this.linkSkill12.AutoSize = true;
             this.linkSkill12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill12.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill12.Location = new System.Drawing.Point(3, 197);
             this.linkSkill12.Name = "linkSkill12";
             this.linkSkill12.Size = new System.Drawing.Size(54, 13);
@@ -1561,6 +1582,7 @@
             // 
             this.linkSkill11.AutoSize = true;
             this.linkSkill11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill11.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill11.Location = new System.Drawing.Point(3, 182);
             this.linkSkill11.Name = "linkSkill11";
             this.linkSkill11.Size = new System.Drawing.Size(54, 13);
@@ -1573,6 +1595,7 @@
             // 
             this.linkSkill10.AutoSize = true;
             this.linkSkill10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill10.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill10.Location = new System.Drawing.Point(3, 167);
             this.linkSkill10.Name = "linkSkill10";
             this.linkSkill10.Size = new System.Drawing.Size(54, 13);
@@ -1585,6 +1608,7 @@
             // 
             this.linkSkill9.AutoSize = true;
             this.linkSkill9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill9.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill9.Location = new System.Drawing.Point(3, 152);
             this.linkSkill9.Name = "linkSkill9";
             this.linkSkill9.Size = new System.Drawing.Size(48, 13);
@@ -1597,6 +1621,7 @@
             // 
             this.linkSkill8.AutoSize = true;
             this.linkSkill8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill8.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill8.Location = new System.Drawing.Point(3, 137);
             this.linkSkill8.Name = "linkSkill8";
             this.linkSkill8.Size = new System.Drawing.Size(48, 13);
@@ -1609,6 +1634,7 @@
             // 
             this.linkSkill33.AutoSize = true;
             this.linkSkill33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill33.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill33.Location = new System.Drawing.Point(216, 182);
             this.linkSkill33.Name = "linkSkill33";
             this.linkSkill33.Size = new System.Drawing.Size(54, 13);
@@ -1621,6 +1647,7 @@
             // 
             this.linkSkill32.AutoSize = true;
             this.linkSkill32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill32.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill32.Location = new System.Drawing.Point(216, 167);
             this.linkSkill32.Name = "linkSkill32";
             this.linkSkill32.Size = new System.Drawing.Size(54, 13);
@@ -1633,6 +1660,7 @@
             // 
             this.linkSkill31.AutoSize = true;
             this.linkSkill31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill31.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill31.Location = new System.Drawing.Point(216, 152);
             this.linkSkill31.Name = "linkSkill31";
             this.linkSkill31.Size = new System.Drawing.Size(54, 13);
@@ -1645,6 +1673,7 @@
             // 
             this.linkSkill30.AutoSize = true;
             this.linkSkill30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill30.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill30.Location = new System.Drawing.Point(216, 137);
             this.linkSkill30.Name = "linkSkill30";
             this.linkSkill30.Size = new System.Drawing.Size(54, 13);
@@ -1679,6 +1708,7 @@
             // 
             this.linkSkill29.AutoSize = true;
             this.linkSkill29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill29.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill29.Location = new System.Drawing.Point(216, 122);
             this.linkSkill29.Name = "linkSkill29";
             this.linkSkill29.Size = new System.Drawing.Size(54, 13);
@@ -1691,6 +1721,7 @@
             // 
             this.linkSkill28.AutoSize = true;
             this.linkSkill28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill28.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill28.Location = new System.Drawing.Point(215, 92);
             this.linkSkill28.Name = "linkSkill28";
             this.linkSkill28.Size = new System.Drawing.Size(54, 13);
@@ -1703,6 +1734,7 @@
             // 
             this.linkSkill27.AutoSize = true;
             this.linkSkill27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill27.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill27.Location = new System.Drawing.Point(215, 77);
             this.linkSkill27.Name = "linkSkill27";
             this.linkSkill27.Size = new System.Drawing.Size(54, 13);
@@ -1715,6 +1747,7 @@
             // 
             this.linkSkill26.AutoSize = true;
             this.linkSkill26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill26.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill26.Location = new System.Drawing.Point(215, 62);
             this.linkSkill26.Name = "linkSkill26";
             this.linkSkill26.Size = new System.Drawing.Size(54, 13);
@@ -1727,6 +1760,7 @@
             // 
             this.linkSkill25.AutoSize = true;
             this.linkSkill25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill25.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill25.Location = new System.Drawing.Point(215, 47);
             this.linkSkill25.Name = "linkSkill25";
             this.linkSkill25.Size = new System.Drawing.Size(54, 13);
@@ -1739,6 +1773,7 @@
             // 
             this.linkSkill24.AutoSize = true;
             this.linkSkill24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill24.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill24.Location = new System.Drawing.Point(215, 32);
             this.linkSkill24.Name = "linkSkill24";
             this.linkSkill24.Size = new System.Drawing.Size(54, 13);
@@ -1773,6 +1808,7 @@
             // 
             this.linkSkill23.AutoSize = true;
             this.linkSkill23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill23.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill23.Location = new System.Drawing.Point(215, 17);
             this.linkSkill23.Name = "linkSkill23";
             this.linkSkill23.Size = new System.Drawing.Size(54, 13);
@@ -1785,6 +1821,7 @@
             // 
             this.linkSkill7.AutoSize = true;
             this.linkSkill7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill7.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill7.Location = new System.Drawing.Point(3, 122);
             this.linkSkill7.Name = "linkSkill7";
             this.linkSkill7.Size = new System.Drawing.Size(48, 13);
@@ -1797,6 +1834,7 @@
             // 
             this.linkSkill6.AutoSize = true;
             this.linkSkill6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill6.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill6.Location = new System.Drawing.Point(3, 107);
             this.linkSkill6.Name = "linkSkill6";
             this.linkSkill6.Size = new System.Drawing.Size(48, 13);
@@ -1809,6 +1847,7 @@
             // 
             this.linkSkill5.AutoSize = true;
             this.linkSkill5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill5.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill5.Location = new System.Drawing.Point(3, 92);
             this.linkSkill5.Name = "linkSkill5";
             this.linkSkill5.Size = new System.Drawing.Size(48, 13);
@@ -1821,6 +1860,7 @@
             // 
             this.linkSkill4.AutoSize = true;
             this.linkSkill4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill4.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill4.Location = new System.Drawing.Point(3, 77);
             this.linkSkill4.Name = "linkSkill4";
             this.linkSkill4.Size = new System.Drawing.Size(48, 13);
@@ -1833,6 +1873,7 @@
             // 
             this.linkSkill3.AutoSize = true;
             this.linkSkill3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill3.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill3.Location = new System.Drawing.Point(3, 62);
             this.linkSkill3.Name = "linkSkill3";
             this.linkSkill3.Size = new System.Drawing.Size(48, 13);
@@ -1845,6 +1886,7 @@
             // 
             this.linkSkill2.AutoSize = true;
             this.linkSkill2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill2.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.linkSkill2.Location = new System.Drawing.Point(3, 47);
             this.linkSkill2.Name = "linkSkill2";
             this.linkSkill2.Size = new System.Drawing.Size(48, 13);
@@ -1857,6 +1899,7 @@
             // 
             this.linkSkill1.AutoSize = true;
             this.linkSkill1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill1.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill1.Location = new System.Drawing.Point(3, 32);
             this.linkSkill1.Name = "linkSkill1";
             this.linkSkill1.Size = new System.Drawing.Size(48, 13);
@@ -1891,6 +1934,7 @@
             // 
             this.linkSkill0.AutoSize = true;
             this.linkSkill0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill0.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkSkill0.Location = new System.Drawing.Point(3, 17);
             this.linkSkill0.Name = "linkSkill0";
             this.linkSkill0.Size = new System.Drawing.Size(48, 13);

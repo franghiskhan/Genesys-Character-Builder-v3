@@ -1158,9 +1158,14 @@ namespace Genesys_Character_Builder
         {
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
 
-            if (myCharacter.Skills[activeSkillLink].Rank == 0 && myCharacter.Skills[activeSkillLink].Career == true)
+            if (myCharacter.Skills[activeSkillLink].Rank == 0)
             {
                 careerSkillsNum++;
+            }
+            if (careerSkillsNum <= 4 
+                && myCharacter.Skills[activeSkillLink].Rank == 0
+                && myCharacter.Skills[activeSkillLink].Career == true)
+            {
                 myCharacter.Skills[activeSkillLink].Rank++;
                 lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
                 updateForm();
@@ -1180,7 +1185,7 @@ namespace Genesys_Character_Builder
                 updateForm();
             }
         }
-
+        //need to update to account for free rank in first four career skills
         private void btnSkillMinus_Click(object sender, EventArgs e)
         {
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
@@ -1284,12 +1289,20 @@ namespace Genesys_Character_Builder
             panelGear.Visible = false;
         }
 
+        //need to set bool for this field so changing name of talent doesn't update cost
         private void btnTalentSave_Click(object sender, EventArgs e)
         {
+            string talentChanged = myCharacter.Talents[activeTalentLink].TalentName;
             myCharacter.Talents[activeTalentLink].TalentName = txtTalentName.Text;
             myCharacter.Talents[activeTalentLink].TalentDescription = txtTalentDescription.Text;
             myCharacter.Talents[activeTalentLink].Page = txtTalentPageNumber.Text;
 
+            if (myCharacter.Talents[activeTalentLink].TalentName != "Talent" && talentChanged == "Talent")
+            {
+                myCharacter.UsedXP += 5 * myCharacter.Talents[activeTalentLink].Tier;
+                updateXP();
+            }
+            
             updateTalents();
         }
 
