@@ -2137,6 +2137,7 @@
             // linkTalent24
             // 
             this.linkTalent24.AutoSize = true;
+            this.linkTalent24.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent24.Location = new System.Drawing.Point(3, 0);
             this.linkTalent24.Name = "linkTalent24";
             this.linkTalent24.Size = new System.Drawing.Size(30, 12);
@@ -2194,6 +2195,7 @@
             // linkTalent23
             // 
             this.linkTalent23.AutoSize = true;
+            this.linkTalent23.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent23.Location = new System.Drawing.Point(3, 0);
             this.linkTalent23.Name = "linkTalent23";
             this.linkTalent23.Size = new System.Drawing.Size(30, 12);
@@ -2251,6 +2253,7 @@
             // linkTalent22
             // 
             this.linkTalent22.AutoSize = true;
+            this.linkTalent22.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent22.Location = new System.Drawing.Point(3, 0);
             this.linkTalent22.Name = "linkTalent22";
             this.linkTalent22.Size = new System.Drawing.Size(30, 12);
@@ -2308,6 +2311,7 @@
             // linkTalent21
             // 
             this.linkTalent21.AutoSize = true;
+            this.linkTalent21.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent21.Location = new System.Drawing.Point(3, 0);
             this.linkTalent21.Name = "linkTalent21";
             this.linkTalent21.Size = new System.Drawing.Size(30, 12);
@@ -2365,6 +2369,7 @@
             // linkTalent20
             // 
             this.linkTalent20.AutoSize = true;
+            this.linkTalent20.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent20.Location = new System.Drawing.Point(3, 0);
             this.linkTalent20.Name = "linkTalent20";
             this.linkTalent20.Size = new System.Drawing.Size(30, 12);
@@ -2422,6 +2427,7 @@
             // linkTalent19
             // 
             this.linkTalent19.AutoSize = true;
+            this.linkTalent19.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent19.Location = new System.Drawing.Point(3, 0);
             this.linkTalent19.Name = "linkTalent19";
             this.linkTalent19.Size = new System.Drawing.Size(30, 12);
@@ -2479,6 +2485,7 @@
             // linkTalent18
             // 
             this.linkTalent18.AutoSize = true;
+            this.linkTalent18.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent18.Location = new System.Drawing.Point(3, 0);
             this.linkTalent18.Name = "linkTalent18";
             this.linkTalent18.Size = new System.Drawing.Size(30, 12);
@@ -2536,6 +2543,7 @@
             // linkTalent17
             // 
             this.linkTalent17.AutoSize = true;
+            this.linkTalent17.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent17.Location = new System.Drawing.Point(3, 0);
             this.linkTalent17.Name = "linkTalent17";
             this.linkTalent17.Size = new System.Drawing.Size(30, 12);
@@ -2593,6 +2601,7 @@
             // linkTalent16
             // 
             this.linkTalent16.AutoSize = true;
+            this.linkTalent16.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent16.Location = new System.Drawing.Point(3, 0);
             this.linkTalent16.Name = "linkTalent16";
             this.linkTalent16.Size = new System.Drawing.Size(30, 12);
@@ -2650,6 +2659,7 @@
             // linkTalent15
             // 
             this.linkTalent15.AutoSize = true;
+            this.linkTalent15.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent15.Location = new System.Drawing.Point(3, 0);
             this.linkTalent15.Name = "linkTalent15";
             this.linkTalent15.Size = new System.Drawing.Size(30, 12);
@@ -2707,6 +2717,7 @@
             // linkTalent14
             // 
             this.linkTalent14.AutoSize = true;
+            this.linkTalent14.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent14.Location = new System.Drawing.Point(3, 0);
             this.linkTalent14.Name = "linkTalent14";
             this.linkTalent14.Size = new System.Drawing.Size(30, 12);
@@ -2764,6 +2775,7 @@
             // linkTalent13
             // 
             this.linkTalent13.AutoSize = true;
+            this.linkTalent13.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent13.Location = new System.Drawing.Point(3, 0);
             this.linkTalent13.Name = "linkTalent13";
             this.linkTalent13.Size = new System.Drawing.Size(30, 12);
@@ -2821,6 +2833,7 @@
             // linkTalent12
             // 
             this.linkTalent12.AutoSize = true;
+            this.linkTalent12.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent12.Location = new System.Drawing.Point(3, 0);
             this.linkTalent12.Name = "linkTalent12";
             this.linkTalent12.Size = new System.Drawing.Size(30, 12);
@@ -2878,6 +2891,7 @@
             // linkTalent11
             // 
             this.linkTalent11.AutoSize = true;
+            this.linkTalent11.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent11.Location = new System.Drawing.Point(3, 0);
             this.linkTalent11.Name = "linkTalent11";
             this.linkTalent11.Size = new System.Drawing.Size(30, 12);
@@ -2935,6 +2949,7 @@
             // linkTalent10
             // 
             this.linkTalent10.AutoSize = true;
+            this.linkTalent10.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent10.Location = new System.Drawing.Point(3, 0);
             this.linkTalent10.Name = "linkTalent10";
             this.linkTalent10.Size = new System.Drawing.Size(30, 12);
@@ -2992,6 +3007,7 @@
             // linkTalent9
             // 
             this.linkTalent9.AutoSize = true;
+            this.linkTalent9.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent9.Location = new System.Drawing.Point(3, 0);
             this.linkTalent9.Name = "linkTalent9";
             this.linkTalent9.Size = new System.Drawing.Size(30, 12);
@@ -3049,6 +3065,7 @@
             // linkTalent8
             // 
             this.linkTalent8.AutoSize = true;
+            this.linkTalent8.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent8.Location = new System.Drawing.Point(3, 0);
             this.linkTalent8.Name = "linkTalent8";
             this.linkTalent8.Size = new System.Drawing.Size(30, 12);
@@ -3106,6 +3123,7 @@
             // linkTalent7
             // 
             this.linkTalent7.AutoSize = true;
+            this.linkTalent7.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent7.Location = new System.Drawing.Point(3, 0);
             this.linkTalent7.Name = "linkTalent7";
             this.linkTalent7.Size = new System.Drawing.Size(30, 12);
@@ -3163,6 +3181,7 @@
             // linkTalent6
             // 
             this.linkTalent6.AutoSize = true;
+            this.linkTalent6.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent6.Location = new System.Drawing.Point(3, 0);
             this.linkTalent6.Name = "linkTalent6";
             this.linkTalent6.Size = new System.Drawing.Size(30, 12);
@@ -3220,6 +3239,7 @@
             // linkTalent5
             // 
             this.linkTalent5.AutoSize = true;
+            this.linkTalent5.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent5.Location = new System.Drawing.Point(3, 0);
             this.linkTalent5.Name = "linkTalent5";
             this.linkTalent5.Size = new System.Drawing.Size(30, 12);
@@ -3277,6 +3297,7 @@
             // linkTalent4
             // 
             this.linkTalent4.AutoSize = true;
+            this.linkTalent4.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent4.Location = new System.Drawing.Point(3, 0);
             this.linkTalent4.Name = "linkTalent4";
             this.linkTalent4.Size = new System.Drawing.Size(30, 12);
@@ -3334,6 +3355,7 @@
             // linkTalent3
             // 
             this.linkTalent3.AutoSize = true;
+            this.linkTalent3.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent3.Location = new System.Drawing.Point(3, 0);
             this.linkTalent3.Name = "linkTalent3";
             this.linkTalent3.Size = new System.Drawing.Size(30, 12);
@@ -3391,6 +3413,7 @@
             // linkTalent2
             // 
             this.linkTalent2.AutoSize = true;
+            this.linkTalent2.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent2.Location = new System.Drawing.Point(3, 0);
             this.linkTalent2.Name = "linkTalent2";
             this.linkTalent2.Size = new System.Drawing.Size(30, 12);
@@ -3448,6 +3471,7 @@
             // linkTalent1
             // 
             this.linkTalent1.AutoSize = true;
+            this.linkTalent1.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent1.Location = new System.Drawing.Point(3, 0);
             this.linkTalent1.Name = "linkTalent1";
             this.linkTalent1.Size = new System.Drawing.Size(30, 12);
@@ -3503,6 +3527,7 @@
             // linkTalent0
             // 
             this.linkTalent0.AutoSize = true;
+            this.linkTalent0.LinkColor = System.Drawing.Color.SaddleBrown;
             this.linkTalent0.Location = new System.Drawing.Point(3, 0);
             this.linkTalent0.Name = "linkTalent0";
             this.linkTalent0.Size = new System.Drawing.Size(30, 12);
