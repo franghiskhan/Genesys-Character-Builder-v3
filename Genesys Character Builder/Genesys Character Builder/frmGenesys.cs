@@ -1131,10 +1131,6 @@ namespace Genesys_Character_Builder
         private void linkSkill_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             panelSkillDetail.Visible = true;
-            //txtSkill.Text = "";
-            //cboCharacteristic.Text = "";
-            //txtSkillDescription.Text = "";
-            //lblSkillRank.Text = "";
             chkCareer.Checked = false;
 
             LinkLabel myLink;
@@ -1143,7 +1139,6 @@ namespace Genesys_Character_Builder
             txtSkill.Text = myCharacter.Skills[skillLinkNumber].SkillName;
             cboCharacteristic.Text = myCharacter.Skills[skillLinkNumber].Characteristic;
             txtSkillDescription.Text = myCharacter.Skills[skillLinkNumber].Description;
-
             
             activeSkillLink = skillLinkNumber;
             if (myCharacter.Skills[activeSkillLink].Career == true)
@@ -1152,9 +1147,9 @@ namespace Genesys_Character_Builder
             }
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
 
-            myCharacter.Skills[skillLinkNumber].SkillName = txtSkill.Text;
-            myCharacter.Skills[skillLinkNumber].Characteristic = cboCharacteristic.Text;
-            myCharacter.Skills[skillLinkNumber].Description = txtSkillDescription.Text;
+            //myCharacter.Skills[skillLinkNumber].SkillName = txtSkill.Text;
+            //myCharacter.Skills[skillLinkNumber].Characteristic = cboCharacteristic.Text;
+            //myCharacter.Skills[skillLinkNumber].Description = txtSkillDescription.Text;
 
             updateForm();
         }
@@ -1162,17 +1157,28 @@ namespace Genesys_Character_Builder
         private void btnSkillPlus_Click(object sender, EventArgs e)
         {
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
-            if (myCharacter.Skills[activeSkillLink].Rank < 5)
+
+            if (myCharacter.Skills[activeSkillLink].Rank == 0 && myCharacter.Skills[activeSkillLink].Career == true)
             {
+                careerSkillsNum++;
                 myCharacter.Skills[activeSkillLink].Rank++;
-                myCharacter.UsedXP += myCharacter.Skills[activeSkillLink].Rank * 5;
-                if (myCharacter.Skills[activeSkillLink].Career == false)
-                {
-                    myCharacter.UsedXP += 5;
-                }
+                lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
+                updateForm();
             }
-            lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
-            updateForm();
+            else
+            {
+                if (myCharacter.Skills[activeSkillLink].Rank < 5)
+                {
+                    myCharacter.Skills[activeSkillLink].Rank++;
+                    myCharacter.UsedXP += myCharacter.Skills[activeSkillLink].Rank * 5;
+                    if (myCharacter.Skills[activeSkillLink].Career == false)
+                    {
+                        myCharacter.UsedXP += 5;
+                    }
+                }
+                lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
+                updateForm();
+            }
         }
 
         private void btnSkillMinus_Click(object sender, EventArgs e)
@@ -1258,6 +1264,10 @@ namespace Genesys_Character_Builder
             myCharacter.Skills[activeSkillLink].SkillName = txtSkill.Text;
             myCharacter.Skills[activeSkillLink].Characteristic = cboCharacteristic.Text;
             myCharacter.Skills[activeSkillLink].Description = txtSkillDescription.Text;
+            if (chkCareer.Checked == true)
+            {
+                myCharacter.Skills[activeSkillLink].Career = true;
+            }
 
             updateSkills();
         }
