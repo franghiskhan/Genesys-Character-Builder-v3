@@ -75,7 +75,7 @@ namespace Genesys_Character_Builder
             Features = "",
         };
 
-        private LinkLabel[] skillLinks = new LinkLabel[NUM_SKILLS];
+        //private LinkLabel[] skillLinks = new LinkLabel[NUM_SKILLS];
 
         private SkillsTemplate[] terrinothSkills = new SkillsTemplate[]
         {
@@ -258,6 +258,19 @@ namespace Genesys_Character_Builder
             generateDiceIcons();
             //generateSkillLinks();
             updateTalents();
+
+            /*
+            try
+            {
+                pictureBoxPortrait.Image = Image.FromFile("c:\\portrait.jpg");
+                pictureBoxPortrait.SizeMode = PictureBoxSizeMode.StretchImage;
+            }
+            catch
+            {
+                pictureBoxPortrait.Image = null;
+            }
+            */
+            
         }
 
         private void cboSetting_SelectedIndexChanged(object sender, EventArgs e)
@@ -411,7 +424,7 @@ namespace Genesys_Character_Builder
                     myCharacter.WoundThreshold = 9;
                     myCharacter.StrainThreshold = 8;
                     myCharacter.TotalXP = 90;
-                    myCharacter.UsedXP = 15;
+                    myCharacter.UsedXP = 0;
                     //Claws
                     //Fleet of Paw
                     break;
@@ -430,7 +443,7 @@ namespace Genesys_Character_Builder
                     myCharacter.WoundThreshold = 10;
                     myCharacter.StrainThreshold = 9;
                     myCharacter.TotalXP = 100;
-                    myCharacter.UsedXP = 15;
+                    myCharacter.UsedXP = 0;
                     //Claws or Fleet of Paw
                     break;
                 case "Dwarf":
@@ -1511,6 +1524,7 @@ namespace Genesys_Character_Builder
             panelSkills.Visible = true;
             panelTalents.Visible = false;
             panelGear.Visible = false;
+            panelMotivations.Visible = false;
         }
 
         private void btnSkillsSave_Click(object sender, EventArgs e)
@@ -1536,6 +1550,7 @@ namespace Genesys_Character_Builder
             panelSkills.Visible = false;
             panelTalents.Visible = true;
             panelGear.Visible = false;
+            panelMotivations.Visible = false;
         }
 
         //need to set bool for this field so changing name of talent doesn't update cost
@@ -1565,6 +1580,7 @@ namespace Genesys_Character_Builder
             panelSkills.Visible = false;
             panelTalents.Visible = false;
             panelGear.Visible = true;
+            panelMotivations.Visible = false;
 
             loadGearTab();
         }
@@ -1646,6 +1662,14 @@ namespace Genesys_Character_Builder
             txtWeaponsAndArmor.Text = myCharacter.WeaponsAndArmor;
             txtPersonalGear.Text = myCharacter.PersonalGear;
             txtCurrency.Text = myCharacter.Currency;
+        }
+
+        private void btnMotivations_Click(object sender, EventArgs e)
+        {
+            panelSkills.Visible = false;
+            panelTalents.Visible = false;
+            panelGear.Visible = false;
+            panelMotivations.Visible = true;
         }
 
         /*this may be problematic. it looks like LinkLabels may not be treated as objects,
@@ -1858,5 +1882,7 @@ namespace Genesys_Character_Builder
                 }
             }
         }
+
+        
     }
 }

@@ -287,6 +287,11 @@
             this.chkActive0 = new System.Windows.Forms.CheckBox();
             this.linkTalent0 = new System.Windows.Forms.LinkLabel();
             this.panelSkills = new System.Windows.Forms.Panel();
+            this.linkSkill43 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill42 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill41 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill40 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill39 = new System.Windows.Forms.LinkLabel();
             this.panelTalents = new System.Windows.Forms.Panel();
             this.btnSkills = new System.Windows.Forms.Button();
             this.btnTalents = new System.Windows.Forms.Button();
@@ -331,11 +336,35 @@
             this.lblWeaponsSkill = new System.Windows.Forms.Label();
             this.lblWeaponsWeapon = new System.Windows.Forms.Label();
             this.lblPersonalGear = new System.Windows.Forms.Label();
-            this.linkSkill43 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill42 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill41 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill40 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill39 = new System.Windows.Forms.LinkLabel();
+            this.btnMotivations = new System.Windows.Forms.Button();
+            this.panelMotivations = new System.Windows.Forms.Panel();
+            this.pictureBoxPortrait = new System.Windows.Forms.PictureBox();
+            this.txtMotivationStrength = new System.Windows.Forms.TextBox();
+            this.lblMotivationStrength = new System.Windows.Forms.Label();
+            this.lblMotivationFlaw = new System.Windows.Forms.Label();
+            this.txtMotivationFlaw = new System.Windows.Forms.TextBox();
+            this.lblMotivationDesire = new System.Windows.Forms.Label();
+            this.txtMotivationDesire = new System.Windows.Forms.TextBox();
+            this.lblMotivationFear = new System.Windows.Forms.Label();
+            this.txtMotivationFear = new System.Windows.Forms.TextBox();
+            this.lblMotivationBackground = new System.Windows.Forms.Label();
+            this.txtMotivationBackground = new System.Windows.Forms.TextBox();
+            this.lblPortrait = new System.Windows.Forms.Label();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.lblGender = new System.Windows.Forms.Label();
+            this.lblAge = new System.Windows.Forms.Label();
+            this.lblBuild = new System.Windows.Forms.Label();
+            this.lblHeight = new System.Windows.Forms.Label();
+            this.lblEyes = new System.Windows.Forms.Label();
+            this.lblHair = new System.Windows.Forms.Label();
+            this.txtGender = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.lblNotableFeatures = new System.Windows.Forms.Label();
+            this.txtNotableFeatures = new System.Windows.Forms.TextBox();
             this.panelSkillDetail.SuspendLayout();
             this.panelTalentDetail.SuspendLayout();
             this.panelTalent24.SuspendLayout();
@@ -367,6 +396,8 @@
             this.panelTalents.SuspendLayout();
             this.panelGear.SuspendLayout();
             this.panel26.SuspendLayout();
+            this.panelMotivations.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPortrait)).BeginInit();
             this.SuspendLayout();
             // 
             // lblDefenseMeleeLabel
@@ -3538,6 +3569,71 @@
             this.panelSkills.TabIndex = 686;
             this.panelSkills.Visible = false;
             // 
+            // linkSkill43
+            // 
+            this.linkSkill43.AutoSize = true;
+            this.linkSkill43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill43.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill43.Location = new System.Drawing.Point(215, 364);
+            this.linkSkill43.Name = "linkSkill43";
+            this.linkSkill43.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill43.TabIndex = 690;
+            this.linkSkill43.TabStop = true;
+            this.linkSkill43.Text = "linkSkill43";
+            this.linkSkill43.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill42
+            // 
+            this.linkSkill42.AutoSize = true;
+            this.linkSkill42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill42.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill42.Location = new System.Drawing.Point(215, 349);
+            this.linkSkill42.Name = "linkSkill42";
+            this.linkSkill42.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill42.TabIndex = 689;
+            this.linkSkill42.TabStop = true;
+            this.linkSkill42.Text = "linkSkill42";
+            this.linkSkill42.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill41
+            // 
+            this.linkSkill41.AutoSize = true;
+            this.linkSkill41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill41.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill41.Location = new System.Drawing.Point(215, 334);
+            this.linkSkill41.Name = "linkSkill41";
+            this.linkSkill41.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill41.TabIndex = 688;
+            this.linkSkill41.TabStop = true;
+            this.linkSkill41.Text = "linkSkill41";
+            this.linkSkill41.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill40
+            // 
+            this.linkSkill40.AutoSize = true;
+            this.linkSkill40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill40.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill40.Location = new System.Drawing.Point(215, 319);
+            this.linkSkill40.Name = "linkSkill40";
+            this.linkSkill40.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill40.TabIndex = 687;
+            this.linkSkill40.TabStop = true;
+            this.linkSkill40.Text = "linkSkill40";
+            this.linkSkill40.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill39
+            // 
+            this.linkSkill39.AutoSize = true;
+            this.linkSkill39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill39.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill39.Location = new System.Drawing.Point(215, 304);
+            this.linkSkill39.Name = "linkSkill39";
+            this.linkSkill39.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill39.TabIndex = 686;
+            this.linkSkill39.TabStop = true;
+            this.linkSkill39.Text = "linkSkill39";
+            this.linkSkill39.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // panelTalents
             // 
             this.panelTalents.BackColor = System.Drawing.Color.Transparent;
@@ -3986,70 +4082,312 @@
             this.lblPersonalGear.Text = "Personal Gear";
             this.lblPersonalGear.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // linkSkill43
+            // btnMotivations
             // 
-            this.linkSkill43.AutoSize = true;
-            this.linkSkill43.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill43.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill43.Location = new System.Drawing.Point(215, 364);
-            this.linkSkill43.Name = "linkSkill43";
-            this.linkSkill43.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill43.TabIndex = 690;
-            this.linkSkill43.TabStop = true;
-            this.linkSkill43.Text = "linkSkill43";
-            this.linkSkill43.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            this.btnMotivations.BackColor = System.Drawing.SystemColors.Info;
+            this.btnMotivations.Location = new System.Drawing.Point(237, 244);
+            this.btnMotivations.Name = "btnMotivations";
+            this.btnMotivations.Size = new System.Drawing.Size(75, 23);
+            this.btnMotivations.TabIndex = 690;
+            this.btnMotivations.Text = "&About";
+            this.btnMotivations.UseVisualStyleBackColor = false;
+            this.btnMotivations.Click += new System.EventHandler(this.btnMotivations_Click);
             // 
-            // linkSkill42
+            // panelMotivations
             // 
-            this.linkSkill42.AutoSize = true;
-            this.linkSkill42.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill42.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill42.Location = new System.Drawing.Point(215, 349);
-            this.linkSkill42.Name = "linkSkill42";
-            this.linkSkill42.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill42.TabIndex = 689;
-            this.linkSkill42.TabStop = true;
-            this.linkSkill42.Text = "linkSkill42";
-            this.linkSkill42.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            this.panelMotivations.BackColor = System.Drawing.Color.Transparent;
+            this.panelMotivations.Controls.Add(this.txtNotableFeatures);
+            this.panelMotivations.Controls.Add(this.lblNotableFeatures);
+            this.panelMotivations.Controls.Add(this.lblEyes);
+            this.panelMotivations.Controls.Add(this.lblHair);
+            this.panelMotivations.Controls.Add(this.lblBuild);
+            this.panelMotivations.Controls.Add(this.lblHeight);
+            this.panelMotivations.Controls.Add(this.lblAge);
+            this.panelMotivations.Controls.Add(this.lblGender);
+            this.panelMotivations.Controls.Add(this.textBox5);
+            this.panelMotivations.Controls.Add(this.textBox4);
+            this.panelMotivations.Controls.Add(this.textBox3);
+            this.panelMotivations.Controls.Add(this.textBox2);
+            this.panelMotivations.Controls.Add(this.textBox1);
+            this.panelMotivations.Controls.Add(this.lblDescription);
+            this.panelMotivations.Controls.Add(this.lblPortrait);
+            this.panelMotivations.Controls.Add(this.lblMotivationBackground);
+            this.panelMotivations.Controls.Add(this.txtMotivationBackground);
+            this.panelMotivations.Controls.Add(this.lblMotivationFear);
+            this.panelMotivations.Controls.Add(this.txtMotivationFear);
+            this.panelMotivations.Controls.Add(this.lblMotivationDesire);
+            this.panelMotivations.Controls.Add(this.txtMotivationDesire);
+            this.panelMotivations.Controls.Add(this.lblMotivationFlaw);
+            this.panelMotivations.Controls.Add(this.txtMotivationFlaw);
+            this.panelMotivations.Controls.Add(this.lblMotivationStrength);
+            this.panelMotivations.Controls.Add(this.txtMotivationStrength);
+            this.panelMotivations.Controls.Add(this.pictureBoxPortrait);
+            this.panelMotivations.Controls.Add(this.txtGender);
+            this.panelMotivations.Location = new System.Drawing.Point(10, 265);
+            this.panelMotivations.Name = "panelMotivations";
+            this.panelMotivations.Size = new System.Drawing.Size(645, 385);
+            this.panelMotivations.TabIndex = 691;
+            this.panelMotivations.Visible = false;
             // 
-            // linkSkill41
+            // pictureBoxPortrait
             // 
-            this.linkSkill41.AutoSize = true;
-            this.linkSkill41.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill41.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill41.Location = new System.Drawing.Point(215, 334);
-            this.linkSkill41.Name = "linkSkill41";
-            this.linkSkill41.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill41.TabIndex = 688;
-            this.linkSkill41.TabStop = true;
-            this.linkSkill41.Text = "linkSkill41";
-            this.linkSkill41.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            this.pictureBoxPortrait.Location = new System.Drawing.Point(480, 22);
+            this.pictureBoxPortrait.Name = "pictureBoxPortrait";
+            this.pictureBoxPortrait.Size = new System.Drawing.Size(150, 150);
+            this.pictureBoxPortrait.TabIndex = 0;
+            this.pictureBoxPortrait.TabStop = false;
             // 
-            // linkSkill40
+            // txtMotivationStrength
             // 
-            this.linkSkill40.AutoSize = true;
-            this.linkSkill40.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill40.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill40.Location = new System.Drawing.Point(215, 319);
-            this.linkSkill40.Name = "linkSkill40";
-            this.linkSkill40.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill40.TabIndex = 687;
-            this.linkSkill40.TabStop = true;
-            this.linkSkill40.Text = "linkSkill40";
-            this.linkSkill40.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            this.txtMotivationStrength.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMotivationStrength.Location = new System.Drawing.Point(10, 24);
+            this.txtMotivationStrength.Multiline = true;
+            this.txtMotivationStrength.Name = "txtMotivationStrength";
+            this.txtMotivationStrength.Size = new System.Drawing.Size(225, 100);
+            this.txtMotivationStrength.TabIndex = 1;
             // 
-            // linkSkill39
+            // lblMotivationStrength
             // 
-            this.linkSkill39.AutoSize = true;
-            this.linkSkill39.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill39.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill39.Location = new System.Drawing.Point(215, 304);
-            this.linkSkill39.Name = "linkSkill39";
-            this.linkSkill39.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill39.TabIndex = 686;
-            this.linkSkill39.TabStop = true;
-            this.linkSkill39.Text = "linkSkill39";
-            this.linkSkill39.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            this.lblMotivationStrength.AutoSize = true;
+            this.lblMotivationStrength.Location = new System.Drawing.Point(9, 8);
+            this.lblMotivationStrength.Name = "lblMotivationStrength";
+            this.lblMotivationStrength.Size = new System.Drawing.Size(50, 13);
+            this.lblMotivationStrength.TabIndex = 2;
+            this.lblMotivationStrength.Text = "Strength:";
+            // 
+            // lblMotivationFlaw
+            // 
+            this.lblMotivationFlaw.AutoSize = true;
+            this.lblMotivationFlaw.Location = new System.Drawing.Point(241, 8);
+            this.lblMotivationFlaw.Name = "lblMotivationFlaw";
+            this.lblMotivationFlaw.Size = new System.Drawing.Size(32, 13);
+            this.lblMotivationFlaw.TabIndex = 4;
+            this.lblMotivationFlaw.Text = "Flaw:";
+            // 
+            // txtMotivationFlaw
+            // 
+            this.txtMotivationFlaw.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMotivationFlaw.Location = new System.Drawing.Point(242, 24);
+            this.txtMotivationFlaw.Multiline = true;
+            this.txtMotivationFlaw.Name = "txtMotivationFlaw";
+            this.txtMotivationFlaw.Size = new System.Drawing.Size(225, 100);
+            this.txtMotivationFlaw.TabIndex = 3;
+            // 
+            // lblMotivationDesire
+            // 
+            this.lblMotivationDesire.AutoSize = true;
+            this.lblMotivationDesire.Location = new System.Drawing.Point(9, 132);
+            this.lblMotivationDesire.Name = "lblMotivationDesire";
+            this.lblMotivationDesire.Size = new System.Drawing.Size(40, 13);
+            this.lblMotivationDesire.TabIndex = 6;
+            this.lblMotivationDesire.Text = "Desire:";
+            // 
+            // txtMotivationDesire
+            // 
+            this.txtMotivationDesire.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMotivationDesire.Location = new System.Drawing.Point(10, 148);
+            this.txtMotivationDesire.Multiline = true;
+            this.txtMotivationDesire.Name = "txtMotivationDesire";
+            this.txtMotivationDesire.Size = new System.Drawing.Size(225, 100);
+            this.txtMotivationDesire.TabIndex = 5;
+            // 
+            // lblMotivationFear
+            // 
+            this.lblMotivationFear.AutoSize = true;
+            this.lblMotivationFear.Location = new System.Drawing.Point(240, 132);
+            this.lblMotivationFear.Name = "lblMotivationFear";
+            this.lblMotivationFear.Size = new System.Drawing.Size(31, 13);
+            this.lblMotivationFear.TabIndex = 8;
+            this.lblMotivationFear.Text = "Fear:";
+            // 
+            // txtMotivationFear
+            // 
+            this.txtMotivationFear.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMotivationFear.Location = new System.Drawing.Point(241, 148);
+            this.txtMotivationFear.Multiline = true;
+            this.txtMotivationFear.Name = "txtMotivationFear";
+            this.txtMotivationFear.Size = new System.Drawing.Size(225, 100);
+            this.txtMotivationFear.TabIndex = 7;
+            // 
+            // lblMotivationBackground
+            // 
+            this.lblMotivationBackground.AutoSize = true;
+            this.lblMotivationBackground.Location = new System.Drawing.Point(9, 257);
+            this.lblMotivationBackground.Name = "lblMotivationBackground";
+            this.lblMotivationBackground.Size = new System.Drawing.Size(108, 13);
+            this.lblMotivationBackground.TabIndex = 10;
+            this.lblMotivationBackground.Text = "Background && Notes:";
+            // 
+            // txtMotivationBackground
+            // 
+            this.txtMotivationBackground.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMotivationBackground.Location = new System.Drawing.Point(10, 273);
+            this.txtMotivationBackground.Multiline = true;
+            this.txtMotivationBackground.Name = "txtMotivationBackground";
+            this.txtMotivationBackground.Size = new System.Drawing.Size(457, 100);
+            this.txtMotivationBackground.TabIndex = 9;
+            // 
+            // lblPortrait
+            // 
+            this.lblPortrait.AutoSize = true;
+            this.lblPortrait.Location = new System.Drawing.Point(541, 6);
+            this.lblPortrait.Name = "lblPortrait";
+            this.lblPortrait.Size = new System.Drawing.Size(89, 13);
+            this.lblPortrait.TabIndex = 11;
+            this.lblPortrait.Text = "Character Portrait";
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.AutoSize = true;
+            this.lblDescription.Location = new System.Drawing.Point(521, 177);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(109, 13);
+            this.lblDescription.TabIndex = 12;
+            this.lblDescription.Text = "Character Description";
+            // 
+            // lblGender
+            // 
+            this.lblGender.AutoSize = true;
+            this.lblGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGender.Location = new System.Drawing.Point(473, 200);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(38, 12);
+            this.lblGender.TabIndex = 13;
+            this.lblGender.Text = "Gender:";
+            // 
+            // lblAge
+            // 
+            this.lblAge.AutoSize = true;
+            this.lblAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAge.Location = new System.Drawing.Point(554, 200);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(25, 12);
+            this.lblAge.TabIndex = 14;
+            this.lblAge.Text = "Age:";
+            // 
+            // lblBuild
+            // 
+            this.lblBuild.AutoSize = true;
+            this.lblBuild.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuild.Location = new System.Drawing.Point(554, 220);
+            this.lblBuild.Name = "lblBuild";
+            this.lblBuild.Size = new System.Drawing.Size(28, 12);
+            this.lblBuild.TabIndex = 16;
+            this.lblBuild.Text = "Build:";
+            // 
+            // lblHeight
+            // 
+            this.lblHeight.AutoSize = true;
+            this.lblHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeight.Location = new System.Drawing.Point(473, 220);
+            this.lblHeight.Name = "lblHeight";
+            this.lblHeight.Size = new System.Drawing.Size(35, 12);
+            this.lblHeight.TabIndex = 15;
+            this.lblHeight.Text = "Height:";
+            // 
+            // lblEyes
+            // 
+            this.lblEyes.AutoSize = true;
+            this.lblEyes.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEyes.Location = new System.Drawing.Point(554, 240);
+            this.lblEyes.Name = "lblEyes";
+            this.lblEyes.Size = new System.Drawing.Size(29, 12);
+            this.lblEyes.TabIndex = 18;
+            this.lblEyes.Text = "Eyes:";
+            // 
+            // lblHair
+            // 
+            this.lblHair.AutoSize = true;
+            this.lblHair.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHair.Location = new System.Drawing.Point(473, 240);
+            this.lblHair.Name = "lblHair";
+            this.lblHair.Size = new System.Drawing.Size(25, 12);
+            this.lblHair.TabIndex = 17;
+            this.lblHair.Text = "Hair:";
+            // 
+            // txtGender
+            // 
+            this.txtGender.BackColor = System.Drawing.SystemColors.Info;
+            this.txtGender.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGender.Location = new System.Drawing.Point(475, 200);
+            this.txtGender.Name = "txtGender";
+            this.txtGender.Size = new System.Drawing.Size(78, 11);
+            this.txtGender.TabIndex = 19;
+            this.txtGender.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(556, 200);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(79, 11);
+            this.textBox1.TabIndex = 20;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(475, 220);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(78, 11);
+            this.textBox2.TabIndex = 21;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.Location = new System.Drawing.Point(556, 220);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(79, 11);
+            this.textBox3.TabIndex = 22;
+            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.Location = new System.Drawing.Point(475, 240);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(78, 11);
+            this.textBox4.TabIndex = 23;
+            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox5
+            // 
+            this.textBox5.BackColor = System.Drawing.SystemColors.Info;
+            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox5.Location = new System.Drawing.Point(556, 240);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(79, 11);
+            this.textBox5.TabIndex = 24;
+            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // lblNotableFeatures
+            // 
+            this.lblNotableFeatures.AutoSize = true;
+            this.lblNotableFeatures.Location = new System.Drawing.Point(477, 257);
+            this.lblNotableFeatures.Name = "lblNotableFeatures";
+            this.lblNotableFeatures.Size = new System.Drawing.Size(91, 13);
+            this.lblNotableFeatures.TabIndex = 25;
+            this.lblNotableFeatures.Text = "Notable Features:";
+            // 
+            // txtNotableFeatures
+            // 
+            this.txtNotableFeatures.BackColor = System.Drawing.SystemColors.Info;
+            this.txtNotableFeatures.Location = new System.Drawing.Point(480, 273);
+            this.txtNotableFeatures.Multiline = true;
+            this.txtNotableFeatures.Name = "txtNotableFeatures";
+            this.txtNotableFeatures.Size = new System.Drawing.Size(150, 100);
+            this.txtNotableFeatures.TabIndex = 26;
             // 
             // frmGenesys
             // 
@@ -4059,9 +4397,11 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(667, 729);
+            this.Controls.Add(this.btnMotivations);
             this.Controls.Add(this.lblGear);
             this.Controls.Add(this.btnTalents);
             this.Controls.Add(this.btnSkills);
+            this.Controls.Add(this.panelMotivations);
             this.Controls.Add(this.lblDefenseMeleeLabel);
             this.Controls.Add(this.lblDefenseRangedLabel);
             this.Controls.Add(this.lblPresenceLabel);
@@ -4189,6 +4529,9 @@
             this.panelGear.PerformLayout();
             this.panel26.ResumeLayout(false);
             this.panel26.PerformLayout();
+            this.panelMotivations.ResumeLayout(false);
+            this.panelMotivations.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPortrait)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4502,6 +4845,35 @@
         private System.Windows.Forms.LinkLabel linkSkill41;
         private System.Windows.Forms.LinkLabel linkSkill40;
         private System.Windows.Forms.LinkLabel linkSkill39;
+        private System.Windows.Forms.Button btnMotivations;
+        private System.Windows.Forms.Panel panelMotivations;
+        private System.Windows.Forms.PictureBox pictureBoxPortrait;
+        private System.Windows.Forms.Label lblEyes;
+        private System.Windows.Forms.Label lblHair;
+        private System.Windows.Forms.Label lblBuild;
+        private System.Windows.Forms.Label lblHeight;
+        private System.Windows.Forms.Label lblAge;
+        private System.Windows.Forms.Label lblGender;
+        private System.Windows.Forms.Label lblDescription;
+        private System.Windows.Forms.Label lblPortrait;
+        private System.Windows.Forms.Label lblMotivationBackground;
+        private System.Windows.Forms.TextBox txtMotivationBackground;
+        private System.Windows.Forms.Label lblMotivationFear;
+        private System.Windows.Forms.TextBox txtMotivationFear;
+        private System.Windows.Forms.Label lblMotivationDesire;
+        private System.Windows.Forms.TextBox txtMotivationDesire;
+        private System.Windows.Forms.Label lblMotivationFlaw;
+        private System.Windows.Forms.TextBox txtMotivationFlaw;
+        private System.Windows.Forms.Label lblMotivationStrength;
+        private System.Windows.Forms.TextBox txtMotivationStrength;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtGender;
+        private System.Windows.Forms.TextBox txtNotableFeatures;
+        private System.Windows.Forms.Label lblNotableFeatures;
     }
 }
 
