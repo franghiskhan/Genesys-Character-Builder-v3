@@ -75,6 +75,8 @@ namespace Genesys_Character_Builder
             Features = "",
         };
 
+        private LinkLabel[] skillLinksGeneral = new LinkLabel[17];
+
         private SkillsTemplate[] terrinothSkills = new SkillsTemplate[]
         {
             //general
@@ -252,6 +254,103 @@ namespace Genesys_Character_Builder
             txtStrainCurrent.Text = myCharacter.StrainCurrent.ToString();
             lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
             lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
+
+            //I may change this to an array to simplify the calculations to change the dice images
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 18; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(142 + 13 * i, 17 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + j.ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(142 + 13 * i, 304 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 6; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 17 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 122 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 212 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 303 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+
+            /*this should be close to working. I might need to get rid of name and refactor everything to the array position.
+            for (int sL = 0; sL < 18; sL++)
+            {
+                skillLinksGeneral[sL] = new LinkLabel();
+                skillLinksGeneral[sL].Location = new System.Drawing.Point(3, 17 + sL * 15);
+                skillLinksGeneral[sL].Name = "linkSkill" + sL;
+                //skillLinksGeneral[sL].LinkClicked += new EventHandler(this.linkSkill_LinkClicked);
+                panelSkills.Controls.Add(skillLinksGeneral[sL]);
+            }
+            */
 
             updateTalents();
         }
