@@ -1251,6 +1251,7 @@
             this.linkSkill43.TabIndex = 678;
             this.linkSkill43.TabStop = true;
             this.linkSkill43.Text = "linkSkill43";
+            this.linkSkill43.Visible = false;
             this.linkSkill43.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill42
@@ -1264,6 +1265,7 @@
             this.linkSkill42.TabIndex = 671;
             this.linkSkill42.TabStop = true;
             this.linkSkill42.Text = "linkSkill42";
+            this.linkSkill42.Visible = false;
             this.linkSkill42.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill41
@@ -1277,6 +1279,7 @@
             this.linkSkill41.TabIndex = 664;
             this.linkSkill41.TabStop = true;
             this.linkSkill41.Text = "linkSkill41";
+            this.linkSkill41.Visible = false;
             this.linkSkill41.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill40
@@ -1290,6 +1293,7 @@
             this.linkSkill40.TabIndex = 657;
             this.linkSkill40.TabStop = true;
             this.linkSkill40.Text = "linkSkill40";
+            this.linkSkill40.Visible = false;
             this.linkSkill40.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // lblSkillsCustom
@@ -1325,6 +1329,7 @@
             this.linkSkill39.TabIndex = 650;
             this.linkSkill39.TabStop = true;
             this.linkSkill39.Text = "linkSkill39";
+            this.linkSkill39.Visible = false;
             this.linkSkill39.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill38
@@ -1338,6 +1343,7 @@
             this.linkSkill38.TabIndex = 640;
             this.linkSkill38.TabStop = true;
             this.linkSkill38.Text = "linkSkill38";
+            this.linkSkill38.Visible = false;
             this.linkSkill38.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill37
@@ -1351,6 +1357,7 @@
             this.linkSkill37.TabIndex = 633;
             this.linkSkill37.TabStop = true;
             this.linkSkill37.Text = "linkSkill37";
+            this.linkSkill37.Visible = false;
             this.linkSkill37.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill36
@@ -1364,6 +1371,7 @@
             this.linkSkill36.TabIndex = 626;
             this.linkSkill36.TabStop = true;
             this.linkSkill36.Text = "linkSkill36";
+            this.linkSkill36.Visible = false;
             this.linkSkill36.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill35
@@ -1377,6 +1385,7 @@
             this.linkSkill35.TabIndex = 619;
             this.linkSkill35.TabStop = true;
             this.linkSkill35.Text = "linkSkill35";
+            this.linkSkill35.Visible = false;
             this.linkSkill35.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // lblSkillsKnowledge
@@ -1412,6 +1421,7 @@
             this.linkSkill34.TabIndex = 612;
             this.linkSkill34.TabStop = true;
             this.linkSkill34.Text = "linkSkill34";
+            this.linkSkill34.Visible = false;
             this.linkSkill34.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill22
@@ -1425,6 +1435,7 @@
             this.linkSkill22.TabIndex = 602;
             this.linkSkill22.TabStop = true;
             this.linkSkill22.Text = "linkSkill22";
+            this.linkSkill22.Visible = false;
             this.linkSkill22.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill21
@@ -1438,6 +1449,7 @@
             this.linkSkill21.TabIndex = 595;
             this.linkSkill21.TabStop = true;
             this.linkSkill21.Text = "linkSkill21";
+            this.linkSkill21.Visible = false;
             this.linkSkill21.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill20
@@ -1451,6 +1463,7 @@
             this.linkSkill20.TabIndex = 588;
             this.linkSkill20.TabStop = true;
             this.linkSkill20.Text = "linkSkill20";
+            this.linkSkill20.Visible = false;
             this.linkSkill20.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill19
@@ -1464,6 +1477,7 @@
             this.linkSkill19.TabIndex = 581;
             this.linkSkill19.TabStop = true;
             this.linkSkill19.Text = "linkSkill19";
+            this.linkSkill19.Visible = false;
             this.linkSkill19.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // lblSkillsMagic
@@ -1499,6 +1513,7 @@
             this.linkSkill18.TabIndex = 574;
             this.linkSkill18.TabStop = true;
             this.linkSkill18.Text = "linkSkill18";
+            this.linkSkill18.Visible = false;
             this.linkSkill18.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill17
@@ -1642,6 +1657,7 @@
             this.linkSkill33.TabIndex = 355;
             this.linkSkill33.TabStop = true;
             this.linkSkill33.Text = "linkSkill33";
+            this.linkSkill33.Visible = false;
             this.linkSkill33.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill32
@@ -1655,6 +1671,7 @@
             this.linkSkill32.TabIndex = 348;
             this.linkSkill32.TabStop = true;
             this.linkSkill32.Text = "linkSkill32";
+            this.linkSkill32.Visible = false;
             this.linkSkill32.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill31
@@ -1668,6 +1685,7 @@
             this.linkSkill31.TabIndex = 341;
             this.linkSkill31.TabStop = true;
             this.linkSkill31.Text = "linkSkill31";
+            this.linkSkill31.Visible = false;
             this.linkSkill31.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill30
@@ -1681,6 +1699,7 @@
             this.linkSkill30.TabIndex = 334;
             this.linkSkill30.TabStop = true;
             this.linkSkill30.Text = "linkSkill30";
+            this.linkSkill30.Visible = false;
             this.linkSkill30.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // lblSkillsSocial
@@ -1716,6 +1735,7 @@
             this.linkSkill29.TabIndex = 327;
             this.linkSkill29.TabStop = true;
             this.linkSkill29.Text = "linkSkill29";
+            this.linkSkill29.Visible = false;
             this.linkSkill29.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill28
@@ -1729,6 +1749,7 @@
             this.linkSkill28.TabIndex = 303;
             this.linkSkill28.TabStop = true;
             this.linkSkill28.Text = "linkSkill28";
+            this.linkSkill28.Visible = false;
             this.linkSkill28.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill27
@@ -1742,6 +1763,7 @@
             this.linkSkill27.TabIndex = 296;
             this.linkSkill27.TabStop = true;
             this.linkSkill27.Text = "linkSkill27";
+            this.linkSkill27.Visible = false;
             this.linkSkill27.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill26
@@ -1755,6 +1777,7 @@
             this.linkSkill26.TabIndex = 289;
             this.linkSkill26.TabStop = true;
             this.linkSkill26.Text = "linkSkill26";
+            this.linkSkill26.Visible = false;
             this.linkSkill26.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill25
@@ -1768,6 +1791,7 @@
             this.linkSkill25.TabIndex = 282;
             this.linkSkill25.TabStop = true;
             this.linkSkill25.Text = "linkSkill25";
+            this.linkSkill25.Visible = false;
             this.linkSkill25.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill24
@@ -1781,6 +1805,7 @@
             this.linkSkill24.TabIndex = 275;
             this.linkSkill24.TabStop = true;
             this.linkSkill24.Text = "linkSkill24";
+            this.linkSkill24.Visible = false;
             this.linkSkill24.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // lblSkillsCombat
@@ -1816,6 +1841,7 @@
             this.linkSkill23.TabIndex = 268;
             this.linkSkill23.TabStop = true;
             this.linkSkill23.Text = "linkSkill23";
+            this.linkSkill23.Visible = false;
             this.linkSkill23.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill7
@@ -1942,6 +1968,7 @@
             this.linkSkill0.TabIndex = 91;
             this.linkSkill0.TabStop = true;
             this.linkSkill0.Text = "linkSkill0";
+            this.linkSkill0.Visible = false;
             this.linkSkill0.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // panelTalentDetail

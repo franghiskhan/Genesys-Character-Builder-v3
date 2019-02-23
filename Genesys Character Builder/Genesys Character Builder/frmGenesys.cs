@@ -75,7 +75,7 @@ namespace Genesys_Character_Builder
             Features = "",
         };
 
-        private LinkLabel[] skillLinksGeneral = new LinkLabel[17];
+        private LinkLabel[] skillLinksGeneral = new LinkLabel[NUM_SKILLS];
 
         private SkillsTemplate[] terrinothSkills = new SkillsTemplate[]
         {
@@ -341,16 +341,73 @@ namespace Genesys_Character_Builder
                 }
             }
 
-            /*this should be close to working. I might need to get rid of name and refactor everything to the array position.
-            for (int sL = 0; sL < 18; sL++)
+            //this should be close to working. I might need to get rid of name and refactor everything to the array position.
+            for (int i = 0; i < 18; i++)
             {
-                skillLinksGeneral[sL] = new LinkLabel();
-                skillLinksGeneral[sL].Location = new System.Drawing.Point(3, 17 + sL * 15);
-                skillLinksGeneral[sL].Name = "linkSkill" + sL;
-                //skillLinksGeneral[sL].LinkClicked += new EventHandler(this.linkSkill_LinkClicked);
-                panelSkills.Controls.Add(skillLinksGeneral[sL]);
+                skillLinksGeneral[i] = new LinkLabel();
+                skillLinksGeneral[i].Location = new System.Drawing.Point(3, 17 + i * 15);
+                skillLinksGeneral[i].Name = "linkSkill" + i.ToString();
+                skillLinksGeneral[i].Height = 13;
+                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                panelSkills.Controls.Add(skillLinksGeneral[i]);
             }
-            */
+            for (int i = 18; i < 23; i++)
+            {
+                skillLinksGeneral[i] = new LinkLabel();
+                skillLinksGeneral[i].Location = new System.Drawing.Point(3, 304 + (i - 18) * 15);
+                skillLinksGeneral[i].Name = "linkSkill" + (i).ToString();
+                skillLinksGeneral[i].Height = 13;
+                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                panelSkills.Controls.Add(skillLinksGeneral[i]);
+            }
+            for (int i = 23; i < 29; i++)
+            {
+                skillLinksGeneral[i] = new LinkLabel();
+                skillLinksGeneral[i].Location = new System.Drawing.Point(215, 17 + (i - 23) * 15);
+                skillLinksGeneral[i].Name = "linkSkill" + i.ToString();
+                skillLinksGeneral[i].Height = 13;
+                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                panelSkills.Controls.Add(skillLinksGeneral[i]);
+            }
+            for (int i = 29; i < 34; i++)
+            {
+                skillLinksGeneral[i] = new LinkLabel();
+                skillLinksGeneral[i].Location = new System.Drawing.Point(215, 122 + (i - 29) * 15);
+                skillLinksGeneral[i].Name = "linkSkill" + i.ToString();
+                skillLinksGeneral[i].Height = 13;
+                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                panelSkills.Controls.Add(skillLinksGeneral[i]);
+            }
+            for (int i = 34; i < 39; i++)
+            {
+                skillLinksGeneral[i] = new LinkLabel();
+                skillLinksGeneral[i].Location = new System.Drawing.Point(215, 212 + (i - 34) * 15);
+                skillLinksGeneral[i].Name = "linkSkill" + i.ToString();
+                skillLinksGeneral[i].Height = 13;
+                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                panelSkills.Controls.Add(skillLinksGeneral[i]);
+            }
+            for (int i = 39; i < 44; i++)
+            {
+                skillLinksGeneral[i] = new LinkLabel();
+                skillLinksGeneral[i].Location = new System.Drawing.Point(215, 303 + (i - 39) * 15);
+                skillLinksGeneral[i].Name = "linkSkill" + i.ToString();
+                skillLinksGeneral[i].Height = 13;
+                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                panelSkills.Controls.Add(skillLinksGeneral[i]);
+            }
 
             updateTalents();
         }
