@@ -75,7 +75,7 @@ namespace Genesys_Character_Builder
             Features = "",
         };
 
-        private LinkLabel[] skillLinksGeneral = new LinkLabel[NUM_SKILLS];
+        private LinkLabel[] skillLinks = new LinkLabel[NUM_SKILLS];
 
         private SkillsTemplate[] terrinothSkills = new SkillsTemplate[]
         {
@@ -255,160 +255,8 @@ namespace Genesys_Character_Builder
             lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
             lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
 
-            //I may change this to an array to simplify the calculations to change the dice images
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 18; j++)
-                {
-                    PictureBox skillRank = new PictureBox();
-                    skillRank.Location = new System.Drawing.Point(142 + 13 * i, 17 + 15 * j);
-                    skillRank.Name = "pct" + i.ToString() + "Rank" + j.ToString();
-                    skillRank.Size = new System.Drawing.Size(13, 13);
-                    skillRank.Image = Properties.Resources.green_transparent;
-                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
-                    skillRank.Visible = true;
-                    panelSkills.Controls.Add(skillRank);
-                }
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    PictureBox skillRank = new PictureBox();
-                    skillRank.Location = new System.Drawing.Point(142 + 13 * i, 304 + 15 * j);
-                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
-                    skillRank.Size = new System.Drawing.Size(13, 13);
-                    skillRank.Image = Properties.Resources.green_transparent;
-                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
-                    skillRank.Visible = true;
-                    panelSkills.Controls.Add(skillRank);
-                }
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 6; j++)
-                {
-                    PictureBox skillRank = new PictureBox();
-                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 17 + 15 * j);
-                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
-                    skillRank.Size = new System.Drawing.Size(13, 13);
-                    skillRank.Image = Properties.Resources.green_transparent;
-                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
-                    skillRank.Visible = true;
-                    panelSkills.Controls.Add(skillRank);
-                }
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    PictureBox skillRank = new PictureBox();
-                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 122 + 15 * j);
-                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
-                    skillRank.Size = new System.Drawing.Size(13, 13);
-                    skillRank.Image = Properties.Resources.green_transparent;
-                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
-                    skillRank.Visible = true;
-                    panelSkills.Controls.Add(skillRank);
-                }
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    PictureBox skillRank = new PictureBox();
-                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 212 + 15 * j);
-                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
-                    skillRank.Size = new System.Drawing.Size(13, 13);
-                    skillRank.Image = Properties.Resources.green_transparent;
-                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
-                    skillRank.Visible = true;
-                    panelSkills.Controls.Add(skillRank);
-                }
-            }
-            for (int i = 0; i < 5; i++)
-            {
-                for (int j = 0; j < 5; j++)
-                {
-                    PictureBox skillRank = new PictureBox();
-                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 303 + 15 * j);
-                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
-                    skillRank.Size = new System.Drawing.Size(13, 13);
-                    skillRank.Image = Properties.Resources.green_transparent;
-                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
-                    skillRank.Visible = true;
-                    panelSkills.Controls.Add(skillRank);
-                }
-            }
-
-            //this should be close to working. I might need to get rid of name and refactor everything to the array position.
-            for (int i = 0; i < 18; i++)
-            {
-                skillLinksGeneral[i] = new LinkLabel();
-                skillLinksGeneral[i].Location = new System.Drawing.Point(3, 17 + i * 15);
-                skillLinksGeneral[i].Name = "linkSkill" + i.ToString();
-                skillLinksGeneral[i].Height = 13;
-                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                panelSkills.Controls.Add(skillLinksGeneral[i]);
-            }
-            for (int i = 18; i < 23; i++)
-            {
-                skillLinksGeneral[i] = new LinkLabel();
-                skillLinksGeneral[i].Location = new System.Drawing.Point(3, 304 + (i - 18) * 15);
-                skillLinksGeneral[i].Name = "linkSkill" + (i).ToString();
-                skillLinksGeneral[i].Height = 13;
-                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                panelSkills.Controls.Add(skillLinksGeneral[i]);
-            }
-            for (int i = 23; i < 29; i++)
-            {
-                skillLinksGeneral[i] = new LinkLabel();
-                skillLinksGeneral[i].Location = new System.Drawing.Point(215, 17 + (i - 23) * 15);
-                skillLinksGeneral[i].Name = "linkSkill" + i.ToString();
-                skillLinksGeneral[i].Height = 13;
-                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                panelSkills.Controls.Add(skillLinksGeneral[i]);
-            }
-            for (int i = 29; i < 34; i++)
-            {
-                skillLinksGeneral[i] = new LinkLabel();
-                skillLinksGeneral[i].Location = new System.Drawing.Point(215, 122 + (i - 29) * 15);
-                skillLinksGeneral[i].Name = "linkSkill" + i.ToString();
-                skillLinksGeneral[i].Height = 13;
-                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                panelSkills.Controls.Add(skillLinksGeneral[i]);
-            }
-            for (int i = 34; i < 39; i++)
-            {
-                skillLinksGeneral[i] = new LinkLabel();
-                skillLinksGeneral[i].Location = new System.Drawing.Point(215, 212 + (i - 34) * 15);
-                skillLinksGeneral[i].Name = "linkSkill" + i.ToString();
-                skillLinksGeneral[i].Height = 13;
-                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                panelSkills.Controls.Add(skillLinksGeneral[i]);
-            }
-            for (int i = 39; i < 44; i++)
-            {
-                skillLinksGeneral[i] = new LinkLabel();
-                skillLinksGeneral[i].Location = new System.Drawing.Point(215, 303 + (i - 39) * 15);
-                skillLinksGeneral[i].Name = "linkSkill" + i.ToString();
-                skillLinksGeneral[i].Height = 13;
-                skillLinksGeneral[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinksGeneral[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinksGeneral[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                panelSkills.Controls.Add(skillLinksGeneral[i]);
-            }
-
+            generateDiceIcons();
+            //generateSkillLinks();
             updateTalents();
         }
 
@@ -432,6 +280,8 @@ namespace Genesys_Character_Builder
                     Array.Copy(androidSkills, myCharacter.Skills, myCharacter.Skills.Length);
                     Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
                     Array.Copy(weaponsList, myCharacter.Weapons, myCharacter.Weapons.Length);
+                    
+                    //generateSkillLinks();
                     break;
                 case "Terrinoth":
                     this.BackgroundImage = Properties.Resources.terrinoth_background;
@@ -463,6 +313,8 @@ namespace Genesys_Character_Builder
                     lblSkillsMagic.Text = "Magic Skills";
                     Array.Copy(terrinothSkills, myCharacter.Skills, myCharacter.Skills.Length);
                     Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
+                    
+                    //generateSkillLinks();
                     break;
             }
             updateLabelColors();
@@ -1120,6 +972,7 @@ namespace Genesys_Character_Builder
                     lblDefenseRangedLabel.Visible = true;
                     lblTotalXPLabel.Visible = false;
                     lblRemainingXPLabel.Visible = false;
+
                     linkSkill0.LinkColor = Color.Blue;
                     linkSkill1.LinkColor = Color.Blue;
                     linkSkill2.LinkColor = Color.Blue;
@@ -1164,6 +1017,7 @@ namespace Genesys_Character_Builder
                     linkSkill41.LinkColor = Color.Blue;
                     linkSkill42.LinkColor = Color.Blue;
                     linkSkill43.LinkColor = Color.Blue;
+                    
                     linkTalent0.LinkColor = Color.Blue;
                     linkTalent1.LinkColor = Color.Blue;
                     linkTalent2.LinkColor = Color.Blue;
@@ -1227,6 +1081,7 @@ namespace Genesys_Character_Builder
                     lblDefenseRangedLabel.Visible = true;
                     lblTotalXPLabel.Visible = true;
                     lblRemainingXPLabel.Visible = true;
+                   
                     linkSkill0.LinkColor = Color.SaddleBrown;
                     linkSkill1.LinkColor = Color.SaddleBrown;
                     linkSkill2.LinkColor = Color.SaddleBrown;
@@ -1271,6 +1126,7 @@ namespace Genesys_Character_Builder
                     linkSkill41.LinkColor = Color.SaddleBrown;
                     linkSkill42.LinkColor = Color.SaddleBrown;
                     linkSkill43.LinkColor = Color.SaddleBrown;
+                    
                     linkTalent0.LinkColor = Color.SaddleBrown;
                     linkTalent1.LinkColor = Color.SaddleBrown;
                     linkTalent2.LinkColor = Color.SaddleBrown;
@@ -1790,6 +1646,217 @@ namespace Genesys_Character_Builder
             txtWeaponsAndArmor.Text = myCharacter.WeaponsAndArmor;
             txtPersonalGear.Text = myCharacter.PersonalGear;
             txtCurrency.Text = myCharacter.Currency;
+        }
+
+        /*this may be problematic. it looks like LinkLabels may not be treated as objects,
+         * limiting what i can do to manipulate them (by setting, for example)
+        private void generateSkillLinks()
+        {
+            //this should be close to working. I might need to get rid of name and refactor everything to the array position.
+            for (int i = 0; i < 18; i++)
+            {
+                skillLinks[i] = new LinkLabel();
+                skillLinks[i].Location = new System.Drawing.Point(3, 17 + i * 15);
+                //skillLinks[i].Name = "linkSkill" + i.ToString();
+                skillLinks[i].Height = 13;
+                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                if (myCharacter.Setting == "Android")
+                {
+                    skillLinks[i].LinkColor = Color.Blue;
+                }
+                else if (myCharacter.Setting == "Terrinoth")
+                {
+                    skillLinks[i].LinkColor = Color.SaddleBrown;
+                }
+                panelSkills.Controls.Add(skillLinks[i]);
+            }
+            for (int i = 18; i < 23; i++)
+            {
+                skillLinks[i] = new LinkLabel();
+                skillLinks[i].Location = new System.Drawing.Point(3, 304 + (i - 18) * 15);
+                skillLinks[i].Name = "linkSkill" + (i).ToString();
+                skillLinks[i].Height = 13;
+                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                if (myCharacter.Setting == "Android")
+                {
+                    skillLinks[i].LinkColor = Color.Blue;
+                }
+                else if (myCharacter.Setting == "Terrinoth")
+                {
+                    skillLinks[i].LinkColor = Color.SaddleBrown;
+                }
+                panelSkills.Controls.Add(skillLinks[i]);
+            }
+            for (int i = 23; i < 29; i++)
+            {
+                skillLinks[i] = new LinkLabel();
+                skillLinks[i].Location = new System.Drawing.Point(215, 17 + (i - 23) * 15);
+                skillLinks[i].Name = "linkSkill" + i.ToString();
+                skillLinks[i].Height = 13;
+                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                if (myCharacter.Setting == "Android")
+                {
+                    skillLinks[i].LinkColor = Color.Blue;
+                }
+                else if (myCharacter.Setting == "Terrinoth")
+                {
+                    skillLinks[i].LinkColor = Color.SaddleBrown;
+                }
+                panelSkills.Controls.Add(skillLinks[i]);
+            }
+            for (int i = 29; i < 34; i++)
+            {
+                skillLinks[i] = new LinkLabel();
+                skillLinks[i].Location = new System.Drawing.Point(215, 122 + (i - 29) * 15);
+                skillLinks[i].Name = "linkSkill" + i.ToString();
+                skillLinks[i].Height = 13;
+                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                if (myCharacter.Setting == "Android")
+                {
+                    skillLinks[i].LinkColor = Color.Blue;
+                }
+                else if (myCharacter.Setting == "Terrinoth")
+                {
+                    skillLinks[i].LinkColor = Color.SaddleBrown;
+                }
+                panelSkills.Controls.Add(skillLinks[i]);
+            }
+            for (int i = 34; i < 39; i++)
+            {
+                skillLinks[i] = new LinkLabel();
+                skillLinks[i].Location = new System.Drawing.Point(215, 212 + (i - 34) * 15);
+                skillLinks[i].Name = "linkSkill" + i.ToString();
+                skillLinks[i].Height = 13;
+                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                if (myCharacter.Setting == "Android")
+                {
+                    skillLinks[i].LinkColor = Color.Blue;
+                }
+                else if (myCharacter.Setting == "Terrinoth")
+                {
+                    skillLinks[i].LinkColor = Color.SaddleBrown;
+                }
+                panelSkills.Controls.Add(skillLinks[i]);
+            }
+            for (int i = 39; i < 44; i++)
+            {
+                skillLinks[i] = new LinkLabel();
+                skillLinks[i].Location = new System.Drawing.Point(215, 303 + (i - 39) * 15);
+                skillLinks[i].Name = "linkSkill" + i.ToString();
+                skillLinks[i].Height = 13;
+                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
+                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+                if (myCharacter.Setting == "Android")
+                {
+                    skillLinks[i].LinkColor = Color.Blue;
+                }
+                else if (myCharacter.Setting == "Terrinoth")
+                {
+                    skillLinks[i].LinkColor = Color.SaddleBrown;
+                }
+                panelSkills.Controls.Add(skillLinks[i]);
+            }
+        }
+        */
+
+        private void generateDiceIcons()
+        {
+            //I may change this to an array to simplify the calculations to change the dice images
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 18; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(142 + 13 * i, 17 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + j.ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(142 + 13 * i, 304 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 6; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 17 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 122 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 212 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    PictureBox skillRank = new PictureBox();
+                    skillRank.Location = new System.Drawing.Point(354 + 13 * i, 303 + 15 * j);
+                    skillRank.Name = "pct" + i.ToString() + "Rank" + (j + 18).ToString();
+                    skillRank.Size = new System.Drawing.Size(13, 13);
+                    skillRank.Image = Properties.Resources.green_transparent;
+                    skillRank.SizeMode = PictureBoxSizeMode.StretchImage;
+                    skillRank.Visible = true;
+                    panelSkills.Controls.Add(skillRank);
+                }
+            }
         }
     }
 }
