@@ -46,6 +46,7 @@ namespace Genesys_Character_Builder
         private string motivationFlaw;
         private string motivationDesire;
         private string motivationFear;
+        private string motivationBackground;
 
         private string gender;
         private string age;
@@ -63,7 +64,7 @@ namespace Genesys_Character_Builder
                 int defenseMelee, string[,] criticalInjuries, int totalXP, int remainXP, int usedXP,
                 SkillsTemplate[] skills, TalentsTemplate[] talents, string[,] abilities, WeaponsTemplate[] weapons,
                 string weaponsAndArmor, string personalGear, string currency, string motivationStrength,
-                string motivationFlaw, string motivationDesire, string motivationFear, string gender, string age,
+                string motivationFlaw, string motivationDesire, string motivationFear, string motivationBackground, string gender, string age,
                 string height, string build, string hair, string eyes, string features)
         {
             this.Setting = setting;
@@ -104,6 +105,7 @@ namespace Genesys_Character_Builder
             this.MotivationFlaw = motivationFlaw;
             this.MotivationDesire = motivationDesire;
             this.MotivationFear = motivationFear;
+            this.motivationBackground = motivationBackground;
 
             this.Gender = gender;
             this.Age = age;
@@ -152,6 +154,7 @@ namespace Genesys_Character_Builder
         public string MotivationFlaw { get; set; }
         public string MotivationDesire { get; set; }
         public string MotivationFear { get; set; }
+        public string MotivationBackground { get; set; }
 
         public string Gender { get; set; }
         public string Age { get; set; }

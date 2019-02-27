@@ -65,6 +65,7 @@ namespace Genesys_Character_Builder
             MotivationFlaw = "",
             MotivationDesire = "",
             MotivationFear = "",
+            MotivationBackground = "",
 
             Gender = "",
             Age = "",
@@ -258,19 +259,6 @@ namespace Genesys_Character_Builder
             generateDiceIcons();
             //generateSkillLinks();
             updateTalents();
-
-            /*
-            try
-            {
-                pictureBoxPortrait.Image = Image.FromFile("c:\\portrait.jpg");
-                pictureBoxPortrait.SizeMode = PictureBoxSizeMode.StretchImage;
-            }
-            catch
-            {
-                pictureBoxPortrait.Image = null;
-            }
-            */
-            
         }
 
         private void cboSetting_SelectedIndexChanged(object sender, EventArgs e)
@@ -293,8 +281,6 @@ namespace Genesys_Character_Builder
                     Array.Copy(androidSkills, myCharacter.Skills, myCharacter.Skills.Length);
                     Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
                     Array.Copy(weaponsList, myCharacter.Weapons, myCharacter.Weapons.Length);
-                    
-                    //generateSkillLinks();
                     break;
                 case "Terrinoth":
                     this.BackgroundImage = Properties.Resources.terrinoth_background;
@@ -326,8 +312,6 @@ namespace Genesys_Character_Builder
                     lblSkillsMagic.Text = "Magic Skills";
                     Array.Copy(terrinothSkills, myCharacter.Skills, myCharacter.Skills.Length);
                     Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
-                    
-                    //generateSkillLinks();
                     break;
             }
             updateLabelColors();
@@ -1522,7 +1506,9 @@ namespace Genesys_Character_Builder
         private void btnSkills_Click(object sender, EventArgs e)
         {
             panelSkills.Visible = true;
+            panelSkillDetail.Visible = false;
             panelTalents.Visible = false;
+            panelAbilities.Visible = false;
             panelGear.Visible = false;
             panelMotivations.Visible = false;
         }
@@ -1549,6 +1535,7 @@ namespace Genesys_Character_Builder
         {
             panelSkills.Visible = false;
             panelTalents.Visible = true;
+            panelTalentDetail.Visible = false;
             panelGear.Visible = false;
             panelMotivations.Visible = false;
         }
@@ -1579,10 +1566,20 @@ namespace Genesys_Character_Builder
         {
             panelSkills.Visible = false;
             panelTalents.Visible = false;
+            panelAbilities.Visible = false;
             panelGear.Visible = true;
             panelMotivations.Visible = false;
 
             loadGearTab();
+        }
+
+        private void btnAbilities_Click(object sender, EventArgs e)
+        {
+            panelSkills.Visible = false;
+            panelTalents.Visible = false;
+            panelAbilities.Visible = true;
+            panelGear.Visible = false;
+            panelMotivations.Visible = false;
         }
 
         private void btnGearSave_Click(object sender, EventArgs e)
@@ -1668,8 +1665,22 @@ namespace Genesys_Character_Builder
         {
             panelSkills.Visible = false;
             panelTalents.Visible = false;
+            panelAbilities.Visible = false;
             panelGear.Visible = false;
             panelMotivations.Visible = true;
+
+            txtMotivationStrength.Text = myCharacter.MotivationStrength;
+            txtMotivationFlaw.Text = myCharacter.MotivationFlaw;
+            txtMotivationDesire.Text = myCharacter.MotivationDesire;
+            txtMotivationFear.Text = myCharacter.MotivationFear;
+
+            txtGender.Text = myCharacter.Gender;
+            txtAge.Text = myCharacter.Age;
+            txtHeight.Text = myCharacter.Height;
+            txtBuild.Text = myCharacter.Build;
+            txtHair.Text = myCharacter.Hair;
+            txtEyes.Text = myCharacter.Eyes;
+            txtNotableFeatures.Text = myCharacter.Features;
         }
 
         /*this may be problematic. it looks like LinkLabels may not be treated as objects,
@@ -1883,6 +1894,25 @@ namespace Genesys_Character_Builder
             }
         }
 
-        
+        private void btnMotivationSave_Click(object sender, EventArgs e)
+        {
+            myCharacter.MotivationStrength = txtMotivationStrength.Text;
+            myCharacter.MotivationFlaw = txtMotivationFlaw.Text;
+            myCharacter.MotivationDesire = txtMotivationDesire.Text;
+            myCharacter.MotivationFear = txtMotivationFear.Text;
+
+            myCharacter.Gender = txtGender.Text;
+            myCharacter.Age = txtAge.Text;
+            myCharacter.Height = txtHeight.Text;
+            myCharacter.Build = txtBuild.Text;
+            myCharacter.Hair = txtHair.Text;
+            myCharacter.Eyes = txtEyes.Text;
+            myCharacter.Features = txtNotableFeatures.Text;
+        }
+
+        private void btnMotivationsCancel_Click(object sender, EventArgs e)
+        {
+            panelMotivations.Visible = false;
+        }
     }
 }

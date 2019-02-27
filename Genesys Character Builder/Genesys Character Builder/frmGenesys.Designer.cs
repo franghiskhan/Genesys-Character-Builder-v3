@@ -338,33 +338,35 @@
             this.lblPersonalGear = new System.Windows.Forms.Label();
             this.btnMotivations = new System.Windows.Forms.Button();
             this.panelMotivations = new System.Windows.Forms.Panel();
-            this.pictureBoxPortrait = new System.Windows.Forms.PictureBox();
-            this.txtMotivationStrength = new System.Windows.Forms.TextBox();
-            this.lblMotivationStrength = new System.Windows.Forms.Label();
-            this.lblMotivationFlaw = new System.Windows.Forms.Label();
-            this.txtMotivationFlaw = new System.Windows.Forms.TextBox();
-            this.lblMotivationDesire = new System.Windows.Forms.Label();
-            this.txtMotivationDesire = new System.Windows.Forms.TextBox();
-            this.lblMotivationFear = new System.Windows.Forms.Label();
-            this.txtMotivationFear = new System.Windows.Forms.TextBox();
-            this.lblMotivationBackground = new System.Windows.Forms.Label();
-            this.txtMotivationBackground = new System.Windows.Forms.TextBox();
-            this.lblPortrait = new System.Windows.Forms.Label();
-            this.lblDescription = new System.Windows.Forms.Label();
-            this.lblGender = new System.Windows.Forms.Label();
-            this.lblAge = new System.Windows.Forms.Label();
-            this.lblBuild = new System.Windows.Forms.Label();
-            this.lblHeight = new System.Windows.Forms.Label();
+            this.txtNotableFeatures = new System.Windows.Forms.TextBox();
+            this.lblNotableFeatures = new System.Windows.Forms.Label();
             this.lblEyes = new System.Windows.Forms.Label();
             this.lblHair = new System.Windows.Forms.Label();
+            this.lblBuild = new System.Windows.Forms.Label();
+            this.lblHeight = new System.Windows.Forms.Label();
+            this.lblAge = new System.Windows.Forms.Label();
+            this.lblGender = new System.Windows.Forms.Label();
+            this.txtEyes = new System.Windows.Forms.TextBox();
+            this.txtHair = new System.Windows.Forms.TextBox();
+            this.txtBuild = new System.Windows.Forms.TextBox();
+            this.txtHeight = new System.Windows.Forms.TextBox();
+            this.txtAge = new System.Windows.Forms.TextBox();
+            this.lblDescription = new System.Windows.Forms.Label();
+            this.lblMotivationBackground = new System.Windows.Forms.Label();
+            this.txtMotivationBackground = new System.Windows.Forms.TextBox();
+            this.lblMotivationFear = new System.Windows.Forms.Label();
+            this.txtMotivationFear = new System.Windows.Forms.TextBox();
+            this.lblMotivationDesire = new System.Windows.Forms.Label();
+            this.txtMotivationDesire = new System.Windows.Forms.TextBox();
+            this.lblMotivationFlaw = new System.Windows.Forms.Label();
+            this.txtMotivationFlaw = new System.Windows.Forms.TextBox();
+            this.lblMotivationStrength = new System.Windows.Forms.Label();
+            this.txtMotivationStrength = new System.Windows.Forms.TextBox();
             this.txtGender = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.lblNotableFeatures = new System.Windows.Forms.Label();
-            this.txtNotableFeatures = new System.Windows.Forms.TextBox();
+            this.btnMotivationsCancel = new System.Windows.Forms.Button();
+            this.btnMotivationSave = new System.Windows.Forms.Button();
+            this.btnAbilities = new System.Windows.Forms.Button();
+            this.panelAbilities = new System.Windows.Forms.Panel();
             this.panelSkillDetail.SuspendLayout();
             this.panelTalentDetail.SuspendLayout();
             this.panelTalent24.SuspendLayout();
@@ -397,7 +399,6 @@
             this.panelGear.SuspendLayout();
             this.panel26.SuspendLayout();
             this.panelMotivations.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPortrait)).BeginInit();
             this.SuspendLayout();
             // 
             // lblDefenseMeleeLabel
@@ -1238,6 +1239,7 @@
             // txtSkillDescription
             // 
             this.txtSkillDescription.BackColor = System.Drawing.SystemColors.Info;
+            this.txtSkillDescription.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSkillDescription.Location = new System.Drawing.Point(3, 29);
             this.txtSkillDescription.Multiline = true;
             this.txtSkillDescription.Name = "txtSkillDescription";
@@ -1265,9 +1267,10 @@
             // txtSkill
             // 
             this.txtSkill.BackColor = System.Drawing.SystemColors.Info;
+            this.txtSkill.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSkill.Location = new System.Drawing.Point(3, 3);
             this.txtSkill.Name = "txtSkill";
-            this.txtSkill.Size = new System.Drawing.Size(115, 20);
+            this.txtSkill.Size = new System.Drawing.Size(115, 13);
             this.txtSkill.TabIndex = 0;
             this.txtSkill.Text = "Skill";
             // 
@@ -1973,14 +1976,16 @@
             // txtTalentPageNumber
             // 
             this.txtTalentPageNumber.BackColor = System.Drawing.SystemColors.Info;
+            this.txtTalentPageNumber.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTalentPageNumber.Location = new System.Drawing.Point(127, 99);
             this.txtTalentPageNumber.Name = "txtTalentPageNumber";
-            this.txtTalentPageNumber.Size = new System.Drawing.Size(75, 20);
+            this.txtTalentPageNumber.Size = new System.Drawing.Size(75, 13);
             this.txtTalentPageNumber.TabIndex = 15;
             // 
             // txtTalentDescription
             // 
             this.txtTalentDescription.BackColor = System.Drawing.SystemColors.Info;
+            this.txtTalentDescription.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTalentDescription.Location = new System.Drawing.Point(3, 24);
             this.txtTalentDescription.Multiline = true;
             this.txtTalentDescription.Name = "txtTalentDescription";
@@ -1990,9 +1995,10 @@
             // txtTalentName
             // 
             this.txtTalentName.BackColor = System.Drawing.SystemColors.Info;
+            this.txtTalentName.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTalentName.Location = new System.Drawing.Point(3, 3);
             this.txtTalentName.Name = "txtTalentName";
-            this.txtTalentName.Size = new System.Drawing.Size(140, 20);
+            this.txtTalentName.Size = new System.Drawing.Size(140, 13);
             this.txtTalentName.TabIndex = 12;
             // 
             // lblTier5
@@ -3699,7 +3705,7 @@
             // lblGear
             // 
             this.lblGear.BackColor = System.Drawing.SystemColors.Info;
-            this.lblGear.Location = new System.Drawing.Point(160, 244);
+            this.lblGear.Location = new System.Drawing.Point(235, 244);
             this.lblGear.Name = "lblGear";
             this.lblGear.Size = new System.Drawing.Size(75, 23);
             this.lblGear.TabIndex = 688;
@@ -3759,14 +3765,16 @@
             // txtCurrency
             // 
             this.txtCurrency.BackColor = System.Drawing.SystemColors.Info;
+            this.txtCurrency.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCurrency.Location = new System.Drawing.Point(57, 360);
             this.txtCurrency.Name = "txtCurrency";
-            this.txtCurrency.Size = new System.Drawing.Size(262, 20);
+            this.txtCurrency.Size = new System.Drawing.Size(262, 13);
             this.txtCurrency.TabIndex = 6;
             // 
             // txtPersonalGear
             // 
             this.txtPersonalGear.BackColor = System.Drawing.SystemColors.Info;
+            this.txtPersonalGear.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPersonalGear.Location = new System.Drawing.Point(323, 135);
             this.txtPersonalGear.Multiline = true;
             this.txtPersonalGear.Name = "txtPersonalGear";
@@ -3785,6 +3793,7 @@
             // txtWeaponsAndArmor
             // 
             this.txtWeaponsAndArmor.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponsAndArmor.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponsAndArmor.Location = new System.Drawing.Point(3, 135);
             this.txtWeaponsAndArmor.Multiline = true;
             this.txtWeaponsAndArmor.Name = "txtWeaponsAndArmor";
@@ -3831,193 +3840,217 @@
             // txtWeaponSpecial3
             // 
             this.txtWeaponSpecial3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSpecial3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponSpecial3.Location = new System.Drawing.Point(413, 82);
             this.txtWeaponSpecial3.Name = "txtWeaponSpecial3";
-            this.txtWeaponSpecial3.Size = new System.Drawing.Size(222, 20);
+            this.txtWeaponSpecial3.Size = new System.Drawing.Size(222, 13);
             this.txtWeaponSpecial3.TabIndex = 29;
             // 
             // txtWeaponRange3
             // 
             this.txtWeaponRange3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponRange3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponRange3.Location = new System.Drawing.Point(336, 82);
             this.txtWeaponRange3.Name = "txtWeaponRange3";
-            this.txtWeaponRange3.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponRange3.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponRange3.TabIndex = 28;
             // 
             // txtWeaponCrit3
             // 
             this.txtWeaponCrit3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponCrit3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponCrit3.Location = new System.Drawing.Point(284, 82);
             this.txtWeaponCrit3.Name = "txtWeaponCrit3";
-            this.txtWeaponCrit3.Size = new System.Drawing.Size(50, 20);
+            this.txtWeaponCrit3.Size = new System.Drawing.Size(50, 13);
             this.txtWeaponCrit3.TabIndex = 27;
             // 
             // txtWeaponDamage3
             // 
             this.txtWeaponDamage3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponDamage3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponDamage3.Location = new System.Drawing.Point(207, 82);
             this.txtWeaponDamage3.Name = "txtWeaponDamage3";
-            this.txtWeaponDamage3.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponDamage3.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponDamage3.TabIndex = 26;
             // 
             // txtWeaponSkill3
             // 
             this.txtWeaponSkill3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSkill3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponSkill3.Location = new System.Drawing.Point(130, 82);
             this.txtWeaponSkill3.Name = "txtWeaponSkill3";
-            this.txtWeaponSkill3.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponSkill3.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponSkill3.TabIndex = 25;
             // 
             // txtWeapon3
             // 
             this.txtWeapon3.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeapon3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeapon3.Location = new System.Drawing.Point(3, 82);
             this.txtWeapon3.Name = "txtWeapon3";
-            this.txtWeapon3.Size = new System.Drawing.Size(125, 20);
+            this.txtWeapon3.Size = new System.Drawing.Size(125, 13);
             this.txtWeapon3.TabIndex = 24;
             // 
             // txtWeaponSpecial2
             // 
             this.txtWeaponSpecial2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSpecial2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponSpecial2.Location = new System.Drawing.Point(413, 61);
             this.txtWeaponSpecial2.Name = "txtWeaponSpecial2";
-            this.txtWeaponSpecial2.Size = new System.Drawing.Size(222, 20);
+            this.txtWeaponSpecial2.Size = new System.Drawing.Size(222, 13);
             this.txtWeaponSpecial2.TabIndex = 23;
             // 
             // txtWeaponRange2
             // 
             this.txtWeaponRange2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponRange2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponRange2.Location = new System.Drawing.Point(336, 61);
             this.txtWeaponRange2.Name = "txtWeaponRange2";
-            this.txtWeaponRange2.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponRange2.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponRange2.TabIndex = 22;
             // 
             // txtWeaponCrit2
             // 
             this.txtWeaponCrit2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponCrit2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponCrit2.Location = new System.Drawing.Point(284, 61);
             this.txtWeaponCrit2.Name = "txtWeaponCrit2";
-            this.txtWeaponCrit2.Size = new System.Drawing.Size(50, 20);
+            this.txtWeaponCrit2.Size = new System.Drawing.Size(50, 13);
             this.txtWeaponCrit2.TabIndex = 21;
             // 
             // txtWeaponDamage2
             // 
             this.txtWeaponDamage2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponDamage2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponDamage2.Location = new System.Drawing.Point(207, 61);
             this.txtWeaponDamage2.Name = "txtWeaponDamage2";
-            this.txtWeaponDamage2.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponDamage2.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponDamage2.TabIndex = 20;
             // 
             // txtWeaponSkill2
             // 
             this.txtWeaponSkill2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSkill2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponSkill2.Location = new System.Drawing.Point(130, 61);
             this.txtWeaponSkill2.Name = "txtWeaponSkill2";
-            this.txtWeaponSkill2.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponSkill2.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponSkill2.TabIndex = 19;
             // 
             // txtWeapon2
             // 
             this.txtWeapon2.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeapon2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeapon2.Location = new System.Drawing.Point(3, 61);
             this.txtWeapon2.Name = "txtWeapon2";
-            this.txtWeapon2.Size = new System.Drawing.Size(125, 20);
+            this.txtWeapon2.Size = new System.Drawing.Size(125, 13);
             this.txtWeapon2.TabIndex = 18;
             // 
             // txtWeaponSpecial1
             // 
             this.txtWeaponSpecial1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSpecial1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponSpecial1.Location = new System.Drawing.Point(413, 40);
             this.txtWeaponSpecial1.Name = "txtWeaponSpecial1";
-            this.txtWeaponSpecial1.Size = new System.Drawing.Size(222, 20);
+            this.txtWeaponSpecial1.Size = new System.Drawing.Size(222, 13);
             this.txtWeaponSpecial1.TabIndex = 17;
             // 
             // txtWeaponRange1
             // 
             this.txtWeaponRange1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponRange1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponRange1.Location = new System.Drawing.Point(336, 40);
             this.txtWeaponRange1.Name = "txtWeaponRange1";
-            this.txtWeaponRange1.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponRange1.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponRange1.TabIndex = 16;
             // 
             // txtWeaponCrit1
             // 
             this.txtWeaponCrit1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponCrit1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponCrit1.Location = new System.Drawing.Point(284, 40);
             this.txtWeaponCrit1.Name = "txtWeaponCrit1";
-            this.txtWeaponCrit1.Size = new System.Drawing.Size(50, 20);
+            this.txtWeaponCrit1.Size = new System.Drawing.Size(50, 13);
             this.txtWeaponCrit1.TabIndex = 15;
             // 
             // txtWeaponDamage1
             // 
             this.txtWeaponDamage1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponDamage1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponDamage1.Location = new System.Drawing.Point(207, 40);
             this.txtWeaponDamage1.Name = "txtWeaponDamage1";
-            this.txtWeaponDamage1.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponDamage1.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponDamage1.TabIndex = 14;
             // 
             // txtWeaponSkill1
             // 
             this.txtWeaponSkill1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSkill1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponSkill1.Location = new System.Drawing.Point(130, 40);
             this.txtWeaponSkill1.Name = "txtWeaponSkill1";
-            this.txtWeaponSkill1.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponSkill1.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponSkill1.TabIndex = 13;
             // 
             // txtWeapon1
             // 
             this.txtWeapon1.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeapon1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeapon1.Location = new System.Drawing.Point(3, 40);
             this.txtWeapon1.Name = "txtWeapon1";
-            this.txtWeapon1.Size = new System.Drawing.Size(125, 20);
+            this.txtWeapon1.Size = new System.Drawing.Size(125, 13);
             this.txtWeapon1.TabIndex = 12;
             // 
             // txtWeaponSpecial0
             // 
             this.txtWeaponSpecial0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSpecial0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponSpecial0.Location = new System.Drawing.Point(413, 19);
             this.txtWeaponSpecial0.Name = "txtWeaponSpecial0";
-            this.txtWeaponSpecial0.Size = new System.Drawing.Size(222, 20);
+            this.txtWeaponSpecial0.Size = new System.Drawing.Size(222, 13);
             this.txtWeaponSpecial0.TabIndex = 11;
             // 
             // txtWeaponRange0
             // 
             this.txtWeaponRange0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponRange0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponRange0.Location = new System.Drawing.Point(336, 19);
             this.txtWeaponRange0.Name = "txtWeaponRange0";
-            this.txtWeaponRange0.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponRange0.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponRange0.TabIndex = 10;
             // 
             // txtWeaponCrit0
             // 
             this.txtWeaponCrit0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponCrit0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponCrit0.Location = new System.Drawing.Point(284, 19);
             this.txtWeaponCrit0.Name = "txtWeaponCrit0";
-            this.txtWeaponCrit0.Size = new System.Drawing.Size(50, 20);
+            this.txtWeaponCrit0.Size = new System.Drawing.Size(50, 13);
             this.txtWeaponCrit0.TabIndex = 9;
             // 
             // txtWeaponDamage0
             // 
             this.txtWeaponDamage0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponDamage0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponDamage0.Location = new System.Drawing.Point(207, 19);
             this.txtWeaponDamage0.Name = "txtWeaponDamage0";
-            this.txtWeaponDamage0.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponDamage0.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponDamage0.TabIndex = 8;
             // 
             // txtWeaponSkill0
             // 
             this.txtWeaponSkill0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeaponSkill0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeaponSkill0.Location = new System.Drawing.Point(130, 19);
             this.txtWeaponSkill0.Name = "txtWeaponSkill0";
-            this.txtWeaponSkill0.Size = new System.Drawing.Size(75, 20);
+            this.txtWeaponSkill0.Size = new System.Drawing.Size(75, 13);
             this.txtWeaponSkill0.TabIndex = 7;
             // 
             // txtWeapon0
             // 
             this.txtWeapon0.BackColor = System.Drawing.SystemColors.Info;
+            this.txtWeapon0.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtWeapon0.Location = new System.Drawing.Point(3, 19);
             this.txtWeapon0.Name = "txtWeapon0";
-            this.txtWeapon0.Size = new System.Drawing.Size(125, 20);
+            this.txtWeapon0.Size = new System.Drawing.Size(125, 13);
             this.txtWeapon0.TabIndex = 6;
             // 
             // lblWeaponsSpecial
@@ -4085,17 +4118,19 @@
             // btnMotivations
             // 
             this.btnMotivations.BackColor = System.Drawing.SystemColors.Info;
-            this.btnMotivations.Location = new System.Drawing.Point(237, 244);
+            this.btnMotivations.Location = new System.Drawing.Point(310, 244);
             this.btnMotivations.Name = "btnMotivations";
             this.btnMotivations.Size = new System.Drawing.Size(75, 23);
             this.btnMotivations.TabIndex = 690;
-            this.btnMotivations.Text = "&About";
+            this.btnMotivations.Text = "&Motivations";
             this.btnMotivations.UseVisualStyleBackColor = false;
             this.btnMotivations.Click += new System.EventHandler(this.btnMotivations_Click);
             // 
             // panelMotivations
             // 
             this.panelMotivations.BackColor = System.Drawing.Color.Transparent;
+            this.panelMotivations.Controls.Add(this.btnMotivationSave);
+            this.panelMotivations.Controls.Add(this.btnMotivationsCancel);
             this.panelMotivations.Controls.Add(this.txtNotableFeatures);
             this.panelMotivations.Controls.Add(this.lblNotableFeatures);
             this.panelMotivations.Controls.Add(this.lblEyes);
@@ -4104,13 +4139,12 @@
             this.panelMotivations.Controls.Add(this.lblHeight);
             this.panelMotivations.Controls.Add(this.lblAge);
             this.panelMotivations.Controls.Add(this.lblGender);
-            this.panelMotivations.Controls.Add(this.textBox5);
-            this.panelMotivations.Controls.Add(this.textBox4);
-            this.panelMotivations.Controls.Add(this.textBox3);
-            this.panelMotivations.Controls.Add(this.textBox2);
-            this.panelMotivations.Controls.Add(this.textBox1);
+            this.panelMotivations.Controls.Add(this.txtEyes);
+            this.panelMotivations.Controls.Add(this.txtHair);
+            this.panelMotivations.Controls.Add(this.txtBuild);
+            this.panelMotivations.Controls.Add(this.txtHeight);
+            this.panelMotivations.Controls.Add(this.txtAge);
             this.panelMotivations.Controls.Add(this.lblDescription);
-            this.panelMotivations.Controls.Add(this.lblPortrait);
             this.panelMotivations.Controls.Add(this.lblMotivationBackground);
             this.panelMotivations.Controls.Add(this.txtMotivationBackground);
             this.panelMotivations.Controls.Add(this.lblMotivationFear);
@@ -4121,7 +4155,6 @@
             this.panelMotivations.Controls.Add(this.txtMotivationFlaw);
             this.panelMotivations.Controls.Add(this.lblMotivationStrength);
             this.panelMotivations.Controls.Add(this.txtMotivationStrength);
-            this.panelMotivations.Controls.Add(this.pictureBoxPortrait);
             this.panelMotivations.Controls.Add(this.txtGender);
             this.panelMotivations.Location = new System.Drawing.Point(10, 265);
             this.panelMotivations.Name = "panelMotivations";
@@ -4129,85 +4162,148 @@
             this.panelMotivations.TabIndex = 691;
             this.panelMotivations.Visible = false;
             // 
-            // pictureBoxPortrait
+            // txtNotableFeatures
             // 
-            this.pictureBoxPortrait.Location = new System.Drawing.Point(480, 22);
-            this.pictureBoxPortrait.Name = "pictureBoxPortrait";
-            this.pictureBoxPortrait.Size = new System.Drawing.Size(150, 150);
-            this.pictureBoxPortrait.TabIndex = 0;
-            this.pictureBoxPortrait.TabStop = false;
+            this.txtNotableFeatures.BackColor = System.Drawing.SystemColors.Info;
+            this.txtNotableFeatures.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNotableFeatures.Location = new System.Drawing.Point(480, 170);
+            this.txtNotableFeatures.Multiline = true;
+            this.txtNotableFeatures.Name = "txtNotableFeatures";
+            this.txtNotableFeatures.Size = new System.Drawing.Size(150, 174);
+            this.txtNotableFeatures.TabIndex = 26;
             // 
-            // txtMotivationStrength
+            // lblNotableFeatures
             // 
-            this.txtMotivationStrength.BackColor = System.Drawing.SystemColors.Info;
-            this.txtMotivationStrength.Location = new System.Drawing.Point(10, 24);
-            this.txtMotivationStrength.Multiline = true;
-            this.txtMotivationStrength.Name = "txtMotivationStrength";
-            this.txtMotivationStrength.Size = new System.Drawing.Size(225, 100);
-            this.txtMotivationStrength.TabIndex = 1;
+            this.lblNotableFeatures.Location = new System.Drawing.Point(477, 154);
+            this.lblNotableFeatures.Name = "lblNotableFeatures";
+            this.lblNotableFeatures.Size = new System.Drawing.Size(153, 13);
+            this.lblNotableFeatures.TabIndex = 25;
+            this.lblNotableFeatures.Text = "Notable Features";
+            this.lblNotableFeatures.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // lblMotivationStrength
+            // lblEyes
             // 
-            this.lblMotivationStrength.AutoSize = true;
-            this.lblMotivationStrength.Location = new System.Drawing.Point(9, 8);
-            this.lblMotivationStrength.Name = "lblMotivationStrength";
-            this.lblMotivationStrength.Size = new System.Drawing.Size(50, 13);
-            this.lblMotivationStrength.TabIndex = 2;
-            this.lblMotivationStrength.Text = "Strength:";
+            this.lblEyes.AutoSize = true;
+            this.lblEyes.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEyes.Location = new System.Drawing.Point(473, 132);
+            this.lblEyes.Name = "lblEyes";
+            this.lblEyes.Size = new System.Drawing.Size(29, 12);
+            this.lblEyes.TabIndex = 18;
+            this.lblEyes.Text = "Eyes:";
             // 
-            // lblMotivationFlaw
+            // lblHair
             // 
-            this.lblMotivationFlaw.AutoSize = true;
-            this.lblMotivationFlaw.Location = new System.Drawing.Point(241, 8);
-            this.lblMotivationFlaw.Name = "lblMotivationFlaw";
-            this.lblMotivationFlaw.Size = new System.Drawing.Size(32, 13);
-            this.lblMotivationFlaw.TabIndex = 4;
-            this.lblMotivationFlaw.Text = "Flaw:";
+            this.lblHair.AutoSize = true;
+            this.lblHair.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHair.Location = new System.Drawing.Point(473, 110);
+            this.lblHair.Name = "lblHair";
+            this.lblHair.Size = new System.Drawing.Size(25, 12);
+            this.lblHair.TabIndex = 17;
+            this.lblHair.Text = "Hair:";
             // 
-            // txtMotivationFlaw
+            // lblBuild
             // 
-            this.txtMotivationFlaw.BackColor = System.Drawing.SystemColors.Info;
-            this.txtMotivationFlaw.Location = new System.Drawing.Point(242, 24);
-            this.txtMotivationFlaw.Multiline = true;
-            this.txtMotivationFlaw.Name = "txtMotivationFlaw";
-            this.txtMotivationFlaw.Size = new System.Drawing.Size(225, 100);
-            this.txtMotivationFlaw.TabIndex = 3;
+            this.lblBuild.AutoSize = true;
+            this.lblBuild.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuild.Location = new System.Drawing.Point(473, 88);
+            this.lblBuild.Name = "lblBuild";
+            this.lblBuild.Size = new System.Drawing.Size(28, 12);
+            this.lblBuild.TabIndex = 16;
+            this.lblBuild.Text = "Build:";
             // 
-            // lblMotivationDesire
+            // lblHeight
             // 
-            this.lblMotivationDesire.AutoSize = true;
-            this.lblMotivationDesire.Location = new System.Drawing.Point(9, 132);
-            this.lblMotivationDesire.Name = "lblMotivationDesire";
-            this.lblMotivationDesire.Size = new System.Drawing.Size(40, 13);
-            this.lblMotivationDesire.TabIndex = 6;
-            this.lblMotivationDesire.Text = "Desire:";
+            this.lblHeight.AutoSize = true;
+            this.lblHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeight.Location = new System.Drawing.Point(473, 66);
+            this.lblHeight.Name = "lblHeight";
+            this.lblHeight.Size = new System.Drawing.Size(35, 12);
+            this.lblHeight.TabIndex = 15;
+            this.lblHeight.Text = "Height:";
             // 
-            // txtMotivationDesire
+            // lblAge
             // 
-            this.txtMotivationDesire.BackColor = System.Drawing.SystemColors.Info;
-            this.txtMotivationDesire.Location = new System.Drawing.Point(10, 148);
-            this.txtMotivationDesire.Multiline = true;
-            this.txtMotivationDesire.Name = "txtMotivationDesire";
-            this.txtMotivationDesire.Size = new System.Drawing.Size(225, 100);
-            this.txtMotivationDesire.TabIndex = 5;
+            this.lblAge.AutoSize = true;
+            this.lblAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAge.Location = new System.Drawing.Point(473, 44);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(25, 12);
+            this.lblAge.TabIndex = 14;
+            this.lblAge.Text = "Age:";
             // 
-            // lblMotivationFear
+            // lblGender
             // 
-            this.lblMotivationFear.AutoSize = true;
-            this.lblMotivationFear.Location = new System.Drawing.Point(240, 132);
-            this.lblMotivationFear.Name = "lblMotivationFear";
-            this.lblMotivationFear.Size = new System.Drawing.Size(31, 13);
-            this.lblMotivationFear.TabIndex = 8;
-            this.lblMotivationFear.Text = "Fear:";
+            this.lblGender.AutoSize = true;
+            this.lblGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGender.Location = new System.Drawing.Point(473, 24);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(38, 12);
+            this.lblGender.TabIndex = 13;
+            this.lblGender.Text = "Gender:";
             // 
-            // txtMotivationFear
+            // txtEyes
             // 
-            this.txtMotivationFear.BackColor = System.Drawing.SystemColors.Info;
-            this.txtMotivationFear.Location = new System.Drawing.Point(241, 148);
-            this.txtMotivationFear.Multiline = true;
-            this.txtMotivationFear.Name = "txtMotivationFear";
-            this.txtMotivationFear.Size = new System.Drawing.Size(225, 100);
-            this.txtMotivationFear.TabIndex = 7;
+            this.txtEyes.BackColor = System.Drawing.SystemColors.Info;
+            this.txtEyes.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtEyes.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtEyes.Location = new System.Drawing.Point(517, 132);
+            this.txtEyes.Name = "txtEyes";
+            this.txtEyes.Size = new System.Drawing.Size(113, 11);
+            this.txtEyes.TabIndex = 24;
+            this.txtEyes.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtHair
+            // 
+            this.txtHair.BackColor = System.Drawing.SystemColors.Info;
+            this.txtHair.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHair.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHair.Location = new System.Drawing.Point(517, 110);
+            this.txtHair.Name = "txtHair";
+            this.txtHair.Size = new System.Drawing.Size(113, 11);
+            this.txtHair.TabIndex = 23;
+            this.txtHair.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtBuild
+            // 
+            this.txtBuild.BackColor = System.Drawing.SystemColors.Info;
+            this.txtBuild.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtBuild.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuild.Location = new System.Drawing.Point(517, 88);
+            this.txtBuild.Name = "txtBuild";
+            this.txtBuild.Size = new System.Drawing.Size(113, 11);
+            this.txtBuild.TabIndex = 22;
+            this.txtBuild.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtHeight
+            // 
+            this.txtHeight.BackColor = System.Drawing.SystemColors.Info;
+            this.txtHeight.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHeight.Location = new System.Drawing.Point(517, 66);
+            this.txtHeight.Name = "txtHeight";
+            this.txtHeight.Size = new System.Drawing.Size(113, 11);
+            this.txtHeight.TabIndex = 21;
+            this.txtHeight.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtAge
+            // 
+            this.txtAge.BackColor = System.Drawing.SystemColors.Info;
+            this.txtAge.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAge.Location = new System.Drawing.Point(517, 44);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(113, 11);
+            this.txtAge.TabIndex = 20;
+            this.txtAge.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // lblDescription
+            // 
+            this.lblDescription.AutoSize = true;
+            this.lblDescription.Location = new System.Drawing.Point(521, 8);
+            this.lblDescription.Name = "lblDescription";
+            this.lblDescription.Size = new System.Drawing.Size(109, 13);
+            this.lblDescription.TabIndex = 12;
+            this.lblDescription.Text = "Character Description";
             // 
             // lblMotivationBackground
             // 
@@ -4221,173 +4317,140 @@
             // txtMotivationBackground
             // 
             this.txtMotivationBackground.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMotivationBackground.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtMotivationBackground.Location = new System.Drawing.Point(10, 273);
             this.txtMotivationBackground.Multiline = true;
             this.txtMotivationBackground.Name = "txtMotivationBackground";
             this.txtMotivationBackground.Size = new System.Drawing.Size(457, 100);
             this.txtMotivationBackground.TabIndex = 9;
             // 
-            // lblPortrait
+            // lblMotivationFear
             // 
-            this.lblPortrait.AutoSize = true;
-            this.lblPortrait.Location = new System.Drawing.Point(541, 6);
-            this.lblPortrait.Name = "lblPortrait";
-            this.lblPortrait.Size = new System.Drawing.Size(89, 13);
-            this.lblPortrait.TabIndex = 11;
-            this.lblPortrait.Text = "Character Portrait";
+            this.lblMotivationFear.AutoSize = true;
+            this.lblMotivationFear.Location = new System.Drawing.Point(240, 132);
+            this.lblMotivationFear.Name = "lblMotivationFear";
+            this.lblMotivationFear.Size = new System.Drawing.Size(31, 13);
+            this.lblMotivationFear.TabIndex = 8;
+            this.lblMotivationFear.Text = "Fear:";
             // 
-            // lblDescription
+            // txtMotivationFear
             // 
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.Location = new System.Drawing.Point(521, 177);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(109, 13);
-            this.lblDescription.TabIndex = 12;
-            this.lblDescription.Text = "Character Description";
+            this.txtMotivationFear.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMotivationFear.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMotivationFear.Location = new System.Drawing.Point(241, 148);
+            this.txtMotivationFear.Multiline = true;
+            this.txtMotivationFear.Name = "txtMotivationFear";
+            this.txtMotivationFear.Size = new System.Drawing.Size(225, 100);
+            this.txtMotivationFear.TabIndex = 7;
             // 
-            // lblGender
+            // lblMotivationDesire
             // 
-            this.lblGender.AutoSize = true;
-            this.lblGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGender.Location = new System.Drawing.Point(473, 200);
-            this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(38, 12);
-            this.lblGender.TabIndex = 13;
-            this.lblGender.Text = "Gender:";
+            this.lblMotivationDesire.AutoSize = true;
+            this.lblMotivationDesire.Location = new System.Drawing.Point(9, 132);
+            this.lblMotivationDesire.Name = "lblMotivationDesire";
+            this.lblMotivationDesire.Size = new System.Drawing.Size(40, 13);
+            this.lblMotivationDesire.TabIndex = 6;
+            this.lblMotivationDesire.Text = "Desire:";
             // 
-            // lblAge
+            // txtMotivationDesire
             // 
-            this.lblAge.AutoSize = true;
-            this.lblAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAge.Location = new System.Drawing.Point(554, 200);
-            this.lblAge.Name = "lblAge";
-            this.lblAge.Size = new System.Drawing.Size(25, 12);
-            this.lblAge.TabIndex = 14;
-            this.lblAge.Text = "Age:";
+            this.txtMotivationDesire.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMotivationDesire.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMotivationDesire.Location = new System.Drawing.Point(10, 148);
+            this.txtMotivationDesire.Multiline = true;
+            this.txtMotivationDesire.Name = "txtMotivationDesire";
+            this.txtMotivationDesire.Size = new System.Drawing.Size(225, 100);
+            this.txtMotivationDesire.TabIndex = 5;
             // 
-            // lblBuild
+            // lblMotivationFlaw
             // 
-            this.lblBuild.AutoSize = true;
-            this.lblBuild.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBuild.Location = new System.Drawing.Point(554, 220);
-            this.lblBuild.Name = "lblBuild";
-            this.lblBuild.Size = new System.Drawing.Size(28, 12);
-            this.lblBuild.TabIndex = 16;
-            this.lblBuild.Text = "Build:";
+            this.lblMotivationFlaw.AutoSize = true;
+            this.lblMotivationFlaw.Location = new System.Drawing.Point(241, 8);
+            this.lblMotivationFlaw.Name = "lblMotivationFlaw";
+            this.lblMotivationFlaw.Size = new System.Drawing.Size(32, 13);
+            this.lblMotivationFlaw.TabIndex = 4;
+            this.lblMotivationFlaw.Text = "Flaw:";
             // 
-            // lblHeight
+            // txtMotivationFlaw
             // 
-            this.lblHeight.AutoSize = true;
-            this.lblHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeight.Location = new System.Drawing.Point(473, 220);
-            this.lblHeight.Name = "lblHeight";
-            this.lblHeight.Size = new System.Drawing.Size(35, 12);
-            this.lblHeight.TabIndex = 15;
-            this.lblHeight.Text = "Height:";
+            this.txtMotivationFlaw.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMotivationFlaw.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMotivationFlaw.Location = new System.Drawing.Point(242, 24);
+            this.txtMotivationFlaw.Multiline = true;
+            this.txtMotivationFlaw.Name = "txtMotivationFlaw";
+            this.txtMotivationFlaw.Size = new System.Drawing.Size(225, 100);
+            this.txtMotivationFlaw.TabIndex = 3;
             // 
-            // lblEyes
+            // lblMotivationStrength
             // 
-            this.lblEyes.AutoSize = true;
-            this.lblEyes.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEyes.Location = new System.Drawing.Point(554, 240);
-            this.lblEyes.Name = "lblEyes";
-            this.lblEyes.Size = new System.Drawing.Size(29, 12);
-            this.lblEyes.TabIndex = 18;
-            this.lblEyes.Text = "Eyes:";
+            this.lblMotivationStrength.AutoSize = true;
+            this.lblMotivationStrength.Location = new System.Drawing.Point(9, 8);
+            this.lblMotivationStrength.Name = "lblMotivationStrength";
+            this.lblMotivationStrength.Size = new System.Drawing.Size(50, 13);
+            this.lblMotivationStrength.TabIndex = 2;
+            this.lblMotivationStrength.Text = "Strength:";
             // 
-            // lblHair
+            // txtMotivationStrength
             // 
-            this.lblHair.AutoSize = true;
-            this.lblHair.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHair.Location = new System.Drawing.Point(473, 240);
-            this.lblHair.Name = "lblHair";
-            this.lblHair.Size = new System.Drawing.Size(25, 12);
-            this.lblHair.TabIndex = 17;
-            this.lblHair.Text = "Hair:";
+            this.txtMotivationStrength.BackColor = System.Drawing.SystemColors.Info;
+            this.txtMotivationStrength.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMotivationStrength.Location = new System.Drawing.Point(10, 24);
+            this.txtMotivationStrength.Multiline = true;
+            this.txtMotivationStrength.Name = "txtMotivationStrength";
+            this.txtMotivationStrength.Size = new System.Drawing.Size(225, 100);
+            this.txtMotivationStrength.TabIndex = 1;
             // 
             // txtGender
             // 
             this.txtGender.BackColor = System.Drawing.SystemColors.Info;
             this.txtGender.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtGender.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtGender.Location = new System.Drawing.Point(475, 200);
+            this.txtGender.Location = new System.Drawing.Point(517, 24);
             this.txtGender.Name = "txtGender";
-            this.txtGender.Size = new System.Drawing.Size(78, 11);
+            this.txtGender.Size = new System.Drawing.Size(113, 11);
             this.txtGender.TabIndex = 19;
             this.txtGender.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // textBox1
+            // btnMotivationsCancel
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(556, 200);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(79, 11);
-            this.textBox1.TabIndex = 20;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnMotivationsCancel.BackColor = System.Drawing.SystemColors.Info;
+            this.btnMotivationsCancel.Location = new System.Drawing.Point(555, 350);
+            this.btnMotivationsCancel.Name = "btnMotivationsCancel";
+            this.btnMotivationsCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnMotivationsCancel.TabIndex = 27;
+            this.btnMotivationsCancel.Text = "Cancel";
+            this.btnMotivationsCancel.UseVisualStyleBackColor = false;
+            this.btnMotivationsCancel.Click += new System.EventHandler(this.btnMotivationsCancel_Click);
             // 
-            // textBox2
+            // btnMotivationSave
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(475, 220);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(78, 11);
-            this.textBox2.TabIndex = 21;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnMotivationSave.BackColor = System.Drawing.SystemColors.Info;
+            this.btnMotivationSave.Location = new System.Drawing.Point(480, 350);
+            this.btnMotivationSave.Name = "btnMotivationSave";
+            this.btnMotivationSave.Size = new System.Drawing.Size(75, 23);
+            this.btnMotivationSave.TabIndex = 28;
+            this.btnMotivationSave.Text = "Save";
+            this.btnMotivationSave.UseVisualStyleBackColor = false;
+            this.btnMotivationSave.Click += new System.EventHandler(this.btnMotivationSave_Click);
             // 
-            // textBox3
+            // btnAbilities
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(556, 220);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(79, 11);
-            this.textBox3.TabIndex = 22;
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.btnAbilities.BackColor = System.Drawing.SystemColors.Info;
+            this.btnAbilities.Location = new System.Drawing.Point(160, 244);
+            this.btnAbilities.Name = "btnAbilities";
+            this.btnAbilities.Size = new System.Drawing.Size(75, 23);
+            this.btnAbilities.TabIndex = 692;
+            this.btnAbilities.Text = "&Abilities";
+            this.btnAbilities.UseVisualStyleBackColor = false;
+            this.btnAbilities.Click += new System.EventHandler(this.btnAbilities_Click);
             // 
-            // textBox4
+            // panelAbilities
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(475, 240);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(78, 11);
-            this.textBox4.TabIndex = 23;
-            this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.Info;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(556, 240);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(79, 11);
-            this.textBox5.TabIndex = 24;
-            this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // lblNotableFeatures
-            // 
-            this.lblNotableFeatures.AutoSize = true;
-            this.lblNotableFeatures.Location = new System.Drawing.Point(477, 257);
-            this.lblNotableFeatures.Name = "lblNotableFeatures";
-            this.lblNotableFeatures.Size = new System.Drawing.Size(91, 13);
-            this.lblNotableFeatures.TabIndex = 25;
-            this.lblNotableFeatures.Text = "Notable Features:";
-            // 
-            // txtNotableFeatures
-            // 
-            this.txtNotableFeatures.BackColor = System.Drawing.SystemColors.Info;
-            this.txtNotableFeatures.Location = new System.Drawing.Point(480, 273);
-            this.txtNotableFeatures.Multiline = true;
-            this.txtNotableFeatures.Name = "txtNotableFeatures";
-            this.txtNotableFeatures.Size = new System.Drawing.Size(150, 100);
-            this.txtNotableFeatures.TabIndex = 26;
+            this.panelAbilities.BackColor = System.Drawing.Color.Transparent;
+            this.panelAbilities.Location = new System.Drawing.Point(10, 265);
+            this.panelAbilities.Name = "panelAbilities";
+            this.panelAbilities.Size = new System.Drawing.Size(645, 385);
+            this.panelAbilities.TabIndex = 693;
             // 
             // frmGenesys
             // 
@@ -4397,11 +4460,12 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(667, 729);
+            this.Controls.Add(this.panelAbilities);
+            this.Controls.Add(this.btnAbilities);
             this.Controls.Add(this.btnMotivations);
             this.Controls.Add(this.lblGear);
             this.Controls.Add(this.btnTalents);
             this.Controls.Add(this.btnSkills);
-            this.Controls.Add(this.panelMotivations);
             this.Controls.Add(this.lblDefenseMeleeLabel);
             this.Controls.Add(this.lblDefenseRangedLabel);
             this.Controls.Add(this.lblPresenceLabel);
@@ -4459,9 +4523,10 @@
             this.Controls.Add(this.lblSubSpecies);
             this.Controls.Add(this.lblSpecies);
             this.Controls.Add(this.lblCharacterName);
-            this.Controls.Add(this.panelSkills);
             this.Controls.Add(this.panelTalents);
             this.Controls.Add(this.panelGear);
+            this.Controls.Add(this.panelMotivations);
+            this.Controls.Add(this.panelSkills);
             this.DoubleBuffered = true;
             this.Name = "frmGenesys";
             this.ShowIcon = false;
@@ -4531,7 +4596,6 @@
             this.panel26.PerformLayout();
             this.panelMotivations.ResumeLayout(false);
             this.panelMotivations.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxPortrait)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4847,7 +4911,6 @@
         private System.Windows.Forms.LinkLabel linkSkill39;
         private System.Windows.Forms.Button btnMotivations;
         private System.Windows.Forms.Panel panelMotivations;
-        private System.Windows.Forms.PictureBox pictureBoxPortrait;
         private System.Windows.Forms.Label lblEyes;
         private System.Windows.Forms.Label lblHair;
         private System.Windows.Forms.Label lblBuild;
@@ -4855,7 +4918,6 @@
         private System.Windows.Forms.Label lblAge;
         private System.Windows.Forms.Label lblGender;
         private System.Windows.Forms.Label lblDescription;
-        private System.Windows.Forms.Label lblPortrait;
         private System.Windows.Forms.Label lblMotivationBackground;
         private System.Windows.Forms.TextBox txtMotivationBackground;
         private System.Windows.Forms.Label lblMotivationFear;
@@ -4866,14 +4928,18 @@
         private System.Windows.Forms.TextBox txtMotivationFlaw;
         private System.Windows.Forms.Label lblMotivationStrength;
         private System.Windows.Forms.TextBox txtMotivationStrength;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtEyes;
+        private System.Windows.Forms.TextBox txtHair;
+        private System.Windows.Forms.TextBox txtBuild;
+        private System.Windows.Forms.TextBox txtHeight;
+        private System.Windows.Forms.TextBox txtAge;
         private System.Windows.Forms.TextBox txtGender;
         private System.Windows.Forms.TextBox txtNotableFeatures;
         private System.Windows.Forms.Label lblNotableFeatures;
+        private System.Windows.Forms.Button btnMotivationSave;
+        private System.Windows.Forms.Button btnMotivationsCancel;
+        private System.Windows.Forms.Button btnAbilities;
+        private System.Windows.Forms.Panel panelAbilities;
     }
 }
 
