@@ -1523,6 +1523,7 @@ namespace Genesys_Character_Builder
                 lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
                 updateForm();
             }
+            //redrawSingleSkillRanks(activeSkillLink);
             redrawSkillRanks();
         }
 
@@ -1540,6 +1541,7 @@ namespace Genesys_Character_Builder
             }
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
             updateForm();
+            //redrawSingleSkillRanks(activeSkillLink);
             redrawSkillRanks();
         }
 
@@ -1620,6 +1622,7 @@ namespace Genesys_Character_Builder
             }
 
             updateSkills();
+            //redrawSingleSkillRanks(activeSkillLink);
             redrawSkillRanks();
         }
 
@@ -1898,6 +1901,39 @@ namespace Genesys_Character_Builder
                     skillLinks[i].LinkColor = Color.SaddleBrown;
                 }
                 panelSkills.Controls.Add(skillLinks[i]);
+            }
+        }
+        */
+
+        /*
+        private void redrawSingleSkillRanks(int i)
+        {
+            for (int j = 0; j < getSkillCharacteristic(myCharacter.Skills[i].Characteristic); j++)
+            {
+                skillRanksYellow[i].Text = "";
+                skillRanksGreen[i].Text = "";
+                int yellowRanks = 0;
+                int greenRanks = 0;
+
+                if (myCharacter.Skills[i].Rank - yellowRanks > j || getSkillCharacteristic(myCharacter.Skills[i].Characteristic) - yellowRanks > j)
+                {
+                    skillRanksGreen[i].Text += "d";
+                    greenRanks++;
+                    if (i < 23)
+                    { skillRanksGreen[i].Left = 192 - greenRanks * 11; }
+                    else
+                    { skillRanksGreen[i].Left = 404 - greenRanks * 11; }
+                }
+                if (myCharacter.Skills[i].Rank > j && getSkillCharacteristic(myCharacter.Skills[i].Characteristic) > j)
+                {
+                    skillRanksYellow[i].Text += "c";
+                    yellowRanks++;
+                    skillRanksGreen[i].Text = skillRanksGreen[i].Text.Remove(0, 1);
+                    if (i < 23)
+                    { skillRanksYellow[i].Left = skillRanksYellow[i].Location.X - 23 - (greenRanks * 11) - (yellowRanks * 13); }
+                    else
+                    { skillRanksYellow[i].Left = skillRanksYellow[i].Location.X - 23 - (greenRanks * 11) - (yellowRanks * 13); }
+                }
             }
         }
         */
