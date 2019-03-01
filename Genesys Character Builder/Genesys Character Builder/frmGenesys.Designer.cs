@@ -1177,10 +1177,10 @@
             // lblSkillRank
             // 
             this.lblSkillRank.AutoSize = true;
-            this.lblSkillRank.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblSkillRank.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSkillRank.Location = new System.Drawing.Point(164, 136);
             this.lblSkillRank.Name = "lblSkillRank";
-            this.lblSkillRank.Size = new System.Drawing.Size(15, 15);
+            this.lblSkillRank.Size = new System.Drawing.Size(14, 13);
             this.lblSkillRank.TabIndex = 686;
             this.lblSkillRank.Text = "1";
             this.lblSkillRank.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1364,7 +1364,7 @@
             this.lblRankMagic.Name = "lblRankMagic";
             this.lblRankMagic.Size = new System.Drawing.Size(72, 13);
             this.lblRankMagic.TabIndex = 573;
-            this.lblRankMagic.Text = "Rank";
+            this.lblRankMagic.Text = "Dice Pool";
             this.lblRankMagic.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // linkSkill18
@@ -1620,7 +1620,7 @@
             this.lblGeneralSkillsRank.Name = "lblGeneralSkillsRank";
             this.lblGeneralSkillsRank.Size = new System.Drawing.Size(72, 13);
             this.lblGeneralSkillsRank.TabIndex = 66;
-            this.lblGeneralSkillsRank.Text = "Rank";
+            this.lblGeneralSkillsRank.Text = "Dice Pool";
             this.lblGeneralSkillsRank.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // linkSkill0
@@ -3691,7 +3691,7 @@
             this.lblRankCustom.Name = "lblRankCustom";
             this.lblRankCustom.Size = new System.Drawing.Size(72, 13);
             this.lblRankCustom.TabIndex = 649;
-            this.lblRankCustom.Text = "Rank";
+            this.lblRankCustom.Text = "Dice Pool";
             this.lblRankCustom.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // lblRankKnowledge
@@ -3702,7 +3702,7 @@
             this.lblRankKnowledge.Name = "lblRankKnowledge";
             this.lblRankKnowledge.Size = new System.Drawing.Size(72, 13);
             this.lblRankKnowledge.TabIndex = 611;
-            this.lblRankKnowledge.Text = "Rank";
+            this.lblRankKnowledge.Text = "Dice Pool";
             this.lblRankKnowledge.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // lblRankSocial
@@ -3713,7 +3713,7 @@
             this.lblRankSocial.Name = "lblRankSocial";
             this.lblRankSocial.Size = new System.Drawing.Size(72, 13);
             this.lblRankSocial.TabIndex = 326;
-            this.lblRankSocial.Text = "Rank";
+            this.lblRankSocial.Text = "Dice Pool";
             this.lblRankSocial.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // linkSkill43
@@ -3865,7 +3865,7 @@
             this.lblRankCombat.Name = "lblRankCombat";
             this.lblRankCombat.Size = new System.Drawing.Size(72, 13);
             this.lblRankCombat.TabIndex = 267;
-            this.lblRankCombat.Text = "Rank";
+            this.lblRankCombat.Text = "Dice Pool";
             this.lblRankCombat.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // lblSkillsKnowledge
