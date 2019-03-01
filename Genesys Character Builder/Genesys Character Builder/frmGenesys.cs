@@ -919,6 +919,7 @@ namespace Genesys_Character_Builder
                     break;
             }
             updateForm();
+            redrawSkillRanks();
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
@@ -973,6 +974,7 @@ namespace Genesys_Character_Builder
                     break;
             }
             updateForm();
+            redrawSkillRanks();
         }
 
         private void updateLabelColors()
@@ -1736,161 +1738,6 @@ namespace Genesys_Character_Builder
             txtEyes.Text = myCharacter.Eyes;
             txtNotableFeatures.Text = myCharacter.Features;
         }
-
-        /*this may be problematic. it looks like LinkLabels may not be treated as objects,
-         * limiting what i can do to manipulate them (by setting, for example)
-        private void generateSkillLinks()
-        {
-            //this should be close to working. I might need to get rid of name and refactor everything to the array position.
-            for (int i = 0; i < 18; i++)
-            {
-                skillLinks[i] = new LinkLabel();
-                skillLinks[i].Location = new System.Drawing.Point(3, 17 + i * 15);
-                //skillLinks[i].Name = "linkSkill" + i.ToString();
-                skillLinks[i].Height = 13;
-                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                if (myCharacter.Setting == "Android")
-                {
-                    skillLinks[i].LinkColor = Color.Blue;
-                }
-                else if (myCharacter.Setting == "Terrinoth")
-                {
-                    skillLinks[i].LinkColor = Color.SaddleBrown;
-                }
-                panelSkills.Controls.Add(skillLinks[i]);
-            }
-            for (int i = 18; i < 23; i++)
-            {
-                skillLinks[i] = new LinkLabel();
-                skillLinks[i].Location = new System.Drawing.Point(3, 304 + (i - 18) * 15);
-                skillLinks[i].Name = "linkSkill" + (i).ToString();
-                skillLinks[i].Height = 13;
-                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                if (myCharacter.Setting == "Android")
-                {
-                    skillLinks[i].LinkColor = Color.Blue;
-                }
-                else if (myCharacter.Setting == "Terrinoth")
-                {
-                    skillLinks[i].LinkColor = Color.SaddleBrown;
-                }
-                panelSkills.Controls.Add(skillLinks[i]);
-            }
-            for (int i = 23; i < 29; i++)
-            {
-                skillLinks[i] = new LinkLabel();
-                skillLinks[i].Location = new System.Drawing.Point(215, 17 + (i - 23) * 15);
-                skillLinks[i].Name = "linkSkill" + i.ToString();
-                skillLinks[i].Height = 13;
-                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                if (myCharacter.Setting == "Android")
-                {
-                    skillLinks[i].LinkColor = Color.Blue;
-                }
-                else if (myCharacter.Setting == "Terrinoth")
-                {
-                    skillLinks[i].LinkColor = Color.SaddleBrown;
-                }
-                panelSkills.Controls.Add(skillLinks[i]);
-            }
-            for (int i = 29; i < 34; i++)
-            {
-                skillLinks[i] = new LinkLabel();
-                skillLinks[i].Location = new System.Drawing.Point(215, 122 + (i - 29) * 15);
-                skillLinks[i].Name = "linkSkill" + i.ToString();
-                skillLinks[i].Height = 13;
-                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                if (myCharacter.Setting == "Android")
-                {
-                    skillLinks[i].LinkColor = Color.Blue;
-                }
-                else if (myCharacter.Setting == "Terrinoth")
-                {
-                    skillLinks[i].LinkColor = Color.SaddleBrown;
-                }
-                panelSkills.Controls.Add(skillLinks[i]);
-            }
-            for (int i = 34; i < 39; i++)
-            {
-                skillLinks[i] = new LinkLabel();
-                skillLinks[i].Location = new System.Drawing.Point(215, 212 + (i - 34) * 15);
-                skillLinks[i].Name = "linkSkill" + i.ToString();
-                skillLinks[i].Height = 13;
-                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                if (myCharacter.Setting == "Android")
-                {
-                    skillLinks[i].LinkColor = Color.Blue;
-                }
-                else if (myCharacter.Setting == "Terrinoth")
-                {
-                    skillLinks[i].LinkColor = Color.SaddleBrown;
-                }
-                panelSkills.Controls.Add(skillLinks[i]);
-            }
-            for (int i = 39; i < 44; i++)
-            {
-                skillLinks[i] = new LinkLabel();
-                skillLinks[i].Location = new System.Drawing.Point(215, 303 + (i - 39) * 15);
-                skillLinks[i].Name = "linkSkill" + i.ToString();
-                skillLinks[i].Height = 13;
-                skillLinks[i].Padding = new Padding(0, 0, 0, 0);
-                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
-                skillLinks[i].LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-                if (myCharacter.Setting == "Android")
-                {
-                    skillLinks[i].LinkColor = Color.Blue;
-                }
-                else if (myCharacter.Setting == "Terrinoth")
-                {
-                    skillLinks[i].LinkColor = Color.SaddleBrown;
-                }
-                panelSkills.Controls.Add(skillLinks[i]);
-            }
-        }
-        */
-
-        /*
-        private void redrawSingleSkillRanks(int i)
-        {
-            for (int j = 0; j < getSkillCharacteristic(myCharacter.Skills[i].Characteristic); j++)
-            {
-                skillRanksYellow[i].Text = "";
-                skillRanksDisplay[i].Text = "";
-                int yellowRanks = 0;
-                int greenRanks = 0;
-
-                if (myCharacter.Skills[i].Rank - yellowRanks > j || getSkillCharacteristic(myCharacter.Skills[i].Characteristic) - yellowRanks > j)
-                {
-                    skillRanksDisplay[i].Text += "d";
-                    greenRanks++;
-                    if (i < 23)
-                    { skillRanksDisplay[i].Left = 192 - greenRanks * 11; }
-                    else
-                    { skillRanksDisplay[i].Left = 404 - greenRanks * 11; }
-                }
-                if (myCharacter.Skills[i].Rank > j && getSkillCharacteristic(myCharacter.Skills[i].Characteristic) > j)
-                {
-                    skillRanksYellow[i].Text += "c";
-                    yellowRanks++;
-                    skillRanksDisplay[i].Text = skillRanksDisplay[i].Text.Remove(0, 1);
-                    if (i < 23)
-                    { skillRanksYellow[i].Left = skillRanksYellow[i].Location.X - 23 - (greenRanks * 11) - (yellowRanks * 13); }
-                    else
-                    { skillRanksYellow[i].Left = skillRanksYellow[i].Location.X - 23 - (greenRanks * 11) - (yellowRanks * 13); }
-                }
-            }
-        }
-        */
 
         private void redrawSkillRanks()
         {
