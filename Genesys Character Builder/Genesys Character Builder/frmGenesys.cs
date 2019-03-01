@@ -228,8 +228,7 @@ namespace Genesys_Character_Builder
             new WeaponsTemplate("", "", "", "", "", "")
         };
 
-        private Label[] skillRanksGreen = new Label[NUM_SKILLS];
-        private Label[] skillRanksYellow = new Label[NUM_SKILLS];
+        private Label[] skillRanksDisplay = new Label[NUM_SKILLS];
 
         private void frmGenesys_Load(object sender, EventArgs e)
         {
@@ -259,95 +258,50 @@ namespace Genesys_Character_Builder
             lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
             lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
 
-            skillRanksGreen[0] = this.lblGreenRank0;
-            skillRanksGreen[1] = this.lblGreenRank1;
-            skillRanksGreen[2] = this.lblGreenRank2;
-            skillRanksGreen[3] = this.lblGreenRank3;
-            skillRanksGreen[4] = this.lblGreenRank4;
-            skillRanksGreen[5] = this.lblGreenRank5;
-            skillRanksGreen[6] = this.lblGreenRank6;
-            skillRanksGreen[7] = this.lblGreenRank7;
-            skillRanksGreen[8] = this.lblGreenRank8;
-            skillRanksGreen[9] = this.lblGreenRank9;
-            skillRanksGreen[10] = this.lblGreenRank10;
-            skillRanksGreen[11] = this.lblGreenRank11;
-            skillRanksGreen[12] = this.lblGreenRank12;
-            skillRanksGreen[13] = this.lblGreenRank13;
-            skillRanksGreen[14] = this.lblGreenRank14;
-            skillRanksGreen[15] = this.lblGreenRank15;
-            skillRanksGreen[16] = this.lblGreenRank16;
-            skillRanksGreen[17] = this.lblGreenRank17;
-            skillRanksGreen[18] = this.lblGreenRank18;
-            skillRanksGreen[19] = this.lblGreenRank19;
-            skillRanksGreen[20] = this.lblGreenRank20;
-            skillRanksGreen[21] = this.lblGreenRank21;
-            skillRanksGreen[22] = this.lblGreenRank22;
-            skillRanksGreen[23] = this.lblGreenRank23;
-            skillRanksGreen[24] = this.lblGreenRank24;
-            skillRanksGreen[25] = this.lblGreenRank25;
-            skillRanksGreen[26] = this.lblGreenRank26;
-            skillRanksGreen[27] = this.lblGreenRank27;
-            skillRanksGreen[28] = this.lblGreenRank28;
-            skillRanksGreen[29] = this.lblGreenRank29;
-            skillRanksGreen[30] = this.lblGreenRank30;
-            skillRanksGreen[31] = this.lblGreenRank31;
-            skillRanksGreen[32] = this.lblGreenRank32;
-            skillRanksGreen[33] = this.lblGreenRank33;
-            skillRanksGreen[34] = this.lblGreenRank34;
-            skillRanksGreen[35] = this.lblGreenRank35;
-            skillRanksGreen[36] = this.lblGreenRank36;
-            skillRanksGreen[37] = this.lblGreenRank37;
-            skillRanksGreen[38] = this.lblGreenRank38;
-            skillRanksGreen[39] = this.lblGreenRank39;
-            skillRanksGreen[40] = this.lblGreenRank40;
-            skillRanksGreen[41] = this.lblGreenRank41;
-            skillRanksGreen[42] = this.lblGreenRank42;
-            skillRanksGreen[43] = this.lblGreenRank43;
-
-            skillRanksYellow[0] = this.lblYellowRank0;
-            skillRanksYellow[1] = this.lblYellowRank1;
-            skillRanksYellow[2] = this.lblYellowRank2;
-            skillRanksYellow[3] = this.lblYellowRank3;
-            skillRanksYellow[4] = this.lblYellowRank4;
-            skillRanksYellow[5] = this.lblYellowRank5;
-            skillRanksYellow[6] = this.lblYellowRank6;
-            skillRanksYellow[7] = this.lblYellowRank7;
-            skillRanksYellow[8] = this.lblYellowRank8;
-            skillRanksYellow[9] = this.lblYellowRank9;
-            skillRanksYellow[10] = this.lblYellowRank10;
-            skillRanksYellow[11] = this.lblYellowRank11;
-            skillRanksYellow[12] = this.lblYellowRank12;
-            skillRanksYellow[13] = this.lblYellowRank13;
-            skillRanksYellow[14] = this.lblYellowRank14;
-            skillRanksYellow[15] = this.lblYellowRank15;
-            skillRanksYellow[16] = this.lblYellowRank16;
-            skillRanksYellow[17] = this.lblYellowRank17;
-            skillRanksYellow[18] = this.lblYellowRank18;
-            skillRanksYellow[19] = this.lblYellowRank19;
-            skillRanksYellow[20] = this.lblYellowRank20;
-            skillRanksYellow[21] = this.lblYellowRank21;
-            skillRanksYellow[22] = this.lblYellowRank22;
-            skillRanksYellow[23] = this.lblYellowRank23;
-            skillRanksYellow[24] = this.lblYellowRank24;
-            skillRanksYellow[25] = this.lblYellowRank25;
-            skillRanksYellow[26] = this.lblYellowRank26;
-            skillRanksYellow[27] = this.lblYellowRank27;
-            skillRanksYellow[28] = this.lblYellowRank28;
-            skillRanksYellow[29] = this.lblYellowRank29;
-            skillRanksYellow[30] = this.lblYellowRank30;
-            skillRanksYellow[31] = this.lblYellowRank31;
-            skillRanksYellow[32] = this.lblYellowRank32;
-            skillRanksYellow[33] = this.lblYellowRank33;
-            skillRanksYellow[34] = this.lblYellowRank34;
-            skillRanksYellow[35] = this.lblYellowRank35;
-            skillRanksYellow[36] = this.lblYellowRank36;
-            skillRanksYellow[37] = this.lblYellowRank37;
-            skillRanksYellow[38] = this.lblYellowRank38;
-            skillRanksYellow[39] = this.lblYellowRank39;
-            skillRanksYellow[40] = this.lblYellowRank40;
-            skillRanksYellow[41] = this.lblYellowRank41;
-            skillRanksYellow[42] = this.lblYellowRank42;
-            skillRanksYellow[43] = this.lblYellowRank43;
+            skillRanksDisplay[0] = this.lblGreenRank0;
+            skillRanksDisplay[1] = this.lblGreenRank1;
+            skillRanksDisplay[2] = this.lblGreenRank2;
+            skillRanksDisplay[3] = this.lblGreenRank3;
+            skillRanksDisplay[4] = this.lblGreenRank4;
+            skillRanksDisplay[5] = this.lblGreenRank5;
+            skillRanksDisplay[6] = this.lblGreenRank6;
+            skillRanksDisplay[7] = this.lblGreenRank7;
+            skillRanksDisplay[8] = this.lblGreenRank8;
+            skillRanksDisplay[9] = this.lblGreenRank9;
+            skillRanksDisplay[10] = this.lblGreenRank10;
+            skillRanksDisplay[11] = this.lblGreenRank11;
+            skillRanksDisplay[12] = this.lblGreenRank12;
+            skillRanksDisplay[13] = this.lblGreenRank13;
+            skillRanksDisplay[14] = this.lblGreenRank14;
+            skillRanksDisplay[15] = this.lblGreenRank15;
+            skillRanksDisplay[16] = this.lblGreenRank16;
+            skillRanksDisplay[17] = this.lblGreenRank17;
+            skillRanksDisplay[18] = this.lblGreenRank18;
+            skillRanksDisplay[19] = this.lblGreenRank19;
+            skillRanksDisplay[20] = this.lblGreenRank20;
+            skillRanksDisplay[21] = this.lblGreenRank21;
+            skillRanksDisplay[22] = this.lblGreenRank22;
+            skillRanksDisplay[23] = this.lblGreenRank23;
+            skillRanksDisplay[24] = this.lblGreenRank24;
+            skillRanksDisplay[25] = this.lblGreenRank25;
+            skillRanksDisplay[26] = this.lblGreenRank26;
+            skillRanksDisplay[27] = this.lblGreenRank27;
+            skillRanksDisplay[28] = this.lblGreenRank28;
+            skillRanksDisplay[29] = this.lblGreenRank29;
+            skillRanksDisplay[30] = this.lblGreenRank30;
+            skillRanksDisplay[31] = this.lblGreenRank31;
+            skillRanksDisplay[32] = this.lblGreenRank32;
+            skillRanksDisplay[33] = this.lblGreenRank33;
+            skillRanksDisplay[34] = this.lblGreenRank34;
+            skillRanksDisplay[35] = this.lblGreenRank35;
+            skillRanksDisplay[36] = this.lblGreenRank36;
+            skillRanksDisplay[37] = this.lblGreenRank37;
+            skillRanksDisplay[38] = this.lblGreenRank38;
+            skillRanksDisplay[39] = this.lblGreenRank39;
+            skillRanksDisplay[40] = this.lblGreenRank40;
+            skillRanksDisplay[41] = this.lblGreenRank41;
+            skillRanksDisplay[42] = this.lblGreenRank42;
+            skillRanksDisplay[43] = this.lblGreenRank43;
 
             redrawSkillRanks();
             //generateSkillLinks();
@@ -1911,24 +1865,24 @@ namespace Genesys_Character_Builder
             for (int j = 0; j < getSkillCharacteristic(myCharacter.Skills[i].Characteristic); j++)
             {
                 skillRanksYellow[i].Text = "";
-                skillRanksGreen[i].Text = "";
+                skillRanksDisplay[i].Text = "";
                 int yellowRanks = 0;
                 int greenRanks = 0;
 
                 if (myCharacter.Skills[i].Rank - yellowRanks > j || getSkillCharacteristic(myCharacter.Skills[i].Characteristic) - yellowRanks > j)
                 {
-                    skillRanksGreen[i].Text += "d";
+                    skillRanksDisplay[i].Text += "d";
                     greenRanks++;
                     if (i < 23)
-                    { skillRanksGreen[i].Left = 192 - greenRanks * 11; }
+                    { skillRanksDisplay[i].Left = 192 - greenRanks * 11; }
                     else
-                    { skillRanksGreen[i].Left = 404 - greenRanks * 11; }
+                    { skillRanksDisplay[i].Left = 404 - greenRanks * 11; }
                 }
                 if (myCharacter.Skills[i].Rank > j && getSkillCharacteristic(myCharacter.Skills[i].Characteristic) > j)
                 {
                     skillRanksYellow[i].Text += "c";
                     yellowRanks++;
-                    skillRanksGreen[i].Text = skillRanksGreen[i].Text.Remove(0, 1);
+                    skillRanksDisplay[i].Text = skillRanksDisplay[i].Text.Remove(0, 1);
                     if (i < 23)
                     { skillRanksYellow[i].Left = skillRanksYellow[i].Location.X - 23 - (greenRanks * 11) - (yellowRanks * 13); }
                     else
@@ -1942,58 +1896,21 @@ namespace Genesys_Character_Builder
         {
             for (int i = 0; i < NUM_SKILLS; i++)
             {
-                skillRanksYellow[i].Text = "";
-                skillRanksGreen[i].Text = "";
-                for (int j = 0; j < getSkillCharacteristic(myCharacter.Skills[i].Characteristic); j++)
+                skillRanksDisplay[i].Text = "";
+                int yellowRanks = 0;
+                int greenranks = 0;
+                int high = GetMax(getSkillCharacteristic(myCharacter.Skills[i].Characteristic), myCharacter.Skills[i].Rank);
+                int low = GetMin(getSkillCharacteristic(myCharacter.Skills[i].Characteristic), myCharacter.Skills[i].Rank);
+                yellowRanks = high - low;
+                greenranks = low;
+                for (int j = 0; j < yellowRanks; j++)
                 {
-                    int yellowRanks = 0;
-                    int greenranks = 0;
-
-                    if (myCharacter.Skills[i].Rank - yellowRanks > j || getSkillCharacteristic(myCharacter.Skills[i].Characteristic) - yellowRanks > j)
-                    {
-                        skillRanksGreen[i].Text += "d";
-                        
-                        greenranks++;
-                        if (i < 23)
-                        { skillRanksGreen[i].Left = 210 - skillRanksGreen[i].Width; }
-                        else
-                        { skillRanksGreen[i].Left = 411 - skillRanksGreen[i].Width; }
-                        
-                    }
-                    if (myCharacter.Skills[i].Rank > j && getSkillCharacteristic(myCharacter.Skills[i].Characteristic) > j)
-                    {
-                        skillRanksYellow[i].Text += "c";
-                        yellowRanks++;
-                        greenranks--;
-                        skillRanksGreen[i].Text = skillRanksGreen[i].Text.Remove(0, 1);
-                        
-                        if (i < 23)
-                        { skillRanksYellow[i].Left = skillRanksGreen[i].Location.X - skillRanksGreen[i].Width - 10 - skillRanksYellow[i].Width; }
-                        else
-                        { skillRanksYellow[i].Left = skillRanksGreen[i].Location.X - skillRanksGreen[i].Width - 10 - skillRanksYellow[i].Width; }
-                        
-                    }
+                    skillRanksDisplay[i].Text += "d";
                 }
-                /*
-                int yellow = GetMax(myCharacter.Skills[i].Rank, getSkillCharacteristic(myCharacter.Skills[i].Characteristic));
-                int green = yellow - GetMin(myCharacter.Skills[i].Rank, getSkillCharacteristic(myCharacter.Skills[i].Characteristic));
-                for (int j = 0; j < green; j++)
+                for (int j = 0; j < greenranks; j++)
                 {
-                    skillRanksGreen[i].Text += "d";
-                    if (i < 23)
-                    { skillRanksGreen[i].Left = 192 - j * 11; }
-                    else
-                    { skillRanksGreen[i].Left = 404 - j * 11; }
+                    skillRanksDisplay[i].Text += "c";
                 }
-                for (int j = 0; j < yellow; j++)
-                {
-                    skillRanksYellow[i].Text += "c";
-                    if (i < 23)
-                    { skillRanksYellow[i].Left = skillRanksYellow[i].Location.X - 23 - j * 11; }
-                    else
-                    { skillRanksYellow[i].Left = skillRanksYellow[i].Location.X - 23 - j * 11; }
-                }
-                */
             }
         }
 

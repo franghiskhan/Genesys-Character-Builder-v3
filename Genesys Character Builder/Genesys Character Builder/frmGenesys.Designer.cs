@@ -285,50 +285,6 @@
             this.lblRankCustom = new System.Windows.Forms.Label();
             this.lblRankKnowledge = new System.Windows.Forms.Label();
             this.lblRankSocial = new System.Windows.Forms.Label();
-            this.lblYellowRank22 = new System.Windows.Forms.Label();
-            this.lblYellowRank21 = new System.Windows.Forms.Label();
-            this.lblYellowRank20 = new System.Windows.Forms.Label();
-            this.lblYellowRank19 = new System.Windows.Forms.Label();
-            this.lblYellowRank18 = new System.Windows.Forms.Label();
-            this.lblYellowRank17 = new System.Windows.Forms.Label();
-            this.lblYellowRank16 = new System.Windows.Forms.Label();
-            this.lblYellowRank15 = new System.Windows.Forms.Label();
-            this.lblYellowRank14 = new System.Windows.Forms.Label();
-            this.lblYellowRank13 = new System.Windows.Forms.Label();
-            this.lblYellowRank12 = new System.Windows.Forms.Label();
-            this.lblYellowRank11 = new System.Windows.Forms.Label();
-            this.lblYellowRank10 = new System.Windows.Forms.Label();
-            this.lblYellowRank9 = new System.Windows.Forms.Label();
-            this.lblYellowRank8 = new System.Windows.Forms.Label();
-            this.lblYellowRank7 = new System.Windows.Forms.Label();
-            this.lblYellowRank6 = new System.Windows.Forms.Label();
-            this.lblYellowRank5 = new System.Windows.Forms.Label();
-            this.lblYellowRank4 = new System.Windows.Forms.Label();
-            this.lblYellowRank3 = new System.Windows.Forms.Label();
-            this.lblYellowRank2 = new System.Windows.Forms.Label();
-            this.lblYellowRank1 = new System.Windows.Forms.Label();
-            this.lblYellowRank0 = new System.Windows.Forms.Label();
-            this.lblYellowRank43 = new System.Windows.Forms.Label();
-            this.lblYellowRank42 = new System.Windows.Forms.Label();
-            this.lblYellowRank41 = new System.Windows.Forms.Label();
-            this.lblYellowRank40 = new System.Windows.Forms.Label();
-            this.lblYellowRank39 = new System.Windows.Forms.Label();
-            this.lblYellowRank38 = new System.Windows.Forms.Label();
-            this.lblYellowRank37 = new System.Windows.Forms.Label();
-            this.lblYellowRank36 = new System.Windows.Forms.Label();
-            this.lblYellowRank35 = new System.Windows.Forms.Label();
-            this.lblYellowRank34 = new System.Windows.Forms.Label();
-            this.lblYellowRank33 = new System.Windows.Forms.Label();
-            this.lblYellowRank32 = new System.Windows.Forms.Label();
-            this.lblYellowRank31 = new System.Windows.Forms.Label();
-            this.lblYellowRank30 = new System.Windows.Forms.Label();
-            this.lblYellowRank29 = new System.Windows.Forms.Label();
-            this.lblYellowRank28 = new System.Windows.Forms.Label();
-            this.lblYellowRank27 = new System.Windows.Forms.Label();
-            this.lblYellowRank26 = new System.Windows.Forms.Label();
-            this.lblYellowRank25 = new System.Windows.Forms.Label();
-            this.lblYellowRank24 = new System.Windows.Forms.Label();
-            this.lblYellowRank23 = new System.Windows.Forms.Label();
             this.linkSkill43 = new System.Windows.Forms.LinkLabel();
             this.linkSkill42 = new System.Windows.Forms.LinkLabel();
             this.linkSkill41 = new System.Windows.Forms.LinkLabel();
@@ -1404,9 +1360,9 @@
             // 
             this.lblRankMagic.BackColor = System.Drawing.Color.Transparent;
             this.lblRankMagic.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRankMagic.Location = new System.Drawing.Point(135, 289);
+            this.lblRankMagic.Location = new System.Drawing.Point(140, 289);
             this.lblRankMagic.Name = "lblRankMagic";
-            this.lblRankMagic.Size = new System.Drawing.Size(65, 13);
+            this.lblRankMagic.Size = new System.Drawing.Size(72, 13);
             this.lblRankMagic.TabIndex = 573;
             this.lblRankMagic.Text = "Rank";
             this.lblRankMagic.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -1660,9 +1616,9 @@
             // 
             this.lblGeneralSkillsRank.BackColor = System.Drawing.Color.Transparent;
             this.lblGeneralSkillsRank.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGeneralSkillsRank.Location = new System.Drawing.Point(145, 3);
+            this.lblGeneralSkillsRank.Location = new System.Drawing.Point(140, 3);
             this.lblGeneralSkillsRank.Name = "lblGeneralSkillsRank";
-            this.lblGeneralSkillsRank.Size = new System.Drawing.Size(65, 13);
+            this.lblGeneralSkillsRank.Size = new System.Drawing.Size(72, 13);
             this.lblGeneralSkillsRank.TabIndex = 66;
             this.lblGeneralSkillsRank.Text = "Rank";
             this.lblGeneralSkillsRank.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -3052,50 +3008,6 @@
             this.panelSkills.Controls.Add(this.lblRankKnowledge);
             this.panelSkills.Controls.Add(this.lblRankMagic);
             this.panelSkills.Controls.Add(this.lblRankSocial);
-            this.panelSkills.Controls.Add(this.lblYellowRank22);
-            this.panelSkills.Controls.Add(this.lblYellowRank21);
-            this.panelSkills.Controls.Add(this.lblYellowRank20);
-            this.panelSkills.Controls.Add(this.lblYellowRank19);
-            this.panelSkills.Controls.Add(this.lblYellowRank18);
-            this.panelSkills.Controls.Add(this.lblYellowRank17);
-            this.panelSkills.Controls.Add(this.lblYellowRank16);
-            this.panelSkills.Controls.Add(this.lblYellowRank15);
-            this.panelSkills.Controls.Add(this.lblYellowRank14);
-            this.panelSkills.Controls.Add(this.lblYellowRank13);
-            this.panelSkills.Controls.Add(this.lblYellowRank12);
-            this.panelSkills.Controls.Add(this.lblYellowRank11);
-            this.panelSkills.Controls.Add(this.lblYellowRank10);
-            this.panelSkills.Controls.Add(this.lblYellowRank9);
-            this.panelSkills.Controls.Add(this.lblYellowRank8);
-            this.panelSkills.Controls.Add(this.lblYellowRank7);
-            this.panelSkills.Controls.Add(this.lblYellowRank6);
-            this.panelSkills.Controls.Add(this.lblYellowRank5);
-            this.panelSkills.Controls.Add(this.lblYellowRank4);
-            this.panelSkills.Controls.Add(this.lblYellowRank3);
-            this.panelSkills.Controls.Add(this.lblYellowRank2);
-            this.panelSkills.Controls.Add(this.lblYellowRank1);
-            this.panelSkills.Controls.Add(this.lblYellowRank0);
-            this.panelSkills.Controls.Add(this.lblYellowRank43);
-            this.panelSkills.Controls.Add(this.lblYellowRank42);
-            this.panelSkills.Controls.Add(this.lblYellowRank41);
-            this.panelSkills.Controls.Add(this.lblYellowRank40);
-            this.panelSkills.Controls.Add(this.lblYellowRank39);
-            this.panelSkills.Controls.Add(this.lblYellowRank38);
-            this.panelSkills.Controls.Add(this.lblYellowRank37);
-            this.panelSkills.Controls.Add(this.lblYellowRank36);
-            this.panelSkills.Controls.Add(this.lblYellowRank35);
-            this.panelSkills.Controls.Add(this.lblYellowRank34);
-            this.panelSkills.Controls.Add(this.lblYellowRank33);
-            this.panelSkills.Controls.Add(this.lblYellowRank32);
-            this.panelSkills.Controls.Add(this.lblYellowRank31);
-            this.panelSkills.Controls.Add(this.lblYellowRank30);
-            this.panelSkills.Controls.Add(this.lblYellowRank29);
-            this.panelSkills.Controls.Add(this.lblYellowRank28);
-            this.panelSkills.Controls.Add(this.lblYellowRank27);
-            this.panelSkills.Controls.Add(this.lblYellowRank26);
-            this.panelSkills.Controls.Add(this.lblYellowRank25);
-            this.panelSkills.Controls.Add(this.lblYellowRank24);
-            this.panelSkills.Controls.Add(this.lblYellowRank23);
             this.panelSkills.Controls.Add(this.linkSkill43);
             this.panelSkills.Controls.Add(this.linkSkill42);
             this.panelSkills.Controls.Add(this.linkSkill41);
@@ -3158,404 +3070,377 @@
             // lblGreenRank43
             // 
             this.lblGreenRank43.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank43.AutoSize = true;
             this.lblGreenRank43.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank43.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank43.Location = new System.Drawing.Point(353, 364);
+            this.lblGreenRank43.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank43.Location = new System.Drawing.Point(347, 364);
             this.lblGreenRank43.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank43.Name = "lblGreenRank43";
             this.lblGreenRank43.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank43.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank43.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank43.TabIndex = 738;
             this.lblGreenRank43.Text = "dddd";
-            this.lblGreenRank43.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank43.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank42
             // 
             this.lblGreenRank42.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank42.AutoSize = true;
             this.lblGreenRank42.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank42.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank42.Location = new System.Drawing.Point(353, 349);
+            this.lblGreenRank42.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank42.Location = new System.Drawing.Point(347, 349);
             this.lblGreenRank42.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank42.Name = "lblGreenRank42";
             this.lblGreenRank42.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank42.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank42.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank42.TabIndex = 737;
             this.lblGreenRank42.Text = "dddd";
-            this.lblGreenRank42.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank42.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank41
             // 
             this.lblGreenRank41.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank41.AutoSize = true;
             this.lblGreenRank41.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank41.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank41.Location = new System.Drawing.Point(353, 334);
+            this.lblGreenRank41.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank41.Location = new System.Drawing.Point(347, 334);
             this.lblGreenRank41.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank41.Name = "lblGreenRank41";
             this.lblGreenRank41.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank41.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank41.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank41.TabIndex = 736;
             this.lblGreenRank41.Text = "dddd";
-            this.lblGreenRank41.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank41.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank40
             // 
             this.lblGreenRank40.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank40.AutoSize = true;
             this.lblGreenRank40.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank40.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank40.Location = new System.Drawing.Point(353, 319);
+            this.lblGreenRank40.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank40.Location = new System.Drawing.Point(347, 319);
             this.lblGreenRank40.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank40.Name = "lblGreenRank40";
             this.lblGreenRank40.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank40.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank40.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank40.TabIndex = 735;
             this.lblGreenRank40.Text = "dddd";
-            this.lblGreenRank40.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank40.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank39
             // 
             this.lblGreenRank39.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank39.AutoSize = true;
             this.lblGreenRank39.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank39.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank39.Location = new System.Drawing.Point(353, 304);
+            this.lblGreenRank39.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank39.Location = new System.Drawing.Point(347, 304);
             this.lblGreenRank39.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank39.Name = "lblGreenRank39";
             this.lblGreenRank39.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank39.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank39.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank39.TabIndex = 734;
             this.lblGreenRank39.Text = "dddd";
-            this.lblGreenRank39.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank39.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank38
             // 
             this.lblGreenRank38.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank38.AutoSize = true;
             this.lblGreenRank38.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank38.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank38.Location = new System.Drawing.Point(353, 273);
+            this.lblGreenRank38.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank38.Location = new System.Drawing.Point(347, 273);
             this.lblGreenRank38.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank38.Name = "lblGreenRank38";
             this.lblGreenRank38.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank38.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank38.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank38.TabIndex = 733;
             this.lblGreenRank38.Text = "dddd";
-            this.lblGreenRank38.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank38.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank37
             // 
             this.lblGreenRank37.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank37.AutoSize = true;
             this.lblGreenRank37.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank37.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank37.Location = new System.Drawing.Point(353, 257);
+            this.lblGreenRank37.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank37.Location = new System.Drawing.Point(347, 257);
             this.lblGreenRank37.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank37.Name = "lblGreenRank37";
             this.lblGreenRank37.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank37.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank37.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank37.TabIndex = 732;
             this.lblGreenRank37.Text = "dddd";
-            this.lblGreenRank37.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank37.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank36
             // 
             this.lblGreenRank36.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank36.AutoSize = true;
             this.lblGreenRank36.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank36.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank36.Location = new System.Drawing.Point(353, 242);
+            this.lblGreenRank36.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank36.Location = new System.Drawing.Point(347, 242);
             this.lblGreenRank36.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank36.Name = "lblGreenRank36";
             this.lblGreenRank36.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank36.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank36.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank36.TabIndex = 731;
             this.lblGreenRank36.Text = "dddd";
-            this.lblGreenRank36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank36.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank35
             // 
             this.lblGreenRank35.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank35.AutoSize = true;
             this.lblGreenRank35.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank35.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank35.Location = new System.Drawing.Point(353, 227);
+            this.lblGreenRank35.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank35.Location = new System.Drawing.Point(347, 227);
             this.lblGreenRank35.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank35.Name = "lblGreenRank35";
             this.lblGreenRank35.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank35.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank35.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank35.TabIndex = 730;
             this.lblGreenRank35.Text = "dddd";
-            this.lblGreenRank35.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank35.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank34
             // 
             this.lblGreenRank34.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank34.AutoSize = true;
             this.lblGreenRank34.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank34.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank34.Location = new System.Drawing.Point(353, 212);
+            this.lblGreenRank34.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank34.Location = new System.Drawing.Point(347, 212);
             this.lblGreenRank34.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank34.Name = "lblGreenRank34";
             this.lblGreenRank34.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank34.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank34.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank34.TabIndex = 729;
             this.lblGreenRank34.Text = "dddd";
-            this.lblGreenRank34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank34.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank33
             // 
             this.lblGreenRank33.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank33.AutoSize = true;
             this.lblGreenRank33.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank33.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank33.Location = new System.Drawing.Point(353, 182);
+            this.lblGreenRank33.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank33.Location = new System.Drawing.Point(347, 182);
             this.lblGreenRank33.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank33.Name = "lblGreenRank33";
             this.lblGreenRank33.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank33.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank33.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank33.TabIndex = 728;
             this.lblGreenRank33.Text = "dddd";
-            this.lblGreenRank33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank33.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank32
             // 
             this.lblGreenRank32.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank32.AutoSize = true;
             this.lblGreenRank32.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank32.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank32.Location = new System.Drawing.Point(353, 167);
+            this.lblGreenRank32.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank32.Location = new System.Drawing.Point(347, 167);
             this.lblGreenRank32.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank32.Name = "lblGreenRank32";
             this.lblGreenRank32.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank32.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank32.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank32.TabIndex = 727;
             this.lblGreenRank32.Text = "dddd";
-            this.lblGreenRank32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank32.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank31
             // 
             this.lblGreenRank31.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank31.AutoSize = true;
             this.lblGreenRank31.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank31.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank31.Location = new System.Drawing.Point(353, 152);
+            this.lblGreenRank31.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank31.Location = new System.Drawing.Point(347, 152);
             this.lblGreenRank31.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank31.Name = "lblGreenRank31";
             this.lblGreenRank31.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank31.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank31.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank31.TabIndex = 726;
             this.lblGreenRank31.Text = "dddd";
-            this.lblGreenRank31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank31.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank30
             // 
             this.lblGreenRank30.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank30.AutoSize = true;
             this.lblGreenRank30.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank30.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank30.Location = new System.Drawing.Point(353, 137);
+            this.lblGreenRank30.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank30.Location = new System.Drawing.Point(347, 137);
             this.lblGreenRank30.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank30.Name = "lblGreenRank30";
             this.lblGreenRank30.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank30.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank30.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank30.TabIndex = 725;
             this.lblGreenRank30.Text = "dddd";
-            this.lblGreenRank30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank30.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank29
             // 
             this.lblGreenRank29.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank29.AutoSize = true;
             this.lblGreenRank29.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank29.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank29.Location = new System.Drawing.Point(353, 122);
+            this.lblGreenRank29.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank29.Location = new System.Drawing.Point(347, 122);
             this.lblGreenRank29.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank29.Name = "lblGreenRank29";
             this.lblGreenRank29.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank29.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank29.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank29.TabIndex = 724;
             this.lblGreenRank29.Text = "dddd";
-            this.lblGreenRank29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank29.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank28
             // 
             this.lblGreenRank28.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank28.AutoSize = true;
             this.lblGreenRank28.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank28.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank28.Location = new System.Drawing.Point(353, 92);
+            this.lblGreenRank28.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank28.Location = new System.Drawing.Point(347, 92);
             this.lblGreenRank28.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank28.Name = "lblGreenRank28";
             this.lblGreenRank28.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank28.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank28.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank28.TabIndex = 723;
             this.lblGreenRank28.Text = "dddd";
-            this.lblGreenRank28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank28.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank27
             // 
             this.lblGreenRank27.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank27.AutoSize = true;
             this.lblGreenRank27.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank27.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank27.Location = new System.Drawing.Point(353, 77);
+            this.lblGreenRank27.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank27.Location = new System.Drawing.Point(347, 77);
             this.lblGreenRank27.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank27.Name = "lblGreenRank27";
             this.lblGreenRank27.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank27.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank27.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank27.TabIndex = 722;
             this.lblGreenRank27.Text = "dddd";
-            this.lblGreenRank27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank27.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank26
             // 
             this.lblGreenRank26.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank26.AutoSize = true;
             this.lblGreenRank26.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank26.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank26.Location = new System.Drawing.Point(353, 62);
+            this.lblGreenRank26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank26.Location = new System.Drawing.Point(347, 62);
             this.lblGreenRank26.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank26.Name = "lblGreenRank26";
             this.lblGreenRank26.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank26.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank26.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank26.TabIndex = 721;
             this.lblGreenRank26.Text = "dddd";
-            this.lblGreenRank26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank26.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank25
             // 
             this.lblGreenRank25.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank25.AutoSize = true;
             this.lblGreenRank25.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank25.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank25.Location = new System.Drawing.Point(353, 47);
+            this.lblGreenRank25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank25.Location = new System.Drawing.Point(347, 47);
             this.lblGreenRank25.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank25.Name = "lblGreenRank25";
             this.lblGreenRank25.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank25.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank25.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank25.TabIndex = 720;
             this.lblGreenRank25.Text = "dddd";
-            this.lblGreenRank25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank25.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank24
             // 
             this.lblGreenRank24.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank24.AutoSize = true;
             this.lblGreenRank24.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank24.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank24.Location = new System.Drawing.Point(353, 32);
+            this.lblGreenRank24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank24.Location = new System.Drawing.Point(347, 32);
             this.lblGreenRank24.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank24.Name = "lblGreenRank24";
             this.lblGreenRank24.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank24.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank24.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank24.TabIndex = 719;
             this.lblGreenRank24.Text = "dddd";
-            this.lblGreenRank24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank24.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank23
             // 
             this.lblGreenRank23.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank23.AutoSize = true;
             this.lblGreenRank23.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank23.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank23.Location = new System.Drawing.Point(353, 17);
+            this.lblGreenRank23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank23.Location = new System.Drawing.Point(347, 17);
             this.lblGreenRank23.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank23.Name = "lblGreenRank23";
             this.lblGreenRank23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank23.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank23.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank23.TabIndex = 718;
             this.lblGreenRank23.Text = "dddd";
-            this.lblGreenRank23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank23.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank22
             // 
             this.lblGreenRank22.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank22.AutoSize = true;
             this.lblGreenRank22.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank22.ForeColor = System.Drawing.Color.Green;
+            this.lblGreenRank22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGreenRank22.Location = new System.Drawing.Point(141, 364);
             this.lblGreenRank22.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank22.Name = "lblGreenRank22";
             this.lblGreenRank22.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank22.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank22.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank22.TabIndex = 717;
             this.lblGreenRank22.Text = "dddd";
-            this.lblGreenRank22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank22.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank21
             // 
             this.lblGreenRank21.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank21.AutoSize = true;
             this.lblGreenRank21.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank21.ForeColor = System.Drawing.Color.Green;
+            this.lblGreenRank21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGreenRank21.Location = new System.Drawing.Point(141, 349);
             this.lblGreenRank21.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank21.Name = "lblGreenRank21";
             this.lblGreenRank21.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank21.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank21.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank21.TabIndex = 716;
             this.lblGreenRank21.Text = "dddd";
-            this.lblGreenRank21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank21.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank20
             // 
             this.lblGreenRank20.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank20.AutoSize = true;
             this.lblGreenRank20.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank20.ForeColor = System.Drawing.Color.Green;
+            this.lblGreenRank20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGreenRank20.Location = new System.Drawing.Point(141, 334);
             this.lblGreenRank20.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank20.Name = "lblGreenRank20";
             this.lblGreenRank20.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank20.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank20.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank20.TabIndex = 715;
             this.lblGreenRank20.Text = "dddd";
-            this.lblGreenRank20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank19
             // 
             this.lblGreenRank19.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank19.AutoSize = true;
             this.lblGreenRank19.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank19.ForeColor = System.Drawing.Color.Green;
+            this.lblGreenRank19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGreenRank19.Location = new System.Drawing.Point(141, 319);
             this.lblGreenRank19.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank19.Name = "lblGreenRank19";
             this.lblGreenRank19.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank19.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank19.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank19.TabIndex = 714;
             this.lblGreenRank19.Text = "dddd";
-            this.lblGreenRank19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank19.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank18
             // 
             this.lblGreenRank18.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank18.AutoSize = true;
             this.lblGreenRank18.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank18.ForeColor = System.Drawing.Color.Green;
+            this.lblGreenRank18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGreenRank18.Location = new System.Drawing.Point(141, 304);
             this.lblGreenRank18.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank18.Name = "lblGreenRank18";
             this.lblGreenRank18.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank18.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank18.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank18.TabIndex = 713;
             this.lblGreenRank18.Text = "dddd";
-            this.lblGreenRank18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblGreenRank18.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank17
             // 
             this.lblGreenRank17.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank17.AutoSize = true;
             this.lblGreenRank17.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank17.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank17.Location = new System.Drawing.Point(141, 272);
+            this.lblGreenRank17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank17.Location = new System.Drawing.Point(140, 272);
             this.lblGreenRank17.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank17.Name = "lblGreenRank17";
             this.lblGreenRank17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank17.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank17.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank17.TabIndex = 712;
             this.lblGreenRank17.Text = "dddd";
             this.lblGreenRank17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3563,14 +3448,13 @@
             // lblGreenRank16
             // 
             this.lblGreenRank16.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank16.AutoSize = true;
             this.lblGreenRank16.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank16.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank16.Location = new System.Drawing.Point(141, 257);
+            this.lblGreenRank16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank16.Location = new System.Drawing.Point(140, 257);
             this.lblGreenRank16.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank16.Name = "lblGreenRank16";
             this.lblGreenRank16.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank16.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank16.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank16.TabIndex = 711;
             this.lblGreenRank16.Text = "dddd";
             this.lblGreenRank16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3578,14 +3462,13 @@
             // lblGreenRank15
             // 
             this.lblGreenRank15.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank15.AutoSize = true;
             this.lblGreenRank15.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank15.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank15.Location = new System.Drawing.Point(141, 242);
+            this.lblGreenRank15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank15.Location = new System.Drawing.Point(140, 242);
             this.lblGreenRank15.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank15.Name = "lblGreenRank15";
             this.lblGreenRank15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank15.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank15.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank15.TabIndex = 710;
             this.lblGreenRank15.Text = "dddd";
             this.lblGreenRank15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3593,14 +3476,13 @@
             // lblGreenRank14
             // 
             this.lblGreenRank14.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank14.AutoSize = true;
             this.lblGreenRank14.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank14.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank14.Location = new System.Drawing.Point(141, 227);
+            this.lblGreenRank14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank14.Location = new System.Drawing.Point(140, 227);
             this.lblGreenRank14.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank14.Name = "lblGreenRank14";
             this.lblGreenRank14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank14.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank14.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank14.TabIndex = 709;
             this.lblGreenRank14.Text = "dddd";
             this.lblGreenRank14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3608,14 +3490,13 @@
             // lblGreenRank13
             // 
             this.lblGreenRank13.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank13.AutoSize = true;
             this.lblGreenRank13.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank13.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank13.Location = new System.Drawing.Point(141, 212);
+            this.lblGreenRank13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank13.Location = new System.Drawing.Point(140, 212);
             this.lblGreenRank13.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank13.Name = "lblGreenRank13";
             this.lblGreenRank13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank13.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank13.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank13.TabIndex = 708;
             this.lblGreenRank13.Text = "dddd";
             this.lblGreenRank13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3623,14 +3504,13 @@
             // lblGreenRank12
             // 
             this.lblGreenRank12.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank12.AutoSize = true;
             this.lblGreenRank12.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank12.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank12.Location = new System.Drawing.Point(141, 197);
+            this.lblGreenRank12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank12.Location = new System.Drawing.Point(140, 197);
             this.lblGreenRank12.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank12.Name = "lblGreenRank12";
             this.lblGreenRank12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank12.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank12.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank12.TabIndex = 707;
             this.lblGreenRank12.Text = "dddd";
             this.lblGreenRank12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3638,14 +3518,13 @@
             // lblGreenRank11
             // 
             this.lblGreenRank11.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank11.AutoSize = true;
             this.lblGreenRank11.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank11.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank11.Location = new System.Drawing.Point(141, 182);
+            this.lblGreenRank11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank11.Location = new System.Drawing.Point(140, 182);
             this.lblGreenRank11.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank11.Name = "lblGreenRank11";
             this.lblGreenRank11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank11.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank11.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank11.TabIndex = 706;
             this.lblGreenRank11.Text = "dddd";
             this.lblGreenRank11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3653,14 +3532,13 @@
             // lblGreenRank10
             // 
             this.lblGreenRank10.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank10.AutoSize = true;
             this.lblGreenRank10.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank10.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank10.Location = new System.Drawing.Point(141, 167);
+            this.lblGreenRank10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank10.Location = new System.Drawing.Point(140, 167);
             this.lblGreenRank10.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank10.Name = "lblGreenRank10";
             this.lblGreenRank10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank10.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank10.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank10.TabIndex = 705;
             this.lblGreenRank10.Text = "dddd";
             this.lblGreenRank10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3668,14 +3546,13 @@
             // lblGreenRank9
             // 
             this.lblGreenRank9.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank9.AutoSize = true;
             this.lblGreenRank9.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank9.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank9.Location = new System.Drawing.Point(141, 152);
+            this.lblGreenRank9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank9.Location = new System.Drawing.Point(140, 152);
             this.lblGreenRank9.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank9.Name = "lblGreenRank9";
             this.lblGreenRank9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank9.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank9.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank9.TabIndex = 704;
             this.lblGreenRank9.Text = "dddd";
             this.lblGreenRank9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3683,14 +3560,13 @@
             // lblGreenRank8
             // 
             this.lblGreenRank8.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank8.AutoSize = true;
             this.lblGreenRank8.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank8.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank8.Location = new System.Drawing.Point(141, 137);
+            this.lblGreenRank8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank8.Location = new System.Drawing.Point(140, 137);
             this.lblGreenRank8.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank8.Name = "lblGreenRank8";
             this.lblGreenRank8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank8.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank8.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank8.TabIndex = 703;
             this.lblGreenRank8.Text = "dddd";
             this.lblGreenRank8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3698,14 +3574,13 @@
             // lblGreenRank7
             // 
             this.lblGreenRank7.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank7.AutoSize = true;
             this.lblGreenRank7.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank7.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank7.Location = new System.Drawing.Point(141, 122);
+            this.lblGreenRank7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank7.Location = new System.Drawing.Point(140, 122);
             this.lblGreenRank7.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank7.Name = "lblGreenRank7";
             this.lblGreenRank7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank7.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank7.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank7.TabIndex = 702;
             this.lblGreenRank7.Text = "dddd";
             this.lblGreenRank7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3713,14 +3588,13 @@
             // lblGreenRank6
             // 
             this.lblGreenRank6.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank6.AutoSize = true;
             this.lblGreenRank6.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank6.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank6.Location = new System.Drawing.Point(141, 107);
+            this.lblGreenRank6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank6.Location = new System.Drawing.Point(140, 107);
             this.lblGreenRank6.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank6.Name = "lblGreenRank6";
             this.lblGreenRank6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank6.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank6.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank6.TabIndex = 701;
             this.lblGreenRank6.Text = "dddd";
             this.lblGreenRank6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3728,14 +3602,13 @@
             // lblGreenRank5
             // 
             this.lblGreenRank5.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank5.AutoSize = true;
             this.lblGreenRank5.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank5.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank5.Location = new System.Drawing.Point(141, 92);
+            this.lblGreenRank5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank5.Location = new System.Drawing.Point(140, 92);
             this.lblGreenRank5.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank5.Name = "lblGreenRank5";
             this.lblGreenRank5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank5.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank5.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank5.TabIndex = 700;
             this.lblGreenRank5.Text = "dddd";
             this.lblGreenRank5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3743,14 +3616,13 @@
             // lblGreenRank4
             // 
             this.lblGreenRank4.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank4.AutoSize = true;
             this.lblGreenRank4.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank4.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank4.Location = new System.Drawing.Point(141, 77);
+            this.lblGreenRank4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank4.Location = new System.Drawing.Point(140, 77);
             this.lblGreenRank4.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank4.Name = "lblGreenRank4";
             this.lblGreenRank4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank4.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank4.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank4.TabIndex = 699;
             this.lblGreenRank4.Text = "dddd";
             this.lblGreenRank4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3758,14 +3630,13 @@
             // lblGreenRank3
             // 
             this.lblGreenRank3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank3.AutoSize = true;
             this.lblGreenRank3.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank3.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank3.Location = new System.Drawing.Point(141, 62);
+            this.lblGreenRank3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank3.Location = new System.Drawing.Point(140, 62);
             this.lblGreenRank3.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank3.Name = "lblGreenRank3";
             this.lblGreenRank3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank3.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank3.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank3.TabIndex = 698;
             this.lblGreenRank3.Text = "dddd";
             this.lblGreenRank3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3773,14 +3644,13 @@
             // lblGreenRank2
             // 
             this.lblGreenRank2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank2.AutoSize = true;
             this.lblGreenRank2.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank2.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank2.Location = new System.Drawing.Point(141, 47);
+            this.lblGreenRank2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank2.Location = new System.Drawing.Point(140, 47);
             this.lblGreenRank2.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank2.Name = "lblGreenRank2";
             this.lblGreenRank2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank2.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank2.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank2.TabIndex = 697;
             this.lblGreenRank2.Text = "dddd";
             this.lblGreenRank2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3788,29 +3658,27 @@
             // lblGreenRank1
             // 
             this.lblGreenRank1.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank1.AutoSize = true;
             this.lblGreenRank1.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank1.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank1.Location = new System.Drawing.Point(141, 32);
+            this.lblGreenRank1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank1.Location = new System.Drawing.Point(140, 32);
             this.lblGreenRank1.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank1.Name = "lblGreenRank1";
             this.lblGreenRank1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank1.Size = new System.Drawing.Size(51, 13);
+            this.lblGreenRank1.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank1.TabIndex = 696;
-            this.lblGreenRank1.Text = "dddd";
+            this.lblGreenRank1.Text = "ccccc";
             this.lblGreenRank1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblGreenRank0
             // 
             this.lblGreenRank0.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblGreenRank0.AutoSize = true;
             this.lblGreenRank0.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank0.ForeColor = System.Drawing.Color.Green;
-            this.lblGreenRank0.Location = new System.Drawing.Point(192, 17);
+            this.lblGreenRank0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank0.Location = new System.Drawing.Point(140, 17);
             this.lblGreenRank0.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank0.Name = "lblGreenRank0";
             this.lblGreenRank0.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblGreenRank0.Size = new System.Drawing.Size(18, 13);
+            this.lblGreenRank0.Size = new System.Drawing.Size(72, 13);
             this.lblGreenRank0.TabIndex = 694;
             this.lblGreenRank0.Text = "d";
             this.lblGreenRank0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -3821,7 +3689,7 @@
             this.lblRankCustom.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRankCustom.Location = new System.Drawing.Point(347, 288);
             this.lblRankCustom.Name = "lblRankCustom";
-            this.lblRankCustom.Size = new System.Drawing.Size(65, 13);
+            this.lblRankCustom.Size = new System.Drawing.Size(72, 13);
             this.lblRankCustom.TabIndex = 649;
             this.lblRankCustom.Text = "Rank";
             this.lblRankCustom.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -3832,7 +3700,7 @@
             this.lblRankKnowledge.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRankKnowledge.Location = new System.Drawing.Point(347, 197);
             this.lblRankKnowledge.Name = "lblRankKnowledge";
-            this.lblRankKnowledge.Size = new System.Drawing.Size(65, 13);
+            this.lblRankKnowledge.Size = new System.Drawing.Size(72, 13);
             this.lblRankKnowledge.TabIndex = 611;
             this.lblRankKnowledge.Text = "Rank";
             this.lblRankKnowledge.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -3843,626 +3711,10 @@
             this.lblRankSocial.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRankSocial.Location = new System.Drawing.Point(347, 107);
             this.lblRankSocial.Name = "lblRankSocial";
-            this.lblRankSocial.Size = new System.Drawing.Size(65, 13);
+            this.lblRankSocial.Size = new System.Drawing.Size(72, 13);
             this.lblRankSocial.TabIndex = 326;
             this.lblRankSocial.Text = "Rank";
             this.lblRankSocial.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // lblYellowRank22
-            // 
-            this.lblYellowRank22.AutoSize = true;
-            this.lblYellowRank22.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank22.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank22.Location = new System.Drawing.Point(137, 364);
-            this.lblYellowRank22.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank22.Name = "lblYellowRank22";
-            this.lblYellowRank22.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank22.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank22.TabIndex = 761;
-            this.lblYellowRank22.Text = "ccccc";
-            this.lblYellowRank22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank21
-            // 
-            this.lblYellowRank21.AutoSize = true;
-            this.lblYellowRank21.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank21.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank21.Location = new System.Drawing.Point(137, 349);
-            this.lblYellowRank21.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank21.Name = "lblYellowRank21";
-            this.lblYellowRank21.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank21.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank21.TabIndex = 760;
-            this.lblYellowRank21.Text = "ccccc";
-            this.lblYellowRank21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank20
-            // 
-            this.lblYellowRank20.AutoSize = true;
-            this.lblYellowRank20.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank20.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank20.Location = new System.Drawing.Point(137, 334);
-            this.lblYellowRank20.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank20.Name = "lblYellowRank20";
-            this.lblYellowRank20.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank20.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank20.TabIndex = 759;
-            this.lblYellowRank20.Text = "ccccc";
-            this.lblYellowRank20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank19
-            // 
-            this.lblYellowRank19.AutoSize = true;
-            this.lblYellowRank19.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank19.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank19.Location = new System.Drawing.Point(137, 319);
-            this.lblYellowRank19.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank19.Name = "lblYellowRank19";
-            this.lblYellowRank19.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank19.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank19.TabIndex = 758;
-            this.lblYellowRank19.Text = "ccccc";
-            this.lblYellowRank19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank18
-            // 
-            this.lblYellowRank18.AutoSize = true;
-            this.lblYellowRank18.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank18.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank18.Location = new System.Drawing.Point(137, 304);
-            this.lblYellowRank18.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank18.Name = "lblYellowRank18";
-            this.lblYellowRank18.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank18.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank18.TabIndex = 757;
-            this.lblYellowRank18.Text = "ccccc";
-            this.lblYellowRank18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank17
-            // 
-            this.lblYellowRank17.AutoSize = true;
-            this.lblYellowRank17.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank17.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank17.Location = new System.Drawing.Point(137, 272);
-            this.lblYellowRank17.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank17.Name = "lblYellowRank17";
-            this.lblYellowRank17.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank17.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank17.TabIndex = 756;
-            this.lblYellowRank17.Text = "ccccc";
-            this.lblYellowRank17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank16
-            // 
-            this.lblYellowRank16.AutoSize = true;
-            this.lblYellowRank16.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank16.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank16.Location = new System.Drawing.Point(137, 257);
-            this.lblYellowRank16.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank16.Name = "lblYellowRank16";
-            this.lblYellowRank16.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank16.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank16.TabIndex = 755;
-            this.lblYellowRank16.Text = "ccccc";
-            this.lblYellowRank16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank15
-            // 
-            this.lblYellowRank15.AutoSize = true;
-            this.lblYellowRank15.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank15.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank15.Location = new System.Drawing.Point(137, 242);
-            this.lblYellowRank15.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank15.Name = "lblYellowRank15";
-            this.lblYellowRank15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank15.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank15.TabIndex = 754;
-            this.lblYellowRank15.Text = "ccccc";
-            this.lblYellowRank15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank14
-            // 
-            this.lblYellowRank14.AutoSize = true;
-            this.lblYellowRank14.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank14.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank14.Location = new System.Drawing.Point(137, 227);
-            this.lblYellowRank14.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank14.Name = "lblYellowRank14";
-            this.lblYellowRank14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank14.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank14.TabIndex = 753;
-            this.lblYellowRank14.Text = "ccccc";
-            this.lblYellowRank14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank13
-            // 
-            this.lblYellowRank13.AutoSize = true;
-            this.lblYellowRank13.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank13.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank13.Location = new System.Drawing.Point(137, 212);
-            this.lblYellowRank13.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank13.Name = "lblYellowRank13";
-            this.lblYellowRank13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank13.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank13.TabIndex = 752;
-            this.lblYellowRank13.Text = "ccccc";
-            this.lblYellowRank13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank12
-            // 
-            this.lblYellowRank12.AutoSize = true;
-            this.lblYellowRank12.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank12.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank12.Location = new System.Drawing.Point(137, 197);
-            this.lblYellowRank12.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank12.Name = "lblYellowRank12";
-            this.lblYellowRank12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank12.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank12.TabIndex = 751;
-            this.lblYellowRank12.Text = "ccccc";
-            this.lblYellowRank12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank11
-            // 
-            this.lblYellowRank11.AutoSize = true;
-            this.lblYellowRank11.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank11.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank11.Location = new System.Drawing.Point(137, 182);
-            this.lblYellowRank11.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank11.Name = "lblYellowRank11";
-            this.lblYellowRank11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank11.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank11.TabIndex = 750;
-            this.lblYellowRank11.Text = "ccccc";
-            this.lblYellowRank11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank10
-            // 
-            this.lblYellowRank10.AutoSize = true;
-            this.lblYellowRank10.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank10.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank10.Location = new System.Drawing.Point(137, 167);
-            this.lblYellowRank10.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank10.Name = "lblYellowRank10";
-            this.lblYellowRank10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank10.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank10.TabIndex = 749;
-            this.lblYellowRank10.Text = "ccccc";
-            this.lblYellowRank10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank9
-            // 
-            this.lblYellowRank9.AutoSize = true;
-            this.lblYellowRank9.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank9.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank9.Location = new System.Drawing.Point(137, 152);
-            this.lblYellowRank9.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank9.Name = "lblYellowRank9";
-            this.lblYellowRank9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank9.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank9.TabIndex = 748;
-            this.lblYellowRank9.Text = "ccccc";
-            this.lblYellowRank9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank8
-            // 
-            this.lblYellowRank8.AutoSize = true;
-            this.lblYellowRank8.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank8.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank8.Location = new System.Drawing.Point(137, 137);
-            this.lblYellowRank8.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank8.Name = "lblYellowRank8";
-            this.lblYellowRank8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank8.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank8.TabIndex = 747;
-            this.lblYellowRank8.Text = "ccccc";
-            this.lblYellowRank8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank7
-            // 
-            this.lblYellowRank7.AutoSize = true;
-            this.lblYellowRank7.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank7.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank7.Location = new System.Drawing.Point(137, 122);
-            this.lblYellowRank7.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank7.Name = "lblYellowRank7";
-            this.lblYellowRank7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank7.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank7.TabIndex = 746;
-            this.lblYellowRank7.Text = "ccccc";
-            this.lblYellowRank7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank6
-            // 
-            this.lblYellowRank6.AutoSize = true;
-            this.lblYellowRank6.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank6.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank6.Location = new System.Drawing.Point(137, 107);
-            this.lblYellowRank6.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank6.Name = "lblYellowRank6";
-            this.lblYellowRank6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank6.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank6.TabIndex = 745;
-            this.lblYellowRank6.Text = "ccccc";
-            this.lblYellowRank6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank5
-            // 
-            this.lblYellowRank5.AutoSize = true;
-            this.lblYellowRank5.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank5.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank5.Location = new System.Drawing.Point(137, 92);
-            this.lblYellowRank5.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank5.Name = "lblYellowRank5";
-            this.lblYellowRank5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank5.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank5.TabIndex = 744;
-            this.lblYellowRank5.Text = "ccccc";
-            this.lblYellowRank5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank4
-            // 
-            this.lblYellowRank4.AutoSize = true;
-            this.lblYellowRank4.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank4.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank4.Location = new System.Drawing.Point(137, 77);
-            this.lblYellowRank4.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank4.Name = "lblYellowRank4";
-            this.lblYellowRank4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank4.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank4.TabIndex = 743;
-            this.lblYellowRank4.Text = "ccccc";
-            this.lblYellowRank4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank3
-            // 
-            this.lblYellowRank3.AutoSize = true;
-            this.lblYellowRank3.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank3.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank3.Location = new System.Drawing.Point(137, 62);
-            this.lblYellowRank3.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank3.Name = "lblYellowRank3";
-            this.lblYellowRank3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank3.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank3.TabIndex = 742;
-            this.lblYellowRank3.Text = "ccccc";
-            this.lblYellowRank3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank2
-            // 
-            this.lblYellowRank2.AutoSize = true;
-            this.lblYellowRank2.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank2.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank2.Location = new System.Drawing.Point(137, 47);
-            this.lblYellowRank2.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank2.Name = "lblYellowRank2";
-            this.lblYellowRank2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank2.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank2.TabIndex = 741;
-            this.lblYellowRank2.Text = "ccccc";
-            this.lblYellowRank2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank1
-            // 
-            this.lblYellowRank1.AutoSize = true;
-            this.lblYellowRank1.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank1.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank1.Location = new System.Drawing.Point(137, 32);
-            this.lblYellowRank1.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank1.Name = "lblYellowRank1";
-            this.lblYellowRank1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank1.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank1.TabIndex = 740;
-            this.lblYellowRank1.Text = "ccccc";
-            this.lblYellowRank1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank0
-            // 
-            this.lblYellowRank0.AutoSize = true;
-            this.lblYellowRank0.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank0.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank0.Location = new System.Drawing.Point(85, 17);
-            this.lblYellowRank0.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank0.Name = "lblYellowRank0";
-            this.lblYellowRank0.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank0.Size = new System.Drawing.Size(20, 13);
-            this.lblYellowRank0.TabIndex = 739;
-            this.lblYellowRank0.Text = "c";
-            this.lblYellowRank0.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // lblYellowRank43
-            // 
-            this.lblYellowRank43.AutoSize = true;
-            this.lblYellowRank43.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank43.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank43.Location = new System.Drawing.Point(351, 364);
-            this.lblYellowRank43.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank43.Name = "lblYellowRank43";
-            this.lblYellowRank43.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank43.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank43.TabIndex = 782;
-            this.lblYellowRank43.Text = "ccccc";
-            this.lblYellowRank43.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank42
-            // 
-            this.lblYellowRank42.AutoSize = true;
-            this.lblYellowRank42.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank42.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank42.Location = new System.Drawing.Point(351, 349);
-            this.lblYellowRank42.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank42.Name = "lblYellowRank42";
-            this.lblYellowRank42.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank42.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank42.TabIndex = 781;
-            this.lblYellowRank42.Text = "ccccc";
-            this.lblYellowRank42.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank41
-            // 
-            this.lblYellowRank41.AutoSize = true;
-            this.lblYellowRank41.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank41.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank41.Location = new System.Drawing.Point(351, 334);
-            this.lblYellowRank41.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank41.Name = "lblYellowRank41";
-            this.lblYellowRank41.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank41.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank41.TabIndex = 780;
-            this.lblYellowRank41.Text = "ccccc";
-            this.lblYellowRank41.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank40
-            // 
-            this.lblYellowRank40.AutoSize = true;
-            this.lblYellowRank40.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank40.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank40.Location = new System.Drawing.Point(351, 319);
-            this.lblYellowRank40.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank40.Name = "lblYellowRank40";
-            this.lblYellowRank40.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank40.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank40.TabIndex = 779;
-            this.lblYellowRank40.Text = "ccccc";
-            this.lblYellowRank40.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank39
-            // 
-            this.lblYellowRank39.AutoSize = true;
-            this.lblYellowRank39.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank39.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank39.Location = new System.Drawing.Point(351, 304);
-            this.lblYellowRank39.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank39.Name = "lblYellowRank39";
-            this.lblYellowRank39.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank39.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank39.TabIndex = 778;
-            this.lblYellowRank39.Text = "ccccc";
-            this.lblYellowRank39.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank38
-            // 
-            this.lblYellowRank38.AutoSize = true;
-            this.lblYellowRank38.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank38.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank38.Location = new System.Drawing.Point(351, 273);
-            this.lblYellowRank38.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank38.Name = "lblYellowRank38";
-            this.lblYellowRank38.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank38.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank38.TabIndex = 777;
-            this.lblYellowRank38.Text = "ccccc";
-            this.lblYellowRank38.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank37
-            // 
-            this.lblYellowRank37.AutoSize = true;
-            this.lblYellowRank37.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank37.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank37.Location = new System.Drawing.Point(351, 257);
-            this.lblYellowRank37.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank37.Name = "lblYellowRank37";
-            this.lblYellowRank37.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank37.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank37.TabIndex = 776;
-            this.lblYellowRank37.Text = "ccccc";
-            this.lblYellowRank37.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank36
-            // 
-            this.lblYellowRank36.AutoSize = true;
-            this.lblYellowRank36.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank36.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank36.Location = new System.Drawing.Point(351, 242);
-            this.lblYellowRank36.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank36.Name = "lblYellowRank36";
-            this.lblYellowRank36.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank36.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank36.TabIndex = 775;
-            this.lblYellowRank36.Text = "ccccc";
-            this.lblYellowRank36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank35
-            // 
-            this.lblYellowRank35.AutoSize = true;
-            this.lblYellowRank35.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank35.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank35.Location = new System.Drawing.Point(351, 227);
-            this.lblYellowRank35.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank35.Name = "lblYellowRank35";
-            this.lblYellowRank35.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank35.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank35.TabIndex = 774;
-            this.lblYellowRank35.Text = "ccccc";
-            this.lblYellowRank35.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank34
-            // 
-            this.lblYellowRank34.AutoSize = true;
-            this.lblYellowRank34.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank34.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank34.Location = new System.Drawing.Point(351, 212);
-            this.lblYellowRank34.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank34.Name = "lblYellowRank34";
-            this.lblYellowRank34.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank34.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank34.TabIndex = 773;
-            this.lblYellowRank34.Text = "ccccc";
-            this.lblYellowRank34.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank33
-            // 
-            this.lblYellowRank33.AutoSize = true;
-            this.lblYellowRank33.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank33.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank33.Location = new System.Drawing.Point(351, 182);
-            this.lblYellowRank33.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank33.Name = "lblYellowRank33";
-            this.lblYellowRank33.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank33.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank33.TabIndex = 772;
-            this.lblYellowRank33.Text = "ccccc";
-            this.lblYellowRank33.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank32
-            // 
-            this.lblYellowRank32.AutoSize = true;
-            this.lblYellowRank32.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank32.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank32.Location = new System.Drawing.Point(351, 167);
-            this.lblYellowRank32.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank32.Name = "lblYellowRank32";
-            this.lblYellowRank32.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank32.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank32.TabIndex = 771;
-            this.lblYellowRank32.Text = "ccccc";
-            this.lblYellowRank32.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank31
-            // 
-            this.lblYellowRank31.AutoSize = true;
-            this.lblYellowRank31.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank31.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank31.Location = new System.Drawing.Point(351, 152);
-            this.lblYellowRank31.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank31.Name = "lblYellowRank31";
-            this.lblYellowRank31.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank31.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank31.TabIndex = 770;
-            this.lblYellowRank31.Text = "ccccc";
-            this.lblYellowRank31.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank30
-            // 
-            this.lblYellowRank30.AutoSize = true;
-            this.lblYellowRank30.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank30.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank30.Location = new System.Drawing.Point(351, 137);
-            this.lblYellowRank30.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank30.Name = "lblYellowRank30";
-            this.lblYellowRank30.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank30.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank30.TabIndex = 769;
-            this.lblYellowRank30.Text = "ccccc";
-            this.lblYellowRank30.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank29
-            // 
-            this.lblYellowRank29.AutoSize = true;
-            this.lblYellowRank29.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank29.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank29.Location = new System.Drawing.Point(351, 122);
-            this.lblYellowRank29.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank29.Name = "lblYellowRank29";
-            this.lblYellowRank29.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank29.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank29.TabIndex = 768;
-            this.lblYellowRank29.Text = "ccccc";
-            this.lblYellowRank29.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank28
-            // 
-            this.lblYellowRank28.AutoSize = true;
-            this.lblYellowRank28.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank28.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank28.Location = new System.Drawing.Point(351, 92);
-            this.lblYellowRank28.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank28.Name = "lblYellowRank28";
-            this.lblYellowRank28.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank28.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank28.TabIndex = 767;
-            this.lblYellowRank28.Text = "ccccc";
-            this.lblYellowRank28.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank27
-            // 
-            this.lblYellowRank27.AutoSize = true;
-            this.lblYellowRank27.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank27.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank27.Location = new System.Drawing.Point(351, 77);
-            this.lblYellowRank27.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank27.Name = "lblYellowRank27";
-            this.lblYellowRank27.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank27.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank27.TabIndex = 766;
-            this.lblYellowRank27.Text = "ccccc";
-            this.lblYellowRank27.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank26
-            // 
-            this.lblYellowRank26.AutoSize = true;
-            this.lblYellowRank26.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank26.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank26.Location = new System.Drawing.Point(351, 62);
-            this.lblYellowRank26.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank26.Name = "lblYellowRank26";
-            this.lblYellowRank26.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank26.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank26.TabIndex = 765;
-            this.lblYellowRank26.Text = "ccccc";
-            this.lblYellowRank26.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank25
-            // 
-            this.lblYellowRank25.AutoSize = true;
-            this.lblYellowRank25.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank25.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank25.Location = new System.Drawing.Point(351, 47);
-            this.lblYellowRank25.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank25.Name = "lblYellowRank25";
-            this.lblYellowRank25.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank25.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank25.TabIndex = 764;
-            this.lblYellowRank25.Text = "ccccc";
-            this.lblYellowRank25.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank24
-            // 
-            this.lblYellowRank24.AutoSize = true;
-            this.lblYellowRank24.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank24.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank24.Location = new System.Drawing.Point(351, 32);
-            this.lblYellowRank24.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank24.Name = "lblYellowRank24";
-            this.lblYellowRank24.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank24.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank24.TabIndex = 763;
-            this.lblYellowRank24.Text = "ccccc";
-            this.lblYellowRank24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // lblYellowRank23
-            // 
-            this.lblYellowRank23.AutoSize = true;
-            this.lblYellowRank23.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblYellowRank23.ForeColor = System.Drawing.Color.Yellow;
-            this.lblYellowRank23.Location = new System.Drawing.Point(351, 17);
-            this.lblYellowRank23.Margin = new System.Windows.Forms.Padding(0);
-            this.lblYellowRank23.Name = "lblYellowRank23";
-            this.lblYellowRank23.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.lblYellowRank23.Size = new System.Drawing.Size(72, 13);
-            this.lblYellowRank23.TabIndex = 762;
-            this.lblYellowRank23.Text = "ccccc";
-            this.lblYellowRank23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // linkSkill43
             // 
@@ -4611,7 +3863,7 @@
             this.lblRankCombat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRankCombat.Location = new System.Drawing.Point(347, 3);
             this.lblRankCombat.Name = "lblRankCombat";
-            this.lblRankCombat.Size = new System.Drawing.Size(65, 13);
+            this.lblRankCombat.Size = new System.Drawing.Size(72, 13);
             this.lblRankCombat.TabIndex = 267;
             this.lblRankCombat.Text = "Rank";
             this.lblRankCombat.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -6061,29 +5313,6 @@
         private System.Windows.Forms.Label lblGreenRank3;
         private System.Windows.Forms.Label lblGreenRank2;
         private System.Windows.Forms.Label lblGreenRank1;
-        private System.Windows.Forms.Label lblYellowRank22;
-        private System.Windows.Forms.Label lblYellowRank21;
-        private System.Windows.Forms.Label lblYellowRank20;
-        private System.Windows.Forms.Label lblYellowRank19;
-        private System.Windows.Forms.Label lblYellowRank18;
-        private System.Windows.Forms.Label lblYellowRank17;
-        private System.Windows.Forms.Label lblYellowRank16;
-        private System.Windows.Forms.Label lblYellowRank15;
-        private System.Windows.Forms.Label lblYellowRank14;
-        private System.Windows.Forms.Label lblYellowRank13;
-        private System.Windows.Forms.Label lblYellowRank12;
-        private System.Windows.Forms.Label lblYellowRank11;
-        private System.Windows.Forms.Label lblYellowRank10;
-        private System.Windows.Forms.Label lblYellowRank9;
-        private System.Windows.Forms.Label lblYellowRank8;
-        private System.Windows.Forms.Label lblYellowRank7;
-        private System.Windows.Forms.Label lblYellowRank6;
-        private System.Windows.Forms.Label lblYellowRank5;
-        private System.Windows.Forms.Label lblYellowRank4;
-        private System.Windows.Forms.Label lblYellowRank3;
-        private System.Windows.Forms.Label lblYellowRank2;
-        private System.Windows.Forms.Label lblYellowRank1;
-        private System.Windows.Forms.Label lblYellowRank0;
         private System.Windows.Forms.Label lblGreenRank43;
         private System.Windows.Forms.Label lblGreenRank42;
         private System.Windows.Forms.Label lblGreenRank41;
@@ -6108,27 +5337,6 @@
         private System.Windows.Forms.Label lblRankCustom;
         private System.Windows.Forms.Label lblRankKnowledge;
         private System.Windows.Forms.Label lblRankSocial;
-        private System.Windows.Forms.Label lblYellowRank43;
-        private System.Windows.Forms.Label lblYellowRank42;
-        private System.Windows.Forms.Label lblYellowRank41;
-        private System.Windows.Forms.Label lblYellowRank40;
-        private System.Windows.Forms.Label lblYellowRank39;
-        private System.Windows.Forms.Label lblYellowRank38;
-        private System.Windows.Forms.Label lblYellowRank37;
-        private System.Windows.Forms.Label lblYellowRank36;
-        private System.Windows.Forms.Label lblYellowRank35;
-        private System.Windows.Forms.Label lblYellowRank34;
-        private System.Windows.Forms.Label lblYellowRank33;
-        private System.Windows.Forms.Label lblYellowRank32;
-        private System.Windows.Forms.Label lblYellowRank31;
-        private System.Windows.Forms.Label lblYellowRank30;
-        private System.Windows.Forms.Label lblYellowRank29;
-        private System.Windows.Forms.Label lblYellowRank28;
-        private System.Windows.Forms.Label lblYellowRank27;
-        private System.Windows.Forms.Label lblYellowRank26;
-        private System.Windows.Forms.Label lblYellowRank25;
-        private System.Windows.Forms.Label lblYellowRank24;
-        private System.Windows.Forms.Label lblYellowRank23;
         private System.Windows.Forms.LinkLabel linkSkill43;
         private System.Windows.Forms.LinkLabel linkSkill42;
         private System.Windows.Forms.LinkLabel linkSkill41;
