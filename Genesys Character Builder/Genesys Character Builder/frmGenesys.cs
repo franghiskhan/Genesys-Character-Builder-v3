@@ -1947,23 +1947,31 @@ namespace Genesys_Character_Builder
                 for (int j = 0; j < getSkillCharacteristic(myCharacter.Skills[i].Characteristic); j++)
                 {
                     int yellowRanks = 0;
-                    
+                    int greenranks = 0;
+
                     if (myCharacter.Skills[i].Rank - yellowRanks > j || getSkillCharacteristic(myCharacter.Skills[i].Characteristic) - yellowRanks > j)
                     {
                         skillRanksGreen[i].Text += "d";
+                        
+                        greenranks++;
                         if (i < 23)
-                        { skillRanksGreen[i].Left = 192 - j * 11; }
+                        { skillRanksGreen[i].Left = 210 - skillRanksGreen[i].Width; }
                         else
-                        { skillRanksGreen[i].Left = 404 - j * 11; }
+                        { skillRanksGreen[i].Left = 411 - skillRanksGreen[i].Width; }
+                        
                     }
                     if (myCharacter.Skills[i].Rank > j && getSkillCharacteristic(myCharacter.Skills[i].Characteristic) > j)
                     {
                         skillRanksYellow[i].Text += "c";
+                        yellowRanks++;
+                        greenranks--;
                         skillRanksGreen[i].Text = skillRanksGreen[i].Text.Remove(0, 1);
+                        
                         if (i < 23)
-                        { skillRanksYellow[i].Left = skillRanksYellow[i].Location.X - 23 - j * 11; }
+                        { skillRanksYellow[i].Left = skillRanksGreen[i].Location.X - skillRanksGreen[i].Width - 10 - skillRanksYellow[i].Width; }
                         else
-                        { skillRanksYellow[i].Left = skillRanksYellow[i].Location.X - 23 - j * 11; }
+                        { skillRanksYellow[i].Left = skillRanksGreen[i].Location.X - skillRanksGreen[i].Width - 10 - skillRanksYellow[i].Width; }
+                        
                     }
                 }
                 /*
