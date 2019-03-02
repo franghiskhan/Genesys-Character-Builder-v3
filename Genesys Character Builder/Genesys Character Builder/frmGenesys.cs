@@ -1886,7 +1886,107 @@ namespace Genesys_Character_Builder
 
         private void btnReset_Click(object sender, EventArgs e)
         {
+            myCharacter.Setting = "";
+            myCharacter.CharacterName = "";
+            myCharacter.Species = "";
+            myCharacter.SubSpecies = "";
+            myCharacter.Career = "";
 
+            myCharacter.Brawn = 2;
+            myCharacter.Agility = 2;
+            myCharacter.Intellect = 2;
+            myCharacter.Cunning = 2;
+            myCharacter.Willpower = 2;
+            myCharacter.Presence = 2;
+
+            myCharacter.Soak = 0;
+            myCharacter.WoundThreshold = 10;
+            myCharacter.WoundCurrent = 0;
+            myCharacter.StrainThreshold = 10;
+            myCharacter.StrainCurrent = 0;
+            myCharacter.DefenseRanged = 0;
+            myCharacter.DefenseMelee = 0;
+            myCharacter.CriticalInjuries = null;
+
+            myCharacter.TotalXP = 0;
+            myCharacter.RemainXP = 0;
+            myCharacter.UsedXP = 0;
+
+            for (int i = 0; i < NUM_SKILLS; i++)
+            {
+                myCharacter.Skills[i].SkillName = "";
+                myCharacter.Skills[i].Characteristic = "";
+                myCharacter.Skills[i].Description = "";
+                myCharacter.Skills[i].Career = false;
+                myCharacter.Skills[i].Rank = 0;
+            }
+            for (int i = 0; i < NUM_TALENTS; i++)
+            {
+                myCharacter.Talents[i].TalentName = "";
+                myCharacter.Talents[i].TalentDescription = "";
+                myCharacter.Talents[i].Active = false;
+                myCharacter.Talents[i].Ranked = false;
+                myCharacter.Talents[i].Tier = 0;
+                myCharacter.Talents[i].Page = "";
+            }
+            myCharacter.Abilities = null;
+            for (int i = 0; i < 4; i++)
+            {
+                myCharacter.Weapons[i].WeaponName = "";
+                myCharacter.Weapons[i].WeaponSkill = "";
+                myCharacter.Weapons[i].WeaponDamage = "";
+                myCharacter.Weapons[i].WeaponCrit = "";
+                myCharacter.Weapons[i].WeaponRange = "";
+                myCharacter.Weapons[i].WeaponSpecial = "";
+            }
+            myCharacter.WeaponsAndArmor = null;
+            myCharacter.PersonalGear = null;
+            myCharacter.Currency = null;
+
+            myCharacter.MotivationStrength = "";
+            myCharacter.MotivationFlaw = "";
+            myCharacter.MotivationDesire = "";
+            myCharacter.MotivationFear = "";
+            myCharacter.MotivationBackground = "";
+
+            myCharacter.Gender = "";
+            myCharacter.Age = "";
+            myCharacter.Height = "";
+            myCharacter.Build = "";
+            myCharacter.Hair = "";
+            myCharacter.Eyes = "";
+            myCharacter.Features = "";
+
+            cboSetting.Items.Clear();
+            cboSetting.Items.Add("Android");
+            cboSetting.Items.Add("Terrinoth");
+            cboSetting.Items.Add("Kirinioth");
+            cboSetting.SelectedIndex = 0;
+
+            cboSetting.Text = myCharacter.Setting;
+            txtCharacterName.Text = myCharacter.CharacterName;
+            cboSpecies.Text = myCharacter.Species;
+            cboSubSpecies.Text = myCharacter.SubSpecies;
+            cboCareer.Text = myCharacter.Career;
+
+            lblBrawnVal.Text = myCharacter.Brawn.ToString();
+            lblAgilityVal.Text = myCharacter.Agility.ToString();
+            lblIntellectVal.Text = myCharacter.Intellect.ToString();
+            lblCunningVal.Text = myCharacter.Cunning.ToString();
+            lblWillpowerVal.Text = myCharacter.Willpower.ToString();
+            lblPresenceVal.Text = myCharacter.Presence.ToString();
+
+            lblSoak.Text = myCharacter.Soak.ToString();
+            lblWoundThreshold.Text = myCharacter.WoundThreshold.ToString();
+            txtWoundsCurrent.Text = myCharacter.WoundCurrent.ToString();
+            lblStrainThreshold.Text = myCharacter.StrainThreshold.ToString();
+            txtStrainCurrent.Text = myCharacter.StrainCurrent.ToString();
+            lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
+            lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
+
+            redrawSkillRanks();
+            //generateSkillLinks();
+            updateTalents();
         }
 
         private void btnExit_Click(object sender, EventArgs e)
