@@ -97,33 +97,10 @@
             this.txtSkillDescription = new System.Windows.Forms.TextBox();
             this.cboCharacteristic = new System.Windows.Forms.ComboBox();
             this.txtSkill = new System.Windows.Forms.TextBox();
-            this.linkSkill22 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill21 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill20 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill19 = new System.Windows.Forms.LinkLabel();
             this.lblSkillsMagic = new System.Windows.Forms.Label();
             this.lblRankMagic = new System.Windows.Forms.Label();
-            this.linkSkill18 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill17 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill16 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill15 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill14 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill13 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill12 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill11 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill10 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill9 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill8 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill7 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill6 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill5 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill4 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill3 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill2 = new System.Windows.Forms.LinkLabel();
-            this.linkSkill1 = new System.Windows.Forms.LinkLabel();
             this.lblGeneralSkills = new System.Windows.Forms.Label();
             this.lblGeneralSkillsRank = new System.Windows.Forms.Label();
-            this.linkSkill0 = new System.Windows.Forms.LinkLabel();
             this.panelTalentDetail = new System.Windows.Forms.Panel();
             this.btnTalentCancel = new System.Windows.Forms.Button();
             this.btnTalentSave = new System.Windows.Forms.Button();
@@ -290,10 +267,17 @@
             this.linkSkill41 = new System.Windows.Forms.LinkLabel();
             this.linkSkill40 = new System.Windows.Forms.LinkLabel();
             this.linkSkill39 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill1 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill2 = new System.Windows.Forms.LinkLabel();
             this.lblSkillsCustom = new System.Windows.Forms.Label();
+            this.linkSkill3 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill4 = new System.Windows.Forms.LinkLabel();
             this.linkSkill38 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill5 = new System.Windows.Forms.LinkLabel();
             this.linkSkill37 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill6 = new System.Windows.Forms.LinkLabel();
             this.linkSkill36 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill7 = new System.Windows.Forms.LinkLabel();
             this.linkSkill35 = new System.Windows.Forms.LinkLabel();
             this.linkSkill23 = new System.Windows.Forms.LinkLabel();
             this.lblRankCombat = new System.Windows.Forms.Label();
@@ -301,16 +285,31 @@
             this.lblSkillsCombat = new System.Windows.Forms.Label();
             this.linkSkill34 = new System.Windows.Forms.LinkLabel();
             this.linkSkill24 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill22 = new System.Windows.Forms.LinkLabel();
             this.linkSkill25 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill21 = new System.Windows.Forms.LinkLabel();
             this.linkSkill26 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill20 = new System.Windows.Forms.LinkLabel();
             this.linkSkill27 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill19 = new System.Windows.Forms.LinkLabel();
             this.linkSkill28 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill18 = new System.Windows.Forms.LinkLabel();
             this.linkSkill29 = new System.Windows.Forms.LinkLabel();
             this.lblSkillsSocial = new System.Windows.Forms.Label();
+            this.linkSkill17 = new System.Windows.Forms.LinkLabel();
             this.linkSkill30 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill16 = new System.Windows.Forms.LinkLabel();
             this.linkSkill31 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill15 = new System.Windows.Forms.LinkLabel();
             this.linkSkill32 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill14 = new System.Windows.Forms.LinkLabel();
             this.linkSkill33 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill13 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill8 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill12 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill9 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill11 = new System.Windows.Forms.LinkLabel();
+            this.linkSkill10 = new System.Windows.Forms.LinkLabel();
             this.panelTalents = new System.Windows.Forms.Panel();
             this.btnSkills = new System.Windows.Forms.Button();
             this.btnTalents = new System.Windows.Forms.Button();
@@ -386,6 +385,7 @@
             this.txtGender = new System.Windows.Forms.TextBox();
             this.btnAbilities = new System.Windows.Forms.Button();
             this.panelAbilities = new System.Windows.Forms.Panel();
+            this.linkSkill0 = new System.Windows.Forms.LinkLabel();
             this.panelSkillDetail.SuspendLayout();
             this.panelTalentDetail.SuspendLayout();
             this.panelTalent24.SuspendLayout();
@@ -1293,58 +1293,6 @@
             this.txtSkill.TabIndex = 0;
             this.txtSkill.Text = "Skill";
             // 
-            // linkSkill22
-            // 
-            this.linkSkill22.AutoSize = true;
-            this.linkSkill22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill22.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill22.Location = new System.Drawing.Point(3, 364);
-            this.linkSkill22.Name = "linkSkill22";
-            this.linkSkill22.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill22.TabIndex = 602;
-            this.linkSkill22.TabStop = true;
-            this.linkSkill22.Text = "linkSkill22";
-            this.linkSkill22.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill21
-            // 
-            this.linkSkill21.AutoSize = true;
-            this.linkSkill21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill21.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill21.Location = new System.Drawing.Point(3, 349);
-            this.linkSkill21.Name = "linkSkill21";
-            this.linkSkill21.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill21.TabIndex = 595;
-            this.linkSkill21.TabStop = true;
-            this.linkSkill21.Text = "linkSkill21";
-            this.linkSkill21.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill20
-            // 
-            this.linkSkill20.AutoSize = true;
-            this.linkSkill20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill20.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill20.Location = new System.Drawing.Point(3, 334);
-            this.linkSkill20.Name = "linkSkill20";
-            this.linkSkill20.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill20.TabIndex = 588;
-            this.linkSkill20.TabStop = true;
-            this.linkSkill20.Text = "linkSkill20";
-            this.linkSkill20.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill19
-            // 
-            this.linkSkill19.AutoSize = true;
-            this.linkSkill19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill19.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill19.Location = new System.Drawing.Point(3, 319);
-            this.linkSkill19.Name = "linkSkill19";
-            this.linkSkill19.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill19.TabIndex = 581;
-            this.linkSkill19.TabStop = true;
-            this.linkSkill19.Text = "linkSkill19";
-            this.linkSkill19.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
             // lblSkillsMagic
             // 
             this.lblSkillsMagic.AutoSize = true;
@@ -1367,240 +1315,6 @@
             this.lblRankMagic.Text = "Dice Pool";
             this.lblRankMagic.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
-            // linkSkill18
-            // 
-            this.linkSkill18.AutoSize = true;
-            this.linkSkill18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill18.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill18.Location = new System.Drawing.Point(3, 304);
-            this.linkSkill18.Name = "linkSkill18";
-            this.linkSkill18.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill18.TabIndex = 574;
-            this.linkSkill18.TabStop = true;
-            this.linkSkill18.Text = "linkSkill18";
-            this.linkSkill18.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill17
-            // 
-            this.linkSkill17.AutoSize = true;
-            this.linkSkill17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill17.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill17.Location = new System.Drawing.Point(3, 272);
-            this.linkSkill17.Name = "linkSkill17";
-            this.linkSkill17.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill17.TabIndex = 564;
-            this.linkSkill17.TabStop = true;
-            this.linkSkill17.Text = "linkSkill17";
-            this.linkSkill17.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill16
-            // 
-            this.linkSkill16.AutoSize = true;
-            this.linkSkill16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill16.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill16.Location = new System.Drawing.Point(3, 257);
-            this.linkSkill16.Name = "linkSkill16";
-            this.linkSkill16.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill16.TabIndex = 557;
-            this.linkSkill16.TabStop = true;
-            this.linkSkill16.Text = "linkSkill16";
-            this.linkSkill16.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill15
-            // 
-            this.linkSkill15.AutoSize = true;
-            this.linkSkill15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill15.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill15.Location = new System.Drawing.Point(3, 242);
-            this.linkSkill15.Name = "linkSkill15";
-            this.linkSkill15.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill15.TabIndex = 550;
-            this.linkSkill15.TabStop = true;
-            this.linkSkill15.Text = "linkSkill15";
-            this.linkSkill15.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill14
-            // 
-            this.linkSkill14.AutoSize = true;
-            this.linkSkill14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill14.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill14.Location = new System.Drawing.Point(3, 227);
-            this.linkSkill14.Name = "linkSkill14";
-            this.linkSkill14.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill14.TabIndex = 543;
-            this.linkSkill14.TabStop = true;
-            this.linkSkill14.Text = "linkSkill14";
-            this.linkSkill14.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill13
-            // 
-            this.linkSkill13.AutoSize = true;
-            this.linkSkill13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill13.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill13.Location = new System.Drawing.Point(3, 212);
-            this.linkSkill13.Name = "linkSkill13";
-            this.linkSkill13.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill13.TabIndex = 536;
-            this.linkSkill13.TabStop = true;
-            this.linkSkill13.Text = "linkSkill13";
-            this.linkSkill13.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill12
-            // 
-            this.linkSkill12.AutoSize = true;
-            this.linkSkill12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill12.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill12.Location = new System.Drawing.Point(3, 197);
-            this.linkSkill12.Name = "linkSkill12";
-            this.linkSkill12.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill12.TabIndex = 529;
-            this.linkSkill12.TabStop = true;
-            this.linkSkill12.Text = "linkSkill12";
-            this.linkSkill12.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill11
-            // 
-            this.linkSkill11.AutoSize = true;
-            this.linkSkill11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill11.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill11.Location = new System.Drawing.Point(3, 182);
-            this.linkSkill11.Name = "linkSkill11";
-            this.linkSkill11.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill11.TabIndex = 522;
-            this.linkSkill11.TabStop = true;
-            this.linkSkill11.Text = "linkSkill11";
-            this.linkSkill11.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill10
-            // 
-            this.linkSkill10.AutoSize = true;
-            this.linkSkill10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill10.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill10.Location = new System.Drawing.Point(3, 167);
-            this.linkSkill10.Name = "linkSkill10";
-            this.linkSkill10.Size = new System.Drawing.Size(54, 13);
-            this.linkSkill10.TabIndex = 515;
-            this.linkSkill10.TabStop = true;
-            this.linkSkill10.Text = "linkSkill10";
-            this.linkSkill10.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill9
-            // 
-            this.linkSkill9.AutoSize = true;
-            this.linkSkill9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill9.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill9.Location = new System.Drawing.Point(3, 152);
-            this.linkSkill9.Name = "linkSkill9";
-            this.linkSkill9.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill9.TabIndex = 508;
-            this.linkSkill9.TabStop = true;
-            this.linkSkill9.Text = "linkSkill9";
-            this.linkSkill9.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill8
-            // 
-            this.linkSkill8.AutoSize = true;
-            this.linkSkill8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill8.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill8.Location = new System.Drawing.Point(3, 137);
-            this.linkSkill8.Name = "linkSkill8";
-            this.linkSkill8.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill8.TabIndex = 501;
-            this.linkSkill8.TabStop = true;
-            this.linkSkill8.Text = "linkSkill8";
-            this.linkSkill8.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill7
-            // 
-            this.linkSkill7.AutoSize = true;
-            this.linkSkill7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill7.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill7.Location = new System.Drawing.Point(3, 122);
-            this.linkSkill7.Name = "linkSkill7";
-            this.linkSkill7.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill7.TabIndex = 258;
-            this.linkSkill7.TabStop = true;
-            this.linkSkill7.Text = "linkSkill7";
-            this.linkSkill7.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill6
-            // 
-            this.linkSkill6.AutoSize = true;
-            this.linkSkill6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill6.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill6.Location = new System.Drawing.Point(3, 107);
-            this.linkSkill6.Name = "linkSkill6";
-            this.linkSkill6.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill6.TabIndex = 251;
-            this.linkSkill6.TabStop = true;
-            this.linkSkill6.Text = "linkSkill6";
-            this.linkSkill6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill5
-            // 
-            this.linkSkill5.AutoSize = true;
-            this.linkSkill5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill5.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill5.Location = new System.Drawing.Point(3, 92);
-            this.linkSkill5.Name = "linkSkill5";
-            this.linkSkill5.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill5.TabIndex = 244;
-            this.linkSkill5.TabStop = true;
-            this.linkSkill5.Text = "linkSkill5";
-            this.linkSkill5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill4
-            // 
-            this.linkSkill4.AutoSize = true;
-            this.linkSkill4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill4.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill4.Location = new System.Drawing.Point(3, 77);
-            this.linkSkill4.Name = "linkSkill4";
-            this.linkSkill4.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill4.TabIndex = 237;
-            this.linkSkill4.TabStop = true;
-            this.linkSkill4.Text = "linkSkill4";
-            this.linkSkill4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill3
-            // 
-            this.linkSkill3.AutoSize = true;
-            this.linkSkill3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill3.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill3.Location = new System.Drawing.Point(3, 62);
-            this.linkSkill3.Name = "linkSkill3";
-            this.linkSkill3.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill3.TabIndex = 230;
-            this.linkSkill3.TabStop = true;
-            this.linkSkill3.Text = "linkSkill3";
-            this.linkSkill3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill2
-            // 
-            this.linkSkill2.AutoSize = true;
-            this.linkSkill2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill2.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.linkSkill2.Location = new System.Drawing.Point(3, 47);
-            this.linkSkill2.Name = "linkSkill2";
-            this.linkSkill2.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill2.TabIndex = 223;
-            this.linkSkill2.TabStop = true;
-            this.linkSkill2.Text = "linkSkill2";
-            this.linkSkill2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
-            // linkSkill1
-            // 
-            this.linkSkill1.AutoSize = true;
-            this.linkSkill1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill1.LinkColor = System.Drawing.Color.SaddleBrown;
-            this.linkSkill1.Location = new System.Drawing.Point(3, 32);
-            this.linkSkill1.Name = "linkSkill1";
-            this.linkSkill1.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill1.TabIndex = 216;
-            this.linkSkill1.TabStop = true;
-            this.linkSkill1.Text = "linkSkill1";
-            this.linkSkill1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
-            // 
             // lblGeneralSkills
             // 
             this.lblGeneralSkills.AutoSize = true;
@@ -1622,19 +1336,6 @@
             this.lblGeneralSkillsRank.TabIndex = 66;
             this.lblGeneralSkillsRank.Text = "Dice Pool";
             this.lblGeneralSkillsRank.TextAlign = System.Drawing.ContentAlignment.TopRight;
-            // 
-            // linkSkill0
-            // 
-            this.linkSkill0.AutoSize = true;
-            this.linkSkill0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill0.LinkColor = System.Drawing.Color.SaddleBrown;
-            this.linkSkill0.Location = new System.Drawing.Point(3, 17);
-            this.linkSkill0.Name = "linkSkill0";
-            this.linkSkill0.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill0.TabIndex = 91;
-            this.linkSkill0.TabStop = true;
-            this.linkSkill0.Text = "linkSkill0";
-            this.linkSkill0.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // panelTalentDetail
             // 
@@ -2960,6 +2661,7 @@
             // panelSkills
             // 
             this.panelSkills.BackColor = System.Drawing.Color.Transparent;
+            this.panelSkills.Controls.Add(this.linkSkill0);
             this.panelSkills.Controls.Add(this.lblGreenRank43);
             this.panelSkills.Controls.Add(this.lblGreenRank42);
             this.panelSkills.Controls.Add(this.lblGreenRank41);
@@ -3015,7 +2717,6 @@
             this.panelSkills.Controls.Add(this.linkSkill39);
             this.panelSkills.Controls.Add(this.panelSkillDetail);
             this.panelSkills.Controls.Add(this.lblGeneralSkills);
-            this.panelSkills.Controls.Add(this.linkSkill0);
             this.panelSkills.Controls.Add(this.lblGeneralSkillsRank);
             this.panelSkills.Controls.Add(this.linkSkill1);
             this.panelSkills.Controls.Add(this.linkSkill2);
@@ -3673,7 +3374,7 @@
             // 
             this.lblGreenRank0.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblGreenRank0.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblGreenRank0.ForeColor = System.Drawing.Color.Green;
             this.lblGreenRank0.Location = new System.Drawing.Point(140, 17);
             this.lblGreenRank0.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank0.Name = "lblGreenRank0";
@@ -3781,6 +3482,32 @@
             this.linkSkill39.Text = "linkSkill39";
             this.linkSkill39.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
+            // linkSkill1
+            // 
+            this.linkSkill1.AutoSize = true;
+            this.linkSkill1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill1.LinkColor = System.Drawing.Color.SaddleBrown;
+            this.linkSkill1.Location = new System.Drawing.Point(3, 32);
+            this.linkSkill1.Name = "linkSkill1";
+            this.linkSkill1.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill1.TabIndex = 216;
+            this.linkSkill1.TabStop = true;
+            this.linkSkill1.Text = "linkSkill1";
+            this.linkSkill1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill2
+            // 
+            this.linkSkill2.AutoSize = true;
+            this.linkSkill2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill2.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill2.Location = new System.Drawing.Point(3, 47);
+            this.linkSkill2.Name = "linkSkill2";
+            this.linkSkill2.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill2.TabIndex = 223;
+            this.linkSkill2.TabStop = true;
+            this.linkSkill2.Text = "linkSkill2";
+            this.linkSkill2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // lblSkillsCustom
             // 
             this.lblSkillsCustom.AutoSize = true;
@@ -3791,6 +3518,32 @@
             this.lblSkillsCustom.Size = new System.Drawing.Size(69, 13);
             this.lblSkillsCustom.TabIndex = 647;
             this.lblSkillsCustom.Text = "Custom Skills";
+            // 
+            // linkSkill3
+            // 
+            this.linkSkill3.AutoSize = true;
+            this.linkSkill3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill3.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill3.Location = new System.Drawing.Point(3, 62);
+            this.linkSkill3.Name = "linkSkill3";
+            this.linkSkill3.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill3.TabIndex = 230;
+            this.linkSkill3.TabStop = true;
+            this.linkSkill3.Text = "linkSkill3";
+            this.linkSkill3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill4
+            // 
+            this.linkSkill4.AutoSize = true;
+            this.linkSkill4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill4.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill4.Location = new System.Drawing.Point(3, 77);
+            this.linkSkill4.Name = "linkSkill4";
+            this.linkSkill4.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill4.TabIndex = 237;
+            this.linkSkill4.TabStop = true;
+            this.linkSkill4.Text = "linkSkill4";
+            this.linkSkill4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill38
             // 
@@ -3805,6 +3558,19 @@
             this.linkSkill38.Text = "linkSkill38";
             this.linkSkill38.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
+            // linkSkill5
+            // 
+            this.linkSkill5.AutoSize = true;
+            this.linkSkill5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill5.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill5.Location = new System.Drawing.Point(3, 92);
+            this.linkSkill5.Name = "linkSkill5";
+            this.linkSkill5.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill5.TabIndex = 244;
+            this.linkSkill5.TabStop = true;
+            this.linkSkill5.Text = "linkSkill5";
+            this.linkSkill5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // linkSkill37
             // 
             this.linkSkill37.AutoSize = true;
@@ -3818,6 +3584,19 @@
             this.linkSkill37.Text = "linkSkill37";
             this.linkSkill37.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
+            // linkSkill6
+            // 
+            this.linkSkill6.AutoSize = true;
+            this.linkSkill6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill6.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill6.Location = new System.Drawing.Point(3, 107);
+            this.linkSkill6.Name = "linkSkill6";
+            this.linkSkill6.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill6.TabIndex = 251;
+            this.linkSkill6.TabStop = true;
+            this.linkSkill6.Text = "linkSkill6";
+            this.linkSkill6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // linkSkill36
             // 
             this.linkSkill36.AutoSize = true;
@@ -3830,6 +3609,19 @@
             this.linkSkill36.TabStop = true;
             this.linkSkill36.Text = "linkSkill36";
             this.linkSkill36.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill7
+            // 
+            this.linkSkill7.AutoSize = true;
+            this.linkSkill7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill7.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill7.Location = new System.Drawing.Point(3, 122);
+            this.linkSkill7.Name = "linkSkill7";
+            this.linkSkill7.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill7.TabIndex = 258;
+            this.linkSkill7.TabStop = true;
+            this.linkSkill7.Text = "linkSkill7";
+            this.linkSkill7.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill35
             // 
@@ -3916,6 +3708,19 @@
             this.linkSkill24.Text = "linkSkill24";
             this.linkSkill24.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
+            // linkSkill22
+            // 
+            this.linkSkill22.AutoSize = true;
+            this.linkSkill22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill22.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill22.Location = new System.Drawing.Point(3, 364);
+            this.linkSkill22.Name = "linkSkill22";
+            this.linkSkill22.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill22.TabIndex = 602;
+            this.linkSkill22.TabStop = true;
+            this.linkSkill22.Text = "linkSkill22";
+            this.linkSkill22.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // linkSkill25
             // 
             this.linkSkill25.AutoSize = true;
@@ -3928,6 +3733,19 @@
             this.linkSkill25.TabStop = true;
             this.linkSkill25.Text = "linkSkill25";
             this.linkSkill25.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill21
+            // 
+            this.linkSkill21.AutoSize = true;
+            this.linkSkill21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill21.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill21.Location = new System.Drawing.Point(3, 349);
+            this.linkSkill21.Name = "linkSkill21";
+            this.linkSkill21.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill21.TabIndex = 595;
+            this.linkSkill21.TabStop = true;
+            this.linkSkill21.Text = "linkSkill21";
+            this.linkSkill21.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill26
             // 
@@ -3942,6 +3760,19 @@
             this.linkSkill26.Text = "linkSkill26";
             this.linkSkill26.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
+            // linkSkill20
+            // 
+            this.linkSkill20.AutoSize = true;
+            this.linkSkill20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill20.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill20.Location = new System.Drawing.Point(3, 334);
+            this.linkSkill20.Name = "linkSkill20";
+            this.linkSkill20.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill20.TabIndex = 588;
+            this.linkSkill20.TabStop = true;
+            this.linkSkill20.Text = "linkSkill20";
+            this.linkSkill20.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // linkSkill27
             // 
             this.linkSkill27.AutoSize = true;
@@ -3955,6 +3786,19 @@
             this.linkSkill27.Text = "linkSkill27";
             this.linkSkill27.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
+            // linkSkill19
+            // 
+            this.linkSkill19.AutoSize = true;
+            this.linkSkill19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill19.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill19.Location = new System.Drawing.Point(3, 319);
+            this.linkSkill19.Name = "linkSkill19";
+            this.linkSkill19.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill19.TabIndex = 581;
+            this.linkSkill19.TabStop = true;
+            this.linkSkill19.Text = "linkSkill19";
+            this.linkSkill19.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // linkSkill28
             // 
             this.linkSkill28.AutoSize = true;
@@ -3967,6 +3811,19 @@
             this.linkSkill28.TabStop = true;
             this.linkSkill28.Text = "linkSkill28";
             this.linkSkill28.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill18
+            // 
+            this.linkSkill18.AutoSize = true;
+            this.linkSkill18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill18.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill18.Location = new System.Drawing.Point(3, 304);
+            this.linkSkill18.Name = "linkSkill18";
+            this.linkSkill18.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill18.TabIndex = 574;
+            this.linkSkill18.TabStop = true;
+            this.linkSkill18.Text = "linkSkill18";
+            this.linkSkill18.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill29
             // 
@@ -3992,6 +3849,19 @@
             this.lblSkillsSocial.TabIndex = 324;
             this.lblSkillsSocial.Text = "Social Skills";
             // 
+            // linkSkill17
+            // 
+            this.linkSkill17.AutoSize = true;
+            this.linkSkill17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill17.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill17.Location = new System.Drawing.Point(3, 272);
+            this.linkSkill17.Name = "linkSkill17";
+            this.linkSkill17.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill17.TabIndex = 564;
+            this.linkSkill17.TabStop = true;
+            this.linkSkill17.Text = "linkSkill17";
+            this.linkSkill17.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // linkSkill30
             // 
             this.linkSkill30.AutoSize = true;
@@ -4004,6 +3874,19 @@
             this.linkSkill30.TabStop = true;
             this.linkSkill30.Text = "linkSkill30";
             this.linkSkill30.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill16
+            // 
+            this.linkSkill16.AutoSize = true;
+            this.linkSkill16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill16.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill16.Location = new System.Drawing.Point(3, 257);
+            this.linkSkill16.Name = "linkSkill16";
+            this.linkSkill16.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill16.TabIndex = 557;
+            this.linkSkill16.TabStop = true;
+            this.linkSkill16.Text = "linkSkill16";
+            this.linkSkill16.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // linkSkill31
             // 
@@ -4018,6 +3901,19 @@
             this.linkSkill31.Text = "linkSkill31";
             this.linkSkill31.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
+            // linkSkill15
+            // 
+            this.linkSkill15.AutoSize = true;
+            this.linkSkill15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill15.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill15.Location = new System.Drawing.Point(3, 242);
+            this.linkSkill15.Name = "linkSkill15";
+            this.linkSkill15.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill15.TabIndex = 550;
+            this.linkSkill15.TabStop = true;
+            this.linkSkill15.Text = "linkSkill15";
+            this.linkSkill15.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // linkSkill32
             // 
             this.linkSkill32.AutoSize = true;
@@ -4031,6 +3927,19 @@
             this.linkSkill32.Text = "linkSkill32";
             this.linkSkill32.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
+            // linkSkill14
+            // 
+            this.linkSkill14.AutoSize = true;
+            this.linkSkill14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill14.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill14.Location = new System.Drawing.Point(3, 227);
+            this.linkSkill14.Name = "linkSkill14";
+            this.linkSkill14.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill14.TabIndex = 543;
+            this.linkSkill14.TabStop = true;
+            this.linkSkill14.Text = "linkSkill14";
+            this.linkSkill14.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // linkSkill33
             // 
             this.linkSkill33.AutoSize = true;
@@ -4043,6 +3952,84 @@
             this.linkSkill33.TabStop = true;
             this.linkSkill33.Text = "linkSkill33";
             this.linkSkill33.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill13
+            // 
+            this.linkSkill13.AutoSize = true;
+            this.linkSkill13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill13.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill13.Location = new System.Drawing.Point(3, 212);
+            this.linkSkill13.Name = "linkSkill13";
+            this.linkSkill13.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill13.TabIndex = 536;
+            this.linkSkill13.TabStop = true;
+            this.linkSkill13.Text = "linkSkill13";
+            this.linkSkill13.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill8
+            // 
+            this.linkSkill8.AutoSize = true;
+            this.linkSkill8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill8.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill8.Location = new System.Drawing.Point(3, 137);
+            this.linkSkill8.Name = "linkSkill8";
+            this.linkSkill8.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill8.TabIndex = 501;
+            this.linkSkill8.TabStop = true;
+            this.linkSkill8.Text = "linkSkill8";
+            this.linkSkill8.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill12
+            // 
+            this.linkSkill12.AutoSize = true;
+            this.linkSkill12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill12.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill12.Location = new System.Drawing.Point(3, 197);
+            this.linkSkill12.Name = "linkSkill12";
+            this.linkSkill12.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill12.TabIndex = 529;
+            this.linkSkill12.TabStop = true;
+            this.linkSkill12.Text = "linkSkill12";
+            this.linkSkill12.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill9
+            // 
+            this.linkSkill9.AutoSize = true;
+            this.linkSkill9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill9.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill9.Location = new System.Drawing.Point(3, 152);
+            this.linkSkill9.Name = "linkSkill9";
+            this.linkSkill9.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill9.TabIndex = 508;
+            this.linkSkill9.TabStop = true;
+            this.linkSkill9.Text = "linkSkill9";
+            this.linkSkill9.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill11
+            // 
+            this.linkSkill11.AutoSize = true;
+            this.linkSkill11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill11.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill11.Location = new System.Drawing.Point(3, 182);
+            this.linkSkill11.Name = "linkSkill11";
+            this.linkSkill11.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill11.TabIndex = 522;
+            this.linkSkill11.TabStop = true;
+            this.linkSkill11.Text = "linkSkill11";
+            this.linkSkill11.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
+            // linkSkill10
+            // 
+            this.linkSkill10.AutoSize = true;
+            this.linkSkill10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill10.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.linkSkill10.Location = new System.Drawing.Point(3, 167);
+            this.linkSkill10.Name = "linkSkill10";
+            this.linkSkill10.Size = new System.Drawing.Size(54, 13);
+            this.linkSkill10.TabIndex = 515;
+            this.linkSkill10.TabStop = true;
+            this.linkSkill10.Text = "linkSkill10";
+            this.linkSkill10.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
             // 
             // panelTalents
             // 
@@ -4856,6 +4843,18 @@
             this.panelAbilities.Size = new System.Drawing.Size(645, 385);
             this.panelAbilities.TabIndex = 693;
             // 
+            // linkSkill0
+            // 
+            this.linkSkill0.AutoSize = true;
+            this.linkSkill0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill0.LinkColor = System.Drawing.Color.SaddleBrown;
+            this.linkSkill0.Location = new System.Drawing.Point(3, 17);
+            this.linkSkill0.Name = "linkSkill0";
+            this.linkSkill0.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill0.TabIndex = 739;
+            this.linkSkill0.TabStop = true;
+            this.linkSkill0.Text = "linkSkill0";
+            // 
             // frmGenesys
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -5063,33 +5062,10 @@
         private System.Windows.Forms.Label lblSubSpecies;
         private System.Windows.Forms.Label lblSpecies;
         private System.Windows.Forms.Label lblCharacterName;
-        private System.Windows.Forms.LinkLabel linkSkill22;
-        private System.Windows.Forms.LinkLabel linkSkill21;
-        private System.Windows.Forms.LinkLabel linkSkill20;
-        private System.Windows.Forms.LinkLabel linkSkill19;
         private System.Windows.Forms.Label lblSkillsMagic;
         private System.Windows.Forms.Label lblRankMagic;
-        private System.Windows.Forms.LinkLabel linkSkill18;
-        private System.Windows.Forms.LinkLabel linkSkill17;
-        private System.Windows.Forms.LinkLabel linkSkill16;
-        private System.Windows.Forms.LinkLabel linkSkill15;
-        private System.Windows.Forms.LinkLabel linkSkill14;
-        private System.Windows.Forms.LinkLabel linkSkill13;
-        private System.Windows.Forms.LinkLabel linkSkill12;
-        private System.Windows.Forms.LinkLabel linkSkill11;
-        private System.Windows.Forms.LinkLabel linkSkill10;
-        private System.Windows.Forms.LinkLabel linkSkill9;
-        private System.Windows.Forms.LinkLabel linkSkill8;
-        private System.Windows.Forms.LinkLabel linkSkill7;
-        private System.Windows.Forms.LinkLabel linkSkill6;
-        private System.Windows.Forms.LinkLabel linkSkill5;
-        private System.Windows.Forms.LinkLabel linkSkill4;
-        private System.Windows.Forms.LinkLabel linkSkill3;
-        private System.Windows.Forms.LinkLabel linkSkill2;
-        private System.Windows.Forms.LinkLabel linkSkill1;
         private System.Windows.Forms.Label lblGeneralSkills;
         private System.Windows.Forms.Label lblGeneralSkillsRank;
-        private System.Windows.Forms.LinkLabel linkSkill0;
         private System.Windows.Forms.Panel panelSkillDetail;
         private System.Windows.Forms.TextBox txtSkillDescription;
         private System.Windows.Forms.ComboBox cboCharacteristic;
@@ -5337,32 +5313,55 @@
         private System.Windows.Forms.Label lblRankCustom;
         private System.Windows.Forms.Label lblRankKnowledge;
         private System.Windows.Forms.Label lblRankSocial;
+        private System.Windows.Forms.Label lblSkillsCustom;
+        private System.Windows.Forms.Label lblRankCombat;
+        private System.Windows.Forms.Label lblSkillsKnowledge;
+        private System.Windows.Forms.Label lblSkillsCombat;
+        private System.Windows.Forms.Label lblSkillsSocial;
         private System.Windows.Forms.LinkLabel linkSkill43;
         private System.Windows.Forms.LinkLabel linkSkill42;
         private System.Windows.Forms.LinkLabel linkSkill41;
         private System.Windows.Forms.LinkLabel linkSkill40;
         private System.Windows.Forms.LinkLabel linkSkill39;
-        private System.Windows.Forms.Label lblSkillsCustom;
         private System.Windows.Forms.LinkLabel linkSkill38;
         private System.Windows.Forms.LinkLabel linkSkill37;
         private System.Windows.Forms.LinkLabel linkSkill36;
         private System.Windows.Forms.LinkLabel linkSkill35;
-        private System.Windows.Forms.LinkLabel linkSkill23;
-        private System.Windows.Forms.Label lblRankCombat;
-        private System.Windows.Forms.Label lblSkillsKnowledge;
-        private System.Windows.Forms.Label lblSkillsCombat;
         private System.Windows.Forms.LinkLabel linkSkill34;
-        private System.Windows.Forms.LinkLabel linkSkill24;
-        private System.Windows.Forms.LinkLabel linkSkill25;
-        private System.Windows.Forms.LinkLabel linkSkill26;
-        private System.Windows.Forms.LinkLabel linkSkill27;
-        private System.Windows.Forms.LinkLabel linkSkill28;
         private System.Windows.Forms.LinkLabel linkSkill29;
-        private System.Windows.Forms.Label lblSkillsSocial;
         private System.Windows.Forms.LinkLabel linkSkill30;
         private System.Windows.Forms.LinkLabel linkSkill31;
         private System.Windows.Forms.LinkLabel linkSkill32;
         private System.Windows.Forms.LinkLabel linkSkill33;
+        private System.Windows.Forms.LinkLabel linkSkill28;
+        private System.Windows.Forms.LinkLabel linkSkill27;
+        private System.Windows.Forms.LinkLabel linkSkill26;
+        private System.Windows.Forms.LinkLabel linkSkill25;
+        private System.Windows.Forms.LinkLabel linkSkill24;
+        private System.Windows.Forms.LinkLabel linkSkill23;
+        private System.Windows.Forms.LinkLabel linkSkill22;
+        private System.Windows.Forms.LinkLabel linkSkill21;
+        private System.Windows.Forms.LinkLabel linkSkill20;
+        private System.Windows.Forms.LinkLabel linkSkill19;
+        private System.Windows.Forms.LinkLabel linkSkill18;
+        private System.Windows.Forms.LinkLabel linkSkill17;
+        private System.Windows.Forms.LinkLabel linkSkill16;
+        private System.Windows.Forms.LinkLabel linkSkill15;
+        private System.Windows.Forms.LinkLabel linkSkill14;
+        private System.Windows.Forms.LinkLabel linkSkill13;
+        private System.Windows.Forms.LinkLabel linkSkill12;
+        private System.Windows.Forms.LinkLabel linkSkill11;
+        private System.Windows.Forms.LinkLabel linkSkill10;
+        private System.Windows.Forms.LinkLabel linkSkill9;
+        private System.Windows.Forms.LinkLabel linkSkill8;
+        private System.Windows.Forms.LinkLabel linkSkill7;
+        private System.Windows.Forms.LinkLabel linkSkill6;
+        private System.Windows.Forms.LinkLabel linkSkill5;
+        private System.Windows.Forms.LinkLabel linkSkill4;
+        private System.Windows.Forms.LinkLabel linkSkill3;
+        private System.Windows.Forms.LinkLabel linkSkill2;
+        private System.Windows.Forms.LinkLabel linkSkill1;
+        private System.Windows.Forms.LinkLabel linkSkill0;
     }
 }
 

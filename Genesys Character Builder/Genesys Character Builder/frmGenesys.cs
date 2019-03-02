@@ -235,6 +235,7 @@ namespace Genesys_Character_Builder
             cboSetting.Items.Clear();
             cboSetting.Items.Add("Android");
             cboSetting.Items.Add("Terrinoth");
+            cboSetting.Items.Add("Kirinioth");
             cboSetting.SelectedIndex = 0;
 
             cboSetting.Text = myCharacter.Setting;
@@ -328,6 +329,36 @@ namespace Genesys_Character_Builder
                     Array.Copy(androidSkills, myCharacter.Skills, myCharacter.Skills.Length);
                     Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
                     Array.Copy(weaponsList, myCharacter.Weapons, myCharacter.Weapons.Length);
+                    break;
+                case "Kirinioth":
+                    this.BackgroundImage = Properties.Resources.terrinoth_background;
+                    txtCharacterName.Width = 296;
+                    lblSpecies.Text = "Species:";
+                    lblSubSpecies.Visible = true;
+                    cboSubSpecies.Visible = true;
+                    cboSpecies.Items.Clear();
+                    cboSpecies.Items.Add("");
+                    cboSpecies.Items.Add("Human");
+                    cboSpecies.Items.Add("Barbarian");
+                    cboSpecies.Items.Add("Dwarf");
+                    cboSpecies.Items.Add("Elf");
+                    cboSpecies.Items.Add("Hobbit");
+                    cboSpecies.Items.Add("Genasi");
+                    cboSpecies.SelectedIndex = 0;
+                    cboCareer.Items.Clear();
+                    cboCareer.Items.Add("");
+                    cboCareer.Items.Add("Avatar");
+                    cboCareer.Items.Add("Druid");
+                    cboCareer.Items.Add("Envoy");
+                    cboCareer.Items.Add("Mage");
+                    cboCareer.Items.Add("Scholar");
+                    cboCareer.Items.Add("Scoundrel");
+                    cboCareer.Items.Add("Scout");
+                    cboCareer.Items.Add("Warrior");
+                    cboCareer.SelectedIndex = 0;
+                    lblSkillsMagic.Text = "Magic Skills";
+                    Array.Copy(terrinothSkills, myCharacter.Skills, myCharacter.Skills.Length);
+                    Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
                     break;
                 case "Terrinoth":
                     this.BackgroundImage = Properties.Resources.terrinoth_background;
@@ -440,6 +471,23 @@ namespace Genesys_Character_Builder
                     addRankToStartingSkills("Cool"); //+1 Cool
                     //Forceful Personality
                     break;
+                case "Barbarian":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 3;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 1;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 11;
+                    myCharacter.StrainThreshold = 11;
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 0;
+                    addRankToStartingSkills("Survival"); //+1 Survival
+                    //Frozen Wastes Dweller
+                    break;
                 case "CatFolk":
                     cboSubSpecies.Items.Clear();
                     cboSubSpecies.Items.Add("");
@@ -480,8 +528,41 @@ namespace Genesys_Character_Builder
                 case "Dwarf":
                     cboSubSpecies.Items.Clear();
                     cboSubSpecies.Items.Add("");
-                    cboSubSpecies.Items.Add("Dunwarr Dwarf");
-                    cboSubSpecies.Items.Add("Forge Dwarf");
+                    if (myCharacter.Setting == "Terrinoth")
+                    {
+                        cboSubSpecies.Items.Add("Dunwarr Dwarf");
+                        cboSubSpecies.Items.Add("Forge Dwarf");
+                    }
+                    if (myCharacter.Setting == "Kirinoth")
+                    {
+                        cboSubSpecies.Items.Add("Forge Dwarf");
+                        cboSubSpecies.Items.Add("Mountain Dwarf");
+                    }
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 1;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 3;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 11;
+                    myCharacter.StrainThreshold = 10;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    break;
+                case "Genasi":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    if (myCharacter.Setting == "Terrinoth")
+                    {
+                        cboSubSpecies.Items.Add("Dunwarr Dwarf");
+                        cboSubSpecies.Items.Add("Forge Dwarf");
+                    }
+                    if (myCharacter.Setting == "Kirinoth")
+                    {
+                        cboSubSpecies.Items.Add("Forge Dwarf");
+                        cboSubSpecies.Items.Add("Mountain Dwarf");
+                    }
                     cboSubSpecies.SelectedIndex = 0;
                     myCharacter.Brawn = 2;
                     myCharacter.Agility = 1;
@@ -497,10 +578,19 @@ namespace Genesys_Character_Builder
                 case "Elf":
                     cboSubSpecies.Items.Clear();
                     cboSubSpecies.Items.Add("");
-                    cboSubSpecies.Items.Add("Deep Elf");
-                    cboSubSpecies.Items.Add("Free Cities Elf");
-                    cboSubSpecies.Items.Add("Highborn Elf");
-                    cboSubSpecies.Items.Add("Lowborn Elf");
+                    if (myCharacter.Setting == "Terrinoth")
+                    {
+                        cboSubSpecies.Items.Add("Deep Elf");
+                        cboSubSpecies.Items.Add("Free Cities Elf");
+                        cboSubSpecies.Items.Add("Highborn Elf");
+                        cboSubSpecies.Items.Add("Lowborn Elf");
+                    }
+                    if (myCharacter.Setting == "Kirinioth")
+                    {
+                        cboSubSpecies.Items.Add("City Elf");
+                        cboSubSpecies.Items.Add("High Elf");
+                        cboSubSpecies.Items.Add("Wood Elf");
+                    }
                     cboSubSpecies.SelectedIndex = 0;
                     myCharacter.Brawn = 2;
                     myCharacter.Agility = 3;
@@ -524,6 +614,24 @@ namespace Genesys_Character_Builder
                     myCharacter.Intellect = 2;
                     myCharacter.Cunning = 3;
                     myCharacter.Willpower = 1;
+                    myCharacter.Presence = 3;
+                    myCharacter.WoundThreshold = 6;
+                    myCharacter.StrainThreshold = 11;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    //small
+                    break;
+                case "Hobbit":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.Items.Add("Burrow Hobbit");
+                    cboSubSpecies.Items.Add("Wanderer Hobbit");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 1;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
                     myCharacter.Presence = 3;
                     myCharacter.WoundThreshold = 6;
                     myCharacter.StrainThreshold = 11;
@@ -573,6 +681,20 @@ namespace Genesys_Character_Builder
                     //stubborn
                     //tough as nails
                     break;
+                case "Mountain Dwarf":
+                    addRankToStartingSkills("Mechanics"); //Mechanics +1
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    //dark vision
+                    //resistant to magic
+                    break;
+                case "City Elf":
+                    addRankToStartingSkills("Vigilance"); //Vigilance +1
+                    myCharacter.DefenseRanged = 1;
+                    myCharacter.DefenseMelee = 1;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    break;
                 case "Deep Elf":
                     addRankToStartingSkills("Discipline"); //Discipline +1
                     addRankToStartingSkills("Forbidden"); //knowledge (forbidden) +2
@@ -585,6 +707,12 @@ namespace Genesys_Character_Builder
                     addRankToStartingSkills("Streetwise"); //Streetwise +1
                     myCharacter.DefenseRanged = 1;
                     myCharacter.DefenseMelee = 1;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    break;
+                case "High Elf":
+                    addRankToStartingSkills("Perception");//Perception +1
+                    addRankToStartingSkills("Arcana");//Arcana +1
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     break;
@@ -602,6 +730,14 @@ namespace Genesys_Character_Builder
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     break;
+                case "Wood Elf":
+                    addRankToStartingSkills("Survival"); //Survival +1
+                    myCharacter.DefenseRanged = 0;
+                    myCharacter.DefenseMelee = 0;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    //expert archer
+                    break;
                 case "Burrow Gnome":
                     addRankToStartingSkills("Divine"); //Divine +1
                     addRankToStartingSkills("Resilience"); //Resilience +1
@@ -610,6 +746,20 @@ namespace Genesys_Character_Builder
                     //militia training
                     break;
                 case "Wanderer Gnome":
+                    addRankToStartingSkills("Charm"); //Charm +1
+                    addRankToStartingSkills("Stealth");//Stealth +1
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    //tricksy
+                    break;
+                case "Burrow Hobbit":
+                    addRankToStartingSkills("Charm"); //Charm +1
+                    addRankToStartingSkills("Resilience"); //Resilience +1
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    //militia training
+                    break;
+                case "Wanderer Hobbit":
                     addRankToStartingSkills("Charm"); //Charm +1
                     addRankToStartingSkills("Stealth");//Stealth +1
                     myCharacter.TotalXP = 90;
@@ -634,6 +784,58 @@ namespace Genesys_Character_Builder
                     myCharacter.UsedXP = 0;
                     //tenacious
                     break;
+                case "Air":
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 3;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 1;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 8;
+                    myCharacter.StrainThreshold = 10;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    //light on their feet
+                    break;
+                case "Earth":
+                    myCharacter.Brawn = 3;
+                    myCharacter.Agility = 1;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 11;
+                    myCharacter.StrainThreshold = 9;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    //one with the earth
+                    break;
+                case "Fire":
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 3;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 1;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 10;
+                    myCharacter.StrainThreshold = 10;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    //hot-blooded
+                    break;
+                case "Water":
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 1;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 3;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 10;
+                    myCharacter.StrainThreshold = 10;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    //amphibious
+                    break;
             }
 
             updateForm();
@@ -644,6 +846,21 @@ namespace Genesys_Character_Builder
             myCharacter.Career = cboCareer.Text;
             switch (myCharacter.Career)
             {
+                case "Avatar":
+                    MarkCareerSkill("Athletics");
+                    MarkCareerSkill("Charm");
+                    MarkCareerSkill("Discipline");
+                    MarkCareerSkill("Divine");
+                    MarkCareerSkill("Lore");
+                    MarkCareerSkill("Leadership");
+                    MarkCareerSkill("Melee-Light");
+                    MarkCareerSkill("Resilience");
+                    //Gear:
+                    //a shortsword or spear
+                    //a shield and leather armor
+                    //a lantern and 2 herbs of healing or traveling gear (backpack, bedroll, rope, flint and steel, 3 torches, waterskin
+                    //1d100 silver coins
+                    break;
                 case "Disciple":
                     MarkCareerSkill("Athletics");
                     MarkCareerSkill("Charm");
@@ -656,18 +873,32 @@ namespace Genesys_Character_Builder
                     //Gear:
                     //a mace
                     //a holy icon or shield and leather armor
-                    //a lantern and 2 herbs of healing or traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
+                    //a lantern and 2 herbs of healing or traveling gear (backpack, bedroll, rope, flint and steel, 3 torches, waterskin
                     //1d100 silver coins
                     break;
                 case "Druid":
-                    MarkCareerSkill("Athletics");
-                    MarkCareerSkill("Brawl");
-                    MarkCareerSkill("Coordination");
-                    MarkCareerSkill("Melee");
-                    MarkCareerSkill("Primal");
-                    MarkCareerSkill("Resilience");
-                    MarkCareerSkill("Survival");
-                    MarkCareerSkill("Vigilance");
+                    if (myCharacter.Setting == "")
+                    {
+                        MarkCareerSkill("Athletics");
+                        MarkCareerSkill("Brawl");
+                        MarkCareerSkill("Coordination");
+                        MarkCareerSkill("Melee");
+                        MarkCareerSkill("Primal");
+                        MarkCareerSkill("Resilience");
+                        MarkCareerSkill("Survival");
+                        MarkCareerSkill("Vigilance");
+                    }
+                    if (myCharacter.Setting == "Kirinioth")
+                    {
+                        MarkCareerSkill("Alchemy");
+                        MarkCareerSkill("Brawl");
+                        MarkCareerSkill("Discipline");
+                        MarkCareerSkill("Lore");
+                        MarkCareerSkill("Medicine");
+                        MarkCareerSkill("Melee-Heavy");
+                        MarkCareerSkill("Primal");
+                        MarkCareerSkill("Survival");
+                    }
                     break;
                 case "Entertainer":
                     //Charm
@@ -686,7 +917,10 @@ namespace Genesys_Character_Builder
                     MarkCareerSkill("Geography");
                     MarkCareerSkill("Leadership");
                     MarkCareerSkill("Melee-Light");
-                    MarkCareerSkill("Resilience");
+                    if (myCharacter.Setting == "Terrinoth")
+                    { MarkCareerSkill("Resilience"); }
+                    if (myCharacter.Setting == "Kirinioth")
+                    { MarkCareerSkill("Negotiation"); }
                     MarkCareerSkill("Vigilance");
                     //Gear:
                     //a dagger
@@ -1063,7 +1297,7 @@ namespace Genesys_Character_Builder
                     linkSkill41.LinkColor = Color.Blue;
                     linkSkill42.LinkColor = Color.Blue;
                     linkSkill43.LinkColor = Color.Blue;
-                    
+
                     linkTalent0.LinkColor = Color.Blue;
                     linkTalent1.LinkColor = Color.Blue;
                     linkTalent2.LinkColor = Color.Blue;
@@ -1090,6 +1324,7 @@ namespace Genesys_Character_Builder
                     linkTalent23.LinkColor = Color.Blue;
                     linkTalent24.LinkColor = Color.Blue;
                     break;
+                case "Kirinioth":
                 case "Terrinoth":
                     lblBrawnLabel.ForeColor = Color.White;
                     lblAgilityLabel.ForeColor = Color.White;
@@ -1127,7 +1362,7 @@ namespace Genesys_Character_Builder
                     lblDefenseRangedLabel.Visible = true;
                     lblTotalXPLabel.Visible = true;
                     lblRemainingXPLabel.Visible = true;
-                   
+
                     linkSkill0.LinkColor = Color.SaddleBrown;
                     linkSkill1.LinkColor = Color.SaddleBrown;
                     linkSkill2.LinkColor = Color.SaddleBrown;
@@ -1172,7 +1407,7 @@ namespace Genesys_Character_Builder
                     linkSkill41.LinkColor = Color.SaddleBrown;
                     linkSkill42.LinkColor = Color.SaddleBrown;
                     linkSkill43.LinkColor = Color.SaddleBrown;
-                    
+
                     linkTalent0.LinkColor = Color.SaddleBrown;
                     linkTalent1.LinkColor = Color.SaddleBrown;
                     linkTalent2.LinkColor = Color.SaddleBrown;
@@ -1226,6 +1461,15 @@ namespace Genesys_Character_Builder
 
         private void updateSkills()
         {
+            /*
+            for (int i = 0; i < NUM_SKILLS; i++)
+            {
+                skillLinks[i].Text = myCharacter.Skills[i].SkillName + " (" + myCharacter.Skills[i].Characteristic + ")";
+                if (myCharacter.Skills[0].Career == true) { linkSkill0.Font = new Font(linkSkill0.Font, FontStyle.Bold); }
+                else { linkSkill0.Font = new Font(linkSkill0.Font, FontStyle.Regular); }
+            }
+            */
+            
             linkSkill0.Text = myCharacter.Skills[0].SkillName + " (" + myCharacter.Skills[0].Characteristic + ")";
             linkSkill1.Text = myCharacter.Skills[1].SkillName + " (" + myCharacter.Skills[1].Characteristic + ")";
             linkSkill2.Text = myCharacter.Skills[2].SkillName + " (" + myCharacter.Skills[2].Characteristic + ")";
@@ -1440,6 +1684,7 @@ namespace Genesys_Character_Builder
             {
                 chkCareer.Checked = true;
             }
+            else { chkCareer.Checked = false; }
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
 
             //myCharacter.Skills[skillLinkNumber].SkillName = txtSkill.Text;
@@ -1576,6 +1821,7 @@ namespace Genesys_Character_Builder
             {
                 myCharacter.Skills[activeSkillLink].Career = true;
             }
+            else { myCharacter.Skills[activeSkillLink].Career = false; }
 
             updateSkills();
             //redrawSingleSkillRanks(activeSkillLink);
