@@ -215,6 +215,7 @@
             this.chkActive0 = new System.Windows.Forms.CheckBox();
             this.linkTalent0 = new System.Windows.Forms.LinkLabel();
             this.panelSkills = new System.Windows.Forms.Panel();
+            this.linkSkill0 = new System.Windows.Forms.LinkLabel();
             this.lblGreenRank43 = new System.Windows.Forms.Label();
             this.lblGreenRank42 = new System.Windows.Forms.Label();
             this.lblGreenRank41 = new System.Windows.Forms.Label();
@@ -385,7 +386,6 @@
             this.txtGender = new System.Windows.Forms.TextBox();
             this.btnAbilities = new System.Windows.Forms.Button();
             this.panelAbilities = new System.Windows.Forms.Panel();
-            this.linkSkill0 = new System.Windows.Forms.LinkLabel();
             this.panelSkillDetail.SuspendLayout();
             this.panelTalentDetail.SuspendLayout();
             this.panelTalent24.SuspendLayout();
@@ -2768,6 +2768,19 @@
             this.panelSkills.TabIndex = 686;
             this.panelSkills.Visible = false;
             // 
+            // linkSkill0
+            // 
+            this.linkSkill0.AutoSize = true;
+            this.linkSkill0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSkill0.LinkColor = System.Drawing.Color.SaddleBrown;
+            this.linkSkill0.Location = new System.Drawing.Point(3, 17);
+            this.linkSkill0.Name = "linkSkill0";
+            this.linkSkill0.Size = new System.Drawing.Size(48, 13);
+            this.linkSkill0.TabIndex = 739;
+            this.linkSkill0.TabStop = true;
+            this.linkSkill0.Text = "linkSkill0";
+            this.linkSkill0.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSkill_LinkClicked);
+            // 
             // lblGreenRank43
             // 
             this.lblGreenRank43.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -3374,7 +3387,7 @@
             // 
             this.lblGreenRank0.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.lblGreenRank0.Font = new System.Drawing.Font("EotE Symbol", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblGreenRank0.ForeColor = System.Drawing.Color.Green;
+            this.lblGreenRank0.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblGreenRank0.Location = new System.Drawing.Point(140, 17);
             this.lblGreenRank0.Margin = new System.Windows.Forms.Padding(0);
             this.lblGreenRank0.Name = "lblGreenRank0";
@@ -4842,18 +4855,6 @@
             this.panelAbilities.Name = "panelAbilities";
             this.panelAbilities.Size = new System.Drawing.Size(645, 385);
             this.panelAbilities.TabIndex = 693;
-            // 
-            // linkSkill0
-            // 
-            this.linkSkill0.AutoSize = true;
-            this.linkSkill0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSkill0.LinkColor = System.Drawing.Color.SaddleBrown;
-            this.linkSkill0.Location = new System.Drawing.Point(3, 17);
-            this.linkSkill0.Name = "linkSkill0";
-            this.linkSkill0.Size = new System.Drawing.Size(48, 13);
-            this.linkSkill0.TabIndex = 739;
-            this.linkSkill0.TabStop = true;
-            this.linkSkill0.Text = "linkSkill0";
             // 
             // frmGenesys
             // 

@@ -394,6 +394,11 @@ namespace Genesys_Character_Builder
             }
             updateLabelColors();
             updateSkills();
+            panelSkills.Visible = false;
+            panelTalents.Visible = false;
+            panelAbilities.Visible = false;
+            panelGear.Visible = false;
+            panelMotivations.Visible = false;
         }
 
         private void cboSpecies_SelectedIndexChanged(object sender, EventArgs e)
