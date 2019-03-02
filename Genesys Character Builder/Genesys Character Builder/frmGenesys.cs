@@ -1476,49 +1476,137 @@ namespace Genesys_Character_Builder
             */
             
             linkSkill0.Text = myCharacter.Skills[0].SkillName + " (" + myCharacter.Skills[0].Characteristic + ")";
+            if (myCharacter.Skills[0].Career == true) { linkSkill0.Font = new Font(linkSkill0.Font, FontStyle.Bold); }
+            else { linkSkill0.Font = new Font(linkSkill0.Font, FontStyle.Regular); }
             linkSkill1.Text = myCharacter.Skills[1].SkillName + " (" + myCharacter.Skills[1].Characteristic + ")";
+            if (myCharacter.Skills[1].Career == true) { linkSkill1.Font = new Font(linkSkill1.Font, FontStyle.Bold); }
+            else { linkSkill1.Font = new Font(linkSkill1.Font, FontStyle.Regular); }
             linkSkill2.Text = myCharacter.Skills[2].SkillName + " (" + myCharacter.Skills[2].Characteristic + ")";
+            if (myCharacter.Skills[2].Career == true) { linkSkill2.Font = new Font(linkSkill2.Font, FontStyle.Bold); }
+            else { linkSkill2.Font = new Font(linkSkill2.Font, FontStyle.Regular); }
             linkSkill3.Text = myCharacter.Skills[3].SkillName + " (" + myCharacter.Skills[3].Characteristic + ")";
+            if (myCharacter.Skills[3].Career == true) { linkSkill3.Font = new Font(linkSkill3.Font, FontStyle.Bold); }
+            else { linkSkill3.Font = new Font(linkSkill3.Font, FontStyle.Regular); }
             linkSkill4.Text = myCharacter.Skills[4].SkillName + " (" + myCharacter.Skills[4].Characteristic + ")";
+            if (myCharacter.Skills[4].Career == true) { linkSkill4.Font = new Font(linkSkill4.Font, FontStyle.Bold); }
+            else { linkSkill4.Font = new Font(linkSkill4.Font, FontStyle.Regular); }
             linkSkill5.Text = myCharacter.Skills[5].SkillName + " (" + myCharacter.Skills[5].Characteristic + ")";
+            if (myCharacter.Skills[5].Career == true) { linkSkill5.Font = new Font(linkSkill5.Font, FontStyle.Bold); }
+            else { linkSkill5.Font = new Font(linkSkill5.Font, FontStyle.Regular); }
             linkSkill6.Text = myCharacter.Skills[6].SkillName + " (" + myCharacter.Skills[6].Characteristic + ")";
+            if (myCharacter.Skills[6].Career == true) { linkSkill6.Font = new Font(linkSkill6.Font, FontStyle.Bold); }
+            else { linkSkill6.Font = new Font(linkSkill6.Font, FontStyle.Regular); }
             linkSkill7.Text = myCharacter.Skills[7].SkillName + " (" + myCharacter.Skills[7].Characteristic + ")";
+            if (myCharacter.Skills[7].Career == true) { linkSkill7.Font = new Font(linkSkill7.Font, FontStyle.Bold); }
+            else { linkSkill7.Font = new Font(linkSkill7.Font, FontStyle.Regular); }
             linkSkill8.Text = myCharacter.Skills[8].SkillName + " (" + myCharacter.Skills[8].Characteristic + ")";
+            if (myCharacter.Skills[8].Career == true) { linkSkill8.Font = new Font(linkSkill8.Font, FontStyle.Bold); }
+            else { linkSkill8.Font = new Font(linkSkill8.Font, FontStyle.Regular); }
             linkSkill9.Text = myCharacter.Skills[9].SkillName + " (" + myCharacter.Skills[9].Characteristic + ")";
+            if (myCharacter.Skills[9].Career == true) { linkSkill9.Font = new Font(linkSkill9.Font, FontStyle.Bold); }
+            else { linkSkill9.Font = new Font(linkSkill9.Font, FontStyle.Regular); }
             linkSkill10.Text = myCharacter.Skills[10].SkillName + " (" + myCharacter.Skills[10].Characteristic + ")";
+            if (myCharacter.Skills[10].Career == true) { linkSkill10.Font = new Font(linkSkill10.Font, FontStyle.Bold); }
+            else { linkSkill10.Font = new Font(linkSkill10.Font, FontStyle.Regular); }
             linkSkill11.Text = myCharacter.Skills[11].SkillName + " (" + myCharacter.Skills[11].Characteristic + ")";
+            if (myCharacter.Skills[11].Career == true) { linkSkill11.Font = new Font(linkSkill11.Font, FontStyle.Bold); }
+            else { linkSkill11.Font = new Font(linkSkill11.Font, FontStyle.Regular); }
             linkSkill12.Text = myCharacter.Skills[12].SkillName + " (" + myCharacter.Skills[12].Characteristic + ")";
+            if (myCharacter.Skills[12].Career == true) { linkSkill12.Font = new Font(linkSkill12.Font, FontStyle.Bold); }
+            else { linkSkill12.Font = new Font(linkSkill12.Font, FontStyle.Regular); }
             linkSkill13.Text = myCharacter.Skills[13].SkillName + " (" + myCharacter.Skills[13].Characteristic + ")";
+            if (myCharacter.Skills[13].Career == true) { linkSkill13.Font = new Font(linkSkill13.Font, FontStyle.Bold); }
+            else { linkSkill13.Font = new Font(linkSkill13.Font, FontStyle.Regular); }
             linkSkill14.Text = myCharacter.Skills[14].SkillName + " (" + myCharacter.Skills[14].Characteristic + ")";
+            if (myCharacter.Skills[14].Career == true) { linkSkill14.Font = new Font(linkSkill14.Font, FontStyle.Bold); }
+            else { linkSkill14.Font = new Font(linkSkill14.Font, FontStyle.Regular); }
             linkSkill15.Text = myCharacter.Skills[15].SkillName + " (" + myCharacter.Skills[15].Characteristic + ")";
+            if (myCharacter.Skills[15].Career == true) { linkSkill15.Font = new Font(linkSkill15.Font, FontStyle.Bold); }
+            else { linkSkill15.Font = new Font(linkSkill15.Font, FontStyle.Regular); }
             linkSkill16.Text = myCharacter.Skills[16].SkillName + " (" + myCharacter.Skills[16].Characteristic + ")";
+            if (myCharacter.Skills[16].Career == true) { linkSkill16.Font = new Font(linkSkill16.Font, FontStyle.Bold); }
+            else { linkSkill16.Font = new Font(linkSkill16.Font, FontStyle.Regular); }
             linkSkill17.Text = myCharacter.Skills[17].SkillName + " (" + myCharacter.Skills[17].Characteristic + ")";
+            if (myCharacter.Skills[17].Career == true) { linkSkill17.Font = new Font(linkSkill17.Font, FontStyle.Bold); }
+            else { linkSkill17.Font = new Font(linkSkill17.Font, FontStyle.Regular); }
             linkSkill18.Text = myCharacter.Skills[18].SkillName + " (" + myCharacter.Skills[18].Characteristic + ")";
+            if (myCharacter.Skills[18].Career == true) { linkSkill18.Font = new Font(linkSkill18.Font, FontStyle.Bold); }
+            else { linkSkill18.Font = new Font(linkSkill18.Font, FontStyle.Regular); }
             linkSkill19.Text = myCharacter.Skills[19].SkillName + " (" + myCharacter.Skills[19].Characteristic + ")";
+            if (myCharacter.Skills[19].Career == true) { linkSkill19.Font = new Font(linkSkill19.Font, FontStyle.Bold); }
+            else { linkSkill19.Font = new Font(linkSkill19.Font, FontStyle.Regular); }
             linkSkill20.Text = myCharacter.Skills[20].SkillName + " (" + myCharacter.Skills[20].Characteristic + ")";
+            if (myCharacter.Skills[20].Career == true) { linkSkill20.Font = new Font(linkSkill20.Font, FontStyle.Bold); }
+            else { linkSkill20.Font = new Font(linkSkill20.Font, FontStyle.Regular); }
             linkSkill21.Text = myCharacter.Skills[21].SkillName + " (" + myCharacter.Skills[21].Characteristic + ")";
+            if (myCharacter.Skills[21].Career == true) { linkSkill21.Font = new Font(linkSkill21.Font, FontStyle.Bold); }
+            else { linkSkill21.Font = new Font(linkSkill21.Font, FontStyle.Regular); }
             linkSkill22.Text = myCharacter.Skills[22].SkillName + " (" + myCharacter.Skills[22].Characteristic + ")";
+            if (myCharacter.Skills[22].Career == true) { linkSkill22.Font = new Font(linkSkill22.Font, FontStyle.Bold); }
+            else { linkSkill22.Font = new Font(linkSkill22.Font, FontStyle.Regular); }
             linkSkill23.Text = myCharacter.Skills[23].SkillName + " (" + myCharacter.Skills[23].Characteristic + ")";
+            if (myCharacter.Skills[23].Career == true) { linkSkill23.Font = new Font(linkSkill23.Font, FontStyle.Bold); }
+            else { linkSkill23.Font = new Font(linkSkill23.Font, FontStyle.Regular); }
             linkSkill24.Text = myCharacter.Skills[24].SkillName + " (" + myCharacter.Skills[24].Characteristic + ")";
+            if (myCharacter.Skills[24].Career == true) { linkSkill24.Font = new Font(linkSkill24.Font, FontStyle.Bold); }
+            else { linkSkill24.Font = new Font(linkSkill24.Font, FontStyle.Regular); }
             linkSkill25.Text = myCharacter.Skills[25].SkillName + " (" + myCharacter.Skills[25].Characteristic + ")";
+            if (myCharacter.Skills[25].Career == true) { linkSkill25.Font = new Font(linkSkill25.Font, FontStyle.Bold); }
+            else { linkSkill25.Font = new Font(linkSkill25.Font, FontStyle.Regular); }
             linkSkill26.Text = myCharacter.Skills[26].SkillName + " (" + myCharacter.Skills[26].Characteristic + ")";
+            if (myCharacter.Skills[26].Career == true) { linkSkill26.Font = new Font(linkSkill26.Font, FontStyle.Bold); }
+            else { linkSkill26.Font = new Font(linkSkill26.Font, FontStyle.Regular); }
             linkSkill27.Text = myCharacter.Skills[27].SkillName + " (" + myCharacter.Skills[27].Characteristic + ")";
+            if (myCharacter.Skills[27].Career == true) { linkSkill27.Font = new Font(linkSkill27.Font, FontStyle.Bold); }
+            else { linkSkill27.Font = new Font(linkSkill27.Font, FontStyle.Regular); }
             linkSkill28.Text = myCharacter.Skills[28].SkillName + " (" + myCharacter.Skills[28].Characteristic + ")";
+            if (myCharacter.Skills[28].Career == true) { linkSkill28.Font = new Font(linkSkill28.Font, FontStyle.Bold); }
+            else { linkSkill28.Font = new Font(linkSkill28.Font, FontStyle.Regular); }
             linkSkill29.Text = myCharacter.Skills[29].SkillName + " (" + myCharacter.Skills[29].Characteristic + ")";
+            if (myCharacter.Skills[29].Career == true) { linkSkill29.Font = new Font(linkSkill29.Font, FontStyle.Bold); }
+            else { linkSkill29.Font = new Font(linkSkill29.Font, FontStyle.Regular); }
             linkSkill30.Text = myCharacter.Skills[30].SkillName + " (" + myCharacter.Skills[30].Characteristic + ")";
+            if (myCharacter.Skills[30].Career == true) { linkSkill30.Font = new Font(linkSkill30.Font, FontStyle.Bold); }
+            else { linkSkill30.Font = new Font(linkSkill30.Font, FontStyle.Regular); }
             linkSkill31.Text = myCharacter.Skills[31].SkillName + " (" + myCharacter.Skills[31].Characteristic + ")";
+            if (myCharacter.Skills[31].Career == true) { linkSkill31.Font = new Font(linkSkill31.Font, FontStyle.Bold); }
+            else { linkSkill31.Font = new Font(linkSkill31.Font, FontStyle.Regular); }
             linkSkill32.Text = myCharacter.Skills[32].SkillName + " (" + myCharacter.Skills[32].Characteristic + ")";
+            if (myCharacter.Skills[32].Career == true) { linkSkill32.Font = new Font(linkSkill32.Font, FontStyle.Bold); }
+            else { linkSkill32.Font = new Font(linkSkill32.Font, FontStyle.Regular); }
             linkSkill33.Text = myCharacter.Skills[33].SkillName + " (" + myCharacter.Skills[33].Characteristic + ")";
+            if (myCharacter.Skills[33].Career == true) { linkSkill33.Font = new Font(linkSkill33.Font, FontStyle.Bold); }
+            else { linkSkill33.Font = new Font(linkSkill33.Font, FontStyle.Regular); }
             linkSkill34.Text = myCharacter.Skills[34].SkillName + " (" + myCharacter.Skills[34].Characteristic + ")";
+            if (myCharacter.Skills[34].Career == true) { linkSkill34.Font = new Font(linkSkill34.Font, FontStyle.Bold); }
+            else { linkSkill34.Font = new Font(linkSkill34.Font, FontStyle.Regular); }
             linkSkill35.Text = myCharacter.Skills[35].SkillName + " (" + myCharacter.Skills[35].Characteristic + ")";
+            if (myCharacter.Skills[35].Career == true) { linkSkill35.Font = new Font(linkSkill35.Font, FontStyle.Bold); }
+            else { linkSkill35.Font = new Font(linkSkill35.Font, FontStyle.Regular); }
             linkSkill36.Text = myCharacter.Skills[36].SkillName + " (" + myCharacter.Skills[36].Characteristic + ")";
+            if (myCharacter.Skills[36].Career == true) { linkSkill36.Font = new Font(linkSkill36.Font, FontStyle.Bold); }
+            else { linkSkill36.Font = new Font(linkSkill36.Font, FontStyle.Regular); }
             linkSkill37.Text = myCharacter.Skills[37].SkillName + " (" + myCharacter.Skills[37].Characteristic + ")";
+            if (myCharacter.Skills[37].Career == true) { linkSkill37.Font = new Font(linkSkill37.Font, FontStyle.Bold); }
+            else { linkSkill37.Font = new Font(linkSkill37.Font, FontStyle.Regular); }
             linkSkill38.Text = myCharacter.Skills[38].SkillName + " (" + myCharacter.Skills[38].Characteristic + ")";
+            if (myCharacter.Skills[38].Career == true) { linkSkill38.Font = new Font(linkSkill38.Font, FontStyle.Bold); }
+            else { linkSkill38.Font = new Font(linkSkill38.Font, FontStyle.Regular); }
             linkSkill39.Text = myCharacter.Skills[39].SkillName + " (" + myCharacter.Skills[39].Characteristic + ")";
+            if (myCharacter.Skills[39].Career == true) { linkSkill39.Font = new Font(linkSkill39.Font, FontStyle.Bold); }
+            else { linkSkill39.Font = new Font(linkSkill39.Font, FontStyle.Regular); }
             linkSkill40.Text = myCharacter.Skills[40].SkillName + " (" + myCharacter.Skills[40].Characteristic + ")";
+            if (myCharacter.Skills[40].Career == true) { linkSkill40.Font = new Font(linkSkill40.Font, FontStyle.Bold); }
+            else { linkSkill40.Font = new Font(linkSkill40.Font, FontStyle.Regular); }
             linkSkill41.Text = myCharacter.Skills[41].SkillName + " (" + myCharacter.Skills[41].Characteristic + ")";
+            if (myCharacter.Skills[41].Career == true) { linkSkill41.Font = new Font(linkSkill41.Font, FontStyle.Bold); }
+            else { linkSkill41.Font = new Font(linkSkill41.Font, FontStyle.Regular); }
             linkSkill42.Text = myCharacter.Skills[42].SkillName + " (" + myCharacter.Skills[42].Characteristic + ")";
+            if (myCharacter.Skills[42].Career == true) { linkSkill42.Font = new Font(linkSkill42.Font, FontStyle.Bold); }
+            else { linkSkill42.Font = new Font(linkSkill42.Font, FontStyle.Regular); }
             linkSkill43.Text = myCharacter.Skills[43].SkillName + " (" + myCharacter.Skills[43].Characteristic + ")";
+            if (myCharacter.Skills[43].Career == true) { linkSkill43.Font = new Font(linkSkill43.Font, FontStyle.Bold); }
+            else { linkSkill43.Font = new Font(linkSkill43.Font, FontStyle.Regular); }
         }
 
         private void updateTalents()
@@ -2010,6 +2098,7 @@ namespace Genesys_Character_Builder
                     skillRanksDisplay[i].Text += "c";
                 }
             }
+            updateSkills();
         }
 
         private int getSkillCharacteristic(string characteristic)
