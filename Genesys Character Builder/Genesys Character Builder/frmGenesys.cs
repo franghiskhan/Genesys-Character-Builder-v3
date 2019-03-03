@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+//using System.Collections;
+//using System.Collections.Generic;
+//using System.ComponentModel;
+//using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Genesys_Character_Builder
@@ -237,6 +237,7 @@ namespace Genesys_Character_Builder
         //array for storing skill rank text
         //used by redrawSkillRanks function
         private Label[] skillRanksDisplay = new Label[NUM_SKILLS];
+        private PictureBox[] skillsTest = new PictureBox[5];
 
         //load event
         private void frmGenesys_Load(object sender, EventArgs e)
@@ -267,6 +268,14 @@ namespace Genesys_Character_Builder
             txtStrainCurrent.Text = myCharacter.StrainCurrent.ToString();
             lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
             lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
+
+            /*
+            skillsTest[0] = this.pictureBox1;
+            skillsTest[1] = this.pictureBox2;
+            skillsTest[2] = this.pictureBox3;
+            skillsTest[3] = this.pictureBox4;
+            skillsTest[4] = this.pictureBox5;
+            */
 
             skillRanksDisplay[0] = this.lblGreenRank0;
             skillRanksDisplay[1] = this.lblGreenRank1;
@@ -2255,10 +2264,12 @@ namespace Genesys_Character_Builder
                 for (int j = 0; j < yellowRanks; j++)
                 {
                     skillRanksDisplay[i].Text += "d";
+                    //skillsTest[j].Image = Properties.Resources.yellow_transparent;
                 }
                 for (int j = 0; j < greenranks; j++)
                 {
                     skillRanksDisplay[i].Text += "c";
+                    //skillsTest[j + yellowRanks].Image = Properties.Resources.green_transparent;
                 }
             }
             updateSkills();
