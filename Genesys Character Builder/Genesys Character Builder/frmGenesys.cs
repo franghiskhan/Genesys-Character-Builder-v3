@@ -245,7 +245,7 @@ namespace Genesys_Character_Builder
             cboSetting.Items.Clear();
             cboSetting.Items.Add("Android");
             cboSetting.Items.Add("Terrinoth");
-            cboSetting.Items.Add("Kirinioth");
+            //cboSetting.Items.Add("Kirinioth");
             cboSetting.SelectedIndex = 0;
 
             cboSetting.Text = myCharacter.Setting;
