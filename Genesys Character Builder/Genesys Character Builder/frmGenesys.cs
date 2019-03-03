@@ -17,14 +17,16 @@ namespace Genesys_Character_Builder
         {
             InitializeComponent();
         }
-
-        private static int activeSkillLink;
-        private static int activeTalentLink;
-        private static int careerSkillsNum = 0;
+        //constants
         private const int NUM_SKILLS = 44;
         private const int NUM_TALENTS = 25;
         private const int NUM_TALENT_TIERS = 5;
-
+        //static counters
+        private static int activeSkillLink;
+        private static int activeTalentLink;
+        private static int careerSkillsNum = 0;
+        
+        //myCharacter: object to store all character details
         private CharacterTemplate myCharacter = new CharacterTemplate
         {
             Setting = "",
@@ -78,6 +80,7 @@ namespace Genesys_Character_Builder
 
         //private LinkLabel[] skillLinks = new LinkLabel[NUM_SKILLS];
 
+        //array of Terrinoth skills
         private SkillsTemplate[] terrinothSkills = new SkillsTemplate[]
         {
             //general
@@ -132,6 +135,7 @@ namespace Genesys_Character_Builder
             new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //43
         };
 
+        //array of android skills
         private SkillsTemplate[] androidSkills = new SkillsTemplate[]
         {
             //general
@@ -186,6 +190,7 @@ namespace Genesys_Character_Builder
             new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //43
         };
 
+        //array for storing talents
         private TalentsTemplate[] talentsList =
         {
             //tier 1
@@ -220,6 +225,7 @@ namespace Genesys_Character_Builder
             new TalentsTemplate("Talent", "TalentDescription", false, false, 5, ""), //24
         };
 
+        //array for storing weapons
         private WeaponsTemplate[] weaponsList =
         {
             new WeaponsTemplate("", "", "", "", "", ""),
@@ -228,8 +234,11 @@ namespace Genesys_Character_Builder
             new WeaponsTemplate("", "", "", "", "", "")
         };
 
+        //array for storing skill rank text
+        //used by redrawSkillRanks function
         private Label[] skillRanksDisplay = new Label[NUM_SKILLS];
 
+        //load event
         private void frmGenesys_Load(object sender, EventArgs e)
         {
             cboSetting.Items.Clear();
@@ -309,6 +318,7 @@ namespace Genesys_Character_Builder
             updateTalents();
         }
 
+        //function to update form when setting is selected
         private void cboSetting_SelectedIndexChanged(object sender, EventArgs e)
         {
             myCharacter.Setting = cboSetting.Text;
@@ -401,6 +411,7 @@ namespace Genesys_Character_Builder
             panelMotivations.Visible = false;
         }
 
+        //function to update form when species is selected
         private void cboSpecies_SelectedIndexChanged(object sender, EventArgs e)
         {
             myCharacter.Species = cboSpecies.Text;
@@ -667,6 +678,7 @@ namespace Genesys_Character_Builder
             updateForm();
         }
 
+        //function to update form when subspecies is selected
         private void cboSubSpecies_SelectedIndexChanged(object sender, EventArgs e)
         {
             myCharacter.SubSpecies = cboSubSpecies.Text;
@@ -846,6 +858,7 @@ namespace Genesys_Character_Builder
             updateForm();
         }
 
+        //function to update form when career is selected
         private void cboCareer_SelectedIndexChanged(object sender, EventArgs e)
         {
             myCharacter.Career = cboCareer.Text;
@@ -1105,6 +1118,8 @@ namespace Genesys_Character_Builder
             }
         }
 
+        //shared button click event to increment characteristic up
+        //increments 10XP per rank being raised to
         private void btnPlus_Click(object sender, EventArgs e)
         {
             Button myButton;
@@ -1161,6 +1176,8 @@ namespace Genesys_Character_Builder
             redrawSkillRanks();
         }
 
+        //shared button click event to increment characteristic down
+        //refunds 10XP per rank being reduced from
         private void btnMinus_Click(object sender, EventArgs e)
         {
             Button myButton;
@@ -1216,6 +1233,7 @@ namespace Genesys_Character_Builder
             redrawSkillRanks();
         }
 
+        //function to update text color(s) to match selected setting
         private void updateLabelColors()
         {
             switch (myCharacter.Setting)
@@ -1442,6 +1460,7 @@ namespace Genesys_Character_Builder
             }
         }
 
+        //function to update skill rank for skills given by species/sub-species
         private void addRankToStartingSkills(string skillToCheck)
         {
             for (int i = 0; i < myCharacter.Skills.Length; i++)
@@ -1453,6 +1472,8 @@ namespace Genesys_Character_Builder
             }
         }
 
+        //function to mark checkbox for career skills
+        //(this can probably be edited to activeSkill, original build included checkbox for each skill)
         private void MarkCareerSkill(string skillToCheck)
         {
             for (int i = 0; i < myCharacter.Skills.Length; i++)
@@ -1464,6 +1485,8 @@ namespace Genesys_Character_Builder
             }
         }
 
+        //function to update skill links with name and characteristic
+        //if career skill, link is changed to bold
         private void updateSkills()
         {
             /*
@@ -1609,6 +1632,8 @@ namespace Genesys_Character_Builder
             else { linkSkill43.Font = new Font(linkSkill43.Font, FontStyle.Regular); }
         }
 
+        //function to update individual talent panels on talents panel
+        //makes eligible talent panels visible
         private void updateTalents()
         {
             linkTalent0.Text = myCharacter.Talents[0].TalentName; // tier 1
@@ -1760,6 +1785,8 @@ namespace Genesys_Character_Builder
             lblTalentPage24.Text = myCharacter.Talents[24].Page;
         }
 
+        //makes skill detail panel visible
+        //populates fields on skill detail panel for active SkillsTemplate from myCharacter
         private void linkSkill_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             panelSkillDetail.Visible = true;
@@ -1787,6 +1814,9 @@ namespace Genesys_Character_Builder
             updateForm();
         }
 
+        //button click event to increment active skill rank up
+        //increments usedXP by 5 per rank, +5 if non-career skill
+        //does not increment XP for first rank in first 4 career skills
         private void btnSkillPlus_Click(object sender, EventArgs e)
         {
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
@@ -1821,6 +1851,9 @@ namespace Genesys_Character_Builder
             redrawSkillRanks();
         }
 
+        //button click event to increment active skill rank down
+        //refends usedXP by 5 per rank, +5 if non-career skill
+        //does not refund XP for first rank in first 4 career skills
         private void btnSkillMinus_Click(object sender, EventArgs e)
         {
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
@@ -1839,6 +1872,8 @@ namespace Genesys_Character_Builder
             redrawSkillRanks();
         }
 
+        //makes talent detail panel visible
+        //populates fields on talent detail panel for active TalentsTemplate from myCharacter
         private void linkTalent_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             panelTalentDetail.Visible = true;
@@ -1853,6 +1888,7 @@ namespace Genesys_Character_Builder
             activeTalentLink = talentLinkNumber;
         }
 
+        //function to update XP fields
         private void updateXP()
         {
             myCharacter.RemainXP = myCharacter.TotalXP - myCharacter.UsedXP;
@@ -1860,6 +1896,7 @@ namespace Genesys_Character_Builder
             lblXPRemaining.Text = myCharacter.RemainXP.ToString();
         }
 
+        //single function to update various text fields from myCharacter
         private void updateForm()
         {
             lblBrawnVal.Text = myCharacter.Brawn.ToString();
@@ -1879,11 +1916,13 @@ namespace Genesys_Character_Builder
             updateXP();
         }
 
+        //not used
         private void btnUpdate_Click(object sender, EventArgs e)
         {
 
         }
 
+        //resets all fields in myCharacter to starting values
         private void btnReset_Click(object sender, EventArgs e)
         {
             myCharacter.Setting = "";
@@ -1989,11 +2028,15 @@ namespace Genesys_Character_Builder
             updateTalents();
         }
 
+        //exits form
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
+        //makes skill panel visible and hides all other panels
+        //populates text fields with data from myCharacter
+        //calls redrawSkillRanks()
         private void btnSkills_Click(object sender, EventArgs e)
         {
             panelSkills.Visible = true;
@@ -2005,6 +2048,8 @@ namespace Genesys_Character_Builder
             panelMotivations.Visible = false;
         }
 
+        //updates SkillsTemplate in myCharacter from fields on skill detail panel
+        //cakks updateSkills() and redrawSkillRanks()
         private void btnSkillsSave_Click(object sender, EventArgs e)
         {
             myCharacter.Skills[activeSkillLink].SkillName = txtSkill.Text;
@@ -2021,11 +2066,13 @@ namespace Genesys_Character_Builder
             redrawSkillRanks();
         }
 
+        //hides skill deatil panel without saving changes
         private void btnSkillsCancel_Click(object sender, EventArgs e)
         {
             panelSkillDetail.Visible = false;
         }
 
+        //makes talents panel visible and hides all other panels
         private void btnTalents_Click(object sender, EventArgs e)
         {
             panelSkills.Visible = false;
@@ -2035,6 +2082,9 @@ namespace Genesys_Character_Builder
             panelMotivations.Visible = false;
         }
 
+        //saves data in skill detail panel to myCharacter
+        //increments XP for used talents
+        //calls updateTalents()
         //need to set bool for this field so changing name of talent doesn't update cost
         private void btnTalentSave_Click(object sender, EventArgs e)
         {
@@ -2052,11 +2102,14 @@ namespace Genesys_Character_Builder
             updateTalents();
         }
 
+        //hides talent detail panel without saving changes
         private void btnTalentCancel_Click(object sender, EventArgs e)
         {
             panelTalentDetail.Visible = false;
         }
 
+        //makes gear panel visible and hides all other panels
+        //calls loadGearTab() to populate data from myCharacter
         private void lblGear_Click(object sender, EventArgs e)
         {
             panelSkills.Visible = false;
@@ -2068,6 +2121,8 @@ namespace Genesys_Character_Builder
             loadGearTab();
         }
 
+        //makes abilities panel visible and hides all other panels
+        //populates text fields with data from myCharacter
         private void btnAbilities_Click(object sender, EventArgs e)
         {
             panelSkills.Visible = false;
@@ -2077,6 +2132,8 @@ namespace Genesys_Character_Builder
             panelMotivations.Visible = false;
         }
 
+        //saves text fields on gear panel to Weapons array in myCharacter
+        //saves text in text boxes on gear panel to myCharacter
         private void btnGearSave_Click(object sender, EventArgs e)
         {
             myCharacter.Weapons[0].WeaponName = txtWeapon0.Text;
@@ -2114,11 +2171,13 @@ namespace Genesys_Character_Builder
             myCharacter.Currency = txtCurrency.Text;
         }
 
+        //calls loadGearTab() to reload fields with data from myCharacter without saving changes
         private void btnGearCancel_Click(object sender, EventArgs e)
         {
             loadGearTab();
         }
 
+        //populates text fields of gear panel with data from myCharacter
         private void loadGearTab()
         {
             txtWeapon0.Text = myCharacter.Weapons[0].WeaponName;
@@ -2156,6 +2215,8 @@ namespace Genesys_Character_Builder
             txtCurrency.Text = myCharacter.Currency;
         }
 
+        //makes motivations panel visible and hides all other panels
+        //populates text fields with data from myCharacter
         private void btnMotivations_Click(object sender, EventArgs e)
         {
             panelSkills.Visible = false;
@@ -2178,6 +2239,8 @@ namespace Genesys_Character_Builder
             txtNotableFeatures.Text = myCharacter.Features;
         }
 
+        //function to redraw dice pool for each skill
+        //calls updateSkills() after skill ranks have been converted to "c"s and "d"s (to use EotE Font)
         private void redrawSkillRanks()
         {
             for (int i = 0; i < NUM_SKILLS; i++)
@@ -2201,6 +2264,7 @@ namespace Genesys_Character_Builder
             updateSkills();
         }
 
+        //function to obtain characteristic from myCharacter for abbreviation in SkillsTemplate Class
         private int getSkillCharacteristic(string characteristic)
         {
             int skillCharacteristic = 0;
@@ -2230,16 +2294,19 @@ namespace Genesys_Character_Builder
             return skillCharacteristic;
         }
 
+        //generic function to obtain maximum between two int values
         private int GetMax(int first, int second)
         {
             return first > second ? first : second;
         }
 
+        //generic function to obtain minimum between two int values
         private int GetMin(int first, int second)
         {
             return first < second ? first : second;
         }
 
+        //saves all changes made on the motivations panel to myCharacter
         private void btnMotivationSave_Click(object sender, EventArgs e)
         {
             myCharacter.MotivationStrength = txtMotivationStrength.Text;
@@ -2256,6 +2323,7 @@ namespace Genesys_Character_Builder
             myCharacter.Features = txtNotableFeatures.Text;
         }
 
+        //hides the motivations panel without saving changes
         private void btnMotivationsCancel_Click(object sender, EventArgs e)
         {
             panelMotivations.Visible = false;
