@@ -140,8 +140,8 @@ namespace Genesys_Character_Builder
         {
             //general
             new SkillsTemplate("Athletics", "Br", "TalentDescription", false, 0), //0
-            new SkillsTemplate("Comp (Hacking)", "Int", "TalentDescription", false, 0), //1
-            new SkillsTemplate("Comp (SysOps)", "Int", "TalentDescription", false, 0), //2
+            new SkillsTemplate("Computers-Hacking", "Int", "TalentDescription", false, 0), //1
+            new SkillsTemplate("Computers-SysOps", "Int", "TalentDescription", false, 0), //2
             new SkillsTemplate("Cool", "Pr", "TalentDescription", false, 0), //3
             new SkillsTemplate("Coordination", "Ag", "TalentDescription", false, 0), //4
             new SkillsTemplate("Discipline", "Will", "TalentDescription", false, 0), //5
@@ -166,8 +166,8 @@ namespace Genesys_Character_Builder
             //combat
             new SkillsTemplate("Brawl", "Br", "TalentDescription", false, 0), //23
             new SkillsTemplate("Melee", "Br", "TalentDescription", false, 0), //24
-            new SkillsTemplate("Ranged (Heavy)", "Ag", "TalentDescription", false, 0), //25
-            new SkillsTemplate("Ranged (Light)", "Ag", "TalentDescription", false, 0), //26
+            new SkillsTemplate("Ranged-Heavy", "Ag", "TalentDescription", false, 0), //25
+            new SkillsTemplate("Ranged-Light", "Ag", "TalentDescription", false, 0), //26
             new SkillsTemplate("Gunnery", "Ag", "TalentDescription", false, 0), //27
             new SkillsTemplate("Custom Skill", "--", "TalentDescription", false, 0), //28
             //social
@@ -341,9 +341,25 @@ namespace Genesys_Character_Builder
                     cboSubSpecies.Visible = false;
                     cboSpecies.Items.Clear();
                     cboSpecies.Items.Add("");
-
+                    cboSpecies.Items.Add("Natural");
+                    cboSpecies.Items.Add("Bioroid");
+                    cboSpecies.Items.Add("Clone");
+                    cboSpecies.Items.Add("Cyborg");
+                    cboSpecies.Items.Add("G-Mod");
+                    cboSpecies.Items.Add("Loonie");
                     cboSpecies.SelectedIndex = 0;
                     cboCareer.Items.Clear();
+                    cboCareer.Items.Add("");
+                    cboCareer.Items.Add("Academic");
+                    cboCareer.Items.Add("Bounty Hunter");
+                    cboCareer.Items.Add("Con Artist");
+                    cboCareer.Items.Add("Courier");
+                    cboCareer.Items.Add("Investigator");
+                    cboCareer.Items.Add("Ristie");
+                    cboCareer.Items.Add("Roughneck");
+                    cboCareer.Items.Add("Runner");
+                    cboCareer.Items.Add("Soldier");
+                    cboCareer.Items.Add("Tech");
                     lblSkillsMagic.Text = "Custom Skills";
                     Array.Copy(androidSkills, myCharacter.Skills, myCharacter.Skills.Length);
                     Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
@@ -512,6 +528,111 @@ namespace Genesys_Character_Builder
                     myCharacter.UsedXP = 0;
                     addRankToStartingSkills("Survival"); //+1 Survival
                     //Frozen Wastes Dweller
+                    break;
+                case "Natural":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 10;
+                    myCharacter.StrainThreshold = 10;
+                    myCharacter.TotalXP = 120;
+                    myCharacter.UsedXP = 0;
+                    //2 free skill ranks
+                    //ready for anything
+                    break;
+                case "Bioroid":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 3;
+                    myCharacter.Agility = 1;
+                    myCharacter.Intellect = 1;
+                    myCharacter.Cunning = 1;
+                    myCharacter.Willpower = 1;
+                    myCharacter.Presence = 1;
+                    myCharacter.WoundThreshold = 11;
+                    myCharacter.StrainThreshold = 8;
+                    myCharacter.TotalXP = 170;
+                    myCharacter.UsedXP = 0;
+                    //Bioroid
+                    //Inorganic
+                    break;
+                case "Clone":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 9;
+                    myCharacter.StrainThreshold = 9;
+                    myCharacter.TotalXP = 85;
+                    myCharacter.UsedXP = 0;
+                    //2 free skill ranks
+                    //Underestimated
+                    break;
+                case "Cyborg":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 3;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 1;
+                    myCharacter.WoundThreshold = 11;
+                    myCharacter.StrainThreshold = 8;
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 0;
+                    addRankToStartingSkills("Mechanics"); //Mechanics +1
+                    //Adjusted to Cybernetics
+                    //Cyborg (one cybernetic worth =<1000 credits without reducing strain threshold)
+                    break;
+                case "G-Mod":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 2;
+                    myCharacter.Agility = 2;
+                    myCharacter.Intellect = 3;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 1;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 11;
+                    myCharacter.StrainThreshold = 11;
+                    myCharacter.TotalXP = 90;
+                    myCharacter.UsedXP = 0;
+                    addRankToStartingSkills("Resilience"); // Resilience +1
+                    //Enhanced Genetic Modification
+                    //G-Mod
+                    break;
+                case "Loonie":
+                    cboSubSpecies.Items.Clear();
+                    cboSubSpecies.Items.Add("");
+                    cboSubSpecies.SelectedIndex = 0;
+                    myCharacter.Brawn = 1;
+                    myCharacter.Agility = 3;
+                    myCharacter.Intellect = 2;
+                    myCharacter.Cunning = 2;
+                    myCharacter.Willpower = 2;
+                    myCharacter.Presence = 2;
+                    myCharacter.WoundThreshold = 9;
+                    myCharacter.StrainThreshold = 11;
+                    myCharacter.TotalXP = 100;
+                    myCharacter.UsedXP = 0;
+                    addRankToStartingSkills("Coordination"); //Coordination +1
+                    //Zero-G Adept
+                    //Resourceful
                     break;
                 case "CatFolk":
                     cboSubSpecies.Items.Clear();
@@ -873,6 +994,22 @@ namespace Genesys_Character_Builder
             myCharacter.Career = cboCareer.Text;
             switch (myCharacter.Career)
             {
+                case "Academic":
+                    MarkCareerSkill("Discipline");
+                    MarkCareerSkill("Science");
+                    MarkCareerSkill("Society");
+                    MarkCareerSkill("The Net");
+                    MarkCareerSkill("Leadership");
+                    MarkCareerSkill("Medicine");
+                    MarkCareerSkill("Melee");
+                    MarkCareerSkill("Negotiation");
+                    //Gear:
+                    //a stun gun or a monoblade
+                    //Concealed buckyweave or durable clothing and a PAD
+                    //emergency medkit or smartspecs
+                    //2 slap-patches and a portable comlink
+                    //100 + 1d100 credits
+                    break;
                 case "Avatar":
                     MarkCareerSkill("Athletics");
                     MarkCareerSkill("Charm");
@@ -887,6 +1024,51 @@ namespace Genesys_Character_Builder
                     //a shield and leather armor
                     //a lantern and 2 herbs of healing or traveling gear (backpack, bedroll, rope, flint and steel, 3 torches, waterskin
                     //1d100 silver coins
+                    break;
+                case "Bounty Hunter":
+                    MarkCareerSkill("Brawl");
+                    MarkCareerSkill("Coercion");
+                    MarkCareerSkill("Discipline");
+                    MarkCareerSkill("Driving");
+                    MarkCareerSkill("Melee");
+                    MarkCareerSkill("Ranged-Heavy");
+                    MarkCareerSkill("Resilience");
+                    MarkCareerSkill("Streetwise");
+                    //Gear:
+                    //Bullpup carbine or a stun baton, 2 glop grenades, and light body armor
+                    //brass knuckles or 2 slap patches
+                    //3 snap locks and a utlity belt
+                    //1d100 credits
+                    break;
+                case "Con Artist":
+                    MarkCareerSkill("Charm");
+                    MarkCareerSkill("Coordination");
+                    MarkCareerSkill("Deception");
+                    MarkCareerSkill("Melee");
+                    MarkCareerSkill("Negotiation");
+                    MarkCareerSkill("Ranged-Light");
+                    MarkCareerSkill("Skullduggery");
+                    MarkCareerSkill("Stealth");
+                    //Gear:
+                    //a fletcher pistol or a monoblade and 3 stun grenades
+                    //Concealed buckyweave or a disguisekit and a lockpick set
+                    //2 slap-patches or one dose of sting
+                    //1d100 credits
+                    break;
+                case "Courier":
+                    MarkCareerSkill("Athletics");
+                    MarkCareerSkill("Brawl");
+                    MarkCareerSkill("Charm");
+                    MarkCareerSkill("Coordination");
+                    MarkCareerSkill("Driving");
+                    MarkCareerSkill("Piloting");
+                    MarkCareerSkill("Stealth");
+                    MarkCareerSkill("Survival");
+                    //Gear:
+                    //A synap pistol and durable clothing or concealed buckyweave and a palm stunner
+                    //A modular backpack or a cross body bag and load bearing gear
+                    //A PAD and smartspecs or a monocam, personal comlink, and reader
+                    //1d100 credits
                     break;
                 case "Disciple":
                     MarkCareerSkill("Athletics");
@@ -976,6 +1158,21 @@ namespace Genesys_Character_Builder
                     //Survival
                     //Vigilance
                     break;
+                case "Investigator":
+                    MarkCareerSkill("Coercion");
+                    MarkCareerSkill("Computers-Hacking");
+                    MarkCareerSkill("Society");
+                    MarkCareerSkill("Leadership");
+                    MarkCareerSkill("Perception");
+                    MarkCareerSkill("Ranged-Light");
+                    MarkCareerSkill("Streetwise");
+                    MarkCareerSkill("Vigilance");
+                    //Gear:
+                    //A fletcher pistol or a hand cannon
+                    //Concealed buckyweave and a light pistol or a forensic kit
+                    //A personal comlink, 2 slap - patches, and 2 doses of stim.
+                    //1d100 credits
+                    break;
                 case "Leader":
                     //Charm
                     //Coercion
@@ -1016,6 +1213,36 @@ namespace Genesys_Character_Builder
                     //a lantern and 2 herbs of healing or traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
                     //1d100 silver coins
                     break;
+                case "Ristie":
+                    MarkCareerSkill("Charm");
+                    MarkCareerSkill("Cool");
+                    MarkCareerSkill("Deception");
+                    MarkCareerSkill("Society");
+                    MarkCareerSkill("Leadership");
+                    MarkCareerSkill("Negotiation");
+                    MarkCareerSkill("Perception");
+                    MarkCareerSkill("Vigilance");
+                    //Gear:
+                    //A laser pistol or a charged crystal katana
+                    //A personal comlink and one slap-patch
+                    //1 dose of Lo - Fi and 4 doses of stims or 2 doses of Sting
+                    //200 + 1d100 credits
+                    break;
+                case "Roughneck":
+                    MarkCareerSkill("Athletics");
+                    MarkCareerSkill("Gunnery");
+                    MarkCareerSkill("Mechanics");
+                    MarkCareerSkill("Operating");
+                    MarkCareerSkill("Piloting");
+                    MarkCareerSkill("Ranged-Heavy");
+                    MarkCareerSkill("Resilience");
+                    MarkCareerSkill("Vigilance");
+                    //Gear:
+                    //2 brass knuckles or a sledgehammer
+                    //A space suit or an environmental hardsuit and a portable toolkit
+                    //A a hand - held diagnostic scanner or a micro - welder
+                    //1d100 credits
+                    break;
                 case "Runemaster":
                     MarkCareerSkill("Alchemy");
                     MarkCareerSkill("Cool");
@@ -1029,6 +1256,21 @@ namespace Genesys_Character_Builder
                     //a staff or greataxe and leather armor
                     //an apothecary's kit or traveling gear (backpack, beroll, rope, flint and steel, 3 torches, waterskin
                     //1d100 silver coins
+                    break;
+                case "Runner":
+                    MarkCareerSkill("Computers-Hacking");
+                    MarkCareerSkill("Computers-SySops");
+                    MarkCareerSkill("Cool");
+                    MarkCareerSkill("Deception");
+                    MarkCareerSkill("The Net");
+                    MarkCareerSkill("Perception");
+                    MarkCareerSkill("Skullduggery");
+                    MarkCareerSkill("Streetwise");
+                    //Gear:
+                    //Durable clothing and a palm stunner or a light pistol
+                    //A PAD with Ice Wall and Battering Ram or a PAD with Garrote and Gordian Blade
+                    //A personal comlink
+                    //1d100 credits
                     break;
                 case "Scholar":
                     MarkCareerSkill("Alchemy");
@@ -1089,14 +1331,34 @@ namespace Genesys_Character_Builder
                     //Vigilance
                     break;
                 case "Soldier":
-                    //Athletics
-                    //Brawl (or Gunnery)
-                    //Coercion
-                    //Melee (or Melee-Heavy)
-                    //Perception
-                    //Ranged (or Ranged-Heavy
-                    //Survival
-                    //Vigilance
+                    MarkCareerSkill("Athletics");
+                    MarkCareerSkill("Coercion");
+                    MarkCareerSkill("Gunnery");
+                    MarkCareerSkill("Melee");
+                    MarkCareerSkill("Ranged-Light");
+                    MarkCareerSkill("Ranged-Heavy");
+                    MarkCareerSkill("Resilience");
+                    MarkCareerSkill("Survival");
+                    //Gear:
+                    //A pistol and light body armor or a bullpup carbine
+                    //Durable clothing or a utility belt
+                    //2 slap - patches or 1 doses of Sting
+                    //1d100 credits
+                    break;
+                case "Tech":
+                    MarkCareerSkill("Brawl");
+                    MarkCareerSkill("Computers-SysOps");
+                    MarkCareerSkill("Science");
+                    MarkCareerSkill("The Net");
+                    MarkCareerSkill("Mechanics");
+                    MarkCareerSkill("Medicine");
+                    MarkCareerSkill("Operating");
+                    MarkCareerSkill("Piloting");
+                    //Gear:
+                    //A synap pistol or an environmental hardsuit and brass knuckles
+                    //A modular backpack or a utility belt and 2 emergency repair patches
+                    //A portable toolkit and las - scanner or a PAD with authenticator
+                    //50 + 1d100 credits
                     break;
                 case "Tradesperson":
                     //Athletics
