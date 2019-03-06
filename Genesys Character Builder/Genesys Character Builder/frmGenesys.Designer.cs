@@ -4932,6 +4932,9 @@
             this.Controls.Add(this.panelGear);
             this.Controls.Add(this.panelMotivations);
             this.DoubleBuffered = true;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(683, 768);
+            this.MinimumSize = new System.Drawing.Size(683, 768);
             this.Name = "frmGenesys";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
