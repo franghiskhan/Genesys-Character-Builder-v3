@@ -235,7 +235,7 @@ namespace Genesys_Character_Builder
         };
 
         //array for storing skill rank text
-        //used by redrawSkillRanks function
+        //used by RedrawSkillRanks function
         private Label[] skillRanksDisplay = new Label[NUM_SKILLS];
         private PictureBox[] skillsTest = new PictureBox[5];
 
@@ -322,9 +322,9 @@ namespace Genesys_Character_Builder
             skillRanksDisplay[42] = this.lblGreenRank42;
             skillRanksDisplay[43] = this.lblGreenRank43;
 
-            redrawSkillRanks();
+            RedrawSkillRanks();
             //generateSkillLinks();
-            updateTalents();
+            UpdateTalents();
         }
 
         //function to update form when setting is selected
@@ -427,8 +427,8 @@ namespace Genesys_Character_Builder
                     Array.Copy(talentsList, myCharacter.Talents, myCharacter.Talents.Length);
                     break;
             }
-            updateLabelColors();
-            updateSkills();
+            UpdateLabelColors();
+            UpdateSkills();
             panelSkills.Visible = false;
             panelTalents.Visible = false;
             panelAbilities.Visible = false;
@@ -475,7 +475,7 @@ namespace Genesys_Character_Builder
                     myCharacter.StrainThreshold = 8;
                     myCharacter.TotalXP = 100;
                     myCharacter.UsedXP = 0;
-                    addRankToStartingSkills("Athletics"); //+1 Athletics
+                    AddRankToStartingSkills("Athletics"); //+1 Athletics
                     //Tough as Nails
                     break;
                 case "The Intellectual":
@@ -492,7 +492,7 @@ namespace Genesys_Character_Builder
                     myCharacter.StrainThreshold = 12;
                     myCharacter.TotalXP = 100;
                     myCharacter.UsedXP = 0;
-                    addRankToStartingSkills("Knowledge"); //+1 Knowledge
+                    AddRankToStartingSkills("Knowledge"); //+1 Knowledge
                     //Brilliant!
                     break;
                 case "The Aristocrat":
@@ -509,7 +509,7 @@ namespace Genesys_Character_Builder
                     myCharacter.StrainThreshold = 10;
                     myCharacter.TotalXP = 100;
                     myCharacter.UsedXP = 0;
-                    addRankToStartingSkills("Cool"); //+1 Cool
+                    AddRankToStartingSkills("Cool"); //+1 Cool
                     //Forceful Personality
                     break;
                 case "Barbarian":
@@ -526,7 +526,7 @@ namespace Genesys_Character_Builder
                     myCharacter.StrainThreshold = 11;
                     myCharacter.TotalXP = 100;
                     myCharacter.UsedXP = 0;
-                    addRankToStartingSkills("Survival"); //+1 Survival
+                    AddRankToStartingSkills("Survival"); //+1 Survival
                     //Frozen Wastes Dweller
                     break;
                 case "Natural":
@@ -594,7 +594,7 @@ namespace Genesys_Character_Builder
                     myCharacter.StrainThreshold = 8;
                     myCharacter.TotalXP = 100;
                     myCharacter.UsedXP = 0;
-                    addRankToStartingSkills("Mechanics"); //Mechanics +1
+                    AddRankToStartingSkills("Mechanics"); //Mechanics +1
                     //Adjusted to Cybernetics
                     //Cyborg (one cybernetic worth =<1000 credits without reducing strain threshold)
                     break;
@@ -612,7 +612,7 @@ namespace Genesys_Character_Builder
                     myCharacter.StrainThreshold = 11;
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
-                    addRankToStartingSkills("Resilience"); // Resilience +1
+                    AddRankToStartingSkills("Resilience"); // Resilience +1
                     //Enhanced Genetic Modification
                     //G-Mod
                     break;
@@ -630,7 +630,7 @@ namespace Genesys_Character_Builder
                     myCharacter.StrainThreshold = 11;
                     myCharacter.TotalXP = 100;
                     myCharacter.UsedXP = 0;
-                    addRankToStartingSkills("Coordination"); //Coordination +1
+                    AddRankToStartingSkills("Coordination"); //Coordination +1
                     //Zero-G Adept
                     //Resourceful
                     break;
@@ -639,7 +639,7 @@ namespace Genesys_Character_Builder
                     cboSubSpecies.Items.Add("");
                     cboSubSpecies.Items.Add("");
                     cboSubSpecies.SelectedIndex = 0;
-                    addRankToStartingSkills("Perception"); //Perception +1
+                    AddRankToStartingSkills("Perception"); //Perception +1
                     myCharacter.Brawn = 2;
                     myCharacter.Agility = 2;
                     myCharacter.Intellect = 1;
@@ -658,7 +658,7 @@ namespace Genesys_Character_Builder
                     cboSubSpecies.Items.Add("");
                     cboSubSpecies.Items.Add("");
                     cboSubSpecies.SelectedIndex = 0;
-                    addRankToStartingSkills("Cool"); //Cool +1
+                    AddRankToStartingSkills("Cool"); //Cool +1
                     myCharacter.Brawn = 2;
                     myCharacter.Agility = 2;
                     myCharacter.Intellect = 2;
@@ -805,7 +805,7 @@ namespace Genesys_Character_Builder
                     break;
             }
 
-            updateForm();
+            UpdateForm();
         }
 
         //function to update form when subspecies is selected
@@ -815,70 +815,70 @@ namespace Genesys_Character_Builder
             switch (myCharacter.SubSpecies)
             {
                 case "Dunwarr Dwarf":
-                    addRankToStartingSkills("Resilience"); //Resilience +1
+                    AddRankToStartingSkills("Resilience"); //Resilience +1
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     //dark vision
                     //tough as nails
                     break;
                 case "Forge Dwarf":
-                    addRankToStartingSkills("Negotiation"); //Negotiation +1
+                    AddRankToStartingSkills("Negotiation"); //Negotiation +1
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     //stubborn
                     //tough as nails
                     break;
                 case "Mountain Dwarf":
-                    addRankToStartingSkills("Mechanics"); //Mechanics +1
+                    AddRankToStartingSkills("Mechanics"); //Mechanics +1
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     //dark vision
                     //resistant to magic
                     break;
                 case "City Elf":
-                    addRankToStartingSkills("Vigilance"); //Vigilance +1
+                    AddRankToStartingSkills("Vigilance"); //Vigilance +1
                     myCharacter.DefenseRanged = 1;
                     myCharacter.DefenseMelee = 1;
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     break;
                 case "Deep Elf":
-                    addRankToStartingSkills("Discipline"); //Discipline +1
-                    addRankToStartingSkills("Forbidden"); //knowledge (forbidden) +2
-                    addRankToStartingSkills("Forbidden"); //knowledge (forbidden) +2
+                    AddRankToStartingSkills("Discipline"); //Discipline +1
+                    AddRankToStartingSkills("Forbidden"); //knowledge (forbidden) +2
+                    AddRankToStartingSkills("Forbidden"); //knowledge (forbidden) +2
                     MarkCareerSkill("Forbidden"); //knowledge (forbidden) career true
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     break;
                 case "Free Cities Elf":
-                    addRankToStartingSkills("Streetwise"); //Streetwise +1
+                    AddRankToStartingSkills("Streetwise"); //Streetwise +1
                     myCharacter.DefenseRanged = 1;
                     myCharacter.DefenseMelee = 1;
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     break;
                 case "High Elf":
-                    addRankToStartingSkills("Perception");//Perception +1
-                    addRankToStartingSkills("Arcana");//Arcana +1
+                    AddRankToStartingSkills("Perception");//Perception +1
+                    AddRankToStartingSkills("Arcana");//Arcana +1
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     break;
                 case "Highborn Elf":
-                    addRankToStartingSkills("Negotiation");//Negotiation +1
-                    addRankToStartingSkills("Divine");//Divine +1
+                    AddRankToStartingSkills("Negotiation");//Negotiation +1
+                    AddRankToStartingSkills("Divine");//Divine +1
                     MarkCareerSkill("Divine"); //Divine career true
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     break;
                 case "Lowborn Elf":
-                    addRankToStartingSkills("Survival"); //Survival +1
+                    AddRankToStartingSkills("Survival"); //Survival +1
                     myCharacter.DefenseRanged = 1;
                     myCharacter.DefenseMelee = 1;
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     break;
                 case "Wood Elf":
-                    addRankToStartingSkills("Survival"); //Survival +1
+                    AddRankToStartingSkills("Survival"); //Survival +1
                     myCharacter.DefenseRanged = 0;
                     myCharacter.DefenseMelee = 0;
                     myCharacter.TotalXP = 90;
@@ -886,47 +886,47 @@ namespace Genesys_Character_Builder
                     //expert archer
                     break;
                 case "Burrow Gnome":
-                    addRankToStartingSkills("Divine"); //Divine +1
-                    addRankToStartingSkills("Resilience"); //Resilience +1
+                    AddRankToStartingSkills("Divine"); //Divine +1
+                    AddRankToStartingSkills("Resilience"); //Resilience +1
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     //militia training
                     break;
                 case "Wanderer Gnome":
-                    addRankToStartingSkills("Charm"); //Charm +1
-                    addRankToStartingSkills("Stealth");//Stealth +1
+                    AddRankToStartingSkills("Charm"); //Charm +1
+                    AddRankToStartingSkills("Stealth");//Stealth +1
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     //tricksy
                     break;
                 case "Burrow Hobbit":
-                    addRankToStartingSkills("Charm"); //Charm +1
-                    addRankToStartingSkills("Resilience"); //Resilience +1
+                    AddRankToStartingSkills("Charm"); //Charm +1
+                    AddRankToStartingSkills("Resilience"); //Resilience +1
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     //militia training
                     break;
                 case "Wanderer Hobbit":
-                    addRankToStartingSkills("Charm"); //Charm +1
-                    addRankToStartingSkills("Stealth");//Stealth +1
+                    AddRankToStartingSkills("Charm"); //Charm +1
+                    AddRankToStartingSkills("Stealth");//Stealth +1
                     myCharacter.TotalXP = 90;
                     myCharacter.UsedXP = 0;
                     //tricksy
                     break;
                 case "Broken Plains Orc":
-                    addRankToStartingSkills("Coercion"); //Coercion +1
+                    AddRankToStartingSkills("Coercion"); //Coercion +1
                     myCharacter.TotalXP = 100;
                     myCharacter.UsedXP = 0;
                     //Battle Rage
                     break;
                 case "Stone-Dweller Orc":
-                    addRankToStartingSkills("Cool"); //Cool +1
+                    AddRankToStartingSkills("Cool"); //Cool +1
                     myCharacter.TotalXP = 100;
                     myCharacter.UsedXP = 0;
                     //hot tempered
                     break;
                 case "Sunderlands Orc":
-                    addRankToStartingSkills("Alchemy"); //Alchemy +1
+                    AddRankToStartingSkills("Alchemy"); //Alchemy +1
                     myCharacter.TotalXP = 100;
                     myCharacter.UsedXP = 0;
                     //tenacious
@@ -985,7 +985,7 @@ namespace Genesys_Character_Builder
                     break;
             }
 
-            updateForm();
+            UpdateForm();
         }
 
         //function to update form when career is selected
@@ -1443,8 +1443,8 @@ namespace Genesys_Character_Builder
                     }
                     break;
             }
-            updateForm();
-            redrawSkillRanks();
+            UpdateForm();
+            RedrawSkillRanks();
         }
 
         //shared button click event to increment characteristic down
@@ -1500,12 +1500,12 @@ namespace Genesys_Character_Builder
                     }
                     break;
             }
-            updateForm();
-            redrawSkillRanks();
+            UpdateForm();
+            RedrawSkillRanks();
         }
 
         //function to update text color(s) to match selected setting
-        private void updateLabelColors()
+        private void UpdateLabelColors()
         {
             switch (myCharacter.Setting)
             {
@@ -1732,7 +1732,7 @@ namespace Genesys_Character_Builder
         }
 
         //function to update skill rank for skills given by species/sub-species
-        private void addRankToStartingSkills(string skillToCheck)
+        private void AddRankToStartingSkills(string skillToCheck)
         {
             for (int i = 0; i < myCharacter.Skills.Length; i++)
             {
@@ -1758,7 +1758,7 @@ namespace Genesys_Character_Builder
 
         //function to update skill links with name and characteristic
         //if career skill, link is changed to bold
-        private void updateSkills()
+        private void UpdateSkills()
         {
             /*
             for (int i = 0; i < NUM_SKILLS; i++)
@@ -1905,7 +1905,7 @@ namespace Genesys_Character_Builder
 
         //function to update individual talent panels on talents panel
         //makes eligible talent panels visible
-        private void updateTalents()
+        private void UpdateTalents()
         {
             linkTalent0.Text = myCharacter.Talents[0].TalentName; // tier 1
             linkTalent1.Text = myCharacter.Talents[1].TalentName;
@@ -2058,7 +2058,7 @@ namespace Genesys_Character_Builder
 
         //makes skill detail panel visible
         //populates fields on skill detail panel for active SkillsTemplate from myCharacter
-        private void linkSkill_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void LinkSkill_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             panelSkillDetail.Visible = true;
             chkCareer.Checked = false;
@@ -2082,7 +2082,7 @@ namespace Genesys_Character_Builder
             //myCharacter.Skills[skillLinkNumber].Characteristic = cboCharacteristic.Text;
             //myCharacter.Skills[skillLinkNumber].Description = txtSkillDescription.Text;
 
-            updateForm();
+            UpdateForm();
         }
 
         //button click event to increment active skill rank up
@@ -2102,7 +2102,7 @@ namespace Genesys_Character_Builder
             {
                 myCharacter.Skills[activeSkillLink].Rank++;
                 lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
-                updateForm();
+                UpdateForm();
             }
             else
             {
@@ -2116,10 +2116,10 @@ namespace Genesys_Character_Builder
                     }
                 }
                 lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
-                updateForm();
+                UpdateForm();
             }
             //redrawSingleSkillRanks(activeSkillLink);
-            redrawSkillRanks();
+            RedrawSkillRanks();
         }
 
         //button click event to increment active skill rank down
@@ -2138,9 +2138,9 @@ namespace Genesys_Character_Builder
                 }
             }
             lblSkillRank.Text = myCharacter.Skills[activeSkillLink].Rank.ToString();
-            updateForm();
+            UpdateForm();
             //redrawSingleSkillRanks(activeSkillLink);
-            redrawSkillRanks();
+            RedrawSkillRanks();
         }
 
         //makes talent detail panel visible
@@ -2160,7 +2160,7 @@ namespace Genesys_Character_Builder
         }
 
         //function to update XP fields
-        private void updateXP()
+        private void UpdateXP()
         {
             myCharacter.RemainXP = myCharacter.TotalXP - myCharacter.UsedXP;
             lblXPTotal.Text = myCharacter.TotalXP.ToString();
@@ -2168,7 +2168,7 @@ namespace Genesys_Character_Builder
         }
 
         //single function to update various text fields from myCharacter
-        private void updateForm()
+        private void UpdateForm()
         {
             lblBrawnVal.Text = myCharacter.Brawn.ToString();
             lblAgilityVal.Text = myCharacter.Agility.ToString();
@@ -2184,7 +2184,7 @@ namespace Genesys_Character_Builder
             lblXPTotal.Text = myCharacter.TotalXP.ToString();
             lblXPRemaining.Text = myCharacter.RemainXP.ToString();
 
-            updateXP();
+            UpdateXP();
         }
 
         //not used
@@ -2294,9 +2294,9 @@ namespace Genesys_Character_Builder
             lblDefenseMelee.Text = myCharacter.DefenseMelee.ToString();
             lblDefenseRanged.Text = myCharacter.DefenseRanged.ToString();
 
-            redrawSkillRanks();
+            RedrawSkillRanks();
             //generateSkillLinks();
-            updateTalents();
+            UpdateTalents();
         }
 
         //exits form
@@ -2307,12 +2307,12 @@ namespace Genesys_Character_Builder
 
         //makes skill panel visible and hides all other panels
         //populates text fields with data from myCharacter
-        //calls redrawSkillRanks()
+        //calls RedrawSkillRanks()
         private void btnSkills_Click(object sender, EventArgs e)
         {
             panelSkills.Visible = true;
             panelSkillDetail.Visible = false;
-            redrawSkillRanks();
+            RedrawSkillRanks();
             panelTalents.Visible = false;
             panelAbilities.Visible = false;
             panelGear.Visible = false;
@@ -2320,7 +2320,7 @@ namespace Genesys_Character_Builder
         }
 
         //updates SkillsTemplate in myCharacter from fields on skill detail panel
-        //cakks updateSkills() and redrawSkillRanks()
+        //cakks UpdateSkills() and RedrawSkillRanks()
         private void btnSkillsSave_Click(object sender, EventArgs e)
         {
             myCharacter.Skills[activeSkillLink].SkillName = txtSkill.Text;
@@ -2332,9 +2332,9 @@ namespace Genesys_Character_Builder
             }
             else { myCharacter.Skills[activeSkillLink].Career = false; }
 
-            updateSkills();
+            UpdateSkills();
             //redrawSingleSkillRanks(activeSkillLink);
-            redrawSkillRanks();
+            RedrawSkillRanks();
         }
 
         //hides skill deatil panel without saving changes
@@ -2355,7 +2355,7 @@ namespace Genesys_Character_Builder
 
         //saves data in skill detail panel to myCharacter
         //increments XP for used talents
-        //calls updateTalents()
+        //calls UpdateTalents()
         //need to set bool for this field so changing name of talent doesn't update cost
         private void btnTalentSave_Click(object sender, EventArgs e)
         {
@@ -2367,10 +2367,10 @@ namespace Genesys_Character_Builder
             if (myCharacter.Talents[activeTalentLink].TalentName != "Talent" && talentChanged == "Talent")
             {
                 myCharacter.UsedXP += 5 * myCharacter.Talents[activeTalentLink].Tier;
-                updateXP();
+                UpdateXP();
             }
             
-            updateTalents();
+            UpdateTalents();
         }
 
         //hides talent detail panel without saving changes
@@ -2380,7 +2380,7 @@ namespace Genesys_Character_Builder
         }
 
         //makes gear panel visible and hides all other panels
-        //calls loadGearTab() to populate data from myCharacter
+        //calls LoadGearTab() to populate data from myCharacter
         private void lblGear_Click(object sender, EventArgs e)
         {
             panelSkills.Visible = false;
@@ -2389,7 +2389,7 @@ namespace Genesys_Character_Builder
             panelGear.Visible = true;
             panelMotivations.Visible = false;
 
-            loadGearTab();
+            LoadGearTab();
         }
 
         //makes abilities panel visible and hides all other panels
@@ -2442,14 +2442,14 @@ namespace Genesys_Character_Builder
             myCharacter.Currency = txtCurrency.Text;
         }
 
-        //calls loadGearTab() to reload fields with data from myCharacter without saving changes
+        //calls LoadGearTab() to reload fields with data from myCharacter without saving changes
         private void btnGearCancel_Click(object sender, EventArgs e)
         {
-            loadGearTab();
+            LoadGearTab();
         }
 
         //populates text fields of gear panel with data from myCharacter
-        private void loadGearTab()
+        private void LoadGearTab()
         {
             txtWeapon0.Text = myCharacter.Weapons[0].WeaponName;
             txtWeapon1.Text = myCharacter.Weapons[1].WeaponName;
@@ -2511,16 +2511,16 @@ namespace Genesys_Character_Builder
         }
 
         //function to redraw dice pool for each skill
-        //calls updateSkills() after skill ranks have been converted to "c"s and "d"s (to use EotE Font)
-        private void redrawSkillRanks()
+        //calls UpdateSkills() after skill ranks have been converted to "c"s and "d"s (to use EotE Font)
+        private void RedrawSkillRanks()
         {
             for (int i = 0; i < NUM_SKILLS; i++)
             {
                 skillRanksDisplay[i].Text = "";
                 int yellowRanks = 0;
                 int greenranks = 0;
-                int high = GetMax(getSkillCharacteristic(myCharacter.Skills[i].Characteristic), myCharacter.Skills[i].Rank);
-                int low = GetMin(getSkillCharacteristic(myCharacter.Skills[i].Characteristic), myCharacter.Skills[i].Rank);
+                int high = GetMax(GetSkillCharacteristic(myCharacter.Skills[i].Characteristic), myCharacter.Skills[i].Rank);
+                int low = GetMin(GetSkillCharacteristic(myCharacter.Skills[i].Characteristic), myCharacter.Skills[i].Rank);
                 yellowRanks = high - low;
                 greenranks = low;
                 for (int j = 0; j < yellowRanks; j++)
@@ -2534,11 +2534,11 @@ namespace Genesys_Character_Builder
                     //skillsTest[j + yellowRanks].Image = Properties.Resources.green_transparent;
                 }
             }
-            updateSkills();
+            UpdateSkills();
         }
 
         //function to obtain characteristic from myCharacter for abbreviation in SkillsTemplate Class
-        private int getSkillCharacteristic(string characteristic)
+        private int GetSkillCharacteristic(string characteristic)
         {
             int skillCharacteristic = 0;
 
@@ -2586,6 +2586,7 @@ namespace Genesys_Character_Builder
             myCharacter.MotivationFlaw = txtMotivationFlaw.Text;
             myCharacter.MotivationDesire = txtMotivationDesire.Text;
             myCharacter.MotivationFear = txtMotivationFear.Text;
+            myCharacter.MotivationBackground = txtMotivationBackground.Text;
 
             myCharacter.Gender = txtGender.Text;
             myCharacter.Age = txtAge.Text;

@@ -105,7 +105,7 @@ namespace Genesys_Character_Builder
             this.MotivationFlaw = motivationFlaw;
             this.MotivationDesire = motivationDesire;
             this.MotivationFear = motivationFear;
-            this.motivationBackground = motivationBackground;
+            this.MotivationBackground = motivationBackground;
 
             this.Gender = gender;
             this.Age = age;
